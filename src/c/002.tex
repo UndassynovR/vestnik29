@@ -1,0 +1,891 @@
+\id{IRSTI 31.15.15}{}
+
+{\bfseries MOLECULAR-LEVEL ASSESSMENT OF THE CORROSION INHIBITION
+PROPERTIES OF ONO-TYPE SCHIFF BASES USING DFT CALCULATIONS AND MOLECULAR
+DYNAMICS SIMULATIONS}
+
+{\bfseries R.Vardanyan}{\bfseries ,
+E.Kozhevnikova}{\bfseries ,
+N.Akatyev}\envelope 
+
+\emph{M.Utemisov West Kazakhstan University, Uralsk, Kazakhstan}
+
+\corrauthor{Corresponding author:nikolay.akatyev@wku.edu.kz}
+
+This study presents a molecular-level evaluation of two ONO-type Schiff
+bases using density functional theory (DFT) and molecular dynamics (MD)
+simulations to elucidate their anticorrosion performance. The Schiff
+bases, synthesized from \emph{o}-aminophenol with
+\emph{o}-hydroxyacetophenone (SB1) and
+3,5-di-\emph{tert}-butylsalicylaldehyde (SB2), were investigated in
+terms of their electronic structure, reactivity descriptors, and
+adsorption behavior on the Fe(110) surface. DFT calculations at the
+B3LYP/6-311+G(d,p) level in an aqueous phase revealed key differences in
+molecular properties such as frontier orbital energies, dipole moment,
+energy gap, and charge distribution. Mulliken population analysis and
+Fukui functions identified the primary reactive centers, emphasizing the
+role of heteroatoms in surface adsorption interactions. Global
+reactivity descriptors were also evaluated to compare the
+inhibitors'{} electron-donating and accepting
+capabilities. Complementary MD simulation provided insight into the
+effect of the geometry of molecules and substituents on the adsorption
+process. SB1 showed a more favorable space orientation and stronger
+surface interaction, while steric hindrance from bulky \emph{tert}-butyl
+groups in SB2 limited its adsorption efficacy. This integrated
+computational approach offers a detailed understanding of
+structure--activity relationships in corrosion inhibitors and supports
+the rational design of next-generation materials for metal protection.
+
+{\bfseries Keywords:} density functional theory (DFT), quantum chemical
+calculations, molecular dynamics (MD) simulation, organic corrosion
+inhibitors, Schiff bases, quantum chemical descriptors, adsorption.
+
+{\bfseries ТФТ-ЕСЕПТЕУЛЕРІ МЕН МОЛЕКУЛАЛЫҚ ДИНАМИКАЛЫҚ ҮЛГІЛЕУ АРҚЫЛЫ
+ONO-ТИПТІ ШИФФ НЕГІЗДЕРІНІҢ КОРРОЗИЯҒА ҚАРСЫ ҚАСИЕТТЕРІН МОЛЕКУЛАЛЫҚ
+ДЕҢГЕЙДЕ БАҒАЛАУ}
+
+{\bfseries Р. Варданян, Е. Кожевникова, Н. Акатьев\envelope }
+
+\emph{М.Өтемісов атындағы Батыс Қазақстан университеті, Орал,
+Қазақстан,}
+
+e-mail:
+nikolay.akatyev@wku.edu.kz
+
+Осы зерттеуде коррозияға қарсы қасиеттерін анықтау мақсатында ONO-тиіпті
+екі Шифф негізіне тығыздық функционалы теориясы (ТФТ) және молекулалық
+динамика (МД) әдістері қолданылып, молекулалық деңгейде бағалау
+жүргізілді. \emph{О}-аминфенол мен \emph{о}-гидроксиацетофеноннан (SB1),
+сондай-ақ 3,5-ди-\emph{трет}-бутилсалицил альдегидтен (SB2) синтезделген
+Шифф негіздерінің электрондық құрылымы, реактивтілік сипаттамалары және
+Fe(110) бетіне адсорбциялану тәртібі зерттелді. B3LYP/6-311+G(d,p)
+деңгейінде су фазасында жүргізілген DFT есептеулері молекулалық
+қасиеттерде - шекаралық орбитальдар энергиясы, дипольдік момент,
+энергетикалық аралық және зарядтардың таралуы секілді - негізгі
+айырмашылықтарды көрсетті. Малликен бойынша зарядтарды тарату және Фукуи
+функцияларын талдау реакцияға бейім алғашқы орталықтарды анықтап, беткі
+адсорбциялық әрекеттесулердегі гетероатомдардың рөлін айқындады.
+Ингибиторлардың электрон беру және қабылдау қабілеттерін салыстыру үшін
+жаһандық реактивтілік дескрипторлары да бағаланды. Қосымша MD модельдеуі
+молекулалық геометрия мен орынбасар топтардың адсорбция процесіне әсерін
+нақтылауға мүмкіндік берді. SB1 молекуласы метал бетіне қолайлырақ
+орналасып, күштірек әрекеттесу көрсетсе, SB2 құрамындағы көлемді
+трет-бутил топтары стереоқиындық тудырып, оның адсорбциялық тиімділігін
+шектеді. Мұндай кешенді есептік әдіс коррозия ингибиторларының құрылымы
+мен белсенділігі арасындағы өзара байланысты тереңірек түсінуге жол
+ашады және металдарды қорғауға арналған жаңа буындағы материалдарды
+ұтымды жобалауға ықпал етеді.
+
+{\bfseries Түйін сөздер:} тығыздық функционалы теориясы (ТФТ),
+кванттық-химиялық есептеулер, молекулалық-динамикалық (МД) модельдеу,
+органикалық коррозия ингибиторлары, Шифф негіздері, кванттық-химиялық
+дескрипторлар, адсорбция.
+
+{\bfseries ОЦЕНКА АНТИКОРРОЗИОННЫХ СВОЙСТВ ОСНОВАНИЙ ШИФФА ONO-ТИПА НА
+МОЛЕКУЛЯРНОМ УРОВНЕ С ИСПОЛЬЗОВАНИЕМ DFT-РАСЧЕТОВ И
+МОЛЕКУЛЯРНО-ДИНАМИЧЕСКОГО МОДЕЛИРОВАНИЯ}
+
+{\bfseries Р. Варданян, Е. Кожевникова, Н. Акатьев\envelope }
+
+\emph{Западно-Казахстанский университет им. М.Утемисова, Уральск,
+Казахстан,}
+
+e-mail:
+nikolay.akatyev@wku.edu.kz
+
+В настоящем исследовании на молекулярном уровне проведена оценка
+антикоррозионных свойств двух оснований Шиффа ONO-типа с использованием
+методов теории функционала плотности (ТФП) и молекулярной динамики (МД).
+Основания Шиффа, синтезированные из \emph{о}-аминофенола,
+\emph{о}-гидроксиацетофенона (SB1) и
+3,5-ди-\emph{трет}-бутилсалицилового альдегида (SB2), были исследованы с
+точки зрения их электронной структуры, характеристик реакционной
+способности и поведения при адсорбции на поверхности Fe(110). Расчеты
+методом DFT на уровне B3LYP/6-311+G(d,p) в водной фазе выявили ключевые
+различия в молекулярных свойствах, таких как энергии граничных
+орбиталей, дипольный момент, энергетическая щель и распределение заряда.
+Анализ распределения зарядов по Малликену и функций Фукуи выявили
+первичные реакционные центры, подчеркнув роль гетероатомов в
+поверхностных адсорбционных взаимодействиях. Для сравнения способности
+ингибиторов отдавать и принимать электроны также были оценены глобальные
+дескрипторы реакционной способности. Дополнительное МД-моделирование
+позволило получить представление о влиянии геометрии молекул и
+заместителей на процесс адсорбции. SB1 показал более благоприятную
+пространственную ориентацию и более сильное поверхностное
+взаимодействие, в то время как стерические препятствия из-за объёмных
+\emph{трет}-бутильных групп в SB2 ограничивали эффективность его
+адсорбции. Такой комплексный вычислительный подход обеспечивает
+детальное понимание взаимосвязи структуры и активности ингибиторов
+коррозии и способствует рациональному проектированию материалов нового
+поколения для защиты металлов.
+
+{\bfseries Ключевые слова:} теория функционала плотности (ТФП),
+квантово-химические расчеты, молекулярно-динамическое (МД)
+моделирование, органические ингибиторы коррозии, основания Шиффа,
+квантово-химические дескрипторы, адсорбция.
+
+{\bfseries Introduction.} Corrosion is a pervasive issue that leads to
+significant material degradation and economic losses across various
+industries. Organic corrosion inhibitors have emerged as an effective
+and versatile solution to mitigate corrosion, particularly in aggressive
+environments such as acidic media. These inhibitors function by
+adsorbing onto the metal surface, forming a protective barrier that
+reduces the interaction between the metal and the corrosive environment.
+Organic inhibitors, often containing heteroatoms like nitrogen, oxygen,
+and sulfur, as well as π-electron systems, exhibit strong adsorption due
+to their ability to donate and accept electrons {[}1{]}. Their
+efficiency, environmental compatibility, and tunable molecular
+structures make them a focus of extensive research for sustainable
+corrosion protection. These inhibitors are widely used in acidic
+environments for applications such as descaling, acid pickling, and
+oil-well protection, demonstrating high inhibition efficiency {[}2{]}.
+
+Schiff bases offer several advantages over other organic corrosion
+inhibitors. Schiff bases contain imine (−C=N−) groups and heteroatoms
+(nitrogen, oxygen), which provide multiple active sites for adsorption
+onto metal surfaces, enhancing their inhibition efficiency {[}3{]}.
+Their molecular structure allows strong interactions with metal
+surfaces, forming stable protective films that effectively block
+corrosion processes {[}4{]}. In addition, Schiff bases can be easily
+synthesized and modified to optimize their properties for specific
+environments, making them adaptable to various industrial
+applications{[}5{]}.
+
+The mechanisms of organic inhibitors, including adsorption and electron
+transfer, are well-studied using computational and experimental
+approaches {[}6{]}. Quantum chemical calculations and molecular dynamics
+simulations, play a crucial role in the research and development of
+modern corrosion inhibitors. Quantum chemical methods, such as Density
+Functional Theory (DFT), are used to calculate molecular reactivity
+descriptors (e.g., HOMO-LUMO energies, dipole moments, Fukui functions)
+to predict the adsorption behavior and inhibition efficiency of
+inhibitors on metal surfaces {[}7{]}. MD simulations provide insights
+into the dynamic interactions between inhibitor molecules and metal
+surfaces, including adsorption configurations, binding energies, and
+surface coverage. This helps evaluate the stability and effectiveness of
+inhibitors under realistic conditions {[}8{]}. These methods enable the
+design and optimization of inhibitors by identifying key structural
+features. These methods also help to explain the experimental results.
+
+In this work, the inhibitory properties of two ONO-type Schiff bases
+(Figure 1) synthesized by condensation of \emph{o}-aminophenol and
+\emph{o}-hydroxyacetophenone (SB1), as well as \emph{o}-aminophenol and
+3,5-di-\emph{tert}-butylsalicylaldehyde (SB2), were investigated using
+DFT calculations and MD simulation.
+
+
+
+{\bfseries Fig.1 - Chemical structure with atomic enumeration of
+investigated ONO-type Schiff bases}
+
+{\bfseries Materials and methods.} All quantum chemical calculations were
+performed on a desktop PC with Windows 11, a 12th generation Intel(R)
+Core (TM) i7-12700H 2.30 GHz, 16GB RAM) with GAMESS software {[}9{]}.
+Initially, full geometry optimization was achieved using the Molecular
+Mechanics (MM+) force field. The results from MM+ were further selected
+as input and re-optimized using semi-empirical PM3 to obtain the
+equilibrium geometry. Final geometry optimization and quantum chemical
+parameters were obtained by density functional theory (DFT)
+calculations. To calculate optimized geometrical structure, atomic
+charges, and energies, the Lee-Yang-Parr Becke's three-parameter hybrid
+functional method (B3LYP) with the split-valence double-zeta polarized
+basis set 6-311+G(d,p) was used. All DFT calculations were done in the
+aqueous phase because it is well-known that the electrochemical
+corrosion always appears in an aqueous medium. The solvent
+(H\tsb{2}O) was incorporated via the Conductor-like Screening
+Model (COSMO) {[}10{]}.
+
+The following quantum chemical indices, describing global reactivity
+were considered: the energy of the highest occupied molecular orbital
+(E\emph{\tsb{HOMO}}), the energy of the lowest unoccupied
+molecular orbital (E\emph{\tsb{LUMO}}), energy gap
+(ΔE\emph{\tsb{gap}}), the ionization potential (IP), the
+electron affinity (EA), electronegativity (χ), global hardness (η),
+softness (σ), electrophilicity (ω) and nucleophilicity (ε) indexes,
+back-donation energy (E\emph{\tsb{b-d}}), total negative
+charge (TNC, TNC/\emph{n}, where \emph{n} - total number of atoms in
+molecule), and fraction of transferred electrons (ΔN) were considered in
+accordance with the following equations {[}11{]}:
+
+ΔE\emph{\tsb{gap}} = E\emph{\tsb{LUMO}} -
+E\emph{\tsb{HOMO}} (1)
+
+IP = - E\emph{\tsb{HOMO}} (2)
+
+EA = - E\emph{\tsb{LUMO}} (3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+
+where χ\emph{\tsb{Fe}} and χ\emph{\tsb{inh}} - the
+absolute electronegativity of the iron atom and the inhibitor molecule,
+respectively; η\emph{\tsb{Fe}} and η\emph{\tsb{inh}}
+the absolute hardness of the iron atom and the inhibitor molecule,
+respectively. The electronegativity of iron is 7 eV, and the total
+hardness is 0 eV.
+
+According to the Koopman's theorem, the HOMO energy is related to IP
+while the LUMO energy is related to EA. Electronegativity (χ) and global
+hardness (η) were evaluated based on the finite difference approximation
+as linear combinations of the calculated IP and EA. The global softness
+(σ) is the reciprocal of the global hardness. The global
+electrophilicity index (ω) describes the stabilization of a molecule
+after the acquisition of an additional number of electrons. The
+nucleophilicity index (ε) is the reciprocal of the global
+electrophilicity index {[}12{]}.
+
+\emph{Molecular dynamics simulation.} The intensity of the interactions
+between the examined inhibitor and metal surface was determined using
+molecular dynamics (MD) simulations. MD simulation is a modern
+computational technique crucial for theoretical studies of the
+interaction between inhibitors and metal surfaces.
+
+The MD simulations were carried out by using the GROMACS 2020.4 software
+{[}13{]}. Adsorption energy was calculated by Equation (11):
+
+E\emph{\tsb{adsorption}} = E\emph{\tsb{total}} -
+(E\emph{\tsb{Fe(110)}} + E\emph{\tsb{inhibitor}})
+(11)
+
+where E\emph{\tsb{adsorption}} is the adsorption energy (or
+interaction energy) corresponds to the amount of energy released or
+absorbed as 1 mole of adsorbate molecules is adsorbed on the adsorbent,
+E\emph{\tsb{total}} is the total energy of the whole system
+(surface Fe(110) + inhibitor molecule), E\emph{\tsb{Fe(110)}}
+is the energy of the metal and E\emph{\tsb{inhibitor}} is the
+energy of the inhibitor molecule. The binding energy is regarded as the
+reciprocal of the adsorption energy of the inhibitor molecule as follows
+(12):
+
+E\emph{\tsb{binding}} = -E\emph{\tsb{adsorption}}
+(12)
+
+where E\emph{\tsb{binding}} is the binding energy.
+
+The Fe (110) metal structure was chosen due to its lowest surface
+energy, thermodynamic stability and the largest area of the Fe crystal
+{[}14{]}.
+
+{\bfseries Results and discussion.} The inhibitory properties of Schiff
+bases are investigated using quantum chemical methods, focusing on the
+electronic structure and reactivity descriptors. Density Functional
+Theory (DFT) calculations provided insights into molecular orbitals,
+charge distribution, and adsorption behavior on metal surfaces to
+evaluate the mechanisms underlying their corrosion inhibition
+performance.
+
+\emph{Frontier molecular orbitals (FMO) energies and molecular
+electrostatic potential (MEP).} The electronic properties of Schiff
+bases, including their reactivity and adsorption behavior on metal
+surfaces, can be effectively analyzed using Frontier Molecular Orbitals
+(FMOs) and Molecular Electrostatic Potential (MEP). Optimized geometry,
+HOMO, LUMO energies and density distribution, energy gap
+(ΔE\emph{\tsb{gap}}), and MEP for SB1 and SB2 molecules
+calculated using DFT/B3LYP/6-311+G(d,p) method are presented in Figure
+2. The positively charged lobe is indicated by the blue color, and the
+negatively charged lobe is indicated by the red color.
+
+\fig{c/image10}{}
+
+{\bfseries Fig.2 - HOMO, LUMO energies and density distribution, energy gap
+(ΔE\emph{\tsb{gap}}), and MEP for SB1 (A) and SB2 (B)
+mole­cules calculated using DFT/B3LYP/6-311+G(d,p) method}
+
+As evident from the optimized structures, both Schiff bases belong to
+the C\tsb{1} point group and exhibit non-planar geometries.
+This conformational behavior can be attributed to the free rotation
+around C*C σ-bonds and the steric repulsion between similarly charged
+functional groups, such as -OH.
+
+The MEP maps reveal electron-rich regions (depicted in red) and
+electron-deficient regions (in blue). Both SB1 and SB2 exhibit areas of
+negative electrostatic potential localized around oxygen and nitrogen
+atoms, suggesting these sites as potential adsorption centers on the
+metal surface. Notably, SB1 displays more intense and spatially confined
+electron-rich zones, indicating stronger and more specific interaction
+sites for bonding with metal. The high electron density around the donor
+atoms (O and N) enhances the likelihood of chemisorption, which is one
+of the key factors for the mechanism in the inhibition of metal
+corrosion.
+
+In the SB1 molecule, the HOMO is primarily localized on the phenolic
+ring and the azomethine (-CH=N) group, particularly around the oxygen
+and nitrogen atoms. This indicates that these regions are electron-rich
+and capable of donating electrons to the vacant \emph{d}-orbitals of
+metal atoms during adsorption. The LUMO is also distributed over the
+azomethine group and partially over the adjacent aromatic ring,
+suggesting that these sites are favorable for accepting back-donated
+electrons from the metal surface, thereby enhancing adsorption
+stability. In contrast, in the SB2 molecule, the HOMO is delocalized
+over the aromatic ring but exhibits lower electron density on the
+heteroatoms compared to SB1, implying a reduced ability to donate
+electrons to the metal. The LUMO is primarily located on the azomethine
+moiety and parts of the aromatic system. Its delocalized nature suggests
+a reduced capacity for back-donation, potentially lowering the
+efficiency of adsorption. Therefore, the co-localization of the HOMO and
+LUMO near the donor atoms (N and O) in SB1 indicates a strong potential
+for bidirectional interactions with the metal surface, involving both
+electron donation and back-donation. In contrast, the FMOs in SB2 are
+more dispersed and less concentrated near key donor sites, suggesting
+weaker and less specific interactions with the metal surface.
+
+The HOMO energy reflects a molecule's ability to donate electrons to the
+metal surface. SB1 exhibits a higher HOMO energy compared to SB2,
+indicating a stronger electron-donating capability, which promotes
+adsorption onto the metal surface and facilitates the formation of a
+protective film. The LUMO energy is associated with the molecule's
+capacity to accept electrons. SB2 possesses a lower LUMO energy,
+suggesting a greater ability to accept electrons, which may enhance
+back-donation interactions from the metal. Furthermore, SB1 displays a
+smaller energy gap (ΔE\emph{\tsb{gap}}) than SB2, indicating
+higher chemical reactivity and a stronger potential for interaction with
+the metal surface.
+
+The obtained results indicate that SB1 is more chemically reactive and
+has stronger inhibition potential than SB2, owing to its higher HOMO
+energy (enhanced electron-donating ability), lower
+ΔE\emph{\tsb{gap}} (greater chemical reactivity), and more
+favorable MEP distribution (stronger adsorption affinity toward the
+metal surface).
+
+\emph{Mulliken atomic charge distribution (MACD) and Fukui functions
+analysis.} Mulliken charge distribution analysis provides essential
+information on the electronic structure of corrosion inhibitor molecules
+by estimating the partial atomic charges {[}15{]}. Atoms with higher
+negative charges, typically heteroatoms such as nitrogen, oxygen, or
+sulfur, are identified as potential adsorption centers capable of
+donating electrons to the vacant orbitals of metal atoms. Additionally,
+the charge distribution influences total molecular polarity and
+orientation during adsorption on metal surfaces, and consequently is a
+valuable tool for understanding and predicting the corrosion inhibition
+performance of organic molecules.
+
+In turn, Fukui functions are mathematical descriptors derived from
+Density Functional Theory (DFT) that quantify the reactivity of specific
+atomic sites in a molecule {[}16{]}. They indicate how the electron
+density of a molecule changes upon gaining or losing electrons, making
+them useful for identifying the most reactive sites in a molecule
+potentially suitable for nucleophilic, electrophilic or radical attack.
+Therefore, Fukui functions are integral to understanding the electronic
+properties and reactivity of corrosion inhibitors at the molecular
+level.
+
+The condensed Fukui functions are calculated using the finite-difference
+approximation as follows:
+
+
+(For nucleophilic attack)
+
+
+(For electrophilic attack)
+
+
+(For radical attack)
+
+The results of the calculation of Mulliken atomic charges and the values
+of the Fukui functions for ONO-type Schiff bases are presented in Table
+1. For simplicity, the charges and Fukui functions of the hydrogen (H)
+atoms were removed.
+
+{\bfseries Table 1 - Mulliken atomic charges and Fukui functions calculated
+using DFT/B3LYP/6-311+G(d,p) for ONO-type Schiff bases}
+
+%% \begin{longtable}[]{@{}
+%%   >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1033}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1493}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1493}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1493}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1493}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1493}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1493}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.0011}}@{}}
+%% \toprule\noalign{}
+%% \begin{minipage}[b]{\linewidth}\centering
+%% Atoms*
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% P\emph{\tsb{k}}(N)
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% P\emph{\tsb{k}}(N+1)
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% P\emph{\tsb{k}}(N-1)
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% 
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% 
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% 
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% \end{minipage} \\
+%% \midrule\noalign{}
+%% \endhead
+%% \bottomrule\noalign{}
+%% \endlastfoot
+%% \multicolumn{8}{@{}>{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{1.0000} + 14\tabcolsep}@{}}{%
+%% {\bfseries SB1}} \\
+%% C(1) & 0.2454 & 0.3213 & -0.3244 & 0.0759 & -0.0790 & -0.0015 & \\
+%% C(2) & 0.0902 & -0.1359 & -0.1046 & -0.0457 & 0.0144 & -0.0156 & \\
+%% C(3) & -0.0669 & -0.0746 & 0.0116 & -0.0077 & -0.0785 & -0.0431 & \\
+%% C(4) & -0.1032 & -0.0974 & -0.0842 & 0.0058 & -0.0190 & -0.0066 & \\
+%% C(5) & -0.0688 & -0.1289 & -0.0572 & -0.0601 & -0.0116 & -0.0358 & \\
+%% C(6) & -0.1900 & -0.0480 & -0.2005 & {\bfseries 0.1420} & 0.0105 & 0.0762
+%% & \\
+%% C(7) & 0.2863 & 0.1802 & 0.3241 & -0.1061 & -0.0378 & -0.0719 & \\
+%% N(8) & -0.5385 & -0.5096 & -0.5697 & 0.0289 & {\bfseries 0.0312} & 0.0300
+%% & \\
+%% C(9) & 0.1197 & 0.1951 & 0.2121 & 0.0754 & -0.0924 & -0.0085 & \\
+%% C(10) & -0.0682 & -0.1382 & -0.0699 & -0.0700 & 0.0017 & -0.0341 & \\
+%% C(11) & -0.0977 & -0.0827 & -0.0602 & 0.0150 & -0.0375 & -0.0112 & \\
+%% C(12) & -0.0844 & -0.1067 & -0.0689 & -0.0223 & -0.0155 & -0.0189 & \\
+%% C(13) & -0.1040 & -0.1654 & -0.0334 & -0.0614 & -0.0706 & -0.0660 & \\
+%% C(14) & 0.1784 & 0.2870 & 0.1939 & 0.1086 & -0.0155 & {\bfseries 0.0465}
+%% & \\
+%% O(15) & -0.3654 & -0.4101 & -0.3417 & -0.0447 & -0.0237 & -0.0342 & \\
+%% O(16) & -0.3734 & -0.4759 & -0.2864 & -0.1025 & -0.0870 & -0.0947 & \\
+%% C(17) & -0.3276 & -0.2665 & -0.3067 & 0.0611 & -0.0209 & 0.0201 & \\
+%% \multicolumn{8}{@{}>{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{1.0000} + 14\tabcolsep}@{}}{%
+%% {\bfseries SB2}} \\
+%% C(1) & 0.1309 & 0.3687 & 0.2464 & {\bfseries 0.2378} & -0.1155 &
+%% {\bfseries 0.1766} & \\
+%% C(2) & 0.0683 & -0.0389 & -0.0519 & -0.1072 & 0.1202 & -0.1137 & \\
+%% C(3) & 0.0701 & 0.0521 & -0.0446 & -0.0180 & 0.1147 & -0.0663 & \\
+%% C(4) & 0.0437 & -0.0314 & -0.0373 & -0.0751 & 0.0810 & -0.0780 & \\
+%% C(5) & -0.0425 & 0.0249 & -0.0694 & 0.0674 & 0.0269 & 0.0202 & \\
+%% C(6) & -0.0881 & -0.1802 & -0.1207 & -0.0921 & 0.0326 & -0.0623 & \\
+%% C(7) & 0.1598 & 0.2850 & 0.1061 & 0.1252 & 0.0537 & 0.0357 & \\
+%% N(8) & -0.3201 & -0.5249 & -0.5653 & -0.2048 & {\bfseries 0.2462} & -0.2255
+%% & \\
+%% C(9) & 0.0426 & 0.1361 & 0.1816 & 0.0935 & -0.1390 & 0.1162 & \\
+%% C(10) & -0.0075 & -0.0350 & -0.1255 & -0.0275 & 0.1180 & -0.0727 & \\
+%% C(11) & -0.1335 & -0.1027 & -0.0999 & 0.0308 & -0.0336 & 0.0322 & \\
+%% C(12) & -0.0566 & -0.0446 & -0.1326 & 0.0120 & 0.0760 & -0.0320 & \\
+%% C(13) & -0.1342 & -0.0829 & -0.1334 & 0.0513 & -0.0008 & 0.0260 & \\
+%% C(14) & 0.2204 & 0.2120 & 0.1496 & -0.0084 & 0.0708 & -0.0396 & \\
+%% O(15) & -0.3689 & -0.3665 & -0.3835 & 0.0024 & 0.0146 & -0.0061 & \\
+%% O(16) & -0.4093 & -0.2961 & -0.4622 & 0.1132 & 0.0529 & 0.0301 & \\
+%% C(18) & -0.2399 & -0.2536 & -0.1980 & -0.0137 & -0.0419 & 0.0141 & \\
+%% C(19) & -0.2875 & -0.2919 & -0.2502 & -0.0044 & -0.0373 & 0.0164 & \\
+%% \end{longtable}
+
+* - \emph{atomic enumeration} \emph{is in accordance with Fig.1.}
+
+The Mulliken atomic charge distribution analysis shows that regions of
+high electron density are located on the heteroatoms (nitrogen and
+oxygen) of both molecules. Therefore, these atoms serve as potential
+adsorption centres and contribute to the formation of a protective film
+on the metal surface. In both molecules, the nitrogen atom of the imine
+group (N8) has the highest electron density and is identified as the
+primary electrophilic centre, as confirmed by the corresponding Fukui
+function values.
+
+Furthermore, the presence of \emph{tert}-butyl substituents increases
+the susceptibility of nitrogen atoms to electrophilic attack, which is
+attributed to the electron donor properties of \emph{tert}-butyl groups,
+increasing the total electron density in the molecule. This effect also
+makes the C(1) atom a potential center of radical attack.
+
+Carbon atoms C(6) in SB1 and C(1) in SB2 were identified as potential
+centers for nucleophilic attack in both molecules. The shift in the
+nucleophilic reaction center is likewise attributed to the presence of
+\emph{tert}-butyl groups. Acting as first-kind orientants, they increase
+the electron density in the aromatic system, particularly at the
+\emph{ortho}- and \emph{para}-positions. In the presence of a hydroxyl
+group, this results in a significant enhancement of electron density at
+the C(1) atom.
+
+The combination of high electron density and favorable Fukui function
+values at key heteroatoms strongly supports the effective adsorption of
+the investigated inhibitor molecules onto the steel surface. This charge
+distribution further underpins the ability of the Schiff bases to
+interact with the steel surface through both electron donation and
+acceptance mechanisms, thereby enhancing their corrosion inhibition
+efficiency.
+
+\emph{Molecular reactivity descriptors.} Molecular reactivity
+descriptors are quantitative parameters that characterize the electronic
+structure and chemical reactivity of molecules. In the study of
+corrosion inhibitors, these descriptors are used to predict and
+understand the interaction between inhibitor molecules and metal
+surfaces. These descriptors are essential for designing and optimizing
+corrosion inhibitor structures for high efficiency and stability.
+Quantum chemical descriptors calculated for the investigated Schiff
+bases molecules in aqueous phase are listed in Table 2.
+
+{\bfseries Table 2 - Molecular reactivity descriptors calculated for
+ONO-type Schiff bases calculated using DFT/B3LYP/6-311+G(d,p) in aqueous
+phase}
+
+%% \begin{longtable}[]{@{}
+%%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.6119}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1847}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2034}}@{}}
+%% \toprule\noalign{}
+%% \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries Descriptor}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries SB1}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries SB2}
+%% \end{minipage} \\
+%% \midrule\noalign{}
+%% \endhead
+%% \bottomrule\noalign{}
+%% \endlastfoot
+%% Total energy (E\emph{\tsb{tot}}), a.u. & -746.25 & -1021.14 \\
+%% Dipole moment (μ), D & 2.8142 & 1.7517 \\
+%% Ionization energy (IP), eV & 5.6900 & 9.4940 \\
+%% Electron affinity (EA), eV & 1.6480 & 4.2780 \\
+%% Electronegativity (\emph{χ}), eV & 3.6690 & 6.8860 \\
+%% Chemical hardness (\emph{η}), eV & 2.0210 & 2.6080 \\
+%% Chemical softness (σ), eV & 0.4948 & 0.3834 \\
+%% Electrophilicity index (ω), eV & 6.7308 & 23.7085 \\
+%% Nucleophilicity index (\emph{ε}), eV & 0.1486 & 0.0422 \\
+%% Back-donation energy (E\emph{\tsb{b-d}}, eV) & -0.5053 &
+%% -0.6520 \\
+%% Fraction of transferred electrons (Δ\emph{N}) & -0.8241 & -0.0219 \\
+%% TNC & -2.4783 & -3.5265 \\
+%% TNC/\emph{n} & -0.0826 & -0.0691 \\
+%% Inhibition efficiency (in 0.5 mol·dm\tsp{-3}
+%% H\tsb{2}SO\tsb{4}) {[}17{]}, \% & 86,55 & 56,05 \\
+%% \end{longtable}
+
+The calculated total energy values (E\emph{\tsb{tot}})
+indicate greater stability of SB2 molecule. The dipole moment (μ)
+reflects the polarity of the inhibitor molecule and provides insights
+into its adsorption behavior. A higher dipole moment generally indicates
+stronger molecular polarity, which can enhance the interaction between
+the inhibitor and the metal surface through electrostatic forces.
+Molecules with significant dipole moments tend to learn more effectively
+on the metal surface, promoting the formation of a compact and stable
+protective film. The calculation results indicate that SB1 has a higher
+dipole moment and, accordingly, has more intense inhibitory properties,
+which is consistent with experimental data.
+
+Ionization energy (IE) and electron affinity (EA) are key descriptors of
+the electronic properties of corrosion inhibitors. Ionization energy
+reflects the ability of a molecule to donate electrons; a lower IE
+indicates that the molecule can more easily donate electrons to the
+vacant \emph{d}-orbitals of metal atoms, enhancing adsorption. Electron
+affinity measures the tendency of a molecule to accept electrons.
+Therefore, a higher EA suggests a stronger ability to accept electrons
+from the metal surface. Together, these parameters describe the
+molecule's ability to engage in donor - acceptor interactions with the
+metal, stabilizing the adsorbed layer and improving corrosion inhibition
+efficiency. The calculated values of the ionization energy indicate that
+SB1 is a more effective inhibitor, which is also consistent with the
+experimental results. The values of electron affinity indicate that the
+most effective inhibitor should be SB2. Most likely, this result is due
+to the presence of \emph{tert}-butyl groups, which make charges on
+potential electrophilic centers more positive, thereby increasing
+acceptor properties of the whole molecule.
+
+Electronegativity (\emph{χ}) also plays a critical role in describing
+the properties of corrosion inhibitors. Molecules with high
+electronegativity tend to attract electrons, enabling them to form
+stable interactions with the partially positive metal atoms. A higher
+electronegativity value for SB2 molecule implies it' s
+more effective interaction with the metal surface and therefore has
+higher inhibitory properties. However, the lower inhibition efficiency
+is likely because the large \emph{tert}-butyl groups create significant
+sterical hindrance.
+
+Chemical hardness (\emph{η}) and softness (σ) are also important
+descriptors for understanding the reactivity of corrosion inhibitors. In
+corrosion inhibition, soft molecules are often more effective because
+their higher polarizability and greater reactivity enhance their ability
+to adsorb onto the metal, form stable complexes, and protect the
+surface. Thus, chemical softness is typically associated with higher
+inhibition efficiency. A higher chemical softness value and a lower
+chemical hardness value for SB1 clearly indicate its more effective
+inhibitory properties.
+
+Electrophilicity (ω) and nucleophilicity (\emph{ε}) indexes provide
+insight into the chemical reactivity of corrosion inhibitors. High
+nucleophilicity and low electrophilicity show enhanced adsorption of
+inhibitor molecules on metal surfaces, and therefore they are critical
+for predicting and describing the efficiency of corrosion inhibitors. As
+can be seen, the values of both parameters also confirm the high
+effectiveness of SB1 as a corrosion inhibitor.
+
+Back-donation energy (E\emph{\tsb{b-d}}) describes the ability
+of inhibitor molecules to accept electron density from the metal surface
+into their LUMO. A negative back-donation energy indicates that, in
+addition to donating electrons to the metal, the inhibitor can also
+accept electrons from the metal' s surface. This two-way
+electron transfer strengthens the adsorption interaction, leading to the
+formation of a more stable protective film. The results of the
+calculations indicate that both molecules, especially SB2, tend to
+accept electrons from the metal. However, the sterical hindrance caused
+by tert-butyl groups does not allow the orbitals to be at the distance
+necessary for back-donation and thereby reduces its inhibitory
+effectiveness.
+
+The fraction of transferred electrons (ΔN) quantifies the extent of
+electron transfer from a corrosion inhibitor molecule to the metal
+surface. Generally, a higher ΔN value corresponds to a greater ability
+of the molecule to stabilize on the metal surface through
+donor--acceptor interactions, enhancing its corrosion inhibition
+efficiency. A negative ΔN suggests that both inhibitor molecules can
+accept electrons from the metal, which leads to the reduction of the
+adsorption intensity. A more negative ΔN value calculated for SB1
+clearly indicates its lower propensity to accept electrons from the
+metal surface and, therefore, its higher inhibition efficiency.
+
+The total negative charge (TNC) represents the sum of all negative
+atomic charges within a molecule, providing an overall measure of its
+electron-donating ability. A more negative TNC value indicates a greater
+capacity for electron donation to the metal surface, promoting stronger
+sorption and enhancing corrosion protection. The ratio TNC/\emph{n},
+where \emph{n} is the number of atoms in the molecule, normalizes the
+total negative charge relative to molecular size, allowing for more
+accurate comparisons between inhibitors of different molecular weights.
+Higher TNC/\emph{n} values suggest a more efficient distribution of
+electron density, which correlates with improved adsorption strength and
+inhibition efficiency. The values of these parameters for the studied
+molecules indicate a more efficient distribution of electron density in
+molecule SB1 and, consequently, its higher inhibition efficiency.
+
+Thus, most of the calculated parameters clearly confirm the high
+inhibition efficacy of SB1 compared to SB2. The insignificant
+differences between the calculation results and the experimental data
+are explained by the peculiarity of the structure of SB2 molecule, in
+particular, the presence of two bulky \emph{tert}-butyl groups and their
+steric effects.
+
+\emph{Molecular dynamic simulation.} Molecular dynamics (MD) simulation
+is used to study the dynamic behavior of molecules and their
+interactions. MD simulations provide insights into inhibitor molecules
+interaction with metal surfaces, including adsorption configurations,
+binding energies, and the formation of protective films. MD simulations
+help quantify the effectiveness of inhibitors by analyzing parameters
+like surface coverage, interaction energy, and molecular orientation. By
+simulating different molecular structures, MD makes it possible to
+identify characteristics that increase adsorption and corrosion
+resistance and thus help design more effective inhibitors. This approach
+significantly complements experimental results and quantum chemical
+methods, providing a dynamic perspective on inhibitor performance.
+
+The top and side views of the optimal configurations of both studied
+Schiff bases on the Fe(110) surface are shown in Figure 3.
+
+\fig{c/image17}{}
+
+{\bfseries Fig.3 - Side and top views of the most appropriate conﬁgu­ration
+for adsorption of SB1 (A) and SB2 (B) mole­cules on the Fe (1}{\bfseries 10)
+surface obtained by MD simulations}
+
+As can be seen, the SB1 molecule lying flat on the Fe(110) surface. The
+corresponding values of the adsorption energy indicate a more effective
+interaction between the SB1 molecules and the Fe(110) surface. The
+presence of two bulky \emph{tert}-butyl substituents in SB2 structure
+prevents effective adsorption of the inhibitor due to sterical
+hindrance. As a result, the inhibitor molecule is positioned at an
+angle, which also prevents effective interaction with the metal surface
+of all potential sorption centres, leading to the decrease of inhibition
+efficiency.
+
+\emph{Proposed adsorption mechanism.} Based on the results obtained, a
+mechanism of sorption of the studied ONO-type Schiff bases on the
+Fe(110) surface was proposed and shown in Figure 4.
+
+
+
+{\bfseries Fig.4 - Proposed adsorption mechanism for SB1 and SB2 on the Fe
+(110) surface in accordance}
+
+{\bfseries with calculated descriptors}
+
+As can be seen, the SB1 molecule has a flatter orientation relative to
+the metal surface than the SB2. This is due to the presence of bulky
+\emph{tert}-butyl substituents, which create steric hindrance to more
+effective adsorption. More positive changes in heteroatoms in SB2
+molecule also reduce the adsorption efficiency due to weaker
+interactions with the metal surface.
+
+SB1 exhibits higher inhibition efficiency (86.55\%) due to its favorable
+electronic properties, including a higher dipole moment (2.8142 D),
+lower ionization energy (5.6900 eV), and greater chemical softness
+(0.4948 eV). These parameters enhance its ability to donate electrons to
+the metal surface, forming stable donor-acceptor interactions.
+Additionally, SB1' s flatter orientation relative to the
+metal surface facilitates effective adsorption through its heteroatoms,
+as supported by its higher total negative charge (TNC = -2.4783) and
+fraction of transferred electrons (ΔN=−0.8241). In contrast, SB2 shows
+lower inhibition efficiency (56.05\%) due to steric hindrance caused by
+bulky \emph{tert}-butyl groups, which limit its adsorption capacity.
+Despite its higher electronegativity (6.8860 eV) and electron affinity
+(4.2780 eV), these properties result in weaker donor-acceptor
+interactions and reduced adsorption intensity. The steric effects also
+prevent optimal alignment of adsorption centers, further decreasing its
+effectiveness. The back-donation of electrons from the \emph{d}-orbitals
+of the metal enhances the interaction of SB1 with the Fe(110) surface.
+Despite the fact that the LUMO energy values for SB2 indicate its better
+ability to accept electrons from the metal surface, more efficient
+back-donation is observed for SB1 due to the localization of LUMO on
+both aromatic systems and the absence of steric hindrance.
+
+{\bfseries Conclusion.} This study employed density functional theory (DFT)
+and molecular dynamics (MD) simulations to evaluate the corrosion
+inhibition performance of two ONO-type Schiff bases. The quantum
+chemical calculations revealed that SB1 possesses more favorable
+electronic properties for corrosion inhibition, including a higher HOMO
+energy, lower energy gap (ΔE\emph{\tsb{gap}}), greater dipole
+moment, and enhanced chemical softness, all of which contribute to its
+excellent electron-donating ability and reactivity. The molecular
+electrostatic potential (MEP) maps and frontier molecular orbital (FMO)
+distributions indicated that SB1 provides more effective adsorption
+centers localized on heteroatoms, promoting stronger interactions with
+the metal surface. Mulliken charge analysis and Fukui function
+evaluations further supported the predominance of nitrogen and oxygen
+atoms as active sites for adsorption, particularly in SB1. The
+calculated global reactivity descriptors consistently pointed to
+SB1' s higher inhibitory efficiency. Moreover, MD
+simulations confirmed that SB1 adopts a favorable flat orientation on
+the Fe(110) surface, maximizing its surface coverage and interaction
+energy, while steric hindrance from bulky \emph{tert}-butyl substituents
+in SB2 decreases its adsorption efficiency. In summary, SB1 demonstrated
+excellent corrosion inhibition performance compared to SB2, both
+theoretically and experimentally. These findings highlight the value of
+integrated approaches for the rational design of effective corrosion
+inhibitors.
+
+{\bfseries References}
+
+1. Al-Amiery A.A., Isahak W.N.R.W., Al-Azzawi W.K. Corrosion Inhibitors:
+Natural and Synthetic Organic Inhibitors//Lubricants. - 2023. - Vol.
+11(4):174. \href{https://doi.org/10.3390/lubricants11040174}{DOI
+10.3390/lubricants11040174}.
+
+2. Yang H.-M. Role of Organic and Eco-Friendly Inhibitors on the
+Corrosion Mitigation of Steel in Acidic Environments-A State-of-Art
+Review//Molecules. - 2021. - Vol.26(11): 3473.
+\href{https://doi.org/10.3390/molecules26113473}{DOI
+10.3390/molecules26113473}.
+
+3. Lordjames A. et al. Schiff Bases as Effective and Sustainable
+Corrosion Inhibitors // Saudi Jourbal of Engineering and Technology.
+-2025. -Vol.10 (04). -P.127-136.
+\href{https://doi.org/10.36348/sjet.2025.v10i04.002}{DOI
+10.36348/sjet.2025.v10i04.002}.
+
+4. Govindasamy R. et al. Improved corrosion inhibition by heterocyclic
+compounds on mild steel in acid medium//Corrosion Reviews. -2022. -Vol.
+40 (2). -P.137-148.
+\href{https://doi.org/10.1515/corrrev-2021-0045}{DOI
+10.1515/corrrev-2021-0045}.
+
+5. Senapati R. et al. Amino acid Schiff bases as efficient corrosion
+inhibitor for mild steel in aqueous H2SO4: a comparative
+study//\href{https://www.researchgate.net/journal/BCREC-Engineering-Science-TransactionBEST-2582-9068?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19}{BCREC
+Engineering \& Science Transaction(BEST)}. -2023. - Vol.4 (01). --
+P.1-10.DOI
+\href{https://doi.org/10.61429/BEST2023E03}{10.61429/BEST2023E03}.
+
+6. Shaker L.M. et al. Understanding the mechanism of organic corrosion
+inhibitors through density functional theory//Koroze a ochrana
+materiálu. -2024. -Vol.68 (1). -P.9--21.
+\href{https://doi.org/10.2478/kom-2024-0002}{DOI 10.2478/kom-2024-0002}.
+
+7. Mamand D.M., Qadr H.M. Corrosion inhibition efficiency and quantum
+chemical studies of some organic compounds: theoretical
+evaluation//Corrosion Reviews. - 2023. - Vol.41 (4). - P.427-441.
+\href{https://doi.org/10.1515/corrrev-2022-0085}{DOI
+10.1515/corrrev-2022-0085}.
+
+8. Bhaskara S. et al\emph{.} Evaluation of Corrosion Inhibition
+Efficiency of Aluminum Alloy 2024 by Diaminostilbene and Azobenzene
+Schiff Bases in 1 M Hydrochloric Acid // International Journal of
+Corrosion//\href{https://onlinelibrary.wiley.com/journal/7572}{International
+Journal of Corrosion}. -2021. -Vol.2021(1). -P.1-20.
+\href{https://doi.org/10.1155/2021/5869915}{DOI 10.1155/2021/5869915}.
+
+9. Schmidt M.W. et al. General atomic and molecular electronic structure
+system//\href{https://onlinelibrary.wiley.com/journal/1096987x}{Journal
+of Computational Chemistry}. -1993. -Vol.14(11). -P.1347-1363.
+\href{https://doi.org/10.1002/jcc.540141112}{DOI 10.1002/jcc.540141112}.
+
+10. Klamt A. The COSMO and COSMO-RS solvation models//WIREs
+Computational Molecular Science. - 2018. - Vol.8 (1): e1338.
+\href{https://doi.org/10.1002/wcms.1338}{DOI 10.1002/wcms.1338}.
+
+11. Akatyev N. et al\emph{.} A new potential of sodium
+anthraquinone-2-sulfonate as a corrosion inhibitor for carbon steel in
+0.5 M H2SO4 // Journal of Electrochemical Science and Engineering. -
+2025. - Vol.15 (2):2512. \href{https://doi.org/10.5599/jese.2512}{DOI
+10.5599/jese.2512}.
+
+12. Akatyev N. Semi-empirical investigation of zinc(ii) salicylate.
+comparison with x-ray structure//Vestnik KazUTB. -2024. -Vol.3(24). -P.
+236-249. \href{https://doi.org/10.58805/kazutb.v.3.24-514}{DOI
+10.58805/kazutb.v.3.24-514}.
+
+13. Abraham M.J. et al\emph{.} GROMACS: High performance molecular
+simulations through multi-level parallelism from laptops to
+supercomputers // SoftwareX. -2015. -Vol.1-2. - P.19--25.
+\href{https://doi.org/1016/j.softx.2015.06.001}{DOI
+1016/j.softx.2015.06.001}.
+
+14. Mazlan N. et al\emph{.} Density functional theory and molecular
+dynamics simulation studies of bio-based fatty hydrazide-corrosion
+inhibitors on Fe (1 1 0) in acidic media // Journal of Molecular
+Liquids. - 2022. - Vol.347: 118321.
+\href{https://doi.org/10.1016/j.molliq.2021.118321}{DOI
+10.1016/j.molliq.2021.118321}.
+
+15. Kotupalli M.R. \emph{et al.} Corrosion Inhibition of Mild Steel by
+\emph{Plumeria rubra} Flower Extract: Electrochemical and Computational
+Study//ChemistrySelect. -2024. -Vol.9 (46): e202403617.
+\href{https://doi.org/10.1002/slct.202403617}{DOI
+10.1002/slct.202403617}.
+
+16. Ogunyemi B.T. Quantum Chemical and Reactivity-Based Evaluation of
+Aspartic Acid and its Oligomers as Eco-Friendly Corrosion Inhibitors for
+Iron Surfaces//IJRASET. International Journal for Research in Applied
+Science and Engineering Technology (IJRASET). -2025. -Vol.13 (3). -P.
+3585--3593. \href{https://doi.org/10.22214/ijraset.2025.68891}{DOI
+10.22214/ijraset.2025.68891}.
+
+17. Asanova D.Zh., Serikkalieva A.A., Akat' ev N.V.
+Issledovanie ingibirujushhih svojstv osnovanij Shiffa ONO-tipa //
+Dostizhenija molodyh uchenyh: himicheskie nauki: Sbornik tezisov X
+Vserossijskoj molodezhnoj konferencii. Ufimskij universitet. -2025. -С.
+46-47. ISBN 978-5-7477-6091-2. {[}in Russian{]}
+
+\emph{{\bfseries Information about the authors}}
+
+Akatyev N.V. - Candidate of Chemical Sciences, senior lecturer, M.
+Utemisov West Kazakhstan University, Uralsk, Kazakhstan, e-mail:
+nikolay.akatyev@wku.edu.kz;
+
+Vardanyan R.D. - student, M. Utemisov West Kazakhstan University,
+Uralsk, Kazakhstan, e-mail:
+darupandandtary@gmail.com;
+
+Kozhevnikova E.A. - student, M. Utemisov West Kazakhstan University,
+Uralsk, Kazakhstan, e-mail:
+katerinakozevnikova853@gmail.com.
+
+\emph{{\bfseries Сведения об авторах}}
+
+Акатьев Н.В. - кандидат химических наук, старший преподаватель,
+Западно-Казахстанский университет им. М.Утемисова, Уральск, Казахстан,
+e-mail:
+nikolay.akatyev@wku.edu.kz;
+
+Варданян Р. Д.-- студент, Западно-Казахстанский университет им.
+М.Утемисова, Уральск, Казахстан, e-mail:
+darupandandtary@gmail.com;
+
+Кожевникова Е.А. -- студент, Западно-Казахстанский университет им.
+М.Утемисова, Уральск, Казахстан, e-mail:
+katerinakozevnikova853@gmail.com.\

@@ -1,0 +1,552 @@
+\id{IRSTI 52.13.07}{}
+
+{\bfseries THERMAL AND CRYOGENIC FRACTURE INTERACTIONS IN GRANITE: FRACTURE
+TOUGHNESS TESTS FOR GEOTHERMAL DEVELOPMENT}
+
+{\bfseries \tsp{1}D.T.Begaliyev}\fig{g/image1}{}{\bfseries \envelope ,
+\tsp{1}N.M.Zhumagaliyev}\fig{g/image1}{}{\bfseries ,
+\tsp{1}A.S.Kupeshova}\fig{g/image1}{}{\bfseries ,
+\tsp{2}A.T.Zholbasarova}\fig{g/image1}{}{\bfseries \envelope ,
+\tsp{1}A.B.Kydrashov}\fig{g/image1}{}{\bfseries \envelope ,
+\tsp{1}B.Zh.Burkhanov}\fig{g/image1}{}{\bfseries ,
+\tsp{3}A.R
+Abdiev}\fig{g/image1}{}
+
+\emph{\tsp{1}NJSC ``West Kazakhstan Agrarian and Technical
+University named after Zhangir khan'',Uralsk, Kazakhstan,}
+
+\emph{\tsp{2}NJSC ``Caspian State University of Technologies
+and Engineering named after S.Yessenov'', Aktau, Kazakhstan,}
+
+\emph{\tsp{3}Kyrgyz Mining and Metallurgical Institute named
+after academician U. Asanaliev, Bishkek, Kyrgyzstan}
+
+\corrauthor{Corresponding-authors:dastan.begaliyev@wkau.kz,}
+a.kydrashov@mail.ru
+
+The use of liquid nitrogen (LN₂) as a freezing agent has been shown to
+help enhance the permeability of the rock, making it easier for fluids
+to pass through, which improves how much water or steam can flow from
+the reservoir. This is especially useful in Hot Dry Rock (HDR) systems.
+This study looks at how exposing granite to low temperatures affects its
+strength after it has been cooled down after being heated. Fracture
+Toughness Tests were done on granite samples after they were first baked
+at different temperatures from 100\,°C to 400\,°C before being quickly
+cooled with LN₂ to copy what happens when something gets suddenly cooled
+quickly.
+
+The tested granite samples were taken from a place that is around 50 km
+away from Astana, in the Akmola region of Kazakhstan. Experimental
+measurements helped find important mechanical values like the maximum
+load the sample could handle, how much stress builds up at the tip of
+the crack, and how much energy it takes to make the sample break. The
+results show that using liquid nitrogen makes it much easier for cracks
+to start and spread in the sample, and doing LN₂ treatment at higher
+pre-treatment temperatures makes it happen even faster. A consistent
+decrease in both the stress intensity factor and fracture energy as the
+temperature went up could be seen. These findings show that using LN₂ to
+freeze and crack the rocks can be a useful way to help boost the flow of
+geothermal energy from certain types of hard rocks.
+
+{\bfseries Keywords}: geothermal energy, Kazakhstan, cryogenic fracturing,
+liquid nitrogen, fracture toughness test, intensity factor, fracture
+energy, granite, HDR( hot dry rocks).
+
+{\bfseries ГРАНИТТЕГІ ТЕРМИЯЛЫҚ ЖӘНЕ КРИОГЕНДІК СЫНЫҚТАРДЫҢ ӨЗАРА
+ӘРЕКЕТТЕСУІ: ГЕОТЕРМИЯЛЫҚ ДАМУҒА АРНАЛҒАН СЫНЫҚТАРДЫҢ}
+
+{\bfseries БЕРІКТІГІН СЫНАУ}
+
+{\bfseries \tsp{1}Д.Т. Бегалиев\envelope ,
+\tsp{1}Н.М. Жумагалиева, \tsp{1}А.С. Купешова,
+\tsp{2}А.Т. Жолбасарова, \tsp{1}А.Б.
+Кыдрашов\envelope ,}
+
+{\bfseries Б.Ж. \tsp{1}Бурханов, \tsp{3}А.Р.
+Абдиев}
+
+\emph{\tsp{1}«Жәңгір хан атындағы Батыс Қазақстан
+аграрлық-техникалық университеті» КеАҚ ,Орал, Қазақстан,}
+
+\emph{\tsp{2}«Ш. Есенов атындағы Каспий технологиялар және
+инжиниринг университеті» КеАҚ, Ақтау, Қазақстан,}
+
+\emph{\tsp{3}Академик У. Асаналиев атындағы Қырғыз тау-кен
+металлургиялық институты, Бішкек, Қырғызстан,}
+
+e-mail:dastan.begaliyev@wkau.kz,
+a.kydrashov@mail.ru
+
+Сұйық азотты (LN₂) мұздату агенті ретінде пайдалану геотермалды
+потенциалы бар тау жыныстарының өткізгіштігін арттыруға көмектесетіні
+дәлелденді. Бұл сұйықтықтардың өтуін жеңілдетеді және сол арқылы жер
+асты резервуарларынан су немесе бу шығу мүмкіндігін жақсартады. Ондай
+тау жыныстары әдетте ыстық құрғақ күйде болады (hot dry rock, HDR). Бұл
+зерттеу гранитті қыздырып, оны сұйық азотпен тез арада салқындатудан
+кейін оның беріктігіне қалай әсер ететінін қарастырады. Бұл жүргізілген
+сынақтар 100 °C-тан 400 °C-қа дейінгі әртүрлі температурада қыздырылған
+граниттерді қамтыды.
+
+Сыналған гранит үлгілері Астанадан шамамен 50 км қашықтықта,
+Қазақстанның Ақмола облысында орналасқан жерден алынды. Эксперименттік
+өлшеулер гранит тастарының көтере алатын максималды жүктеуін,
+жарықшақтың ұшында қанша қысым жиналатыны және үлгіні бұзу үшін қанша
+энергия қажет болатыны сияқты маңызды механикалық мәндерді табуға
+көмектесті. Нәтижелер сұйық азотты пайдалану гранит тастарындағы
+жарықтардың пайда болуын және таралуын айтарлықтай жеңілдететінін, ал
+өңдеуге дейінгі жоғарырақ температурада қыздырылуы және сұйық азотқа
+батырылуы оны одан да жылдамырақ ететінін көрсетеді. Температура
+көтерілген сайын қысым қарқындылығы факторының да, сыну энергиясының да
+тұрақты төмендеуін байқауға болады. Бұл нәтижелер құрғақ ыстық тау
+жыныстарын мұздату және жару үшін LN₂ пайдалану қатты жыныстардың
+белгілі бір түрлерінен геотермалдық энергия ағынын арттырудың пайдалы
+әдісі болуы мүмкін екенін көрсетеді.
+
+{\bfseries Түйін сөздер}: геотермалды энергия, Қазақстан, криогендік жару,
+сұйық азот, жарықшаққа төзімділік сынағы, қарқындылық коэффициенті,
+жарықшақ энергиясы, гранит, HDR (құрғақ ыстық жыныстар).
+
+{\bfseries ВЗАИМОДЕЙСТВИЕ ТЕРМИЧЕСКОГО И КРИОГЕННОГО РАЗРУШЕНИЯ ГРАНИТА:
+ИСПЫТАНИЯ НА ТРЕЩИНОСТОЙКОСТЬ ПРИ РАЗРАБОТКЕ ГЕОТЕРМАЛЬНЫХ
+МЕСТОРОЖДЕНИЙ}
+
+{\bfseries \tsp{1}Д.Т. Бегалиев\envelope ,
+\tsp{1}Н.М. Жумагалиева, \tsp{1}А.С. Купешова,
+\tsp{2}А.Т. Жолбасарова,}
+
+{\bfseries \tsp{1}А.Б.
+Кыдрашов}\fig{g/image1}{}{\bfseries \envelope ,
+\tsp{1}Б.Ж. Бурханов, \tsp{3}А.Р. Абдиев}
+
+\emph{\tsp{1}НАО «Западно-Казахстанский аграрно-технический
+университет им. Жангир хана», Уральск, Казахстан,}
+
+\emph{\tsp{2}НАО «Каспийский университет технологии и
+инжиниринга им. Ш.Есенова»,Актау, Казахстан,}
+
+\emph{\tsp{3}Кыргызский горно-металлургический институт им.
+академика У.Асаналиева ,Бишкек, Кыргызстан,}
+
+e-mail:dastan.begaliyev@wkau.kz,
+a.kydrashov@mail.ru
+
+Было доказано, что использование жидкого азота (LN₂) в качестве
+замораживающего агента помогает повысить проницаемость породы, облегчая
+прохождение жидкостей, что позволяет увеличить объем воды или пара,
+которые могут вытекать из резервуара. Это особенно полезно для горячих
+сухих горных пород (hot dry rock, HDR). В этом исследовании
+рассматривается влияние воздействия низких температур на прочность
+гранита после его охлаждения после нагрева. Испытания на
+трещиностойкость были проведены на образцах гранита после того, как они
+были сначала нагреты при различных температурах от 100 °C до 400 °C, а
+затем быстро охлаждены с помощью LN₂, чтобы воспроизвести термошок,
+когда что-то внезапно быстро охлаждается.
+
+Протестированные образцы гранита были взяты из места, расположенного
+примерно в 50 км от Астаны, в Акмолинской области Казахстана.
+Экспериментальные измерения помогли определить важные механические
+параметры, такие как максимальная нагрузка, которую может выдержать
+образец, величина напряжения, возникающего на вершине трещины, и
+количество энергии, затрачиваемой на разрушение образца. Результаты
+показывают, что использование жидкого азота значительно облегчает
+образование и распространение трещин в образце, а обработка LN₂ при
+более высоких температурах предварительной обработки позволяет сделать
+это еще быстрее. С повышением температуры наблюдалось последовательное
+снижение коэффициента интенсивности напряжений и энергии разрушения. Эти
+результаты показывают, что использование LN₂ для замораживания и
+растрескивания горных пород может быть полезным способом увеличения
+потока геотермальной энергии из определенных типов твердых пород.
+
+{\bfseries Ключевые слова}: геотермальная энергия, Казахстан, криогенный
+разрыв, жидкий азот, испытание на устойчивость к разрушению, коэффициент
+интенсивности напряжений, энергия разрушения, гранит, HDR (горячие сухие
+породы).
+
+{\bfseries Introduction.} With the world looking to reduce emissions and
+use environmentally friendly energy, geothermal power has become vital
+for making this happen. Interest has grown in Hot Dry Rock (HDR)
+formations due to their ability to provide temperatures that range from
+150 °C to over 500°C at depths of around 5000-6000 meters {[}1-4{]}.
+Innovative though they are, HDR systems do not work as well for business
+purposes due to their naturally low ability to transfer heat. As a
+result, it is important to apply new stimulation methods to unleash all
+the advantages of these reservoirs {[}5-9{]}.
+
+One popular trend now uses liquid nitrogen (LN₂) in what is known as
+cryogenic fracturing. LN₂-based stimulation uses the low temperature and
+pressure conditions at -196\,°C to quickly contract high-temperature
+rock. The heat shock leads to the development of many small fractures
+that aid the movement of fluids within the rock {[}10-14{]}. Unlike
+traditional hydraulic fracturing which can lead to chemical pollution
+and wastes a lot of water, LN₂ stimulation is both cleaner and more
+sustainable. The brittleness of granite at low temperatures allows it to
+form many fractures, contributing to the overall development of complex
+systems {[}15-20{]}.
+
+This research focuses on checking how granite from the Akmola region in
+Kazakhstan responds when it is subjected to cryogenic fracturing. For
+our experiment, granite samples were first heated to different high
+temperatures and rapidly cooled with liquid nitrogen. Then, the fracture
+toughness was tested to measure the thermal damage done. Cracking
+behavior was investigated by using fracture energy and mode I stress
+intensity factor at different thermal conditions. This study aims to
+find better, more environmentally friendly ways to stimulate wells by
+examining the effectiveness of using liquid nitrogen on HDR geothermal
+reservoirs.
+
+{\bfseries Materials and methods.} Granite samples were collected from
+rocks that stick out of the ground not far from Vyacheslavka in Akmola,
+Kazakhstan. For the fracture toughness tests, the samples were made into
+a semicircular shape, which can be seen in Figure 1. Prior to testing,
+all the specimens were dried out in an oven for about 24 hours at 50
+degrees to get rid of any moisture on their surface. They were then put
+in a furnace and heated for two hours at 100, 200, and 400 degrees
+Celsius. After heating, the samples were lowered straight into a liquid
+nitrogen bath for an hour to simulate exposure to cryogenic temperatures
+(such as those used in space). To make sure there was no more moisture
+left, the samples were dried again at 50 ⁰C for an hour. The fracture
+toughness tests were then carried out with the GCTS UCT-1000 testing
+machine, which you can see on the right in Figure 1.
+
+\fig{g/image2}{}
+
+{\bfseries Fig.1 - Granite specimen dimensions and setup}
+
+{\bfseries Results and discussion.} The graph in Figure 2 shows the results
+of fracture toughness tests done on granite after subjecting them to
+different hot and cold temperatures. The sample only treated at 50\,°C
+acted as the reference, and the other samples were heated to 100\,°C,
+200\,°C, and 400\,°C before being frozen in liquid nitrogen for one
+hour. Each test was duplicated twice to improve the reliability of the
+data and cut down on measurement mistakes. The specimens without any
+treatment reached their highest peak load at 50\,°C, while peak load in
+the others became lower with both thermal and cryogenic treatment. With
+temperatures going up during preheating, more and larger microcracking
+was found. Elevated temperatures caused more damage to the material,
+which LN₂ only made worse, resulting in a drop in its ability to hold
+weight.
+
+\fig{g/image3}{}
+
+{\bfseries Fig.2 - Load vs crack mouth opening curves from fracture
+toughness tests}
+
+The same fracture toughness test samples showed the load-displacement
+curves that can be seen in Figure 3. The untreated samples at 50 ⁰C had
+the biggest strengths and could handle more pressure in the experiments,
+since their graphs showed steeper curves. In contrast, when samples were
+put through a mix of heat and freezing, they were less strong when
+stretched and moved more before breaking, especially in the samples that
+were heated up to 400°C and then cooled down with liquid nitrogen. This
+behavior shows that over time, the material gets weaker because of
+things like expansion when it gets hot, the development of tiny cracks,
+and shrinkage when it gets cold. As these effects add up, the stone
+slowly gets softer and less sturdy, which then results in it being less
+able to hold up to tension.
+
+\fig{g/image4}{}
+
+{\bfseries Fig.3 - Load vs axial displacement curves after fracture
+toughness tests}
+
+The results of Figure 4 show the stress intensity factor results from
+fracture toughness tests, with each pre-treatment compared to the
+reference group preheated at 50\,°C. When the pre-heating temperature is
+raised, the material strength is seen to decrease, indicated by a drop
+in peak stress intensity factors. In both experiments, the sharpest drop
+in the value of stress intensity factor was found under the 400\,°C +
+LN₂ condition, with a value of 0.91 MPa·m¹ᐟ². Cooling the granite
+rapidly using LN₂ after heating it to a high temperature turned out to
+be the best type of experiment for inflicting internal damage on the
+sample. Matching results between both experiments and the trend seen
+support the accuracy of the findings.
+
+\fig{g/image5}{}
+
+{\bfseries Fig.4 - Mode I stress intensity factor vs crack mouth opening
+curves after fracture toughness tests}
+
+Figure 5 highlights the difference in mechanical behavior of granite
+when subjected to thermal and cryogenic loading, by using fracture
+energy as a measure. Fracture energy shows the total effort needed to
+break apart a sample of rock and is a sign of toughness. The best
+fracture-resistance was seen in the granite samples preheated only to
+50\,°C, as they were still largely intact and without damage.
+
+Fracture energy was reduced by an average of 0.906 J when the granite
+was heated at 100\,°C and then quickly cooled with LN₂ in the first two
+experimental trials. It seems that when rocks go through a brief heating
+period and then a sudden, extreme cooling, it causes internal fractures
+that lower the strength of the rock. If thermal pre-treatment is made
+more severe, the material becomes more vulnerable to cracking and
+breaking. Compressive tests for samples treated at 200\,°C and then
+exposed to LN₂ resulted in a fracture energy of 0.939 J, showing that
+the material had grown more fragile.
+
+Among all cases, the ones heated at 400°C and cooled with LN₂ showed the
+lowest fracture energy of 0.831 J. The significant change from the
+reference condition means that major internal damage and a loss of
+bonding between materials occurred as a result of the thermal and
+cryogenic stress during the test. All in all, the results clearly show
+that higher preheat temperatures before LN₂ treatment result in
+considerably softer granite, proving the method's success in improving
+fracturing of rocks for geothermal use.
+
+\fig{g/image6}{}
+
+{\bfseries Fig.5 - Fracture energy vs process after fracture toughness
+tests}
+
+Table 1 displays the fracture toughness results of granite specimens put
+through different thermal shock conditions. Without any treatment, the
+K\tsb{I} factor was measured at 1.71 MPa·m¹ᐟ². Still, raising
+the temperature of the specimens and then suddenly lowering it with
+liquid nitrogen caused an obvious drop in their fracture toughness.
+There was a drop of 17.8\% in the K\tsb{I} value in both
+trials when the temperature was set to 100\,°C and LN\tsb{2}
+was added. Significant decreases in content occurred at higher degrees
+of preheating. The first and second trials both saw decreases of 31.4\%
+and 28.4\% after using 200\,°C + LN₂. Using 400\,°C + LN₂ caused the
+most noticeable declines, with a change of 45.8\% and 47.4\% in trials 1
+and 2, respectively. We clearly see a certain pattern in the results. A
+higher temperature during the preheating stage tends to bring down the
+fracture toughness of granite before it is treated with LN₂. The
+research confirms that the level of damage to rocks after LN₂ exposure
+increases along with the duration of preheating, showing a proper
+relationship between the damage caused by long-term exposure and
+high-temperature conditions.
+
+{\bfseries Table 1 - Effect of increase in temperature along with
+LN\tsb{2} to the peak values of mode I intensity factor
+values}
+
+%% \begin{longtable}[]{@{}
+%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0980}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1065}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1584}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1808}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2230}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2332}}@{}}
+%% \toprule\noalign{}
+%% \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries Specimen}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries Treatment}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries Peak value of K\tsb{I}}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries Stepwise Difference}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries Difference from Baseline}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries Average value of K\tsb{I} peaks}
+%% \end{minipage} \\
+%% \midrule\noalign{}
+%% \endhead
+%% \bottomrule\noalign{}
+%% \endlastfoot
+%% ~ & ~ & {\bfseries (MPa*m\tsp{1/2})} & {\bfseries (\%)} &
+%% {\bfseries (\%)} & {\bfseries (MPa*m\tsp{1/2})} \\
+%% 1 & \multirow{2}{=}{\centering\arraybackslash No} & 1.72 &
+%% \multirow{2}{=}{\centering\arraybackslash -} &
+%% \multirow{2}{=}{\centering\arraybackslash -} &
+%% \multirow{2}{=}{\centering\arraybackslash 1.71} \\
+%% 2 & & 1.69 \\
+%% 1 & \multirow{2}{=}{\centering\arraybackslash 100+LN\tsb{2}} &
+%% 1.41 & -17.8 & -17.8 &
+%% \multirow{2}{=}{\centering\arraybackslash 1.40} \\
+%% 2 & & 1.39 & -17.7 & -17.7 \\
+%% 1 & \multirow{2}{=}{\centering\arraybackslash 200+LN\tsb{2}} &
+%% 1.18 & -16.5 & -31.4 &
+%% \multirow{2}{=}{\centering\arraybackslash 1.19} \\
+%% 2 & & 1.21 & -13.1 & -28.4 \\
+%% 1 & \multirow{2}{=}{\centering\arraybackslash 400+LN\tsb{2}} &
+%% 0.93 & -21.0 & -45.8 &
+%% \multirow{2}{=}{\centering\arraybackslash 0.91} \\
+%% 2 & & 0.89 & -26.5 & -47.4 \\
+%% \end{longtable}
+
+{\bfseries Conclusion.} Akmola granite samples were studied through an
+experimental process using liquid nitrogen (LN₂) temperatures to see how
+it affected preconditioned granite. The evaluation involved carrying out
+fracture toughness tests, checking the load-displacement curve, and
+getting readings of the fracture energy and stress intensity factors.
+The key findings from the study are as follows:
+
+- Preheating over 400\,°C with LN\tsb{2} caused a continuous
+reduction in load-bearing, and the group with the highest preheated
+temperature showed the least ability to support a high load.
+
+- When materials were pre-treated at higher temperatures along with
+liquid nitrogen, the amount of fracture energy they absorbed reduced.
+Combining heat and cryogenic cracking greatly reduced the amount of
+effort required to overcome the resistance of the granite.
+
+- Calculations of K\tsb{I}, a standard measure for toughness,
+revealed that LN₂ makes cracks grow more effectively at higher
+preheating temperatures.
+
+- All of the samples proved to fail in the same qualitative way during
+treatment under LN₂, still variations were noticed in the fracture
+energy and toughness at different temperature levels.
+
+The results taken together show that exposing granite to heat and
+flash-freezing it significantly reduces its strength, making it a useful
+strategy for helping break up rocks in geothermal energy production.
+
+\emph{{\bfseries Funding}. This research was financially supported by
+Nazarbayev University (Funder Project Reference:021220CRP2022).}
+
+\emph{I would like to express my sincere gratitude to Dr. Sotirios
+Longinos for his valuable guidance, support, and insightful suggestions
+throughout the course of this research}.
+
+{\bfseries References}
+
+1. McDaniel B.W., Grundmann S.R., Kendrick W.D., Wilson D.R., Jordan
+S.W. Field applications of cryogenic nitrogen as a hydraulic fracturing
+fluid // SPE annual technical conference and exhibition. Society of
+Petroleum Engineers. - 1997. DOI
+\href{https://doi.org/10.2118/38623-MS}{10.2118/38623-MS}.
+
+2. Anderson R.L., Ratcliffe I., Greenwell H.C., Williams P.A., Cliffe S.
+and Coveney P.V. Clay swelling-a challenge in the oilfield //
+Earth-Science Reviews. - 2010. - Vol.98(3). - P.201-216. DOI
+10.1016/j.earscirev.2009.11.003.
+
+3. Longinos S.N. and Hazlett R. Cryogenic fracturing efficacy in granite
+rocks: Fracture toughness and brazilian test differences after elevated
+temperatures and liquid nitrogen exposure //~Geoenergy Science and
+Engineering.- 2025.- Vol.244. -P.213436. DOI
+10.1016/j.geoen.2024.213436.
+
+4. Dai F. and Xia K.W., 2013. Laboratory measurements of the rate
+dependence of the fracture toughness anisotropy of Barre granite
+//~International Journal of Rock Mechanics and Mining Sciences.- 2013. -
+Vol.~60. - P.57-65. DOI 10.1016/j.ijrmms.2012.12.035.
+
+5. Longinos S.N., Skrzypacz P. and Hazlett R. Cryofracturing
+effectiveness using liquid nitrogen on granite: Fracture toughness and
+Brazilian tests following freezing-thawing cycle// Results in
+Engineering.- 2024. - Vol.21 (2): 101895. DOI
+\href{http://dx.doi.org/10.1016/j.rineng.2024.101895}{10.1016/j.rineng.2024.101895}.
+
+6. Zhuang D., Yin T., Li Q., Wu Y., Chen Y. and Yang Z.,. Fractal
+fracture toughness measurements of heat-treated granite using hydraulic
+fracturing under different injection flow rates // Theoretical and
+Applied Fracture Mechanics.- 2022.-Vol.119:103340. DOI
+\href{https://doi.org/10.1016/j.tafmec.2022.103340}{10.1016/j.tafmec.2022.103340}.
+
+7. Longinos S., Tuleugaliyev M., Begaliyev D. and Hazlett R., 2023.
+Effects of High Temperature and Liquid Nitrogen Cooling: A Case Study of
+granite rocks from Kazakhstan //~CEST-18th International Conference on
+Environmental Science and Technology. -- 2023. DOI
+\href{http://dx.doi.org/10.30955/gnc2023.00161}{10.30955/gnc2023.00161}.
+
+8. Yang R., Hong C., Liu W., Wu X., Wang T., Huang Z. "Non-contaminating
+cryogenic fluid access to high-temperature resources: Liquid nitrogen
+fracturing in a lab-scale Enhanced Geothermal System // Renewable
+Energy. -2021. - Vol.165. - P.125-138. DOI
+10.1016/j.renene.2020.11.006.
+
+9. Ishida T., Aoyagi K., Niwa T., Chen Y., Murata S., Chen Q., Nakayama
+Y. Acoustic emission monitoring of hydraulic fracturing laboratory
+experiment with supercritical and liquid CO\tsb{2 //}
+Geophysical Research Letters. - 2012. - Vol.39(16): 16309. DOI
+\href{https://doi.org/10.1029/2012GL052788}{10.1029/2012GL052788}.
+
+10. Gallup D.L. Production engineering in geothermal technology: a
+review // Geothermics. - 2009. - Vol.38(3). - P.326--334.
+\href{https://doi.org/10.1016/j.geothermics.2009.03.001}{DOI
+10.1016/j.geothermics.2009.03.001}.
+
+11. Begaliyev D.~Laboratory investigation of cryofracturing potential to
+stimulate geothermal reservoirs in Kazakhstan~/ Doctoral dissertation,
+Nazarbayev University. - 2024.
+
+12. Zhang D. and Tingyun Y. Environmental impacts of hydraulic
+fracturing in shale gas development in the United States // Petroleum
+Exploration and Development. - 2015. - Vol.42(6). - P.876-883. DOI
+\href{https://doi.org/10.1016/S1876-3804(15)30085-9}{10.1016/S1876-3804(15)30085-9}.
+
+13. Yin T., Bai L., Li X., Li X. and Zhang, S. Effect of thermal
+treatment on the mode I fracture toughness of granite under dynamic and
+static coupling load // Engineering Fracture Mechanics. -- 2018. -Vol.
+199. - P.143-158. DOI
+\href{https://doi.org/}{10.1016/j.engfracmech.2018.05.035}.
+
+14. Cai C., Huang Z., Li G., Gao F., Wei J. and Li R. Feasibility of
+reservoir fracturing stimulation with liquid nitrogen jet // Journal of
+Petroleum Science and Engineering. - 1016. -Vol.144. - P.59-65. DOI
+10.1016/j.petrol.2016.02.033.
+
+15. Longinos S.N., Begaliyev D. and Hazlett R. Experimental and
+simulation study of cryogenic stimulation of granites from Akmola region
+in Kazakhstan // Geomechanics for Energy and the Environment. - 2025. -
+Vol.~41. - P.100635. DOI
+\href{https://doi.org/10.1016/j.gete.2024.100635}{10.1016/j.gete.2024.100635}.
+
+16. Zhenlong G., Sun Q., Yang T., Luo T., Hailiang J., and Yang D.
+Effect of high temperature on mode-I fracture toughness of granite
+subjected to liquid nitrogen cooling //Engineering Fracture Mechanics. -
+2021. - Vol.252:107834. DOI
+\href{https://doi.org/10.1016/j.engfracmech.2021.107834}{10.1016/j.engfracmech.2021.107834}.
+
+17. Breede K., Dzebisashvili K., Liu X., Falcone G. A systematic review
+of enhanced (or engineered) geothermal systems: past, present and
+future//Geotherm Energy.- 2013.-Vol.11-4) - P.2-27.DOI
+10.1186/2195-9706-1-4.
+
+18. Ge Z., Sun Q., Xue L. and Yang T. The influence of microwave
+treatment on the mode I fracture toughness of granite//~Engineering
+Fracture Mechanics.-2021.-Vol.249:107768. DOI
+\href{https://doi.org/10.1016/j.engfracmech.2021.107768}{10.1016/j.engfracmech.2021.107768}.
+
+19. Longinos S.N. Pore structure analysis by mercury intrusion and
+nitrogen adsorption after LN2 treatment: An experimental study for
+granite rocks in `O'field, Kazakhstan //~Geoenergy Science and
+Engineering. -- 2025. -- Vo.252. - P.213953. DOI
+\href{https://doi.org/10.1016/j.geoen.2025.213953}{10.1016/j.geoen.2025.213953}.
+
+20. Zhang S. et al. Numerical and experimental analysis of hot dry rock
+fracturing stimulation with high-pressure abrasive liquid nitrogen jet
+// Journal of Petroleum Science and Engineering. - 2018. - Vol.163. -
+P.156-165. DOI
+\href{https://doi.org/10.1016/j.petrol.2017.12.068}{10.1016/j.petrol.2017.12.068}.
+
+\emph{{\bfseries Information~about~the~authors}}
+
+\emph{{\bfseries \hfill\break
+}}Begaliyev D.T.- NJSC ``West Kazakhstan Agrarian and Technical
+University named after Zhangir khan'', master of technical sciences,
+Uralsk, Kazakhstan,
+dastan.begaliyev@wkau.kz;
+
+Zhumagaliyeva N.M.- NJSC ``West Kazakhstan Agrarian and Technical
+University named after Zhangir khan'', master of technical sciences,
+Uralsk, Kazakhstan,
+zhumagaliyeva.nurzhamal@inbox.ru;
+
+Kupeshova A.S.- NJSC ``West Kazakhstan Agrarian and Technical University
+named after Zhangir khan'', senior lecturer, Uralsk, Kazakhstan,
+kupeshova.altynay@mail.ru;
+
+Zholbasarova A.T.- NJSC ``Caspian State University of Technologies and
+Engineering named after S.Yessenov'', candidate of technical sciences,
+associate professor, Aktau, Kazakhstan,
+аkshyryn.zholbassarova@yu.edu.kz;
+
+Kydrashov A.B.- NJSC ``West Kazakhstan Agrarian and Technical University
+named after Zhangir khan'', PhD doctor, associate professor, Uralsk,
+Kazakhstan,
+a.kydrashov@mail.ru;
+
+Burkhanov B.Zh.- NJSC ``West Kazakhstan Agrarian and Technical
+University named after Zhangir khan'', candidate of technical sciences,
+associate professor, Uralsk, Kazakhstan,
+aruka73@mail.ru;
+
+Abdiev A.R.- Kyrgyz Mining and Metallurgical Institute named after
+academician U.Asanalieva, doctor of technical sciences, professor,
+Bishkek, Kyrgyzstan,
+arstanbek.abdiev@kstu.kg.\

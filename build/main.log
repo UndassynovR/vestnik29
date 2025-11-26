@@ -1,0 +1,2214 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/nixos.org) (preloaded format=xelatex 1980.1.1)  26 NOV 2025 16:00
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-06-09>
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/base/bk12.clo
+File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count271
+\c@chapter=\count272
+\c@section=\count273
+\c@subsection=\count274
+\c@subsubsection=\count275
+\c@paragraph=\count276
+\c@subparagraph=\count277
+\c@figure=\count278
+\c@table=\count279
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+) (./src/packages.tex
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count280
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/fontspec/fontspec.sty
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/l3packages/xparse/xparse.sty
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/l3kernel/expl3.sty
+Package: expl3 2025-06-09 L3 programming layer (loader) 
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2025-06-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count281
+\g__pdfannot_backend_int=\count282
+\g__pdfannot_backend_link_int=\count283
+))
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count284
+\l__fontspec_language_int=\count285
+\l__fontspec_strnum_int=\count286
+\l__fontspec_tmp_int=\count287
+\l__fontspec_tmpa_int=\count288
+\l__fontspec_tmpb_int=\count289
+\l__fontspec_tmpc_int=\count290
+\l__fontspec_em_int=\count291
+\l__fontspec_emdef_int=\count292
+\l__fontspec_strong_int=\count293
+\l__fontspec_strongdef_int=\count294
+\l__fontspec_tmpa_dim=\dimen149
+\l__fontspec_tmpb_dim=\dimen150
+\l__fontspec_tmpc_dim=\dimen151
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/base/fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/fontspec/fontspec.cfg)))
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/polyglossia/polyglossia.sty
+Package: polyglossia 2025/06/30 v2.6 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+\l_xpg_alias_keyvals_int=\count295
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/polyglossia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+))
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/polyglossia/gloss-russian.ldf
+File: gloss-russian.ldf polyglossia: module for Russian
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/polyglossia/xpg-cyrillicnumbers.sty
+Package: xpg-cyrillicnumbers 2019/11/15 v0.2 Formatting of Cyrillic alphabetic 
+numbers
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/polyglossia/babelsh.def
+File: babelsh.def 2022/06/21 Babel common definitions for shorthands
+ Taken verbatim from babel files (2022/06/06 v3.76)
+)
+Package babel Info: Making " an active character on input line 120.
+)
+
+Package polyglossia Info: Default language is russian
+
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for English
+)
+
+Package fontspec Info: 
+(fontspec)             Font family 'LiberationSerif(0)' created for font
+(fontspec)             'Liberation Serif' with options
+(fontspec)             [Ligatures=TeX,Ligatures=TeX,Language=Default,Script=Cyr
+illic,Numbers=Lining,Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Liberation
+(fontspec)             Serif/OT:script=cyrl;language=dflt;+lnum;mapping=tex-tex
+t;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Liberation
+(fontspec)             Serif/B/OT:script=cyrl;language=dflt;+lnum;mapping=tex-t
+ext;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Liberation
+(fontspec)             Serif/I/OT:script=cyrl;language=dflt;+lnum;mapping=tex-t
+ext;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Liberation
+(fontspec)             Serif/BI/OT:script=cyrl;language=dflt;+lnum;mapping=tex-
+text;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'FreeSans(0)' created for font 'FreeSans'
+(fontspec)             with options
+(fontspec)             [Ligatures=TeX,Ligatures=TeX,Language=Default,Script=Cyr
+illic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FreeSans/OT:script=cyrl;language=dflt;mapping=tex-te
+xt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"FreeSans/OT:script=cyrl;language=dflt;+smcp;mapping=
+tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"FreeSans/B/OT:script=cyrl;language=dflt;mapping=tex-
+text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"FreeSans/B/OT:script=cyrl;language=dflt;+smcp;mappin
+g=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"FreeSans/I/OT:script=cyrl;language=dflt;mapping=tex-
+text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"FreeSans/BI/OT:script=cyrl;language=dflt;mapping=tex
+-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'FreeMono(0)' created for font 'FreeMono'
+(fontspec)             with options
+(fontspec)             [Ligatures=TeX,WordSpace={1,0,0},HyphenChar=None,Punctua
+tionSpace=WordSpace].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FreeMono/OT:script=latn;language=dflt;mapping=tex-te
+xt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"FreeMono/B/OT:script=latn;language=dflt;mapping=tex-
+text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"FreeMono/I/OT:script=latn;language=dflt;mapping=tex-
+text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"FreeMono/BI/OT:script=latn;language=dflt;mapping=tex
+-text;"
+
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count296
+\Gm@cntv=\count297
+\c@Gm@tempcnt=\count298
+\Gm@bindingoffset=\dimen152
+\Gm@wd@mp=\dimen153
+\Gm@odd@mp=\dimen154
+\Gm@even@mp=\dimen155
+\Gm@layoutwidth=\dimen156
+\Gm@layoutheight=\dimen157
+\Gm@layouthoffset=\dimen158
+\Gm@layoutvoffset=\dimen159
+\Gm@dimlist=\toks18
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen160
+\ttl@minus=\dimen161
+\ttl@toksa=\toks19
+\titlewidth=\dimen162
+\titlewidthlast=\dimen163
+\titlewidthfirst=\dimen164
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip53
+\f@nch@offset@elh=\skip54
+\f@nch@offset@erh=\skip55
+\f@nch@offset@olh=\skip56
+\f@nch@offset@orh=\skip57
+\f@nch@offset@elf=\skip58
+\f@nch@offset@erf=\skip59
+\f@nch@offset@olf=\skip60
+\f@nch@offset@orf=\skip61
+\f@nch@height=\skip62
+\f@nch@footalignment=\skip63
+\f@nch@widthL=\skip64
+\f@nch@widthC=\skip65
+\f@nch@widthR=\skip66
+\@temptokenb=\toks20
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/microtype/microtype.sty
+Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
+\MT@toks=\toks21
+\MT@tempbox=\box54
+\MT@count=\count299
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks22
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen165
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count300
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2025/02/11 v3.2a Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 443.
+LaTeX Info: Redefining \lslig on input line 451.
+\MT@outer@space=\skip67
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/microtype/microtype.cfg
+File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/hyperref/hyperref.sty
+Package: hyperref 2025-06-21 v7.01n Hypertext links for LaTeX
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/hyperref/nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count301
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen166
+\Hy@linkcounter=\count302
+\Hy@pagecounter=\count303
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/hyperref/pd1enc.def
+File: pd1enc.def 2025-06-21 v7.01n Hyperref: PDFDocEncoding definition (HO)
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count304
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/hyperref/puenc.def
+File: puenc.def 2025-06-21 v7.01n Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count305
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4787.
+\XeTeXLinkMargin=\dimen167
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count306
+\Field@Width=\dimen168
+\Fld@charsize=\dimen169
+Package hyperref Info: Hyper figures OFF on input line 6066.
+Package hyperref Info: Link nesting OFF on input line 6071.
+Package hyperref Info: Hyper index ON on input line 6074.
+Package hyperref Info: backreferencing OFF on input line 6081.
+Package hyperref Info: Link coloring OFF on input line 6086.
+Package hyperref Info: Link coloring with OCG OFF on input line 6091.
+Package hyperref Info: PDF/A mode OFF on input line 6096.
+\Hy@abspage=\count307
+\c@Item=\count308
+\c@Hfootnote=\count309
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/hyperref/hxetex.def
+File: hxetex.def 2025-06-21 v7.01n Hyperref driver for XeTeX
+\pdfm@box=\box55
+\c@Hy@AnnotLevel=\count310
+\HyField@AnnotCount=\count311
+\Fld@listcount=\count312
+\c@bookmark@seq@number=\count313
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip68
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 73.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 73.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 73.
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen170
+\lightrulewidth=\dimen171
+\cmidrulewidth=\dimen172
+\belowrulesep=\dimen173
+\belowbottomsep=\dimen174
+\aboverulesep=\dimen175
+\abovetopsep=\dimen176
+\cmidrulesep=\dimen177
+\cmidrulekern=\dimen178
+\defaultaddspace=\dimen179
+\@cmidla=\count314
+\@cmidlb=\count315
+\@aboverulesep=\dimen180
+\@belowrulesep=\dimen181
+\@thisruleclass=\count316
+\@lastruleclass=\count317
+\@thisrulewidth=\dimen182
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/tools/array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen183
+\ar@mcellbox=\box56
+\extrarowheight=\dimen184
+\NC@list=\toks23
+\extratabsurround=\skip69
+\backup@length=\skip70
+\ar@cellbox=\box57
+)
+\TX@col@width=\dimen185
+\TX@old@table=\dimen186
+\TX@old@col=\dimen187
+\TX@target=\dimen188
+\TX@delta=\dimen189
+\TX@cols=\count318
+\TX@ftn=\toks24
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/tools/longtable.sty
+Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
+\LTleft=\skip71
+\LTright=\skip72
+\LTpre=\skip73
+\LTpost=\skip74
+\LTchunksize=\count319
+\LTcapwidth=\dimen190
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count320
+\LT@rows=\count321
+\c@LT@tables=\count322
+\c@LT@chunks=\count323
+\LT@p@ftn=\toks25
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip75
+\multirow@cntb=\count324
+\multirow@dima=\skip76
+\bigstrutjot=\dimen191
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen192
+\c@nlinenum=\count325
+\TeXr@lab=\toks26
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/tabularray/tabularray.sty
+Package: tabularray 2025-03-11 v2025A Typeset tabulars and arrays with LaTeX3
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/ninecolors/ninecolors.sty
+Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
+)
+\l__tblr_a_int=\count326
+\l__tblr_c_int=\count327
+\l__tblr_r_int=\count328
+\l__tblr_d_dim=\dimen193
+\l__tblr_h_dim=\dimen194
+\l__tblr_o_dim=\dimen195
+\l__tblr_p_dim=\dimen196
+\l__tblr_q_dim=\dimen197
+\l__tblr_r_dim=\dimen198
+\l__tblr_s_dim=\dimen199
+\l__tblr_t_dim=\dimen256
+\l__tblr_v_dim=\dimen257
+\l__tblr_w_dim=\dimen258
+\l__tblr_a_box=\box63
+\l__tblr_b_box=\box64
+\l__tblr_c_box=\box65
+\l__tblr_d_box=\box66
+\c@tblrcount=\count329
+\c@rownum=\count330
+\c@colnum=\count331
+\c@rowcount=\count332
+\c@colcount=\count333
+\abovesep=\dimen259
+\belowsep=\dimen260
+\leftsep=\dimen261
+\rightsep=\dimen262
+\gTblrLevelInt=\count334
+\g__tblr_data_row_key_count_int=\count335
+\g__tblr_data_column_key_count_int=\count336
+\g__tblr_data_cell_key_count_int=\count337
+\g__tblr_array_int=\count338
+\l__tblr_key_count_int=\count339
+\l__tblr_key_quotient_int=\count340
+\l__tblr_key_quotient_two_int=\count341
+\l__tblr_key_remainder_int=\count342
+\g__tblr_data_str_value_count_int=\count343
+\lTblrChildTotalInt=\count344
+\lTblrChildHtotalInt=\count345
+\lTblrChildVtotalInt=\count346
+\l__child_diff_h_int=\count347
+\l__child_diff_v_int=\count348
+\l__child_sign_h_int=\count349
+\l__child_sign_v_int=\count350
+\l__child_step_int=\count351
+\lTblrDefaultHruleWidthDim=\dimen263
+\lTblrDefaultVruleWidthDim=\dimen264
+\l__tblr_split_balance_int=\count352
+\l__tblr_strut_dp_dim=\dimen265
+\l__tblr_strut_ht_dim=\dimen266
+\g__tblr_cell_wd_dim=\dimen267
+\g__tblr_cell_ht_dim=\dimen268
+\g__tblr_cell_head_dim=\dimen269
+\g__tblr_cell_foot_dim=\dimen270
+\l__tblr_measured_cell_box=\box67
+\g__tblr_last_box=\box68
+\l__tblr_temp_box=\box69
+\l__tblr_column_target_dim=\dimen271
+\l__tblr_hfuzz_dim=\dimen272
+\l__tblr_caption_box=\box70
+\l__tblr_caption_left_box=\box71
+\lTblrRowHeadInt=\count353
+\lTblrRowFootInt=\count354
+\l__tblr_row_head_box=\box72
+\l__tblr_row_foot_box=\box73
+\l__tblr_row_head_foot_dim=\dimen273
+\lTblrTableWidthDim=\dimen274
+\l__tblr_table_firsthead_box=\box74
+\l__tblr_table_middlehead_box=\box75
+\l__tblr_table_lasthead_box=\box76
+\l__tblr_table_firstfoot_box=\box77
+\l__tblr_table_middlefoot_box=\box78
+\l__tblr_table_lastfoot_box=\box79
+\l__tblr_remain_height_dim=\dimen275
+\l__tblr_long_from_int=\count355
+\l__tblr_long_to_int=\count356
+\l__tblr_curr_i_int=\count357
+\l__tblr_prev_i_int=\count358
+\lTblrTablePageInt=\count359
+\l__tblr_table_head_box=\box80
+\l__tblr_table_foot_box=\box81
+\l__tblr_table_head_foot_dim=\dimen276
+\l__tblr_table_head_body_foot_dim=\dimen277
+\l__tblr_table_box=\box82
+\lTblrRowFirstInt=\count360
+\lTblrRowLastInt=\count361
+\l__tblr_table_hlines_box=\box83
+\l__tblr_hline_box=\box84
+\l__tblr_row_box=\box85
+\l__tblr_col_o_wd_dim=\dimen278
+\l__tblr_col_b_wd_dim=\dimen279
+\l__tblr_hline_leftskip_dim=\dimen280
+\l__tblr_hline_rightskip_dim=\dimen281
+\l__tblr_row_ht_dim=\dimen282
+\l__tblr_row_dp_dim=\dimen283
+\l__tblr_row_abovesep_dim=\dimen284
+\l__tblr_row_belowsep_dim=\dimen285
+\l__tblr_row_vlines_box=\box86
+\l__tblr_vline_box=\box87
+\l__tblr_cell_box=\box88
+\l__tblr_row_upper_dim=\dimen286
+\l__tblr_row_lower_dim=\dimen287
+\l__tblr_row_vpace_dim=\dimen288
+\l__tblr_vline_aboveskip_dim=\dimen289
+\l__tblr_vline_belowskip_dim=\dimen290
+\lTblrCellRowSpanInt=\count362
+\lTblrCellColSpanInt=\count363
+\l__tblr_cell_wd_dim=\dimen291
+\l__tblr_cell_ht_dim=\dimen292
+\lTblrCellAboveBorderWidthDim=\dimen293
+\lTblrCellBelowBorderWidthDim=\dimen294
+\lTblrCellLeftBorderWidthDim=\dimen295
+\lTblrCellRightBorderWidthDim=\dimen296
+\l__tblr_diag_box=\box89
+\l__tblr_cell_inner_wd_dim=\dimen297
+\l__tblr_cell_inner_dp_dim=\dimen298
+\l__tblr_cell_hanchor_dim=\dimen299
+\l__tblr_last_cell_table_ht_dim=\dimen300
+\l__tblr_last_cell_table_dp_dim=\dimen301
+\l__tblr_last_vline_wd_dim=\dimen302
+\l__tblr_tikz_node_box=\box90
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+)
+\Gin@req@height=\dimen303
+\Gin@req@width=\dimen304
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/svg/svg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/koma-script/scrbase.sty
+Package: scrbase 2025/06/04 v3.45 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/koma-script/scrlfile.sty
+Package: scrlfile 2025/06/04 v3.45 KOMA-Script package (file load hooks)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2025/06/04 v3.45 KOMA-Script package (using LaTeX hooks)
+
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/koma-script/scrlogo.sty
+Package: scrlogo 2025/06/04 v3.45 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 370.
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\c@svg@param@lastpage=\count364
+\svg@box=\box91
+\c@svg@param@currpage=\count365
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/transparent/transparent.sty
+Package: transparent 2025-06-23 v1.6 Transparency with color stacks
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/transparent/transparent-nometadata.sty
+Package: transparent-nometadata 2025-06-23 v1.6 Transparency via pdfTeX's color
+ stack (HO)
+
+
+Package transparent Warning: Loading aborted, because pdfTeX is not running in 
+PDF mode.
+
+))
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/pgf/systemlayer/pgfsys.sty
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/pgf/utilities/pgfrcs.sty
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen305
+\pgfutil@tempdimb=\dimen306
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box92
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/pgf/utilities/pgfrcs.code.tex
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen307
+\pgf@y=\dimen308
+\pgf@xa=\dimen309
+\pgf@ya=\dimen310
+\pgf@xb=\dimen311
+\pgf@yb=\dimen312
+\pgf@xc=\dimen313
+\pgf@yc=\dimen314
+\pgf@xd=\dimen315
+\pgf@yd=\dimen316
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count366
+\c@pgf@countb=\count367
+\c@pgf@countc=\count368
+\c@pgf@countd=\count369
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+\pgf@sys@id@count=\count370
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count371
+)))
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count372
+\pgfsyssoftpath@bigbuffer@items=\count373
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count374
+\float@exts=\toks34
+\float@box=\box93
+\@float@everytoks=\toks35
+\@floatcapt=\box94
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen317
+\captionmargin=\dimen318
+\caption@leftmargin=\dimen319
+\caption@rightmargin=\dimen320
+\caption@width=\dimen321
+\caption@indent=\dimen322
+\caption@parindent=\dimen323
+\caption@hangindent=\dimen324
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count375
+\c@continuedfloat=\count376
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+))
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count377
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count378
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/amsmath/amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip77
+
+For additional information on amsmath, use the `?' option.
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks36
+\ex@=\dimen325
+))
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen326
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count379
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count380
+\leftroot@=\count381
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count382
+\DOTSCASE@=\count383
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box95
+\strutbox@=\box96
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen327
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count384
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count385
+\dotsspace@=\muskip18
+\c@parentequation=\count386
+\dspbrk@lvl=\count387
+\tag@help=\toks37
+\row@=\count388
+\column@=\count389
+\maxfields@=\count390
+\andhelp@=\toks38
+\eqnshift@=\dimen328
+\alignsep@=\dimen329
+\tagshift@=\dimen330
+\tagwidth@=\dimen331
+\totwidth@=\dimen332
+\lineht@=\dimen333
+\@envbody=\toks39
+\multlinegap=\skip78
+\multlinetaggap=\skip79
+\mathdisplay@stack=\toks40
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/unicode-math/unicode-math.sty
+Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/unicode-math/unicode-math-xetex.sty
+Package: unicode-math-xetex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLa
+TeX
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+LaTeX Encoding Info:    Redeclaring text command \capitalcedilla (encoding TS1)
+ on input line 49.
+LaTeX Encoding Info:    Redeclaring text command \capitalogonek (encoding TS1) 
+on input line 52.
+LaTeX Encoding Info:    Redeclaring text command \capitalgrave (encoding TS1) o
+n input line 55.
+LaTeX Encoding Info:    Redeclaring text command \capitalacute (encoding TS1) o
+n input line 56.
+LaTeX Encoding Info:    Redeclaring text command \capitalcircumflex (encoding T
+S1) on input line 57.
+LaTeX Encoding Info:    Redeclaring text command \capitaltilde (encoding TS1) o
+n input line 58.
+LaTeX Encoding Info:    Redeclaring text command \capitaldieresis (encoding TS1
+) on input line 59.
+LaTeX Encoding Info:    Redeclaring text command \capitalhungarumlaut (encoding
+ TS1) on input line 60.
+LaTeX Encoding Info:    Redeclaring text command \capitalring (encoding TS1) on
+ input line 61.
+LaTeX Encoding Info:    Redeclaring text command \capitalcaron (encoding TS1) o
+n input line 62.
+LaTeX Encoding Info:    Redeclaring text command \capitalbreve (encoding TS1) o
+n input line 63.
+LaTeX Encoding Info:    Redeclaring text command \capitalmacron (encoding TS1) 
+on input line 64.
+LaTeX Encoding Info:    Redeclaring text command \capitaldotaccent (encoding TS
+1) on input line 65.
+LaTeX Encoding Info:    Redeclaring text command \t (encoding TS1) on input lin
+e 66.
+LaTeX Encoding Info:    Redeclaring text command \capitaltie (encoding TS1) on 
+input line 67.
+LaTeX Encoding Info:    Redeclaring text command \newtie (encoding TS1) on inpu
+t line 68.
+LaTeX Encoding Info:    Redeclaring text command \capitalnewtie (encoding TS1) 
+on input line 69.
+LaTeX Encoding Info:    Redeclaring text symbol \textcapitalcompwordmark (encod
+ing TS1) on input line 70.
+LaTeX Encoding Info:    Redeclaring text symbol \textascendercompwordmark (enco
+ding TS1) on input line 71.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotestraightbase (encodin
+g TS1) on input line 72.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotestraightdblbase (enco
+ding TS1) on input line 73.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwelveudash (encoding TS1)
+ on input line 74.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreequartersemdash (encod
+ing TS1) on input line 75.
+LaTeX Encoding Info:    Redeclaring text symbol \textleftarrow (encoding TS1) o
+n input line 76.
+LaTeX Encoding Info:    Redeclaring text symbol \textrightarrow (encoding TS1) 
+on input line 77.
+LaTeX Encoding Info:    Redeclaring text symbol \textblank (encoding TS1) on in
+put line 78.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollar (encoding TS1) on i
+nput line 79.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotesingle (encoding TS1)
+ on input line 80.
+LaTeX Encoding Info:    Redeclaring text command \textasteriskcentered (encodin
+g TS1) on input line 81.
+LaTeX Encoding Info:    Redeclaring text symbol \textdblhyphen (encoding TS1) o
+n input line 92.
+LaTeX Encoding Info:    Redeclaring text symbol \textfractionsolidus (encoding 
+TS1) on input line 93.
+LaTeX Encoding Info:    Redeclaring text symbol \textzerooldstyle (encoding TS1
+) on input line 94.
+LaTeX Encoding Info:    Redeclaring text symbol \textoneoldstyle (encoding TS1)
+ on input line 95.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwooldstyle (encoding TS1)
+ on input line 96.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreeoldstyle (encoding TS
+1) on input line 97.
+LaTeX Encoding Info:    Redeclaring text symbol \textfouroldstyle (encoding TS1
+) on input line 98.
+LaTeX Encoding Info:    Redeclaring text symbol \textfiveoldstyle (encoding TS1
+) on input line 99.
+LaTeX Encoding Info:    Redeclaring text symbol \textsixoldstyle (encoding TS1)
+ on input line 100.
+LaTeX Encoding Info:    Redeclaring text symbol \textsevenoldstyle (encoding TS
+1) on input line 101.
+LaTeX Encoding Info:    Redeclaring text symbol \texteightoldstyle (encoding TS
+1) on input line 102.
+LaTeX Encoding Info:    Redeclaring text symbol \textnineoldstyle (encoding TS1
+) on input line 103.
+LaTeX Encoding Info:    Redeclaring text symbol \textlangle (encoding TS1) on i
+nput line 104.
+LaTeX Encoding Info:    Redeclaring text symbol \textminus (encoding TS1) on in
+put line 105.
+LaTeX Encoding Info:    Redeclaring text symbol \textrangle (encoding TS1) on i
+nput line 106.
+LaTeX Encoding Info:    Redeclaring text symbol \textmho (encoding TS1) on inpu
+t line 107.
+LaTeX Encoding Info:    Redeclaring text symbol \textbigcircle (encoding TS1) o
+n input line 108.
+LaTeX Encoding Info:    Redeclaring text command \textcircled (encoding TS1) on
+ input line 109.
+LaTeX Encoding Info:    Redeclaring text symbol \textohm (encoding TS1) on inpu
+t line 115.
+LaTeX Encoding Info:    Redeclaring text symbol \textlbrackdbl (encoding TS1) o
+n input line 116.
+LaTeX Encoding Info:    Redeclaring text symbol \textrbrackdbl (encoding TS1) o
+n input line 117.
+LaTeX Encoding Info:    Redeclaring text symbol \textuparrow (encoding TS1) on 
+input line 118.
+LaTeX Encoding Info:    Redeclaring text symbol \textdownarrow (encoding TS1) o
+n input line 119.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciigrave (encoding TS1) 
+on input line 120.
+LaTeX Encoding Info:    Redeclaring text symbol \textborn (encoding TS1) on inp
+ut line 121.
+LaTeX Encoding Info:    Redeclaring text symbol \textdivorced (encoding TS1) on
+ input line 122.
+LaTeX Encoding Info:    Redeclaring text symbol \textdied (encoding TS1) on inp
+ut line 123.
+LaTeX Encoding Info:    Redeclaring text symbol \textleaf (encoding TS1) on inp
+ut line 124.
+LaTeX Encoding Info:    Redeclaring text symbol \textmarried (encoding TS1) on 
+input line 125.
+LaTeX Encoding Info:    Redeclaring text symbol \textmusicalnote (encoding TS1)
+ on input line 126.
+LaTeX Encoding Info:    Redeclaring text symbol \texttildelow (encoding TS1) on
+ input line 127.
+LaTeX Encoding Info:    Redeclaring text symbol \textdblhyphenchar (encoding TS
+1) on input line 128.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciibreve (encoding TS1) 
+on input line 129.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciicaron (encoding TS1) 
+on input line 130.
+LaTeX Encoding Info:    Redeclaring text symbol \textacutedbl (encoding TS1) on
+ input line 131.
+LaTeX Encoding Info:    Redeclaring text symbol \textgravedbl (encoding TS1) on
+ input line 132.
+LaTeX Encoding Info:    Redeclaring text symbol \textdagger (encoding TS1) on i
+nput line 133.
+LaTeX Encoding Info:    Redeclaring text symbol \textdaggerdbl (encoding TS1) o
+n input line 134.
+LaTeX Encoding Info:    Redeclaring text symbol \textbardbl (encoding TS1) on i
+nput line 135.
+LaTeX Encoding Info:    Redeclaring text symbol \textperthousand (encoding TS1)
+ on input line 136.
+LaTeX Encoding Info:    Redeclaring text symbol \textbullet (encoding TS1) on i
+nput line 137.
+LaTeX Encoding Info:    Redeclaring text symbol \textcelsius (encoding TS1) on 
+input line 138.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollaroldstyle (encoding T
+S1) on input line 139.
+LaTeX Encoding Info:    Redeclaring text symbol \textcentoldstyle (encoding TS1
+) on input line 140.
+LaTeX Encoding Info:    Redeclaring text symbol \textflorin (encoding TS1) on i
+nput line 141.
+LaTeX Encoding Info:    Redeclaring text symbol \textcolonmonetary (encoding TS
+1) on input line 142.
+LaTeX Encoding Info:    Redeclaring text symbol \textwon (encoding TS1) on inpu
+t line 143.
+LaTeX Encoding Info:    Redeclaring text symbol \textnaira (encoding TS1) on in
+put line 144.
+LaTeX Encoding Info:    Redeclaring text symbol \textguarani (encoding TS1) on 
+input line 145.
+LaTeX Encoding Info:    Redeclaring text symbol \textpeso (encoding TS1) on inp
+ut line 146.
+LaTeX Encoding Info:    Redeclaring text symbol \textlira (encoding TS1) on inp
+ut line 147.
+LaTeX Encoding Info:    Redeclaring text symbol \textrecipe (encoding TS1) on i
+nput line 148.
+LaTeX Encoding Info:    Redeclaring text symbol \textinterrobang (encoding TS1)
+ on input line 149.
+LaTeX Encoding Info:    Redeclaring text symbol \textinterrobangdown (encoding 
+TS1) on input line 150.
+LaTeX Encoding Info:    Redeclaring text symbol \textdong (encoding TS1) on inp
+ut line 151.
+LaTeX Encoding Info:    Redeclaring text symbol \texttrademark (encoding TS1) o
+n input line 152.
+LaTeX Encoding Info:    Redeclaring text symbol \textpertenthousand (encoding T
+S1) on input line 153.
+LaTeX Encoding Info:    Redeclaring text symbol \textpilcrow (encoding TS1) on 
+input line 154.
+LaTeX Encoding Info:    Redeclaring text symbol \textbaht (encoding TS1) on inp
+ut line 155.
+LaTeX Encoding Info:    Redeclaring text symbol \textnumero (encoding TS1) on i
+nput line 156.
+LaTeX Encoding Info:    Redeclaring text symbol \textdiscount (encoding TS1) on
+ input line 157.
+LaTeX Encoding Info:    Redeclaring text symbol \textestimated (encoding TS1) o
+n input line 158.
+LaTeX Encoding Info:    Redeclaring text symbol \textopenbullet (encoding TS1) 
+on input line 159.
+LaTeX Encoding Info:    Redeclaring text symbol \textservicemark (encoding TS1)
+ on input line 160.
+LaTeX Encoding Info:    Redeclaring text symbol \textlquill (encoding TS1) on i
+nput line 161.
+LaTeX Encoding Info:    Redeclaring text symbol \textrquill (encoding TS1) on i
+nput line 162.
+LaTeX Encoding Info:    Redeclaring text symbol \textcent (encoding TS1) on inp
+ut line 163.
+LaTeX Encoding Info:    Redeclaring text symbol \textsterling (encoding TS1) on
+ input line 164.
+LaTeX Encoding Info:    Redeclaring text symbol \textcurrency (encoding TS1) on
+ input line 165.
+LaTeX Encoding Info:    Redeclaring text symbol \textyen (encoding TS1) on inpu
+t line 166.
+LaTeX Encoding Info:    Redeclaring text symbol \textbrokenbar (encoding TS1) o
+n input line 167.
+LaTeX Encoding Info:    Redeclaring text symbol \textsection (encoding TS1) on 
+input line 168.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciidieresis (encoding TS
+1) on input line 169.
+LaTeX Encoding Info:    Redeclaring text symbol \textcopyright (encoding TS1) o
+n input line 170.
+LaTeX Encoding Info:    Redeclaring text symbol \textordfeminine (encoding TS1)
+ on input line 171.
+LaTeX Encoding Info:    Redeclaring text symbol \textcopyleft (encoding TS1) on
+ input line 172.
+LaTeX Encoding Info:    Redeclaring text symbol \textlnot (encoding TS1) on inp
+ut line 173.
+LaTeX Encoding Info:    Redeclaring text symbol \textcircledP (encoding TS1) on
+ input line 174.
+LaTeX Encoding Info:    Redeclaring text symbol \textregistered (encoding TS1) 
+on input line 175.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciimacron (encoding TS1)
+ on input line 176.
+LaTeX Encoding Info:    Redeclaring text symbol \textdegree (encoding TS1) on i
+nput line 177.
+LaTeX Encoding Info:    Redeclaring text symbol \textpm (encoding TS1) on input
+ line 178.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwosuperior (encoding TS1)
+ on input line 179.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreesuperior (encoding TS
+1) on input line 180.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciiacute (encoding TS1) 
+on input line 181.
+LaTeX Encoding Info:    Redeclaring text symbol \textmu (encoding TS1) on input
+ line 182.
+LaTeX Encoding Info:    Redeclaring text symbol \textparagraph (encoding TS1) o
+n input line 183.
+LaTeX Encoding Info:    Redeclaring text symbol \textperiodcentered (encoding T
+S1) on input line 184.
+LaTeX Encoding Info:    Redeclaring text symbol \textreferencemark (encoding TS
+1) on input line 185.
+LaTeX Encoding Info:    Redeclaring text symbol \textonesuperior (encoding TS1)
+ on input line 186.
+LaTeX Encoding Info:    Redeclaring text symbol \textordmasculine (encoding TS1
+) on input line 187.
+LaTeX Encoding Info:    Redeclaring text symbol \textsurd (encoding TS1) on inp
+ut line 188.
+LaTeX Encoding Info:    Redeclaring text symbol \textonequarter (encoding TS1) 
+on input line 189.
+LaTeX Encoding Info:    Redeclaring text symbol \textonehalf (encoding TS1) on 
+input line 190.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreequarters (encoding TS
+1) on input line 191.
+LaTeX Encoding Info:    Redeclaring text symbol \texteuro (encoding TS1) on inp
+ut line 192.
+LaTeX Encoding Info:    Redeclaring text symbol \texttimes (encoding TS1) on in
+put line 193.
+LaTeX Encoding Info:    Redeclaring text symbol \textdiv (encoding TS1) on inpu
+t line 194.
+))
+\g__um_fam_int=\count391
+\g__um_fonts_used_int=\count392
+\l__um_primecount_int=\count393
+\g__um_primekern_muskip=\muskip19
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/unicode-math/unicode-math-table.tex)))
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/ulem/ulem.sty
+\UL@box=\box97
+\UL@hyphenbox=\box98
+\UL@skip=\skip80
+\UL@hook=\toks41
+\UL@height=\dimen334
+\UL@pe=\count394
+\UL@pixel=\dimen335
+\ULC@box=\box99
+Package: ulem 2019/11/18
+\ULdepth=\dimen336
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count395
+\calc@Bcount=\count396
+\calc@Adimen=\dimen337
+\calc@Bdimen=\dimen338
+\calc@Askip=\skip81
+\calc@Bskip=\skip82
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count397
+\calc@Cskip=\skip83
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/soul/soul.sty
+Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/soul/soul-ori.sty
+Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
+\SOUL@word=\toks42
+\SOUL@lasttoken=\toks43
+\SOUL@syllable=\toks44
+\SOUL@cmds=\toks45
+\SOUL@buffer=\toks46
+\SOUL@token=\toks47
+\SOUL@syllgoal=\dimen339
+\SOUL@syllwidth=\dimen340
+\SOUL@charkern=\dimen341
+\SOUL@hyphkern=\dimen342
+\SOUL@dimen=\dimen343
+\SOUL@dimeni=\dimen344
+\SOUL@minus=\count398
+\SOUL@comma=\count399
+\SOUL@apo=\count400
+\SOUL@grave=\count401
+\SOUL@spaceskip=\skip84
+\SOUL@ttwidth=\dimen345
+\SOUL@uldp=\dimen346
+\SOUL@ulht=\dimen347
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
+eric/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/tools/multicol.sty
+Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
+\c@tracingmulticols=\count402
+\mult@box=\box100
+\multicol@leftmargin=\dimen348
+\c@unbalance=\count403
+\c@collectmore=\count404
+\doublecol@number=\count405
+\multicoltolerance=\count406
+\multicolpretolerance=\count407
+\full@width=\dimen349
+\page@free=\dimen350
+\premulticols=\dimen351
+\postmulticols=\dimen352
+\multicolsep=\skip85
+\multicolbaselineskip=\skip86
+\partial@page=\box101
+\last@line=\box102
+\mc@boxedresult=\box103
+\maxbalancingoverflow=\dimen353
+\mult@rightbox=\box104
+\mult@grightbox=\box105
+\mult@firstbox=\box106
+\mult@gfirstbox=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\@tempa=\box130
+\@tempa=\box131
+\@tempa=\box132
+\@tempa=\box133
+\@tempa=\box134
+\@tempa=\box135
+\@tempa=\box136
+\@tempa=\box137
+\@tempa=\box138
+\@tempa=\box139
+\@tempa=\box140
+\@tempa=\box141
+\@tempa=\box142
+\@tempa=\box143
+\c@minrows=\count408
+\c@columnbadness=\count409
+\c@finalcolumnbadness=\count410
+\last@try=\dimen354
+\multicolovershoot=\dimen355
+\multicolundershoot=\dimen356
+\mult@nat@firstbox=\box144
+\colbreak@box=\box145
+\mc@col@check@num=\count411
+\g__mc_curr_col_int=\count412
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/listings/listings.sty
+\lst@mode=\count413
+\lst@gtempboxa=\box146
+\lst@token=\toks48
+\lst@length=\count414
+\lst@currlwidth=\dimen357
+\lst@column=\count415
+\lst@pos=\count416
+\lst@lostspace=\dimen358
+\lst@width=\dimen359
+\lst@newlines=\count417
+\lst@lineno=\count418
+\lst@maxwidth=\dimen360
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count419
+\lst@skipnumbers=\count420
+\lst@framebox=\box147
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip87
+\enit@outerparindent=\dimen361
+\enit@toks=\toks49
+\enit@inbox=\box148
+\enit@count@id=\count421
+\enitdp@description=\count422
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip88
+\cftbeforetoctitleskip=\skip89
+\cftaftertoctitleskip=\skip90
+\cftbeforepartskip=\skip91
+\cftpartnumwidth=\skip92
+\cftpartindent=\skip93
+\cftbeforechapskip=\skip94
+\cftchapindent=\skip95
+\cftchapnumwidth=\skip96
+\cftbeforesecskip=\skip97
+\cftsecindent=\skip98
+\cftsecnumwidth=\skip99
+\cftbeforesubsecskip=\skip100
+\cftsubsecindent=\skip101
+\cftsubsecnumwidth=\skip102
+\cftbeforesubsubsecskip=\skip103
+\cftsubsubsecindent=\skip104
+\cftsubsubsecnumwidth=\skip105
+\cftbeforeparaskip=\skip106
+\cftparaindent=\skip107
+\cftparanumwidth=\skip108
+\cftbeforesubparaskip=\skip109
+\cftsubparaindent=\skip110
+\cftsubparanumwidth=\skip111
+\cftbeforeloftitleskip=\skip112
+\cftafterloftitleskip=\skip113
+\cftbeforefigskip=\skip114
+\cftfigindent=\skip115
+\cftfignumwidth=\skip116
+\c@lofdepth=\count423
+\c@lotdepth=\count424
+\cftbeforelottitleskip=\skip117
+\cftafterlottitleskip=\skip118
+\cftbeforetabskip=\skip119
+\cfttabindent=\skip120
+\cfttabnumwidth=\skip121
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/pdfpages/pdfpages.sty
+Package: pdfpages 2025/03/12 v0.6f Insert pages of external PDF documents (AM)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen362
+\ESO@tempdimb=\dimen363
+)
+\AM@pagewidth=\dimen364
+\AM@pageheight=\dimen365
+\AM@fboxrule=\dimen366
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/pdfpages/ppxetex.def
+File: ppxetex.def 2025/03/12 v0.6f Pdfpages driver for XeTeX (AM)
+)
+\pdfpages@includegraphics@status=\count425
+\AM@pagebox=\box149
+\AM@global@opts=\toks50
+\AM@pagecnt=\count426
+\AM@toc@title=\toks51
+\AM@lof@heading=\toks52
+\c@AM@survey=\count427
+\AM@templatesizebox=\box150
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/zref/zref-abspage.sty
+Package: zref-abspage 2025-06-08 v2.36 Module abspage for zref (HO)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/zref/zref-base.sty
+Package: zref-base 2025-06-08 v2.36 Module base for zref (HO)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count428
+Package zref Info: New property: abspage on input line 67.
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/needspace/needspace.sty
+Package: needspace 2025/03/13 v1.3e reserve vertical space
+)
+\mdf@templength=\skip122
+\c@mdf@globalstyle@cnt=\count429
+\mdf@skipabove@length=\skip123
+\mdf@skipbelow@length=\skip124
+\mdf@leftmargin@length=\skip125
+\mdf@rightmargin@length=\skip126
+\mdf@innerleftmargin@length=\skip127
+\mdf@innerrightmargin@length=\skip128
+\mdf@innertopmargin@length=\skip129
+\mdf@innerbottommargin@length=\skip130
+\mdf@splittopskip@length=\skip131
+\mdf@splitbottomskip@length=\skip132
+\mdf@outermargin@length=\skip133
+\mdf@innermargin@length=\skip134
+\mdf@linewidth@length=\skip135
+\mdf@innerlinewidth@length=\skip136
+\mdf@middlelinewidth@length=\skip137
+\mdf@outerlinewidth@length=\skip138
+\mdf@roundcorner@length=\skip139
+\mdf@footenotedistance@length=\skip140
+\mdf@userdefinedwidth@length=\skip141
+\mdf@needspace@length=\skip142
+\mdf@frametitleaboveskip@length=\skip143
+\mdf@frametitlebelowskip@length=\skip144
+\mdf@frametitlerulewidth@length=\skip145
+\mdf@frametitleleftmargin@length=\skip146
+\mdf@frametitlerightmargin@length=\skip147
+\mdf@shadowsize@length=\skip148
+\mdf@extratopheight@length=\skip149
+\mdf@subtitleabovelinewidth@length=\skip150
+\mdf@subtitlebelowlinewidth@length=\skip151
+\mdf@subtitleaboveskip@length=\skip152
+\mdf@subtitlebelowskip@length=\skip153
+\mdf@subtitleinneraboveskip@length=\skip154
+\mdf@subtitleinnerbelowskip@length=\skip155
+\mdf@subsubtitleabovelinewidth@length=\skip156
+\mdf@subsubtitlebelowlinewidth@length=\skip157
+\mdf@subsubtitleaboveskip@length=\skip158
+\mdf@subsubtitlebelowskip@length=\skip159
+\mdf@subsubtitleinneraboveskip@length=\skip160
+\mdf@subsubtitleinnerbelowskip@length=\skip161
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/mdframed/md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box151
+\mdf@footnotebox=\box152
+\mdf@splitbox@one=\box153
+\mdf@splitbox@two=\box154
+\mdf@splitbox@save=\box155
+\mdfsplitboxwidth=\skip162
+\mdfsplitboxtotalwidth=\skip163
+\mdfsplitboxheight=\skip164
+\mdfsplitboxdepth=\skip165
+\mdfsplitboxtotalheight=\skip166
+\mdfframetitleboxwidth=\skip167
+\mdfframetitleboxtotalwidth=\skip168
+\mdfframetitleboxheight=\skip169
+\mdfframetitleboxdepth=\skip170
+\mdfframetitleboxtotalheight=\skip171
+\mdffootnoteboxwidth=\skip172
+\mdffootnoteboxtotalwidth=\skip173
+\mdffootnoteboxheight=\skip174
+\mdffootnoteboxdepth=\skip175
+\mdffootnoteboxtotalheight=\skip176
+\mdftotallinewidth=\skip177
+\mdfboundingboxwidth=\skip178
+\mdfboundingboxtotalwidth=\skip179
+\mdfboundingboxheight=\skip180
+\mdfboundingboxdepth=\skip181
+\mdfboundingboxtotalheight=\skip182
+\mdf@freevspace@length=\skip183
+\mdf@horizontalwidthofbox@length=\skip184
+\mdf@verticalmarginwhole@length=\skip185
+\mdf@horizontalspaceofbox=\skip186
+\mdfsubtitleheight=\skip187
+\mdfsubsubtitleheight=\skip188
+\c@mdfcountframes=\count430
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count431
+\c@mdf@env@i=\count432
+\c@mdf@env@ii=\count433
+\c@mdf@zref@counter=\count434
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip189
+\RaggedLeftLeftskip=\skip190
+\RaggedRightLeftskip=\skip191
+\CenteringRightskip=\skip192
+\RaggedLeftRightskip=\skip193
+\RaggedRightRightskip=\skip194
+\CenteringParfillskip=\skip195
+\RaggedLeftParfillskip=\skip196
+\RaggedRightParfillskip=\skip197
+\JustifyingParfillskip=\skip198
+\CenteringParindent=\skip199
+\RaggedLeftParindent=\skip256
+\RaggedRightParindent=\skip257
+\JustifyingParindent=\skip258
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/graphics/rotating.sty
+Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
+\c@r@tfl@t=\count435
+\rotFPtop=\skip259
+\rotFPbot=\skip260
+\rot@float@box=\box156
+\rot@mess@toks=\toks53
+))
+
+Package fontspec Info: 
+(fontspec)             Font family 'LiberationSerif(1)' created for font
+(fontspec)             'Liberation Serif' with options
+(fontspec)             [Ligatures=TeX,Ligatures=TeX,Language=Default,Script=Cyr
+illic,Numbers=Lining,Ligatures=TeX,Script=Cyrillic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Liberation
+(fontspec)             Serif/OT:script=cyrl;language=dflt;+lnum;mapping=tex-tex
+t;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Liberation
+(fontspec)             Serif/B/OT:script=cyrl;language=dflt;+lnum;mapping=tex-t
+ext;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Liberation
+(fontspec)             Serif/I/OT:script=cyrl;language=dflt;+lnum;mapping=tex-t
+ext;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Liberation
+(fontspec)             Serif/BI/OT:script=cyrl;language=dflt;+lnum;mapping=tex-
+text;"
+
+ (/home/omega/projects/vestnik/29/build/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=681.15898pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-50.23828pt
+* \headheight=25.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \microtypecontext on input line 6.
+Package microtype Info: Applying patch `item' on input line 6.
+Package microtype Info: Applying patch `toc' on input line 6.
+Package microtype Info: Applying patch `eqnum' on input line 6.
+Package microtype Info: Applying patch `footnote' on input line 6.
+Package microtype Info: Applying patch `verbatim' on input line 6.
+LaTeX Info: Redefining \microtypesetup on input line 6.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LiberationSerif' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package hyperref Info: Link coloring ON on input line 6.
+(/home/omega/projects/vestnik/29/build/main.out)
+(/home/omega/projects/vestnik/29/build/main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/LiberationSerif(0)/m/n on input line
+ 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/LiberationSerif(0)/m/it on input li
+ne 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/LiberationSerif(0)/b/n on input lin
+e 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/FreeSans(0)/m/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/FreeSans(0)/b/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/FreeMono(0)/m/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/FreeMono(0)/b/n on input line 6.
+
+Package fontspec Info: 
+(fontspec)             Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
+Font={},Script=Math,BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[latinmodern-math.otf]/OT:script=math;language=dflt;
+mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[latinmodern-math.otf]/OT:script=math;language=dflt;
+mapping=tex-text;"
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `latinmodern-math.otf' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Package fontspec Info: 
+(fontspec)             Font family 'latinmodern-math.otf(1)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
+Font={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latinmodern-
+math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=MathScrip
+tScript}},BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->"[latinmodern-math.otf]/OT:script=math;language=d
+flt;mapping=tex-text;"<7.2-10.2>"[latinmodern-math.otf]/OT:script=math;language
+=dflt;+ssty=0;mapping=tex-text;"<-7.2>"[latinmodern-math.otf]/OT:script=math;la
+nguage=dflt;+ssty=1;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[latinmodern-math.otf]/OT:script=math;language=dflt;
+mapping=tex-text;"
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
+ line 6.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
+t line 6.
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'latinmodern-math.otf(2)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
+Font={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latinmodern-
+math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=MathScrip
+tScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustment={\fo
+ntdimen
+(fontspec)             8\font =8.124pt\relax \fontdimen 9\font =4.728pt\relax
+(fontspec)             \fontdimen 10\font =5.328pt\relax \fontdimen 11\font
+(fontspec)             =8.232pt\relax \fontdimen 12\font =4.14pt\relax
+(fontspec)             \fontdimen 13\font =4.356pt\relax \fontdimen 14\font
+(fontspec)             =4.356pt\relax \fontdimen 15\font =3.468pt\relax
+(fontspec)             \fontdimen 16\font =2.964pt\relax \fontdimen 17\font
+(fontspec)             =2.964pt\relax \fontdimen 18\font =3.0pt\relax
+(fontspec)             \fontdimen 19\font =2.4pt\relax \fontdimen 22\font
+(fontspec)             =3.0pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->s*[1.0001]"[latinmodern-math.otf]/OT:script=math;
+language=dflt;mapping=tex-text;"<7.2-10.2>s*[1.0001]"[latinmodern-math.otf]/OT:
+script=math;language=dflt;+ssty=0;mapping=tex-text;"<-7.2>s*[1.0001]"[latinmode
+rn-math.otf]/OT:script=math;language=dflt;+ssty=1;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.0001]"[latinmodern-math.otf]/OT:script=math;lang
+uage=dflt;mapping=tex-text;"
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
+t line 6.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
+t line 6.
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'latinmodern-math.otf(3)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
+Font={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latinmodern-
+math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=MathScrip
+tScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustment={\fo
+ntdimen
+(fontspec)             8\font =0.48pt\relax \fontdimen 9\font =2.4pt\relax
+(fontspec)             \fontdimen 10\font =2.004pt\relax \fontdimen 11\font
+(fontspec)             =1.332pt\relax \fontdimen 12\font =7.2pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->s*[0.9999]"[latinmodern-math.otf]/OT:script=math;
+language=dflt;mapping=tex-text;"<7.2-10.2>s*[0.9999]"[latinmodern-math.otf]/OT:
+script=math;language=dflt;+ssty=0;mapping=tex-text;"<-7.2>s*[0.9999]"[latinmode
+rn-math.otf]/OT:script=math;language=dflt;+ssty=1;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999]"[latinmodern-math.otf]/OT:script=math;lang
+uage=dflt;mapping=tex-text;"
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 6
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
+t line 6.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
+t line 6.
+\c@lstlisting=\count436
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/pdflscape/pdflscape.sty
+Package: pdflscape 2025-06-23 v0.14 Display of landscape pages in PDF
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2025-06-23 v0.14 Display of landscape pages in PD
+F (HO)
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+)) (./src/i/002.tex
+
+Package hyperref Warning: Suppressing empty link on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 4.
+
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 11.00117pt on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.70078pt on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.50058pt on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.99883pt on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.69914pt on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.4994pt on input line 6.
+File: media/envelope.png Graphic file (type bmp)
+<media/envelope.png>
+File: media/envelope.png Graphic file (type bmp)
+<media/envelope.png>
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 13.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 13.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 13.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 13.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 13.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 13.
+File: media/envelope.png Graphic file (type bmp)
+<media/envelope.png>
+File: media/envelope.png Graphic file (type bmp)
+<media/envelope.png>
+
+
+[1
+
+]
+File: media/envelope.png Graphic file (type bmp)
+<media/envelope.png>
+
+Overfull \hbox (5.07648pt too wide) in paragraph at lines 130--183
+[]\TU/LiberationSerif(0)/b/n/12 Кіріспе. \TU/LiberationSerif(1)/m/n/12 Сөйлеу а
+дамның қарым-қатынасының
+ []
+
+
+Underfull \hbox (badness 5147) in paragraph at lines 130--183
+\TU/LiberationSerif(1)/m/n/12 технологияларының артықшылықтары тілдер
+ []
+
+
+
+
+
+
+
+[2]
+
+
+
+
+
+[3]
+Overfull \hbox (6.44162pt too wide) in paragraph at lines 241--253
+[]\TU/LiberationSerif(0)/b/n/12 Материалдар мен әдістер. \TU/LiberationSerif(1)
+/m/n/12 Спектрограммалар-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--253
+\TU/LiberationSerif(1)/m/n/12 Спектрограммалар-бастапқыда екінші дүние-
+ []
+
+
+
+
+
+
+
+[4]
+
+
+
+
+
+File: media/i/image2.png Graphic file (type bmp)
+<media/i/image2.png>
+File: media/i/image3.png Graphic file (type bmp)
+<media/i/image3.png>
+File: media/i/image4.png Graphic file (type bmp)
+<media/i/image4.png>
+
+
+
+
+
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.00128pt on input line 329.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.40088pt on input line 329.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 329.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 329.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.3991pt on input line 329.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 329.
+
+
+
+
+
+
+[5]
+
+
+
+
+
+File: media/i/image5.png Graphic file (type bmp)
+<media/i/image5.png>
+
+
+
+
+
+
+[6]
+
+
+
+
+
+File: media/i/image6.png Graphic file (type bmp)
+<media/i/image6.png>
+
+
+[7]
+Missing character: There is no Т ("422) in font cmmi12!
+Missing character: There is no а ("430) in font cmmi12!
+Missing character: There is no н ("43D) in font cmmi12!
+Missing character: There is no у ("443) in font cmmi12!
+Missing character: There is no ж ("436) in font cmmi12!
+Missing character: There is no ы ("44B) in font cmmi12!
+Missing character: There is no л ("43B) in font cmmi12!
+Missing character: There is no д ("434) in font cmmi12!
+Missing character: There is no а ("430) in font cmmi12!
+Missing character: There is no м ("43C) in font cmmi12!
+Missing character: There is no д ("434) in font cmmi12!
+Missing character: There is no ы ("44B) in font cmmi12!
+Missing character: There is no ғ ("493) in font cmmi12!
+Missing character: There is no ы ("44B) in font cmmi12!
+Missing character: There is no Д ("414) in font cmmi12!
+Missing character: There is no ұ ("4B1) in font cmmi12!
+Missing character: There is no р ("440) in font cmmi12!
+Missing character: There is no ы ("44B) in font cmmi12!
+Missing character: There is no с ("441) in font cmmi12!
+Missing character: There is no с ("441) in font cmmi12!
+Missing character: There is no ә ("4D9) in font cmmi12!
+Missing character: There is no й ("439) in font cmmi12!
+Missing character: There is no к ("43A) in font cmmi12!
+Missing character: There is no е ("435) in font cmmi12!
+Missing character: There is no с ("441) in font cmmi12!
+Missing character: There is no т ("442) in font cmmi12!
+Missing character: There is no і ("456) in font cmmi12!
+Missing character: There is no к ("43A) in font cmmi12!
+Missing character: There is no т ("442) in font cmmi12!
+Missing character: There is no е ("435) in font cmmi12!
+Missing character: There is no р ("440) in font cmmi12!
+Missing character: There is no с ("441) in font cmmi12!
+Missing character: There is no а ("430) in font cmmi12!
+Missing character: There is no н ("43D) in font cmmi12!
+Missing character: There is no ы ("44B) in font cmmi12!
+Missing character: There is no С ("421) in font cmmi12!
+Missing character: There is no ө ("4E9) in font cmmi12!
+Missing character: There is no й ("439) in font cmmi12!
+Missing character: There is no л ("43B) in font cmmi12!
+Missing character: There is no е ("435) in font cmmi12!
+Missing character: There is no у ("443) in font cmmi12!
+Missing character: There is no ш ("448) in font cmmi12!
+Missing character: There is no і ("456) in font cmmi12!
+Missing character: There is no н ("43D) in font cmmi12!
+Missing character: There is no і ("456) in font cmmi12!
+Missing character: There is no ң ("4A3) in font cmmi12!
+Missing character: There is no ж ("436) in font cmmi12!
+Missing character: There is no а ("430) in font cmmi12!
+Missing character: There is no л ("43B) in font cmmi12!
+Missing character: There is no п ("43F) in font cmmi12!
+Missing character: There is no ы ("44B) in font cmmi12!
+Missing character: There is no с ("441) in font cmmi12!
+Missing character: There is no а ("430) in font cmmi12!
+Missing character: There is no н ("43D) in font cmmi12!
+Missing character: There is no ы ("44B) in font cmmi12!
+
+Overfull \hbox (14.3139pt too wide) in paragraph at lines 515--534
+\TU/LiberationSerif(1)/m/n/12 ды, онда 100 сөйлеушінің жазбалары бар. Динамикте
+рге тән спектрограммаларды алу үшін ерекшелік-
+ []
+
+
+
+[8]
+Overfull \hbox (1.37964pt too wide) in paragraph at lines 544--548
+[]\TU/LiberationSerif(1)/m/n/12 2. El Shafai W., et al. Optical ciphering schem
+e for cancellable speaker identification system // Computer
+ []
+
+
+Overfull \hbox (11.70363pt too wide) in paragraph at lines 554--559
+\TU/LiberationSerif(1)/m/n/12 discrete cosine transforms based features from sp
+eech spectrogram // Pattern Recognition. -2011. - Vol.44(10-
+ []
+
+
+Overfull \hbox (5.42717pt too wide) in paragraph at lines 564--568
+[]\TU/LiberationSerif(1)/m/n/12 6. Cheng F., et al. Visual speaker authenticati
+on with random prompt texts by a dual-task CNN framework
+ []
+
+
+Overfull \hbox (28.01979pt too wide) in paragraph at lines 575--586
+\TU/LiberationSerif(1)/m/n/12 speaker identification // Cogent Engineering.- 20
+20. -Vol.7(1): 1727168. [][]DOI 10.1080/23311916.2020.1727168[][]. 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[9])
+
+Package caption Warning: Unused \captionsetup[table] on input line 192.
+See the caption package documentation for explanation.
+
+
+
+[10] (/home/omega/projects/vestnik/29/build/main.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-06-09>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: AC3F8D73C68AA987AC3251928BAB2700;1101.
+ ) 
+Here is how much of TeX's memory you used:
+ 30793 strings out of 468531
+ 611159 string characters out of 5428489
+ 1291713 words of memory out of 5000000
+ 58661 multiletter control sequences out of 15000+600000
+ 633426 words of font info for 129 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 99i,12n,107p,1131b,843s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on /home/omega/projects/vestnik/29/build/main.pdf (10 pages).

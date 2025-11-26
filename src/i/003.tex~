@@ -1,0 +1,698 @@
+\id{IRSTI 20.23.17}{}; 20.53.21
+
+{\bfseries AUTOMATION OF THE PROCESSES BASED ON MACHINE LEARNING FOR
+TELEMEDICINE INFORMATION SYSTEM}
+
+{\bfseries \tsp{1,2}A.S.
+Seitenov}{\bfseries \envelope ,
+\tsp{1}T.K.
+Zhukabayeva}
+
+\emph{\tsp{1}L.N. Gumilyov Eurasian National University,
+Astana, Kazakhstan,}
+
+\emph{\tsp{2}Astana IT University, Astana, Kazakhstan}
+
+\corrauthor{Corresponding author:altynbekss@gmail.com}
+
+The integration of Machine Learning into Telemedicine Information
+Systems has revolutionised remote healthcare delivery, optimising
+patient monitoring, diagnosis, and treatment processes. However,
+challenges persist in automating these systems, particularly in areas of
+data interoperability, security, and scalability. The research explores
+the role of ML-driven automation in overcoming described challenges,
+analysing current trends, obstacles, and research gaps. The study
+notices technologies~ predictive analytics and image recognition are
+advancing telemedicine capabilities, while issues like fragmented data,
+lack of standard protocols, and privacy concerns remain. It emphasises
+the need for robust frameworks that integrate ML techniques to enhance
+the reliability and efficiency of TIS, especially in
+resource-constrained settings. By combining the latest findings, the
+work demonstrates the importance of adopting complex automation
+strategies enhanced via ML tools for developing future innovation in the
+telemedicine field.
+
+{\bfseries Keywords}: telemedicine, medical information system, machine
+learning, healthcare information system, remote patient monitoring.
+
+{\bfseries АВТОМАТИЗАЦИЯ ПРОЦЕССОВ НА ОСНОВЕ МАШИННОГО ОБУЧЕНИЯ ДЛЯ
+ТЕЛЕМЕДИЦИНСКОЙ ИНФОРМАЦИОННОЙ СИСТЕМЫ}
+
+{\bfseries \tsp{1, 2}А.С. Сейтенов\envelope ,
+\tsp{1}Т.К. Жукабаева}
+
+\emph{\tsp{1} Евразийский национальный университет имени
+Л.Н. Гумилева, Астана, Казахстан,}
+
+\emph{\tsp{2}Astana IT University, Астана, Казахстан,}
+
+e-mail:
+altynbekss@gmail.com
+
+Интеграция методов машинного обучения в информационные системы
+телемедицины произвела революцию в области дистанционного оказания
+медицинской помощи, оптимизируя процессы мониторинга пациентов,
+диагностики и лечения. Тем не менее, автоматизация таких систем
+по-прежнему сталкивается с рядом проблем, особенно в сферах
+совместимости данных, безопасности и масштабируемости. В исследовании
+рассматривается роль автоматизации, основанной на машинном обучении, в
+преодолении указанных вызовов, проводится анализ современных тенденций,
+препятствий и существующих исследовательских пробелов. Отмечается, что
+технологии прогнозной аналитики и распознавания изображений значительно
+продвигают возможности телемедицины, однако сохраняются такие проблемы,
+как фрагментированность данных, отсутствие единых стандартов и вопросы
+конфиденциальности. Особое внимание уделяется необходимости создания
+надежных архитектур, интегрирующих методы машинного обучения для
+повышения надежности и эффективности информационных систем телемедицины,
+особенно в условиях ограниченных ресурсов.На основе анализа последних
+достижений работа подчеркивает важность внедрения комплексных стратегий
+автоматизации, усиленных инструментами машинного обучения, для
+стимулирования инноваций в области телемедицины.
+
+{\bfseries Ключевые слова:} телемедицина, медицинская информационная
+система, машинное обучение, система медицинской информации,
+дистанционный мониторинг пациентов
+
+{\bfseries ТЕЛЕМЕДИЦИНАЛЫҚ АҚПАРАТТЫҚ ЖҮЙЕ ҮШІН МАШИНАЛЫҚ ОҚЫТУҒА
+НЕГІЗДЕЛГЕН ҮДЕРІСТЕРДІ АВТОМАТТАНДЫРУ}
+
+{\bfseries \tsp{1, 2}А.С. Сейтенов\envelope ,
+\tsp{1}Т.К. Жукабаева}
+
+\emph{\tsp{1}Л.Н. Гумилев атындағы Еуразия ұлттық
+университеті, Астана, Қазақстан,}
+
+\emph{\tsp{2} Astana IT University, Астана, Қазақстан,}
+
+e-mail:
+altynbekss@gmail.com
+
+Машиналық оқыту әдістерінің телемедицина ақпараттық жүйелеріне
+интеграциялануы қашықтықтан медициналық көмек көрсетуді түбегейлі
+өзгертті, бұл пациенттерді бақылау, диагноз қою және емдеу үдерістерін
+оңтайландырды. Дегенмен, мұндай жүйелерді автоматтандыруда деректердің
+үйлесімділігі, қауіпсіздік және ауқымдылық секілді салаларда әлі де
+бірқатар қиындықтар бар. Зерттеу машиналық оқытуға негізделген
+автоматтандырудың осы қиындықтарды шешудегі рөлін қарастырып, қазіргі
+үрдістерді, тосқауылдарды және зерттеу алшақтықтарын талдайды. Болжамдық
+талдау мен кескіндерді тану технологиялары телемедицинаның
+мүмкіндіктерін кеңейтуде, бірақ деректердің шашыраңқылығы, бірыңғай
+стандарттардың болмауы және дербес деректердің құпиялылығы сияқты
+мәселелер өзекті болып отыр. Зерттеуде әсіресе ресурс шектеулі
+жағдайларда телемедицина ақпараттық жүйелерінің сенімділігі мен
+тиімділігін арттыру үшін машиналық оқыту әдістерін біріктіретін мықты
+архитектуралардың қажеттілігі атап өтіледі. Соңғы жетістіктерді талдай
+отырып, бұл жұмыс телемедицина саласындағы болашақ инновацияларды дамыту
+үшін машиналық оқыту құралдарымен күшейтілген кешенді автоматтандыру
+стратегияларын енгізудің маңыздылығын көрсетеді.
+
+{\bfseries Түйін сөздер}: телемедицина, медициналық ақпараттық жүйе,
+машиналық оқыту, денсаулық сақтау ақпараттық жүйесі, болжамдық
+аналитика, қашықтан пациентті бақылау.
+
+{\bfseries Introduction.} Over the last decades, telemedicine
+information systems (TIS) have noticeably transformed the healthcare
+field via the deployment of remote doctors' consultation, medical
+diagnosis, and patient management services {[}1{]}. Integration of
+machine learning (ML) technologies presents further opportunities to
+enforce~ TIS systems through predictive analytics, natural language
+processing (NLP), and patient image recognition. These features can
+enhance the telemedicine usage performance efficiency and adaptability
+to user needs {[}2,3{]}. However, critical barriers remain in automating
+core processes of TIS, especially in ensuring seamless interoperability,
+robust data security, and adaptability across different healthcare
+settings {[}4,5{]}. These challenges become a crucial issue due to the
+heterogeneous nature of healthcare data and the absence of standardised
+data exchange protocols {[}6{]}.
+
+The research work shows a review of ML
+technologies'{} role in automation TIS system processes.
+It consists of an empirical investigation based on healthcare
+professionals'{} thoughts, analysed via mixed-method
+approaches. The work adopts a broader perspective, synthesising insights
+from diverse studies to identify trends and challenges in the
+telemedicine domain. This study focuses on how machine learning-based
+automation can be applied to address the primary challenges of the
+telemedicine platform, with particular attention to developing secure,
+scalable, and user-centred design strategies. Understanding of these
+aspects is essential for effectively integrating ML features into TIS
+systems and for informing future developments in the ehealth field.
+Moreover, the integration of ML technologies with other innovations,
+namely blockchain network, offers promising avenues for improving data
+integrity and patient privacy in telemedicine applications {[}7-9{]}.
+While prior works have examined individual ML and blockchain
+applications, the research proposes an architecture that is able to
+combine the noted technologies in a modular framework for low-resource
+settings.
+
+Additionally, the study proposes an enhanced system architecture by
+ML tools, blockchain technology, and secure interoperability standards.
+The results highlight major concerns, namely, data fragmentation, lack
+of standardisation, and security risks, which the proposed model aims to
+mitigate. The outcome of the article informs possible future design,
+implementation, and policy development for telemedicine systems. What
+differentiates this study from prior literature is the integration of
+technical and user-centred perspectives through a mixed-methods study,
+which supports the design of a new modular system architecture. Rather
+than solely reviewing trends, this work formulates a forward-looking
+implementation framework rooted in both literature and stakeholder
+insights.
+
+{\bfseries Materials and methods.} In this section, a set of articles
+relevant to the research topic was systematically reviewed and analysed.
+The primary sources for the literature search included academic
+databases, namely, Google Scholar, Scopus, and ScienceDirect. The
+inclusion criteria required that the publication has to reference
+specific keywords such as telemedicine, medical information system,
+healthcare remote technologies, medical information systems, and related
+digital health infrastructures. Studies that did not directly engage
+with these themes were excluded. Applying the inclusion criteria, the
+research review aims to offer a comprehensive overview of the current
+state of research, emphasising major advancements, emerging trends, and
+persistent challenges in the field. This approach ensures a conceptual
+foundation for understanding the broader implications of TIS in the
+scope of the modern healthcare service.
+
+Analysis of publications related to the TIS system shows diverse
+significant outcomes depending on the context of implementation.
+Firstly, the adoption of TIS platforms has been associated with
+improvements in clinical decision-making, reducing medical errors and
+optimising treatment plans {[}10,11{]}. As an illustraion, the
+integration of Electronic Health Records (EHR) illustrated error
+reduction in the medical process {[}12,13{]}. Additionally, the
+implementation of Clinical Decision Support Systems (CDSS) within TIS
+frameworks helps medical staff by offering evidence-based treatment
+recommendations and computer diagnostic accuracy {[}14{]}.
+
+Contrastingly, other works present that the effectiveness of using
+TIS systems often faces foundational challenges. There are low levels of
+infrastructure, limited internet connectivity, unqualified training for
+healthcare workers, and financial constraints. These factors reflect the
+scalability and sustainability of telemedicine integration {[}15{]}.
+Moreover, a systematic review emphasised the absence of clear guidelines
+and investment can increase the possibilities of successful TIS
+integration {[}16{]}.~
+
+Also, existing studies provide valuable advantages of integration of
+TIS~ systems in the medical field, they often overlook non-clinical
+applications, including public health monitoring and policy development.
+Additionally, there is research addressing the socio-economic factors
+influencing TIS adoption in resource-limited settings. It underlines the
+necessity of deep studies in the telemedicine area {[}17{]}.
+
+CDSS has demonstrated the potential to enhance patient outcomes by
+reducing medical errors, particularly those related to drug interactions
+and diagnostic inaccuracies {[}18,19{]}. Institutions have successfully
+implemented CDSS to bolster patient safety measures {[}20{]}. This
+indicates that while CDSS offers potential benefits, its success is
+contingent on clinician engagement and the system' s
+alignment with the workflow.
+
+Various methods and technologies have been deployed in TIS for the
+improvement of business processes. The innovative approaches in
+telemedicine systems, mobile health (mHealth), and medical information
+platforms have successfully improved many healthcare settings {[}21{]}.
+These systems have helped in healthcare operations, reduced operational
+costs, and increased the efficiency of medical service delivery.
+
+Recent advances and integration of blockchain technology in
+telemedicine have able to get higher security standards and improved
+data-sharing capabilities. Other methods, namely, machine learning
+algorithms could be used for predictive analytics in healthcare,
+assisting in decision-making and early disease diagnosis
+{[}4,5,8{]}.
+
+CDSS can be categorised into knowledge-based and non-knowledge-based
+systems. Knowledge-based systems rely on rules and guidelines derived
+from medical literature, while non-knowledge-based systems use machine
+learning and statistical pattern recognition. Most of
+today's CDSS are knowledge-based, utilising if-then rules to trigger
+alerts for issues such as duplicate test orders or drug interactions.
+However, advancements in artificial intelligence have led to more
+sophisticated CDSS, which can learn from past data and provide
+supportive clinical support {[}1{]}. While the integration
+of these IT solutions gives a chance of successful usage, the whole
+concerns about transparency and trust have limited their adoption
+{[}20-22{]}.
+
+\def\labelenumi{\Alph{enumi}.}
+\setcounter{enumi}{1}
+
+1. \emph{Identifying} Research Gaps
+
+Several issues remain in current TIS research. The one of the
+significant areas is the under-researching of TIS adaptability in
+low-resource settings. Although TIS has been established sufficiently in
+healthcare systems, there is still incomplete research on how
+telemedicine system can be fully optimized in developing territories
+{[}21{]}. While studies have highlighted the importance of management
+skills within TIS, there is limited research on the integration of
+artificial intelligence tools in the telemedicine ecosystem for
+real-time knowledge processing.
+
+Despite the proven benefits of CDSS, research presents application
+limitations in some critical areas. One of them is the lack of
+large-scale, systematic studies examining CDSS effectiveness in
+real-world settings outside of controlled environments excluding
+academic medical centres. Additionally, while much attention has been
+given to CDSS for healthcare management, less research has focused on
+their use in diagnostic decision-making, particularly in general
+practice {[}19,22{]}.
+
+The current research is able to address these gaps by focusing on
+how TIS can be better tailored for resource-constrained environments and
+identifying the best practices for integrating cutting-edge technologies
+with existing systems or by focusing on the real-world implementation of
+CDSS in diverse healthcare environments, examining factors such as user
+interaction and integration with existing workflows.
+
+The connection diagram illustrates how a set of research papers
+addresses the core issues of interoperability and data security within
+the TIS framework. It shows how studies join/differ from one another in
+their approaches to solving the challenges {[}23-25{]}.
+
+- Concentration on challenges related to interoperability and
+heterogeneous data formats.
+
+- Exploration of the influence on healthcare expenses and patient
+care.
+
+- Discussion of the benefit of AI and blockchain for providing
+security aspects.
+
+The figure (Figure 1) presents pointers between the reports to
+spotlight the advancement of ideas over the term. It shows where the
+last studies build on older findings.
+
+\fig{i/image7}{}
+
+{\bfseries Fig.1 - Graphical representation of source}
+
+The above diagram presents how interoperability barriers have
+evolved from early discussions of data formats and communication
+protocols {[}25{]}. They lead to modern solutions involving AI and
+blockchain {[}21{]}. Each study concerns previous findings, gradually
+introducing more advanced technological keys to solve essence
+difficulties in Medical Information Systems
+
+Table 1 is a comparative table with specific columns. The content of
+the table consists of methods, advantages, and limitations of different
+studies on TIS. It helps summarise how different authors approached
+common challenges and what results they reported.~
+
+{\bfseries Table 1 - Description for TIS approaches}
+
+%% \begin{longtable}[]{@{}
+%%   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1967}}
+%%   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1331}}
+%%   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2854}}
+%%   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3848}}@{}}
+%% \toprule\noalign{}
+%% \endhead
+%% \bottomrule\noalign{}
+%% \endlastfoot
+%% {\bfseries Study} & {\bfseries Year} & {\bfseries Method Used} &
+%% {\bfseries Advantages} \\
+%% Häyrinen et al.{[}24{]} & 2008 & Data format
+%% standardisation & Data format standardisation \\
+%% DesRoches et al.{[}23{]} & 2008 & TIS implementation &
+%% Reduced patient wait times \\
+%% Epizitone et al.{[}21{]} & 2023 & AI and blockchain
+%% integration & Enhanced security, automated decision-making \\
+%% Liu et al. {[}5{]} & 2020 & Blockchain for security &
+%% Strong encryption and distributed access control \\
+%% Ahmad et al. {[}7{]} & 2021 & Blockchain in telehealth &
+%% Tamper-proof logging and improved patient privacy \\
+%% \end{longtable}
+
+Graph represents a progression of research publications on TIS
+syste, implementation and AI in Healthcare from 2000 to 2020 (Figure 2).
+The blue line represents the increasing number of publications focused
+on TIS implementation. The green line represents the rise in
+publications related to AI tools in Healthcare.
+
+\fig{i/image8}{}
+
+\begin{quote}
+{\bfseries Fig.2 - Progression of research publications on TIS
+implementation}
+\end{quote}
+
+The review set highlights that EHR-s are not only repositories of
+structured clinical and administrative information but also function as
+tools for decision support, communication, and quality improvement. The
+authors emphasise that while EHR implementation has the potential to
+enhance healthcare efficiency and patient safety, success depends
+heavily on standardization, user training, and system integrations.
+
+Figure presents (Figure 3) a bar chart displaying the primary
+challenges associated with the realisation of TIS technologies. It was
+identified across multiple studies. The most frequently reported issues
+are the following:
+
+- interoperability. A notable amount of healthcare institutions
+emphasise difficulties in blending heterogeneous systems and data
+formats;
+
+- data security. It emerges as another vital consideration with more
+than half of the surveyed institutions expressing suspicions about
+safeguarding patient information;
+
+- high implementation costs. It poses a considerable barrier,
+particularly in low-resource settings, where budget regulations limit
+the scalability of digital health solutions.
+
+\fig{i/image9}{}
+
+\begin{quote}
+{\bfseries Fig.3 - Key challenges in TIS implementation}
+\end{quote}
+
+The visual representation actually underlines these key challenges,
+strengthening prevalence and impacting the existing literature.The
+charts and visual materials in this paper are based on reliable sources
+and real-world studies related to EHR and TIS technologies. These
+visuals help explain the main challenges and trends in telemedicine in a
+clear and accessible way.
+
+- Interoperability: The data demonstrates a different researcher
+attempts for solving the intercommunication and data exchange among
+different programes. There are even a some progress has been made. A
+number healthcare systems still struggle to share data smoothly. The
+evidence from studies merges and diverges in work approaches to
+embarking on the complex problem.
+
+- Data Security: Information breakings and the use of blockchain
+make it clear why protecting patient information is so important. As
+more additional, healthcare systems go digital, consequently, it is
+necessary to develop more reliable and secure tools. These visuals
+highlight how new technologies are helping to keep patient data safe.
+
+- System Adoption: The review presents how TIS and CDSS are used to
+reveal success relies on the local context. Factors, namely, staff
+training, technical readiness, and budget all play a role. These
+insights show why it' s important to adapt systems to
+each specific environment.
+
+{\bfseries Results and discussion.} The study uses mixed (qualitative
+and quantitative) research methods. The methods demonstrate a
+description of the usage of TIS applications and challenges in TIS
+implementation. Approaches are made to examine both clear and measurable
+patterns. Additionally, it is modest and experience-based insights. The
+work' s main focus area includes a user' s
+satisfaction with TIS deploying. Particularly, it touches on
+assessments, namely, data protection, system integrity in daily
+routines, and efficiency of usage. Participants are chosen randomly from
+healthcare institutions. The medical centres have already used medical
+information systems with any telemedicine functionalities. The work is
+aimed to gather feedback from a variety of medical professionals from
+different departments, and levels of experience. It helps to capture a
+full picture of the analysis and avoid biased insights. The result has
+different viewpoints included in the analysis.
+
+The analysis focuses on three main aspects of research:
+
+- User Satisfaction. Measurement of using a scale (from 1 to 5), and
+through yes/no responses.
+
+- Data Security. Evaluation of users'{} safety
+feelings about patient' s data is.
+
+- Workflow Integration. Assessment of the usability of TIS system
+fitted into daily work processes.
+
+Responses are gathered via an online survey using Google Forms. The
+survey was accomplished remotely and participants were able to fill it
+when it was most convenient for them. It was made to diminish of
+interrupting participant' s work. The questions covered
+key areas, namely, a system usability, security consideration, and TIS
+integration in their institutions.
+
+Each questionnaire question was carefully developed to match the
+objectives of the study. It used rankings scores and open-ended
+questions to collect a broad range of data. Some questions are requested
+by parties to rate TIS usage via their satisfaction. Others are asked
+their thoughts about data security.
+
+This metric captures the perceived efficiency and usability of the
+TIS platforms and was analyzed alongside data security and workflow
+integration variables to identify correlations. Limitations of the
+study, such as potential biases in questionnaire analysis, were noted
+and reduced its risks. The assessment steps were taken to mitigate
+through anonymising responses and conducting the survey remotely.
+
+The research work meets ethical requirements. It was obtained by
+informing all participants as well as their private information was
+secured. The participants were informed about the purpose of the
+research, confidentiality, and the anonymity of their responses.
+
+Data sharing is one of the primary keys of the study. It does not
+occur seamlessly across systems, which the majority of organisations
+mentioned in the survey. The proposed architecture can be framed in an
+integration engine and API gateway for standardisation of the
+communication channels between the internal modules (TIS, CDSS,
+Analytics) and external systems (laboratory, pharmacy platforms).
+Elimination of data fragmentation helps ensure continuous patient care
+by removing repeated activities in the medical workflow process. Users
+have expressed in a survey about dissatisfaction with fragmented
+workflows in domestic medical information systems. It means that
+ensuring the data sharing process in real-time between all parties TIS
+system might improve the overall efficiency of the system work.
+
+According to the findings, 72\% of users determined data breaches
+and unauthorised access as the most crucial threats in existing systems.
+To address this, the proposed architecture includes a multi-layered
+security approach using OAuth 2.0, encryption, anomaly detection, and
+audit logs to protect sensitive patient data from login to storage.
+
+Additionally, integrating a blockchain ledger will strengthen the
+system by improving transparency and keeping with MIS standards. The
+current security measures directly align with the survey findings. The
+users will feel confident in system security, resulting in higher levels
+of satisfaction.
+
+The research indicates one of the main obstacles for deploying
+telemedicine systems is incapacity for scaling, especially in
+low-resource environments. To overcome the current issue, the proposed
+infrastructure should contain load balancer components and auto-scaling
+tools. A such technologies allow the system to automatically adapt to
+changing workloads while maintaining strong performance.
+
+This is especially important during periods of high demand,
+especially in health emergency situations. In this case, the system must
+remain available and responsive. This approach directly addresses a
+common weakness found in many existing systems, as noted in previous
+studies.
+
+The survey outcomes reveal current systems are commonly adequate,
+but many users still face difficulties due to poor levels of usability
+and unproductive workflows. For eliminatation this case, the proposed
+model should possess interactive dashboards for different user roles.
+Particularly, it could be a patient portal, a clinical dashboard and an
+administrative dashboard. This role-based approach ensures a more
+personalized and user-friendly experience for each user type.
+Furthermore, the dashboards is able to allow users do rapid data-driven
+decisions.~
+
+The findings display that poor and fragmented data management
+remains a major issue. One of the possible ways for improvement is
+designing a specific data layer. The layer can be proposed for handling
+different types of medical data in a well-organised and efficient way.
+For instance:
+
+- database will store structured data such as patient records;
+
+- data Warehouses will gather long-term information for analytics
+and reporting;
+
+- file Storage will manage unstructured data (e.g. medical images
+with a variety of resolutions).
+
+Combining all the above aspects into a unified system, healthcare
+providers will gain quick and reliable access to medical information.
+This will help reduce delays and support more accurate, personalised,
+and timely patient care.
+
+{\bfseries Conclusion.} The findings of this study confirm that
+Telemedicine Information Systems (TIS) play an important role in
+improving healthcare processes and outcomes. Nevertheless, key
+challenges continue to restrict its full potential scaling. Quantitative
+data revealed that the majority of users identified interoperability
+issues, while others expressed to anxieties over data security. The
+results were sustained by qualitative feedback demonstrating that user
+satisfaction with existing systems remains moderate level. Due to there
+were usability limitations and security shortcomings.
+
+For overcoming the issue, the study presents an improved system
+architecture description that highlights data exchange through
+integration engines and API gateways. They can have a capability for
+reducing workflow fragmentation. It also introduces robust security
+mechanisms, including OAuth 2.0, encryption, blockchain integration, and
+anomaly detection to sustain user trust and ensure data protection
+principles. Furthermore, the architecture presented mechanisms for
+scalable applications during periods of high demand.
+
+Through implementation-specific dashboards, administrators, and
+patients are able to reveal the significant distinguish in usability and
+align with the diverse their needs. Lastly, the architecture could adopt
+a structured data management model that unifies databases, data
+warehouses, and file storage for developing clinical decision-making and
+long-term analytics.
+
+In contrast to traditional literature reviews, the article
+contributes new approaches for system architecture that synthesise
+cutting-edge ML and blockchain technologies with empirical survey
+findings. This mixed method maintains the practical relevance of the
+design for ensuring alignment among technical requirements and user
+satisfaction.
+
+The proposed architecture not only mitigates the well-documented
+challenges in TIS implementation but also introduces an innovative,
+integrative model combining ML, blockchain, and modular design---unlike
+current fragmented solutions. Planned validation and comparative testing
+will further substantiate its real-world applicability, paving the way
+for future adoption in scalable digital healthcare deliver services.
+
+{\bfseries References}
+
+1. Di Cerbo A., Morales-Medina J.C., Palmieri B., Iannitti T. Narrative
+review of telemedicine consultation in medical practice // Patient
+Preference and Adherence. -2015. -Vol.9. -P.65--75. DOI
+10.2147/PPA.S61617.
+
+2. Jiang F., Jiang Y., Zhi H., Dong Y., Li H., Ma S., Wang Y. Artificial
+intelligence in healthcare: Past, present and future // Stroke and
+Vascular Neurology. -2017. -Vol.2(4). -P.230--243. DOI
+10.1136/svn-2017-000101.
+
+3. Albahri O.S., Zaidan A.A., Albahri A.S., Zaidan B.B., Abdulkareem
+K.H., Al-Qaysi Z.T., Rashid N.A. Systematic review of artificial
+intelligence techniques in the detection and classification of COVID-19
+medical images // Journal of Infection and Public Health. -2020. -Vol.
+13(10). -P.1381-1396. DOI
+\href{https://doi.org/10.1016/j.jiph.2020.06.028}{10.1016/j.jiph.2020.06.028}.
+
+4. Adeghe E.P., Okolo C.A., Ojeyinka O.T. Evaluating the impact of
+blockchain technology in healthcare data management: A review of
+security, privacy, and patient outcomes // Open Access Research Journal
+of Science and Technology. -2024. -Vol.10(2). -P.013--020. DOI
+\href{https://doi.org/10.53022/oarjst.2024.10.2.0044}{10.53022/oarjst.2024.10.2.0044}.
+
+5. Liu H., Crespo R.G., Martínez O.S. Enhancing privacy and data
+security across healthcare applications using blockchain and distributed
+ledger concepts // Healthcare. -2020. -Vol.8(3): 243. DOI
+10.3390/healthcare8030243.
+
+6. Ferreira J.C., Elvas L.B., Correia R., Mascarenhas M. Enhancing EHR
+interoperability and security through distributed ledger technology: A
+review // Healthcare. -2024. -Vol.12(19): 1967. DOI
+10.3390/healthcare12191967.
+
+7. Ahmad R.W., Salah K., Jayaraman R., Yaqoob I., Ellahham S., Omar M.
+The role of blockchain technology in telehealth and telemedicine //
+International Journal of Medical Informatics. -2021. -Vol.148:104399.
+DOI 10.1016/j.ijmedinf.2021.104399.
+
+8. Shynar Y., Seitenov A., Kenzhegarina A., Kenzhetayev A., Kemel A.,
+Ualiyev N., Sakhipov A., Myrzakerimova A., Mursakimova G., Orynbek A.
+Comprehensive analysis of blockchain technology in the healthcare sector
+and its security implications // International Journal of E-Health and
+Medical Communications. -2025. - Vol.16(1). -- P.1--45. DOI
+10.4018/IJEHMC.372423.
+
+9. Seitenov A., Smagulova G. Distribution of Ethereum blockchain
+addresses // Scientific Journal of Astana IT University. -2020. -Vol.4
+(4). -P.41-48. DOI 10.37943/aitu.2020.36.57.005.
+
+10. Steinman M., Morbeck R.A., Pires P.V., Abreu Filho C.A.C., Andrade
+A.H.V., Terra J.C.C., Kanamura A.H. Impact of telemedicine in hospital
+culture and its consequences on quality of care and safety // Einstein
+(São Paulo). -2015. -Vol.13(4). -P.580--586. DOI
+10.1590/S1679-45082015GS2893.
+
+11. Gajarawala S.N., Pelkowski J.N. Telehealth benefits and barriers //
+The Journal for Nurse Practitioners. -2021. -Vol.17(2). -P.218-221.
+DOI 10.1016/j.nurpra.2020.09.013.
+
+12. Adeyemi C., Adegoke B.O., Odugbose T. The impact of healthcare
+information technology on reducing medication errors // International
+Journal of Frontiers in Medical and Surgical Research. -2024. -Vol.
+5(2). -P.20--29. DOI 10.53294/ijfmsr.2024.5.2.0034.
+
+13. Seitenov A., Zhukabayeva T., Sansyzbay K., Kalpakov Y. Design
+development of medicine information system for telemedicine field // The
+Bulletin of KazATC. -2023. -4 (127). - P.241-251. DOI
+10.52167/1609-1817-2023-127-4-241-251.
+
+14. Mars M., Scott R. Telemedicine service use: A new metric // Journal
+of Medical Internet Research. -2012. -Vol.14(6): e178. DOI
+10.2196/jmir.1938.
+
+15. Dorsey E.R., Topol E.J. State of telehealth // The New England
+Journal of Medicine. -2016. -Vol.375(2). -P.154-161. DOI
+10.1056/NEJMra160170.
+
+16. Kruse C.S., Karem P., Shifflett K., Vegi L., Ravi K., Brooks M.
+Evaluating barriers to adopting telemedicine worldwide: A systematic
+review // Journal of Telemedicine and Telecare. - 2018. - Vol.24(1). -
+P.4-12. DOI 10.1177/1357633X16674087.
+
+17. Whitten P., Holtz B., Laplante C. Telemedicine What have we learned?
+// Applied Clinical Informatics. - 2010. -- Vol.1(2). -P.132--141. DOI
+10.4338/ACI-2009-12-R-0020.
+
+18. Sutton R.T., Pincock D., Baumgart D.C., Sadowski D.C., Fedorak R.N.,
+Kroeker K.I. An overview of clinical decision support systems: benefits,
+risks, and strategies for success // NPJ Digital Medicine. -2020. -Vol.
+3:17. DOI 10.1038/s41746-020-0221-y.
+
+19. Kaushal R., Shojania K.G., Bates D.W. Effects of computerized
+physician order entry and clinical decision support systems on
+medication safety: A systematic review // Archives of Internal Medicine.
+-2003. -Vol.163(12). -P.1409-1416. DOI 10.1001/archinte.163.12.1409.
+
+20. Osheroff J.A., Teich J., Levick D., Saldana L., Velasco F., Sittig
+D., Rogers K., Jenders R. Improving Outcomes with Clinical Decision
+Support: An Implementer's Guide, Second Edition/Chicago: HIMSS
+Publishing. -2012. -48p. ISBN 978-0984457731; 978-1000396416.
+
+21. Epizitone A., Moyane S.P., Agbehadji I.E. A systematic literature
+review of health information systems for healthcare // Healthcare.
+-2023. -Vol.11(7): 959. DOI 10.3390/healthcare11070959.
+
+22. Berner E.S., La Lande T.J. Overview of clinical decision support
+systems //Clinical Decision Support Systems. -2016. -P.1-17. DOI
+10.1007/978-3-319-31913-1\_1.
+
+23. DesRoches C.M., Campbell E.G., Rao S.R., et al. Electronic health
+records in ambulatory care -A national survey of physicians // The New
+England Journal of Medicine. -2008. - Vol.359(1). -P.50--60. DOI
+10.1056/NEJMsa0802005.
+
+24. Häyrinen K., Saranto K., Nykänen P. Definition, structure, content,
+use and impacts of electronic health records: A review of the research
+literature // International Journal of Medical Informatics. -2008. -Vol.
+77(5). - P.291-304. DOI 10.1016/j.ijmedinf.2007.09.001.
+
+25. Becker S.H., Arenson R.L. Costs and benefits of picture archiving
+and communication systems // Journal of the American Medical Informatics
+Association. - 1994. -Vol.1(5). -P.361-371. DOI
+~\href{https://doi.org/10.1136/jamia.1994.95153424}{10.1136/jamia.1994.95153424}
+
+\emph{{\bfseries Information about the authors}}
+
+Seitenov A.S. - PhD student, L.N. Gumilyov Eurasian National
+University, Astana, Kazakhstan, e-mail: altynbekss@gmail.com;
+
+Zhukabayeva T.K.- PhD, Professor, L.N. Gumilyov Eurasian National
+University, Astana, Kazakhstan, e-mail:
+tamara.kokenovna@gmail.com.
+
+\emph{{\bfseries Сведения об авторах}}
+
+Сейтенов А.С. - докторант, Евразийский национальный университет им.
+Л.Н.Гумилёва, Астана, Казахстан, e-mail: altynbekss@gmail.com;
+
+Жукабаева Т.К. - PhD, профессор, Евразийский национальный
+университет им. Л.Н.Гумилёва, Астана, Казахстан, e-mail:
+tamara.kokenovna@gmail.com.\
