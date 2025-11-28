@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/nixos.org) (preloaded format=xelatex 1980.1.1)  26 NOV 2025 16:00
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/nixos.org) (preloaded format=xelatex 1980.1.1)  28 NOV 2025 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1737,6 +1737,10 @@ Package hyperref Info: Link coloring ON on input line 6.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
@@ -1946,7 +1950,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
-)) (./src/i/002.tex
+)) (./src/i/008.tex
 
 Package hyperref Warning: Suppressing empty link on input line 1.
 
@@ -1969,20 +1973,18 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.4994pt on input line 6.
 File: media/envelope.png Graphic file (type bmp)
 <media/envelope.png>
-File: media/envelope.png Graphic file (type bmp)
-<media/envelope.png>
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 13.
+(Font)              scaled to size 10.00107pt on input line 16.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 13.
+(Font)              scaled to size 7.00075pt on input line 16.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 13.
+(Font)              scaled to size 5.00053pt on input line 16.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 13.
+(Font)              scaled to size 9.99893pt on input line 16.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 13.
+(Font)              scaled to size 6.99925pt on input line 16.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 13.
+(Font)              scaled to size 4.99947pt on input line 16.
 File: media/envelope.png Graphic file (type bmp)
 <media/envelope.png>
 File: media/envelope.png Graphic file (type bmp)
@@ -1995,14 +1997,10 @@ File: media/envelope.png Graphic file (type bmp)
 File: media/envelope.png Graphic file (type bmp)
 <media/envelope.png>
 
-Overfull \hbox (5.07648pt too wide) in paragraph at lines 130--183
-[]\TU/LiberationSerif(0)/b/n/12 Кіріспе. \TU/LiberationSerif(1)/m/n/12 Сөйлеу а
-дамның қарым-қатынасының
- []
-
-
-Underfull \hbox (badness 5147) in paragraph at lines 130--183
-\TU/LiberationSerif(1)/m/n/12 технологияларының артықшылықтары тілдер
+Overfull \hbox (0.7477pt too wide) in paragraph at lines 158--160
+[]\TU/LiberationSerif(1)/b/n/12 Keywords: \TU/LiberationSerif(1)/m/n/12 hybrid 
+model; queuing, dynamic parameters, automation, adaptive optimization, simulati
+on
  []
 
 
@@ -2018,14 +2016,13 @@ Underfull \hbox (badness 5147) in paragraph at lines 130--183
 
 
 [3]
-Overfull \hbox (6.44162pt too wide) in paragraph at lines 241--253
-[]\TU/LiberationSerif(0)/b/n/12 Материалдар мен әдістер. \TU/LiberationSerif(1)
-/m/n/12 Спектрограммалар-
+Underfull \hbox (badness 10000) in paragraph at lines 261--271
+[]\TU/LiberationSerif(1)/m/n/12 Рассмотренные исследования охватывают
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--253
-\TU/LiberationSerif(1)/m/n/12 Спектрограммалар-бастапқыда екінші дүние-
+Underfull \hbox (badness 5578) in paragraph at lines 279--286
+\TU/LiberationSerif(1)/m/n/12 тику с учетом индивидуальных параметров
  []
 
 
@@ -2035,35 +2032,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--253
 
 
 [4]
-
-
-
-
-
-File: media/i/image2.png Graphic file (type bmp)
-<media/i/image2.png>
-File: media/i/image3.png Graphic file (type bmp)
-<media/i/image3.png>
-File: media/i/image4.png Graphic file (type bmp)
-<media/i/image4.png>
-
-
-
-
-
-
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 329.
+(Font)              scaled to size 12.00128pt on input line 310.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.40088pt on input line 329.
+(Font)              scaled to size 8.40088pt on input line 310.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 329.
+(Font)              scaled to size 6.00064pt on input line 310.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 329.
+(Font)              scaled to size 11.99872pt on input line 310.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.3991pt on input line 329.
+(Font)              scaled to size 8.3991pt on input line 310.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 329.
+(Font)              scaled to size 5.99936pt on input line 310.
 
 
 
@@ -2076,110 +2056,58 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 
 
 
-File: media/i/image5.png Graphic file (type bmp)
-<media/i/image5.png>
-
-
-
-
+File: media/i/image50.png Graphic file (type bmp)
+<media/i/image50.png>
+File: media/i/image51.png Graphic file (type bmp)
+<media/i/image51.png>
+File: media/i/image52.png Graphic file (type bmp)
+<media/i/image52.png>
 
 
 [6]
+File: media/i/image53.png Graphic file (type bmp)
+<media/i/image53.png>
 
+Overfull \hbox (2.5453pt too wide) in paragraph at lines 564--571
+[]\TU/LiberationSerif(1)/m/n/12 Среднее значение времени ожидания обработки зая
+вки для классической модели составило 10.29,
+ []
 
-
-
-
-File: media/i/image6.png Graphic file (type bmp)
-<media/i/image6.png>
 
 
 [7]
-Missing character: There is no Т ("422) in font cmmi12!
-Missing character: There is no а ("430) in font cmmi12!
-Missing character: There is no н ("43D) in font cmmi12!
-Missing character: There is no у ("443) in font cmmi12!
-Missing character: There is no ж ("436) in font cmmi12!
-Missing character: There is no ы ("44B) in font cmmi12!
-Missing character: There is no л ("43B) in font cmmi12!
-Missing character: There is no д ("434) in font cmmi12!
-Missing character: There is no а ("430) in font cmmi12!
-Missing character: There is no м ("43C) in font cmmi12!
-Missing character: There is no д ("434) in font cmmi12!
-Missing character: There is no ы ("44B) in font cmmi12!
-Missing character: There is no ғ ("493) in font cmmi12!
-Missing character: There is no ы ("44B) in font cmmi12!
-Missing character: There is no Д ("414) in font cmmi12!
-Missing character: There is no ұ ("4B1) in font cmmi12!
-Missing character: There is no р ("440) in font cmmi12!
-Missing character: There is no ы ("44B) in font cmmi12!
-Missing character: There is no с ("441) in font cmmi12!
-Missing character: There is no с ("441) in font cmmi12!
-Missing character: There is no ә ("4D9) in font cmmi12!
-Missing character: There is no й ("439) in font cmmi12!
-Missing character: There is no к ("43A) in font cmmi12!
-Missing character: There is no е ("435) in font cmmi12!
-Missing character: There is no с ("441) in font cmmi12!
-Missing character: There is no т ("442) in font cmmi12!
-Missing character: There is no і ("456) in font cmmi12!
-Missing character: There is no к ("43A) in font cmmi12!
-Missing character: There is no т ("442) in font cmmi12!
-Missing character: There is no е ("435) in font cmmi12!
-Missing character: There is no р ("440) in font cmmi12!
-Missing character: There is no с ("441) in font cmmi12!
-Missing character: There is no а ("430) in font cmmi12!
-Missing character: There is no н ("43D) in font cmmi12!
-Missing character: There is no ы ("44B) in font cmmi12!
-Missing character: There is no С ("421) in font cmmi12!
-Missing character: There is no ө ("4E9) in font cmmi12!
-Missing character: There is no й ("439) in font cmmi12!
-Missing character: There is no л ("43B) in font cmmi12!
-Missing character: There is no е ("435) in font cmmi12!
-Missing character: There is no у ("443) in font cmmi12!
-Missing character: There is no ш ("448) in font cmmi12!
-Missing character: There is no і ("456) in font cmmi12!
-Missing character: There is no н ("43D) in font cmmi12!
-Missing character: There is no і ("456) in font cmmi12!
-Missing character: There is no ң ("4A3) in font cmmi12!
-Missing character: There is no ж ("436) in font cmmi12!
-Missing character: There is no а ("430) in font cmmi12!
-Missing character: There is no л ("43B) in font cmmi12!
-Missing character: There is no п ("43F) in font cmmi12!
-Missing character: There is no ы ("44B) in font cmmi12!
-Missing character: There is no с ("441) in font cmmi12!
-Missing character: There is no а ("430) in font cmmi12!
-Missing character: There is no н ("43D) in font cmmi12!
-Missing character: There is no ы ("44B) in font cmmi12!
-
-Overfull \hbox (14.3139pt too wide) in paragraph at lines 515--534
-\TU/LiberationSerif(1)/m/n/12 ды, онда 100 сөйлеушінің жазбалары бар. Динамикте
-рге тән спектрограммаларды алу үшін ерекшелік-
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [8]
-Overfull \hbox (1.37964pt too wide) in paragraph at lines 544--548
-[]\TU/LiberationSerif(1)/m/n/12 2. El Shafai W., et al. Optical ciphering schem
-e for cancellable speaker identification system // Computer
+Overfull \hbox (10.03163pt too wide) in paragraph at lines 666--671
+\TU/LiberationSerif(1)/m/n/12 the quality of service delivery using modificatio
+ns of the least connections algorithm // Journal of Theoretical
  []
 
 
-Overfull \hbox (11.70363pt too wide) in paragraph at lines 554--559
-\TU/LiberationSerif(1)/m/n/12 discrete cosine transforms based features from sp
-eech spectrogram // Pattern Recognition. -2011. - Vol.44(10-
+Overfull \hbox (52.54211pt too wide) in paragraph at lines 672--678
+\TU/LiberationSerif(1)/m/n/12 // Bulletin of Electrical Engineering and Informa
+tics.- 2025.-Vol.14(2). - P. 1468–1475. DOI [][]10.11591/eei.v14i2.7711[][]. 
  []
 
 
-Overfull \hbox (5.42717pt too wide) in paragraph at lines 564--568
-[]\TU/LiberationSerif(1)/m/n/12 6. Cheng F., et al. Visual speaker authenticati
-on with random prompt texts by a dual-task CNN framework
+Overfull \hbox (3.64796pt too wide) in paragraph at lines 679--683
+[]\TU/LiberationSerif(1)/m/n/12 10. Ishii K., Tamaki K. Automation in Education
+/Learning Systems // In: Nof S. (ed.) Springer Handbook
  []
 
 
-Overfull \hbox (28.01979pt too wide) in paragraph at lines 575--586
-\TU/LiberationSerif(1)/m/n/12 speaker identification // Cogent Engineering.- 20
-20. -Vol.7(1): 1727168. [][]DOI 10.1080/23311916.2020.1727168[][]. 
+Overfull \hbox (14.11998pt too wide) in paragraph at lines 679--683
+\TU/LiberationSerif(1)/m/n/12 of Automation. Springer Handbooks. – Berlin, Heid
+elberg: Springer, 2009. – P.1503–1527. DOI [][]10.1007/978-
+ []
+
+
+Overfull \hbox (2.91856pt too wide) in paragraph at lines 717--721
+[]\TU/LiberationSerif(1)/m/n/12 17. Pham D.T., Jaaron A.A.M. Design for Mass Cu
+stomisation in Higher Education: a Systems-Thinking
  []
 
 
@@ -2187,28 +2115,128 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[9])
+[9]
+Overfull \hbox (1.75801pt too wide) in paragraph at lines 722--727
+\TU/LiberationSerif(1)/m/n/12 allocation in construction projects // Internatio
+nal Journal of Construction Management. - 2019. - Vol.22(2).
+ []
+
+
+Overfull \hbox (6.40283pt too wide) in paragraph at lines 777--781
+[]\TU/LiberationSerif(1)/m/n/12 5. Kuznecova I.A. Distancionnoe obuchenie kak s
+istema massovogo obsluzhivanija // Vestnik evrazijskoj
+ []
+
+
+Overfull \hbox (10.03163pt too wide) in paragraph at lines 791--796
+\TU/LiberationSerif(1)/m/n/12 the quality of service delivery using modificatio
+ns of the least connections algorithm // Journal of Theoretical
+ []
+
+
+Overfull \hbox (52.54211pt too wide) in paragraph at lines 797--803
+\TU/LiberationSerif(1)/m/n/12 // Bulletin of Electrical Engineering and Informa
+tics.- 2025.-Vol.14(2). - P. 1468–1475. DOI [][]10.11591/eei.v14i2.7711[][]. 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[10]
+Overfull \hbox (3.64796pt too wide) in paragraph at lines 804--808
+[]\TU/LiberationSerif(1)/m/n/12 10. Ishii K., Tamaki K. Automation in Education
+/Learning Systems // In: Nof S. (ed.) Springer Handbook
+ []
+
+
+Overfull \hbox (14.11998pt too wide) in paragraph at lines 804--808
+\TU/LiberationSerif(1)/m/n/12 of Automation. Springer Handbooks. – Berlin, Heid
+elberg: Springer, 2009. – P.1503–1527. DOI [][]10.1007/978-
+ []
+
+
+Overfull \hbox (2.91856pt too wide) in paragraph at lines 842--846
+[]\TU/LiberationSerif(1)/m/n/12 17. Pham D.T., Jaaron A.A.M. Design for Mass Cu
+stomisation in Higher Education: a Systems-Thinking
+ []
+
+
+Overfull \hbox (1.75801pt too wide) in paragraph at lines 847--852
+\TU/LiberationSerif(1)/m/n/12 allocation in construction projects // Internatio
+nal Journal of Construction Management. - 2019. - Vol.22(2).
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[11]
+Overfull \hbox (56.06996pt too wide) in paragraph at lines 896--900
+\TU/LiberationSerif(1)/m/n/12 ния при Президенте РК по Алматинской области, Кон
+аев, Казахстан, e-mail: orynbassarjoldasbayev@gmail.com; 
+ []
+
+
+Overfull \hbox (29.528pt too wide) in paragraph at lines 919--922
+[]\TU/LiberationSerif(1)/m/n/12 Gizatullina A. - Student, International IT Univ
+ersity, Almaty, Kazakhstan, e-mail: gizatullina.alyana@mail.ru; 
+ []
+
+
+Overfull \hbox (51.88737pt too wide) in paragraph at lines 923--926
+[]\TU/LiberationSerif(1)/m/n/12 Zhanadilov M. - Student, International IT Unive
+rsity, Almaty, Kazakhstan, e-mail: madiyar20032009@gmail.com; 
+ []
+
+
+Overfull \hbox (92.61978pt too wide) in paragraph at lines 927--931
+\TU/LiberationSerif(1)/m/n/12 president of the Republic of Kazakhstan in Almaty
+ region, Konayev, Kazakhstan, e-mail: orynbassarjoldasbayev@gmail.com; 
+ []
+
+
+Overfull \hbox (63.68228pt too wide) in paragraph at lines 932--935
+[]\TU/LiberationSerif(1)/m/n/12 Ormanbekova A. - PhD, Almaty Technological Univ
+ersity, Almaty, Kazakhstan, e-mail: a.ormanbekova@atu.edu.kz; 
+ []
+
+)
+Overfull \hbox (47.25833pt too wide) in paragraph at lines 936--37
+[]\TU/LiberationSerif(1)/m/n/12 Mambetov S.- Master of Technical Sciences, , Tu
+ran University, Almaty, Kazakhstan, e-mail: s.mambetov@turan-
+ []
+
 
 Package caption Warning: Unused \captionsetup[table] on input line 192.
 See the caption package documentation for explanation.
 
 
 
-[10] (/home/omega/projects/vestnik/29/build/main.aux)
+[12] (/home/omega/projects/vestnik/29/build/main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-06-09>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AC3F8D73C68AA987AC3251928BAB2700;1101.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  AAA9107B06D585F1BBB4034B2D179235;1706.
  ) 
 Here is how much of TeX's memory you used:
- 30793 strings out of 468531
- 611159 string characters out of 5428489
- 1291713 words of memory out of 5000000
- 58661 multiletter control sequences out of 15000+600000
- 633426 words of font info for 129 fonts, out of 8000000 for 9000
+ 30337 strings out of 468531
+ 601285 string characters out of 5428489
+ 1294713 words of memory out of 5000000
+ 58206 multiletter control sequences out of 15000+600000
+ 632072 words of font info for 126 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,12n,107p,1131b,843s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,107p,1001b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on /home/omega/projects/vestnik/29/build/main.pdf (10 pages).
+Output written on /home/omega/projects/vestnik/29/build/main.pdf (12 pages).

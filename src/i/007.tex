@@ -1,15 +1,16 @@
 \id{IRSTI 20.23.15}{}
 
-{\bfseries BUILDING A HIGH-QUALITY ANNOTATED CORPUS FOR KAZAKH NLP: A
-PIPELINE APPROACH}
+\begin{header}
+\swa{A.K. Aitim}{BUILDING A HIGH-QUALITY ANNOTATED CORPUS FOR KAZAKH NLP: A PIPELINE APPROACH}
 
-{\bfseries A.K.Aitim}
+A.K. Aitim
+\end{header}
 
-\emph{International Information Technology University, Almaty,
-Kazakhstan}
+\begin{affil}
+International Information Technology University, Almaty, Kazakhstan
 
-Сorresponding author:
-a.aitim@iitu.edu.kz
+\corrauthor{Сorresponding author: a.aitim@iitu.edu.kz}
+\end{affil}
 
 The paper presents a pipeline for building a high-quality, multi-layer
 annotated corpus for Kazakh NLP. The pipeline integrates large-scale web
@@ -19,7 +20,7 @@ inter-annotator agreement (IAA). The final release contains 20,000
 documents, 350,000 sentences, and 6.2 million tokens spanning 5 domains
 (news, politics, science, education, culture), annotated with POS,
 morphology, NER, and UD dependencies. The report IAA per layer and
-baseline model performance (POS, NER, parsing) to demonstrate utility.
+baseline model performance (POS, NER, parsing) to demon\-strate utility.
 
 The study releases the corpus, code, and guidelines to support
 reproducible research. The proposed methodology includes the complete
@@ -36,7 +37,7 @@ dependencies, establishing a fundamental dataset for several downstream
 NLP applications.
 
 The research additionally examines significant obstacles in the
-annotation process, including maintaining consistency, assessing
+annotation process, including maintain\-ing consistency, assessing
 inter-annotator agreement, and evaluating the adaptability and
 functionality of the annotation tools. Baseline NLP models were employed
 and evaluated to determine the quality and utility of the corpus. This
@@ -50,16 +51,17 @@ the overarching purpose of multilingual NLP inclusion.
 processing, agglutinative languages, data pipeline, morphological
 analysis, low-resource language.
 
-{\bfseries ҚАЗАҚША NLP ҮШІН ЖОҒАРЫ САПАЛЫ АННОТАЦИЯЛЫҚ КОРПУС ҚҰРУ:
-ҚҰБЫРЛЫҚ ТӘСІЛ}
+\begin{header}
+ҚАЗАҚША NLP ҮШІН ЖОҒАРЫ САПАЛЫ АННОТАЦИЯЛЫҚ КОРПУС ҚҰРУ: ҚҰБЫРЛЫҚ ТӘСІЛ
 
-{\bfseries Ә.Қ.Әйтім}
+Ә.Қ. Әйтім
+\end{header}
 
-\emph{Халықаралық Ақпараттық Технологиялар Университеті, Алматы,
-Қазақстан,}
+\begin{affil}
+Халықаралық Ақпараттық Технологиялар Университеті, Алматы, Қазақстан,
 
-e-mail:
-a.aitim@iitu.edu.kz
+e-mail: a.aitim@iitu.edu.kz
+\end{affil}
 
 Бұл мақалада Қазақ NLP үшін жоғары сапалы, көп қабатты аннотацияланған
 корпусты құруға арналған құбыр ұсынылған. Құбыр кең ауқымды
@@ -100,16 +102,17 @@ UD тәуелділіктерімен түсіндірілетін 6,2 милл�
 өңдеу, агглютинативті тілдер, деректер құбыры, морфологиялық талдау,
 ресурсы аз тіл.
 
-{\bfseries ПОСТРОЕНИЕ ВЫСОКОКАЧЕСТВЕННОГО АННОТИРОВАННОГО КОРПУСА ДЛЯ
-КАЗАХСКОГО NLP: ПАЙПЛАЙН-ПОДХОД}
+\begin{header}
+ПОСТРОЕНИЕ ВЫСОКОКАЧЕСТВЕННОГО АННОТИРОВАННОГО КОРПУСА ДЛЯ КАЗАХСКОГО NLP: ПАЙПЛАЙН-ПОДХОД
 
-{\bfseries A.K.Айтим}
+A.K.Айтим
+\end{header}
 
-\emph{Международный Университет Информационных Технологий, Алматы,
-Казакстан,}
+\begin{affil}
+Международный Университет Информационных Технологий, Алматы, Казакстан,
 
-e-mail:
-a.aitim@iitu.edu.kz
+e-mail: a.aitim@iitu.edu.kz
+\end{affil}
 
 В статье представлен конвейер для создания высококачественного
 многослойного аннотированного корпуса для казахского естественного языка
@@ -153,6 +156,7 @@ UD. Мы приводим данные IAA по каждому слою и ба�
 обработка естественного языка, агглютинативные языки, конвейер данных,
 морфологический анализ, язык с низкими ресурсами.
 
+\begin{multicols}{2}
 {\bfseries Introduction.} Due to enormous, annotated datasets and the
 development of strong machine learning models, Natural Language
 Processing (NLP) has witnessed incredible improvement recently. For
@@ -389,195 +393,141 @@ documents, phrases, tokens, and unique word forms therefore providing a
 summary of the size and coverage of the corpus. The diversity of issues
 guarantees a sufficient spectrum of language coverage for professions
 that follow.
+\end{multicols}
 
-{\bfseries Table 1 - Corpus statistics}
+\tcap{Table 1 - Corpus statistics}
+\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  cells = {c},
+  cells = {font = \small},
+  hlines,
+  vlines,
+}
+\textbf{Feature}                   & \textbf{Value}                              \\
+Total documents                    & 20,000+                                     \\
+Total sentences                    & \textasciitilde{}350,000                    \\
+Total tokens                       & \textasciitilde{}6.2 million                \\
+Fully verified annotated sentences & \textasciitilde{}150,000                    \\
+Unique word forms                  & \textasciitilde{}210,000                    \\
+Domains covered                    & News, politics, science, education, culture 
+\end{longtblr}
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.4905}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5095}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Feature}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Value}
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% Total documents & 20,000+ \\
-%% Total sentences & \textasciitilde350,000 \\
-%% Total tokens & \textasciitilde6.2 million \\
-%% Fully verified annotated sentences & \textasciitilde150,000 \\
-%% Unique word forms & \textasciitilde210,000 \\
-%% Domains covered & News, politics, science, education, culture \\
-%% \end{longtable}
-
+\begin{multicols}{2}
 Summarizes the scale and basic makeup of the dataset (documents,
 sentences, tokens, types), plus quality-related counts (verified
 sentences) and average sentence length. Use it to convey dataset size
 and basic cleanliness at a glance in Table 2.
+\end{multicols}
 
-{\bfseries Table 2 - Corpus overview}
+\tcap{Table 2 - Corpus overview}
+\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  cells = {c},
+  cells = {font = \small},
+  hlines,
+  vlines,
+}
+\textbf{Statistic}  & \textbf{Value} & \textbf{Description}            \\
+Documents           & N\_DOCS        & After de-duplication            \\
+Sentences           & N\_SENTS       & Sentence splitter TOOL          \\
+Tokens              & N\_TOK         & Word tokenizer TOOL             \\
+Unique types        & N\_TYPES       & Lowercased, punctuation removed \\
+Verified sentences  & N\_VERIFIED    & Double-blind + adjudicated      \\
+Domains (K)         & K              & 5                               \\
+Avg tokens/sentence & MEAN\_LEN ± SD & Trimmed at P99                  
+\end{longtblr}
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2273}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3128}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4600}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Statistic}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Value}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Description}
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% Documents & < N\_DOCS\textgreater{} & After de-duplication \\
-%% Sentences & < N\_SENTS\textgreater{} & Sentence splitter
-%% < TOOL\textgreater{} \\
-%% Tokens & < N\_TOK\textgreater{} & Word tokenizer
-%% < TOOL\textgreater{} \\
-%% Unique types & < N\_TYPES\textgreater{} & Lowercased,
-%% punctuation removed \\
-%% Verified sentences & < N\_VERIFIED\textgreater{} & Double-blind
-%% + adjudicated \\
-%% Domains (K) & < K\textgreater{} & 5 \\
-%% Avg tokens/sentence & < MEAN\_LEN\textgreater{} ±
-%% < SD\textgreater{} & Trimmed at P99 \\
-%% \end{longtable}
-
+\begin{multicols}{2}
 Reports agreement per annotation layer (POS, morphology, NER, parsing)
 with the appropriate metric (κ, F1, LAS/UAS). Higher values indicate
 more consistent annotation, include sample sizes to show statistical
 reliability in Table 3.
+\end{multicols}
 
-{\bfseries Table 3 - Inter-annotator agreement}
+\tcap{Table 3 - Inter-annotator agreement}
+\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[119]Q[75]Q[158]Q[146]Q[148]Q[173]Q[110]},
+  cells = {c},
+  cells = {font = \small},
+  cell{6}{1} = {c=7}{0.928\linewidth},
+  cell{6}{1} = {halign=l},
+  hlines,
+  vlines,
+}
+\textbf{Layer}                                   & \textbf{Units} & \textbf{Metric}   & \textbf{Value} & \textbf{n}  & \textbf{Description} & \textbf{Score} \\
+POS                                              & token          & Cohen’s κ         & K\_POS         & N\_TOK\_IAA & tagset SIZE          & 0.94           \\
+Morphology                                       & token          & Cohen’s κ         & K\_MORPH       & N\_TOK\_IAA & features list        & 0.91           \\
+NER                                              & spans          & micro-F1 (strict) & F1\_NER        & N\_SPANS    & entity set           & 0.89           \\
+Parsing                                          & tokens         & LAS / UAS         & LAS/UAS        & N\_ARCS     & punctuation policy   & 88.2 / 91.5    \\
+\textit{Authors’ annotated Kazakh corpus (2025)} &                &                   &                &             &                      &                
+\end{longtblr}
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1395}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.0838}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1497}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1727}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1787}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1698}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1059}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% {\bfseries Layer}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Units}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Metric}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Value}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% n
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Description}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Score}
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% POS & token & Cohen's κ & < K\_POS\textgreater{} &
-%% < N\_TOK\_IAA\textgreater{} & tagset
-%% < SIZE\textgreater{} & 0.94 \\
-%% Morphology & token & Cohen's κ & < K\_MORPH\textgreater{} &
-%% < N\_TOK\_IAA\textgreater{} & features list & 0.91 \\
-%% NER & spans & micro-F1 (strict) & < F1\_NER\textgreater{} &
-%% < N\_SPANS\textgreater{} & entity set & 0.89 \\
-%% Parsing & tokens & LAS / UAS &
-%% < LAS\textgreater/< UAS\textgreater{} &
-%% < N\_ARCS\textgreater{} & punctuation policy & 88.2 / 91.5 \\
-%% \multicolumn{7}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{1.0000} + 12\tabcolsep}@{}}{%
-%% \emph{Authors' annotated Kazakh corpus (2025)}} \\
-%% \end{longtable}
-
+\begin{multicols}{2}
 Three basic models POS tagging in BiLSTM + CRF, NER in KazBERT
 fine-tuned, dependency parsing in UDPipe retrained on the corpus.
 Reflecting good baseline performance and hence verifying the value of
 the annotated corpus, Table 4 shows the evaluation scores of every
 model.
+\end{multicols}
 
-{\bfseries Table 4 - Model performance}
+\tcap{Table 4 - Model performance}
+\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[346]Q[277]Q[156]Q[160]},
+  cells = {font = \small},
+  row{even} = {c},
+  row{1} = {c},
+  row{3} = {c},
+  cell{5}{1} = {c=4}{0.939\linewidth},
+  hlines,
+  vlines,
+}
+\textbf{Task}                                                                                            & \textbf{Model}     & \textbf{Metric} & \textbf{Score} \\
+POS Tagging                                                                                              & BiLSTM + CRF       & F1-score        & 94.6\%         \\
+Named Entity Recognition                                                                                 & KazBERT fine-tuned & F1-score        & 92.3\%         \\
+Dependency Parsing                                                                                       & UDPipe retrained   & LAS / UAS       & 87.5 / 90.7    \\
+\textit{Comparative analysis based on UD Kazakh-KTB (Tyers \& Washington, 2015) and KazNERD (LREC 2022)} &                    &                 &                
+\end{longtblr}
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3631}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2955}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1768}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1646}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Task}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Model}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Metric}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Score}
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% POS Tagging & BiLSTM + CRF & F1-score & 94.6\% \\
-%% Named Entity Recognition & KazBERT fine-tuned & F1-score & 92.3\% \\
-%% Dependency Parsing & UDPipe retrained & LAS / UAS & 87.5 / 90.7 \\
-%% \multicolumn{4}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{1.0000} + 6\tabcolsep}@{}}{%
-%% \emph{Comparative analysis based on UD Kazakh-KTB (Tyers \& Washington,
-%% 2015) and KazNERD (LREC 2022)}} \\
-%% \end{longtable}
-
+\begin{multicols}{2}
 The table 5 compares your corpus with key Kazakh resources on size,
 annotation layers, domain coverage, and whether quality (IAA) and
 baseline results plus public scripts are provided. Your row (6.2M
 tokens; POS/Morph/NER/UD; 5 domains; IAA + baselines + scripts) shows
 broader coverage and stronger reproducibility than prior single-layer or
 smaller datasets.
+\end{multicols}
 
-{\bfseries Table 5 - Positioning against representative Kazakh resources}
+\tcap{Table 5 - Positioning against representative Kazakh resources}
+\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[175]Q[94]Q[169]Q[121]Q[106]Q[154]Q[113]},
+  cells = {c},
+  cells = {font = \small},
+  hlines,
+  vlines,
+}
+\textbf{Resource}   & \textbf{Tokens} & \textbf{Layers}     & \textbf{Domains} & \textbf{IAA reported} & \textbf{Baselines reported} & \textbf{Public scripts} \\
+UD Kazakh-KTB       & ≈200,000        & POS, UD             & News/General     & Yes                   & Yes (parsing)               & Yes                     \\
+KazNERD (LREC 2022) & ≈1,300,000      & NER                 & TV news/media    & Yes                   & Yes (NER)                   & Yes                     \\
+This work           & 6,200,000       & POS, Morph, NER, UD & 5                & Yes                   & Yes                         & Yes                     
+\end{longtblr}
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1713}}
-%%   >{\raggedleft\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1302}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1459}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1630}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1276}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1481}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1139}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Resource}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Tokens}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Layers}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Domains}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries IAA reported}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Baselines reported}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Public scripts}
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% UD Kazakh-KTB & ≈200,000 & POS, UD & News/General & Yes & Yes (parsing)
-%% & Yes \\
-%% KazNERD (LREC 2022) & ≈1,300,000 & NER & TV news/media & Yes & Yes (NER)
-%% & Yes \\
-%% This work & 6,200,000 & POS, Morph, NER, UD & 5 & Yes & Yes & Yes \\
-%% \end{longtable}
-
+\begin{multicols}{2}
 Often used to hold linguistic annotations like POS tags, morphological
 traits, and syntactic dependencies, the Python program in Figure 1 loads
 and analyzes a file in CoNLL-U format. Ignoring comments, breaking up
@@ -585,13 +535,13 @@ valid token lines into 10 fields, and separating sentences by empty
 lines, it moves line by line across the file line The end effect is a
 set of coherent sentences with token-level remarks on them. One can
 analyze a corpus, test, or use this list for training.
+\end{multicols}
 
-\fig{i/image42}{}
+\fig[0.45\textwidth]{i/image42}[Fig.1 - CoNLL-U file loader\\\normalfont{\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}}]
 
-{\bfseries Fig.1 - CoNLL-U file loader}
+\fig[0.7\textwidth]{i/image43}[Fig.2 - POS pre-annotation with KazBERT\\\normalfont{\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}}]
 
-\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}
-
+\begin{multicols}{2}
 This code tags portions of speech in Kazakh text using the Hugging Face
 transformers library under the KazBERT model. It uses a well-tuned
 transformer model inserted into a token-classification pipeline on an
@@ -599,12 +549,6 @@ input phrase and generates, for every token, expected grammatical
 categories (such as Noun and Verb). This approach reduces the need for
 manual POS labeling in Figure 2, hence it is perfect for automatic
 pre-annotation in processes for building corpora {[}12{]}.
-
-\fig{i/image43}{}
-
-{\bfseries Fig.2 - POS pre-annotation with KazBERT}
-
-\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}
 
 The snippet in Figure 3 is the reproducibility core of your pipeline:
 sh() runs each shell step verbosely and fails fast, log\_env() snapshots
@@ -616,13 +560,11 @@ a JSON manifest letting others verify that regenerated tables and
 figures are bit-for-bit identical. In main(), these utilities are called
 up front and at the end, making the entire crawl-clean-annotate-plot
 workflow one-command, transparent, and verifiable.
+\end{multicols}
 
-\fig{i/image44}{}
+\fig[0.62\textwidth]{i/image44}[Fig.3 - Verifiable pipeline kernel\\\normalfont{\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}}]
 
-{\bfseries Fig.3 - Verifiable pipeline kernel}
-
-\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}
-
+\begin{multicols}{2}
 The Figure 4 box plot contrasts three separate domains News, Science,
 and Politics along with sentence lengths (measured in terms of number of
 tokens). With the median noted inside each box, each one shows the
@@ -634,13 +576,11 @@ complicated sentence structures sometimes seen in scholarly writing
 journalistic and formal communication approaches by having shorter and
 more direct phrases. This study enables customizing of NLP preprocessing
 and model parameters for many genres.
+\end{multicols}
 
-\fig{i/image45}{}
+\fig[0.62\textwidth]{i/image45}[Fig.4 - Sentence lengths by domain\\\normalfont{\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}}]
 
-{\bfseries Fig.4 - Sentence lengths by domain}
-
-\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}
-
+\begin{multicols}{2}
 The scatter plot in Figure 5 shows how the number of tokens and the
 number of sentences in 50 chosen documents relate. Every point denotes
 one document. The general favorable association implies that, as
@@ -651,13 +591,11 @@ simpler structures, those with high token counts but few sentences could
 include longer more sophisticated sentences. Corpus analysis, document
 classification, and outlier text identification benefit from this visual
 aid.
+\end{multicols}
 
-\fig{i/image46}{}
+\fig[0.62\textwidth]{i/image46}[Fig.5 - Token and sentence count per document\\\normalfont{\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}}]
 
-{\bfseries Fig.5 - Token and sentence count per document}
-
-\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}
-
+\begin{multicols}{2}
 Five main morphological traits marked in the corpus are shown in Figure
 6 in proportionate distribution: Case (30\%), Number (25\%), Tense
 (20\%), Person (15\%), and Aspect (10\%). This visualization emphasizes
@@ -669,24 +607,20 @@ interpretability of a standard pie chart, the central white circle
 provides the chart a neat, contemporary look. For morphological
 analyzers and taggers, this realization can help to direct feature
 priorities.
+\end{multicols}
 
-\fig{i/image47}{}
+\fig[0.3\textwidth]{i/image47}[Fig.6 - Morphological feature distribution\\\normalfont{\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}}]
 
-{\bfseries Fig.6 - Morphological feature distribution}
-
-\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}
-
+\begin{multicols}{2}
 The Figure 7 illustrates the accuracy of NLP models trained on the
 Kazakh annotated corpus across five core tasks Part-of-Speech (POS)
 Tagging, Named Entity Recognition (NER), Morphological Analysis,
 Dependency Parsing, and Lemmatization.
+\end{multicols}
 
-\fig{i/image48}{}
+\fig[0.6\textwidth]{i/image48}[Fig.7 - Model accuracy across NLP tasks\\\normalfont{\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}}]
 
-{\bfseries Fig.7 - Model accuracy across NLP tasks}
-
-\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}
-
+\begin{multicols}{2}
 Every chore is shown along the x-axis; the y-axis indicates the matching
 accuracy expressed as a percentage. Following closely by NER (92.3\%),
 Morphology (90.2\%), and POS tagging, which attained the highest
@@ -700,14 +634,11 @@ well as direction for giving future development top priority.
 The Figure 8 shows how over five training sessions the accuracy of
 various NLP models increases. Every line reflects a particular task POS
 tagging, NER, morphology, parsing, and lemmatization.
+\end{multicols}
 
-\fig{i/image49}{}
+\fig[0.6\textwidth]{i/image49}[Fig.8 - Multi-line chart: accuracy trends across training epochs\\\normalfont{\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}}]
 
-{\bfseries Fig.8 - Multi-line chart: accuracy trends across training
-epochs}
-
-\emph{Authors' experiment using QNLP pipeline (2025) {[}1{]}}
-
+\begin{multicols}{2}
 From 1 to 5, the x-axis depicts the number of training epochs; the
 y-axis shows model accuracy expressed in percent. With POS tagging
 obtaining the best final accuracy (94.6\%) by epoch 5, followed by NER
@@ -802,9 +733,13 @@ intelligence and data-driven technologies for the Kazakh language.
 Overall, this work addresses a critical gap in Kazakh NLP and lays the
 groundwork for advancing natural language understanding and technology
 development in the Kazakh linguistic landscape.
+\end{multicols}
 
+\begin{center}
 {\bfseries References}
+\end{center}
 
+\begin{refs}
 1. QNLP - Full Kazakh NLP Suite GitHub repository. URL:
 \url{https://github.com/Aigerimhub/qnlp}. - Date of access: 07.09.2025.
 
@@ -825,7 +760,9 @@ Representations//arXiv preprint arXiv:1909.11942. -2019.
 
 5. Salamatin A. kzlangtools: Kazakh NLP Tools//GitHub Repository. -2023.
 URL: \url{https://github.com/salamatin/kzlangtools}. -Date of access:
-07.09.2025.6. Aitim A.K., Satybaldiyeva R.Zh., Wojcik W. The construction of the
+07.09.2025.
+
+6. Aitim A.K., Satybaldiyeva R.Zh., Wojcik W. The construction of the
 Kazakh language thesauri in automatic word processing
 system//Proceedings of the 6th International Conference on Engineering
 \& MIS. -2020. -P.1-4. DOI
@@ -833,7 +770,9 @@ system//Proceedings of the 6th International Conference on Engineering
 
 7. Goodfellow I., Bengio Y., Courville A. Deep learning/ MIT Press.
 -2016. \url{https://www.deeplearningbook.org/}.-Date of access:
-07.09.2025.8. Houlsby N., Giurgiu A., Jastrzebski S., Morrone B., de Laroussilhe
+07.09.2025.
+
+8. Houlsby N., Giurgiu A., Jastrzebski S., Morrone B., de Laroussilhe
 Q., Gesmundo A., Attariyan M., Gelly S. Parameter-efficient transfer
 learning for NLP//arXiv. -2019. DOI
 \href{https://doi.org/10.48550/arXiv.1902.00751}{10.48550/arXiv.1902.00751}.
@@ -883,26 +822,27 @@ segmentation and morphology learning//ACM Transactions on Speech and
 Language Processing (TSLP). -2007. -Vol.4(1). --P.1--34. DOI
 10.1145/1217098.1217101.
 
-\begin{quote}
 18. Goldsmith, I. (2001). Unsupervised learning of the morphology of a
 natural language.662 Computational Linguistics. -2001 -Vol.27(2).-
 P.153-198. DOI 10.1162/089120101750300490.
-\end{quote}
 
 19. Lindén K., Pirinen, T. A., Koskenniemi K. (2011). HFST - Framework
 for compiling and applying morphologies// Communications in Computer and
 Information Science. -2011. Vol.100. - P.67-85. DOI.
 \href{https://doi.org/10.1007/978-677\%203-642-23138-4_5}{10.1007/978-677
 3-642-23138-4\_5}.
+\end{refs}
 
-\emph{{\bfseries Сведения об авторах}}
+\begin{info}
+\hspace{1em}\emph{{\bfseries Сведения об авторах}}
 
 Айтим А.К. - магистр технических наук, ассистент-профессор,
 Международный Университет Информационных Технологий, Алматы, Казаxстан,
-\href{mailto:a.aitim@iitu.edu.kz}{\ul{a.aitim@iitu.edu.kz}}.
+a.aitim@iitu.edu.kz.
 
-\emph{{\bfseries Information about authors}}
+\hspace{1em}\emph{{\bfseries Information about authors}}
 
 Aitim A.K. - master of Technical Sciences, assistant-professor,
 International Information Technology University, Almaty, Kazakhstan,
-a.aitim@iitu.edu.kz\
+a.aitim@iitu.edu.kz.
+\end{info}
