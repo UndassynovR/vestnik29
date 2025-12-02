@@ -88,14 +88,66 @@
 \DefTblrTemplate{contfoot}{default}{}   % Removes text denoting continuation on next page
 
 % Packages for Graphics and Figures
-\usepackage[xetex]{graphicx}          % Including graphics in the document
+\usepackage{graphicx}                 % Including graphics in the document
 \usepackage{svg}                      % Scalable Vector Graphics support
 \usepackage{float}                    % Enhanced placement of figures and tables
 \usepackage{subcaption}               % Subfigures and subtables
 
 % Packages for Mathematics
-\usepackage{amsmath}                  % Additional math symbols and environments
+\usepackage{amsmath,amssymb}                  % Additional math symbols and environments
 \usepackage{unicode-math}             % Support for Unicode math symbols
+\setmathfont{XITS Math}
+
+%See: https://tex.stackexchange.com/questions/201239/cant-get-unicode-symbols-in-math-mode
+\setmainfont{Noto Serif} % Temporarily set for symbol font declaration
+\DeclareSymbolFont{kazletters}{\encodingdefault}{\familydefault}{m}{it}
+\newcommand{\makekazmathletter}[1]{%
+  \begingroup\lccode`a=#1\lowercase{\endgroup
+  \Umathcode`a}="0 \csname symkazletters\endcsname\space #1
+}
+
+% Standard Cyrillic range (А-я)
+\count255="409
+\loop\ifnum\count255<"44F
+  \advance\count255 by 1
+  \makekazmathletter{\count255}
+\repeat
+
+% Additional Kazakh-specific letters
+% Ә ә (U+04D8-04D9)
+\makekazmathletter{"04D8}
+\makekazmathletter{"04D9}
+% Ғ ғ (U+0492-0493)
+\makekazmathletter{"0492}
+\makekazmathletter{"0493}
+% Қ қ (U+049A-049B)
+\makekazmathletter{"049A}
+\makekazmathletter{"049B}
+% Ң ң (U+04A2-04A3)
+\makekazmathletter{"04A2}
+\makekazmathletter{"04A3}
+% Ө ө (U+04E8-04E9)
+\makekazmathletter{"04E8}
+\makekazmathletter{"04E9}
+% Ұ ұ (U+04B0-04B1)
+\makekazmathletter{"04B0}
+\makekazmathletter{"04B1}
+% Ү ү (U+04AE-04AF)
+\makekazmathletter{"04AE}
+\makekazmathletter{"04AF}
+% Һ һ (U+04BA-04BB)
+\makekazmathletter{"04BA}
+\makekazmathletter{"04BB}
+% І і (U+0406-0456)
+\makekazmathletter{"0406}
+\makekazmathletter{"0456}
+
+\setmainfont[
+  Language=Default,
+  Script=Cyrillic,
+  Numbers=Lining,
+  Ligatures=TeX
+]{Liberation Serif}
 
 % Packages for Text Formatting
 \usepackage[normalem]{ulem}           % Underlining and emphasis styles

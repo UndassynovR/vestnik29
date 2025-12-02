@@ -1,4 +1,4 @@
-\id{МРНТИ }{}\href{https://grnti.ru/?p1=28&p2=17&p3=31\#31}{28.17.31}
+\id{МРНТИ \href{https://grnti.ru/?p1=28&p2=17&p3=31\#31}{28.17.31}}{}
 
 \begin{header}
 \swa{И. Масырова, С.К. Джолдасбаев, А.Р. Гизатуллина, М.Ж. Жанадилов, О.К.~Джолдасбаев, А.А.~Орманбекова, С.Т. Мамбетов}{ГИБРИДНАЯ МОДЕЛЬ МАССОВОГО ОБСЛУЖИВАНИЯ С ДИНАМИЧЕСКИМИ ПАРАМЕТРАМИ ДЛЯ АВТОМАТИЗИРОВАННОЙ СИСТЕМЫ}
@@ -336,40 +336,18 @@ automation, adaptive optimization, simulation modeling.
 распределение студентов. Студенты подают заявки в разное время и их
 поступление можно описать как пуассоновский процесс:
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9116}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0884}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% \[P_{n}(t) = \frac{(\lambda t)^{n}e^{\lambda t}}{n!}\]
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
-%% (1)
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \end{longtable}
+\begin{equation}
+P_{n}(t) = \frac{(\lambda t)^{n}e^{\lambda t}}{n!}
+\end{equation}
 
 где \(P_{n}(t)\) - вероятность того, что за время \(t\ \) поступит
 \(n\ \) заявок. Переменная \emph{n} означает количество заявок
 студентов, поступивших за время \emph{t.} Зависимость вероятности
 распределения студента на конкретное предприятие можно описать как:
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9116}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0884}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% \[p_{ij} = \frac{w_{s}^{i}w_{e}^{j}}{\sum_{k = 1}^{M}w_{s}^{i}w_{e}^{k}}\]
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
-%% (2)
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \end{longtable}
+\begin{equation}
+p_{ij} = \frac{w_{s}^{i}w_{e}^{j}}{\sum_{k = 1}^{M}w_{s}^{i}w_{e}^{k}}
+\end{equation}
 
 где \(w_{s}^{i}\) - вес студента \(i\ \), \(w_{e}^{j}\) - вес
 предприятия \(j\ \), который учитывает престиж, условия практики и
@@ -383,20 +361,9 @@ automation, adaptive optimization, simulation modeling.
 Вероятность отказа для многоканальной системы массового обслуживания
 рассчитывается по формуле:
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9116}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0884}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% \[P_{rej} = \frac{\frac{\left( \rho_{j} \right)^{N_{j}}}{N_{j}!}}{\sum_{k = 0}^{N_{j}}\frac{\left( \rho_{j} \right)^{k}}{k!}}\]
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
-%% (3)
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \end{longtable}
+\begin{equation}
+P_{rej} = \frac{\frac{\left( \rho_{j} \right)^{N_{j}}}{N_{j}!}}{\sum_{k = 0}^{N_{j}}\frac{\left( \rho_{j} \right)^{k}}{k!}}
+\end{equation}
 
 где \(\rho_{j} = \ \frac{\lambda p_{ij}}{\mu_{j}}\) - коэффициент
 загрузки предприятия. Если вероятность отказа превышает допустимое
@@ -409,20 +376,9 @@ automation, adaptive optimization, simulation modeling.
 Если предприятие перегружено \(P_{rej} > \theta\), поток заявок можно
 перераспределить в другие предприятия:
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9116}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0884}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% \[\lambda_{j}' = \lambda_{j}\left( 1 - P_{rej} \right) + \lambda_{alt}\]
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
-%% (4)
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \end{longtable}
+\begin{equation}
+\lambda_{j}' = \lambda_{j}\left( 1 - P_{rej} \right) + \lambda_{alt}
+\end{equation}
 
 где \(\lambda_{alt}\) - поток студентов, направленных в альтернативные
 предприятия.
@@ -432,91 +388,48 @@ automation, adaptive optimization, simulation modeling.
 Время согласования заявки на предприятии описывается экспоненциальным
 распределением:
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9116}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0884}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% \[P\left( T_{s} < t \right) = 1 - e^{- \mu_{j}t}\]
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
-%% (5)
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \end{longtable}
+\begin{equation}
+P\left( T_{s} < t \right) = 1 - e^{- \mu_{j}t}
+\end{equation}
 
 Среднее время обслуживания будет выражена как:
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9116}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0884}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% \[T_{s} = \frac{1}{\mu}\]
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
-%% (6)
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \end{longtable}
+\begin{equation}
+T_{s} = \frac{1}{\mu}
+\end{equation}
 
 Время ожидания до начала практики выражается:
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9116}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0884}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% \[T_{w} = \frac{\lambda}{\mu(\mu - \lambda)}\]
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
-%% (7)
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \end{longtable}
+\begin{equation}
+T_{w} = \frac{\lambda}{\mu(\mu - \lambda)}
+\end{equation}
 
 Полное время будет
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9116}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0884}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% \[T_{t} = T_{w} + T_{s}\]
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
-%% (8)
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \end{longtable}
+\begin{equation}
+T_{t} = T_{w} + T_{s}
+\end{equation}
 
 И среднее время перераспределения при заполнении мест:
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9116}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0884}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% \[T_{r} = \min\left( T_{\max},\frac{1}{\lambda} \right)\]
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
-%% (9)
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \end{longtable}
+\begin{equation}
+T_{r} = \min\left( T_{\max},\frac{1}{\lambda} \right)
+\end{equation}
 
 где \(T_{\max}\) - максимальное время ожидания перераспределения.
+\end{multicols}
 
+\fig{i/image50}[Рис.1 - Сравнение моделей с учетом улучшений]
+
+\fig{i/image51}[Рис.2 - Влияние количества студентов на отказы]
+
+\fig{i/image52}[Рис.3 - Влияние числа студентов на среднее время нахождения
+запроса в системе]
+
+\fig{i/image53}[Рис.4 - Зависимость плотности вероятности от времени пребывания
+запроса в системе]
+
+\begin{multicols}{2}
 На основе этих математических подходов для сравнения предложенной модели
 с классической моделью было проведено имитационное моделирование
 системы. На первом этапе было выявлено соотношение количества агентов на
@@ -533,25 +446,6 @@ automation, adaptive optimization, simulation modeling.
 выше. Однако, перераспределение в предложенной модели поможет уменьшить
 перегрузку отдельных предприятий. Также классическая модель показывает
 более высокие время нахождения в системе.
-\end{multicols}
-
-\fig{i/image50}{}
-
-{\bfseries Рис.1 - Сравнение моделей с учетом улучшений}
-
-\fig{i/image51}{}
-
-{\bfseries Рис.2 - Влияние количества студентов на отказы}
-
-\fig{i/image52}{}
-
-{\bfseries Рис.3 - Влияние числа студентов на среднее время нахождения
-запроса в системе}
-
-\fig{i/image53}{}
-
-{\bfseries Рис.4 - Зависимость плотности вероятности от времени пребывания
-запроса в системе}
 
 {\bfseries Обсуждение и результаты.} Проведенное исследование позволило
 оценить эффективность предложенной гибридной модели в системе
@@ -625,10 +519,14 @@ automation, adaptive optimization, simulation modeling.
 инструменты искусственного интеллекта, в том числе языковая модель
 GPT-4, предоставляемая OpenAI. Модель использовалась исключительно для
 помощи в редактировании текста и структурировании научного изложения}
-{[}22{]}\emph{.}
+{[}22{]}.
+\end{multicols}
 
+\begin{center}
 {\bfseries Литература}
+\end{center}
 
+\begin{refs}
 1. Balakayeva G.T., Ezhichelvan P., Tursynkozha M.K. Analysis, research
 and development of an innovative enterprise digitalization system for
 remote work // International Journal of Mathematics and Physics. - 2022.
@@ -746,13 +644,16 @@ Berlin, Heidelberg: Springer.- 2010.-Vol.6372. - P.388-390. DOI
 
 22. OpenAI. ChatGPT (GPT-4) Language Model. OpenAI. - 2023. - URL:
 \url{https://chat.openai.com}. Intended use: language editing and
-grammar checking. GPT-4. Модель использовалась исключительно для помощи
-в редактировании текста и структурирова-
+grammar checking. GPT-4. Модель использовалась исключительно для
+помощи в редактировании текста и структурировании научного
+изложения .- Дата обращения: 06.10.2025.
+\end{refs}
 
-нии научного изложения.-Дата обращения: 06.10.2025.
-
+\begin{center}
 {\bfseries References}
+\end{center}
 
+\begin{refs}
 1. Balakayeva G.T., Ezhichelvan P., Tursynkozha M.K. Analysis, research
 and development of an innovative enterprise digitalization system for
 remote work // International Journal of Mathematics and Physics. - 2022.
@@ -874,8 +775,10 @@ Berlin, Heidelberg: Springer.- 2010.-Vol.6372. - P.388-390. DOI
 grammar checking. \emph{GPT-4} The model was used exclusively to assist
 in editing the text and structuring the scientific presentation
 (accessed: 06.10.2025).
+\end{refs}
 
-\emph{{\bfseries Сведения об авторах}}
+\begin{info}
+\hspace{1em}\emph{{\bfseries Сведения об авторах}}
 
 Масырова И. - магистр, ассистент-профессор, Международный университет
 информационных технологий, Алматы, Казахстан, e-mail:
@@ -906,7 +809,7 @@ a.ormanbekova@atu.edu.kz;
 Казахстан, e-mail:
 s.mambetov@turan-edu.kz;
 
-\emph{{\bfseries Information about the authors}}
+\hspace{1em}\emph{{\bfseries Information about the authors}}
 
 Massyrova I. - Master, Assistant Professor, International IT University,
 Almaty, Kazakhstan, e-mail:
@@ -935,4 +838,5 @@ a.ormanbekova@atu.edu.kz;
 
 Mambetov S.- Master of Technical Sciences, , Turan University, Almaty,
 Kazakhstan, e-mail:
-s.mambetov@turan-edu.kz.\
+s.mambetov@turan-edu.kz.
+\end{info}

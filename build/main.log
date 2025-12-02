@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/nixos.org) (preloaded format=xelatex 1980.1.1)  28 NOV 2025 16:50
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/nixos.org) (preloaded format=xelatex 1980.1.1)  2 DEC 2025 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -959,6 +959,19 @@ LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
 )
 (/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
 ex/unicode-math/unicode-math.sty
 Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
 
@@ -1241,6 +1254,246 @@ t line 194.
 
 (/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
 ex/unicode-math/unicode-math-table.tex)))
+
+Package fontspec Info: 
+(fontspec)             Font family 'XITSMath(0)' created for font 'XITS Math'
+(fontspec)             with options
+(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
+Font={},Script=Math].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"XITS
+(fontspec)             Math/OT:script=math;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"XITS
+(fontspec)             Math/B/OT:script=math;language=dflt;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'XITSMath(1)' created for font 'XITS Math'
+(fontspec)             with options
+(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
+Font={},Script=Math,SizeFeatures={{Size=10.5-},{Size=8.1-10.5,Font=XITS
+(fontspec)             Math,Style=MathScript},{Size=-8.1,Font=XITS
+(fontspec)             Math,Style=MathScriptScript}}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <10.5->"XITS
+(fontspec)             Math/OT:script=math;language=dflt;mapping=tex-text;"<8.1
+-10.5>"XITS
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;mapping=tex-te
+xt;"<-8.1>"XITS
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=1;mapping=tex-te
+xt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"XITS
+(fontspec)             Math/B/OT:script=math;language=dflt;mapping=tex-text;"
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 100.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/XITSMath(1)/m/n on input line 100.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 100.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/XITSMath(1)/b/n on input line 100.
+
+Package fontspec Info: 
+(fontspec)             XITS Math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             XITS Math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             XITS Math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             XITS Math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             XITS Math/B scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'XITSMath(2)' created for font 'XITS Math'
+(fontspec)             with options
+(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
+Font={},Script=Math,SizeFeatures={{Size=10.5-},{Size=8.1-10.5,Font=XITS
+(fontspec)             Math,Style=MathScript},{Size=-8.1,Font=XITS
+(fontspec)             Math,Style=MathScriptScript}},ScaleAgain=1.0001,FontAdju
+stment={\fontdimen
+(fontspec)             8\font =6.96pt\relax \fontdimen 9\font =5.76pt\relax
+(fontspec)             \fontdimen 10\font =5.76pt\relax \fontdimen 11\font
+(fontspec)             =8.4pt\relax \fontdimen 12\font =5.76pt\relax
+(fontspec)             \fontdimen 13\font =4.8pt\relax \fontdimen 14\font
+(fontspec)             =4.8pt\relax \fontdimen 15\font =3.3pt\relax \fontdimen
+(fontspec)             16\font =3.0pt\relax \fontdimen 17\font =3.0pt\relax
+(fontspec)             \fontdimen 18\font =4.5pt\relax \fontdimen 19\font
+(fontspec)             =0.6pt\relax \fontdimen 22\font =3.0pt\relax \fontdimen
+(fontspec)             20\font =0pt\relax \fontdimen 21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.5->s*[1.0001]"XITS
+(fontspec)             Math/OT:script=math;language=dflt;mapping=tex-text;"<8.1
+-10.5>s*[1.0001]"XITS
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;mapping=tex-te
+xt;"<-8.1>s*[1.0001]"XITS
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=1;mapping=tex-te
+xt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.0001]"XITS
+(fontspec)             Math/B/OT:script=math;language=dflt;mapping=tex-text;"
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 100.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> TU/XITSMath(2)/m/n on input line 100.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 100.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> TU/XITSMath(2)/b/n on input line 100.
+
+Package fontspec Info: 
+(fontspec)             XITS Math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             XITS Math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             XITS Math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             XITS Math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             XITS Math/B scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'XITSMath(3)' created for font 'XITS Math'
+(fontspec)             with options
+(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
+Font={},Script=Math,SizeFeatures={{Size=10.5-},{Size=8.1-10.5,Font=XITS
+(fontspec)             Math,Style=MathScript},{Size=-8.1,Font=XITS
+(fontspec)             Math,Style=MathScriptScript}},ScaleAgain=0.9999,FontAdju
+stment={\fontdimen
+(fontspec)             8\font =0.792pt\relax \fontdimen 9\font =1.8pt\relax
+(fontspec)             \fontdimen 10\font =1.8pt\relax \fontdimen 11\font
+(fontspec)             =3.6pt\relax \fontdimen 12\font =7.2pt\relax \fontdimen
+(fontspec)             13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.5->s*[0.9999]"XITS
+(fontspec)             Math/OT:script=math;language=dflt;mapping=tex-text;"<8.1
+-10.5>s*[0.9999]"XITS
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;mapping=tex-te
+xt;"<-8.1>s*[0.9999]"XITS
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=1;mapping=tex-te
+xt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[0.9999]"XITS
+(fontspec)             Math/B/OT:script=math;language=dflt;mapping=tex-text;"
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+00.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> TU/XITSMath(3)/m/n on input line 100.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 100
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> TU/XITSMath(3)/b/n on input line 100.
+
+Package fontspec Info: 
+(fontspec)             Font family 'NotoSerif(0)' created for font 'Noto
+(fontspec)             Serif' with options [Ligatures=TeX,Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Noto
+(fontspec)             Serif/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Noto
+(fontspec)             Serif/OT:script=latn;language=dflt;+smcp;mapping=tex-tex
+t;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Noto
+(fontspec)             Serif/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Noto
+(fontspec)             Serif/B/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Noto
+(fontspec)             Serif/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Noto
+(fontspec)             Serif/I/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Noto
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Noto
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-
+text;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'NotoSerif(1)' created for font 'Noto
+(fontspec)             Serif' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Noto
+(fontspec)             Serif/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Noto
+(fontspec)             Serif/OT:script=latn;language=dflt;+smcp;mapping=tex-tex
+t;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Noto
+(fontspec)             Serif/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Noto
+(fontspec)             Serif/B/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Noto
+(fontspec)             Serif/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Noto
+(fontspec)             Serif/I/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Noto
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Noto
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-
+text;"
+
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  TU/XITSMath(1)/m/n --> TU/NotoSerif(1)/m/n on input lin
+e 103.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/NotoSerif(1)/m/it on input line 103
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/NotoSerif(1)/b/n on input line 103.
+
+\symkazletters=\mathgroup6
+
 (/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/gen
 eric/ulem/ulem.sty
 \UL@box=\box97
@@ -1737,23 +1990,10 @@ Package hyperref Info: Link coloring ON on input line 6.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/LiberationSerif(0)/m/n on input line
- 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/LiberationSerif(0)/m/it on input li
-ne 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/LiberationSerif(0)/b/n on input lin
-e 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/FreeSans(0)/m/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
@@ -1762,177 +2002,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/FreeMono(0)/m/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/FreeMono(0)/b/n on input line 6.
-
-Package fontspec Info: 
-(fontspec)             Font family 'latinmodern-math.otf(0)' created for font
-(fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
-Font={},Script=Math,BoldFont={latinmodern-math.otf}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[latinmodern-math.otf]/OT:script=math;language=dflt;
-mapping=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[latinmodern-math.otf]/OT:script=math;language=dflt;
-mapping=tex-text;"
-
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `latinmodern-math.otf' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Package fontspec Info: 
-(fontspec)             Font family 'latinmodern-math.otf(1)' created for font
-(fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
-Font={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latinmodern-
-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=MathScrip
-tScript}},BoldFont={latinmodern-math.otf}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <10.2->"[latinmodern-math.otf]/OT:script=math;language=d
-flt;mapping=tex-text;"<7.2-10.2>"[latinmodern-math.otf]/OT:script=math;language
-=dflt;+ssty=0;mapping=tex-text;"<-7.2>"[latinmodern-math.otf]/OT:script=math;la
-nguage=dflt;+ssty=1;mapping=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[latinmodern-math.otf]/OT:script=math;language=dflt;
-mapping=tex-text;"
-
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 6.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 6.
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 1.0001.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 1.0001.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 1.0001.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 1.0001.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 1.0001.
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'latinmodern-math.otf(2)' created for font
-(fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
-Font={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latinmodern-
-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=MathScrip
-tScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustment={\fo
-ntdimen
-(fontspec)             8\font =8.124pt\relax \fontdimen 9\font =4.728pt\relax
-(fontspec)             \fontdimen 10\font =5.328pt\relax \fontdimen 11\font
-(fontspec)             =8.232pt\relax \fontdimen 12\font =4.14pt\relax
-(fontspec)             \fontdimen 13\font =4.356pt\relax \fontdimen 14\font
-(fontspec)             =4.356pt\relax \fontdimen 15\font =3.468pt\relax
-(fontspec)             \fontdimen 16\font =2.964pt\relax \fontdimen 17\font
-(fontspec)             =2.964pt\relax \fontdimen 18\font =3.0pt\relax
-(fontspec)             \fontdimen 19\font =2.4pt\relax \fontdimen 22\font
-(fontspec)             =3.0pt\relax \fontdimen 20\font =0pt\relax \fontdimen
-(fontspec)             21\font =0pt\relax }].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <10.2->s*[1.0001]"[latinmodern-math.otf]/OT:script=math;
-language=dflt;mapping=tex-text;"<7.2-10.2>s*[1.0001]"[latinmodern-math.otf]/OT:
-script=math;language=dflt;+ssty=0;mapping=tex-text;"<-7.2>s*[1.0001]"[latinmode
-rn-math.otf]/OT:script=math;language=dflt;+ssty=1;mapping=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1.0001]"[latinmodern-math.otf]/OT:script=math;lang
-uage=dflt;mapping=tex-text;"
-
-LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 6.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 6.
-LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 6.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 6.
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999.
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'latinmodern-math.otf(3)' created for font
-(fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Ligatures=TeX,BoldItalicFont={},ItalicFont={},SmallCaps
-Font={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latinmodern-
-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=MathScrip
-tScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustment={\fo
-ntdimen
-(fontspec)             8\font =0.48pt\relax \fontdimen 9\font =2.4pt\relax
-(fontspec)             \fontdimen 10\font =2.004pt\relax \fontdimen 11\font
-(fontspec)             =1.332pt\relax \fontdimen 12\font =7.2pt\relax
-(fontspec)             \fontdimen 13\font =0pt\relax }].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <10.2->s*[0.9999]"[latinmodern-math.otf]/OT:script=math;
-language=dflt;mapping=tex-text;"<7.2-10.2>s*[0.9999]"[latinmodern-math.otf]/OT:
-script=math;language=dflt;+ssty=0;mapping=tex-text;"<-7.2>s*[0.9999]"[latinmode
-rn-math.otf]/OT:script=math;language=dflt;+ssty=1;mapping=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999]"[latinmodern-math.otf]/OT:script=math;lang
-uage=dflt;mapping=tex-text;"
-
-LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 6
-.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 6.
-LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 6.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 6.
 \c@lstlisting=\count436
 
 (/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
@@ -1950,7 +2019,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
-)) (./src/i/008.tex
+)) (./src/p/007.tex
 
 Package hyperref Warning: Suppressing empty link on input line 1.
 
@@ -1958,32 +2027,60 @@ Package hyperref Warning: Suppressing empty link on input line 1.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 4.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 6.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 11.00117pt on input line 6.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.70078pt on input line 6.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.50058pt on input line 6.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.99883pt on input line 6.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.69914pt on input line 6.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.4994pt on input line 6.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 7.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `XITSMath' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
+(Font)              scaled to size 11.00117pt on input line 7.
+LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
+(Font)              scaled to size 7.70078pt on input line 7.
+LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
+(Font)              scaled to size 5.50058pt on input line 7.
+LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
+(Font)              scaled to size 10.99883pt on input line 7.
+LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
+(Font)              scaled to size 7.69914pt on input line 7.
+LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
+(Font)              scaled to size 5.4994pt on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
+ex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `NotoSerif' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 File: media/envelope.png Graphic file (type bmp)
 <media/envelope.png>
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
 (Font)              scaled to size 10.00107pt on input line 16.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
 (Font)              scaled to size 7.00075pt on input line 16.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
 (Font)              scaled to size 5.00053pt on input line 16.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
 (Font)              scaled to size 9.99893pt on input line 16.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
 (Font)              scaled to size 6.99925pt on input line 16.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 16.
 File: media/envelope.png Graphic file (type bmp)
 <media/envelope.png>
@@ -1997,10 +2094,8 @@ File: media/envelope.png Graphic file (type bmp)
 File: media/envelope.png Graphic file (type bmp)
 <media/envelope.png>
 
-Overfull \hbox (0.7477pt too wide) in paragraph at lines 158--160
-[]\TU/LiberationSerif(1)/b/n/12 Keywords: \TU/LiberationSerif(1)/m/n/12 hybrid 
-model; queuing, dynamic parameters, automation, adaptive optimization, simulati
-on
+Overfull \hbox (0.18771pt too wide) in paragraph at lines 132--141
+\TU/LiberationSerif(1)/m/n/12 бағалау өте қиын. Ол тек ғана ақуыздар мен кало-
  []
 
 
@@ -2010,19 +2105,41 @@ on
 
 
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 188--192
+[]\TU/LiberationSerif(1)/m/n/12 Машты зерттеу бойынша жүргізілген
+ []
+
+
+Underfull \hbox (badness 7704) in paragraph at lines 188--192
+\TU/LiberationSerif(1)/m/n/12 ғылыми-зерттеу жұмыстарын қорытындылай
+ []
+
+LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
+(Font)              scaled to size 12.00128pt on input line 220.
+LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
+(Font)              scaled to size 9.00096pt on input line 220.
+LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
+(Font)              scaled to size 7.20076pt on input line 220.
+LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 220.
+LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
+(Font)              scaled to size 8.99904pt on input line 220.
+LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
+(Font)              scaled to size 7.19922pt on input line 220.
+
 
 
 
 
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 261--271
-[]\TU/LiberationSerif(1)/m/n/12 Рассмотренные исследования охватывают
+Underfull \hbox (badness 10000) in paragraph at lines 273--275
+[]\TU/LiberationSerif(1)/m/n/12 Көмірсулардың салмақтық үлесі есептеу
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 279--286
-\TU/LiberationSerif(1)/m/n/12 тику с учетом индивидуальных параметров
+Underfull \hbox (badness 7468) in paragraph at lines 311--315
+[]\TU/LiberationSerif(1)/m/n/12 Құрамында ақуыз мөлшері жоғары жаңа
  []
 
 
@@ -2032,211 +2149,91 @@ Underfull \hbox (badness 5578) in paragraph at lines 279--286
 
 
 [4]
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 310.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.40088pt on input line 310.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 310.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 310.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.3991pt on input line 310.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 310.
 
 
 
 
 
 
-[5]
-
-
-
-
-
-File: media/i/image50.png Graphic file (type bmp)
-<media/i/image50.png>
-File: media/i/image51.png Graphic file (type bmp)
-<media/i/image51.png>
-File: media/i/image52.png Graphic file (type bmp)
-<media/i/image52.png>
-
-
-[6]
-File: media/i/image53.png Graphic file (type bmp)
-<media/i/image53.png>
-
-Overfull \hbox (2.5453pt too wide) in paragraph at lines 564--571
-[]\TU/LiberationSerif(1)/m/n/12 Среднее значение времени ожидания обработки зая
-вки для классической модели составило 10.29,
+Overfull \hbox (14.08046pt too wide) in paragraph at lines 366--368
+[]\TU/LiberationSerif(1)/m/n/12 Соңғы жылдары өндірілген маш өнімін пайдалану т
+енденциясы салауатты тамақтану принциптерін
  []
 
 
 
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[6]
+Overfull \hbox (8.54735pt too wide) in paragraph at lines 622--626
+[]\TU/LiberationSerif(1)/m/n/12 4. Kozhabayeva S.А., Sartanova N.T. POULTRY SUB
+COMPLEX OF KAZAKHSTAN: PRODUCTION
+ []
+
+
+Overfull \hbox (4.2834pt too wide) in paragraph at lines 639--643
+[]\TU/LiberationSerif(1)/m/n/12 7. Айтбаев Т.Е. Маш — перспективная культура дл
+я Казахстана / Agro-mart. URL: [][]$[][][][][] [] [] [] [][][][][][][][][][] []
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
 [7]
+Overfull \hbox (8.54735pt too wide) in paragraph at lines 691--695
+[]\TU/LiberationSerif(1)/m/n/12 4. Kozhabayeva S.А., Sartanova N.T. POULTRY SUB
+COMPLEX OF KAZAKHSTAN: PRODUCTION
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [8]
-Overfull \hbox (10.03163pt too wide) in paragraph at lines 666--671
-\TU/LiberationSerif(1)/m/n/12 the quality of service delivery using modificatio
-ns of the least connections algorithm // Journal of Theoretical
+Overfull \hbox (3.84128pt too wide) in paragraph at lines 743--746
+[]\TU/LiberationSerif(1)/m/n/12 mashevoj muki kak potencial’ nogo syr’ ja dlja 
+hlebopekarnogo proizvodstva // Universum: tehnicheskie
  []
 
 
-Overfull \hbox (52.54211pt too wide) in paragraph at lines 672--678
-\TU/LiberationSerif(1)/m/n/12 // Bulletin of Electrical Engineering and Informa
-tics.- 2025.-Vol.14(2). - P. 1468–1475. DOI [][]10.11591/eei.v14i2.7711[][]. 
- []
-
-
-Overfull \hbox (3.64796pt too wide) in paragraph at lines 679--683
-[]\TU/LiberationSerif(1)/m/n/12 10. Ishii K., Tamaki K. Automation in Education
-/Learning Systems // In: Nof S. (ed.) Springer Handbook
- []
-
-
-Overfull \hbox (14.11998pt too wide) in paragraph at lines 679--683
-\TU/LiberationSerif(1)/m/n/12 of Automation. Springer Handbooks. – Berlin, Heid
-elberg: Springer, 2009. – P.1503–1527. DOI [][]10.1007/978-
- []
-
-
-Overfull \hbox (2.91856pt too wide) in paragraph at lines 717--721
-[]\TU/LiberationSerif(1)/m/n/12 17. Pham D.T., Jaaron A.A.M. Design for Mass Cu
-stomisation in Higher Education: a Systems-Thinking
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[9]
-Overfull \hbox (1.75801pt too wide) in paragraph at lines 722--727
-\TU/LiberationSerif(1)/m/n/12 allocation in construction projects // Internatio
-nal Journal of Construction Management. - 2019. - Vol.22(2).
- []
-
-
-Overfull \hbox (6.40283pt too wide) in paragraph at lines 777--781
-[]\TU/LiberationSerif(1)/m/n/12 5. Kuznecova I.A. Distancionnoe obuchenie kak s
-istema massovogo obsluzhivanija // Vestnik evrazijskoj
- []
-
-
-Overfull \hbox (10.03163pt too wide) in paragraph at lines 791--796
-\TU/LiberationSerif(1)/m/n/12 the quality of service delivery using modificatio
-ns of the least connections algorithm // Journal of Theoretical
- []
-
-
-Overfull \hbox (52.54211pt too wide) in paragraph at lines 797--803
-\TU/LiberationSerif(1)/m/n/12 // Bulletin of Electrical Engineering and Informa
-tics.- 2025.-Vol.14(2). - P. 1468–1475. DOI [][]10.11591/eei.v14i2.7711[][]. 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[10]
-Overfull \hbox (3.64796pt too wide) in paragraph at lines 804--808
-[]\TU/LiberationSerif(1)/m/n/12 10. Ishii K., Tamaki K. Automation in Education
-/Learning Systems // In: Nof S. (ed.) Springer Handbook
- []
-
-
-Overfull \hbox (14.11998pt too wide) in paragraph at lines 804--808
-\TU/LiberationSerif(1)/m/n/12 of Automation. Springer Handbooks. – Berlin, Heid
-elberg: Springer, 2009. – P.1503–1527. DOI [][]10.1007/978-
- []
-
-
-Overfull \hbox (2.91856pt too wide) in paragraph at lines 842--846
-[]\TU/LiberationSerif(1)/m/n/12 17. Pham D.T., Jaaron A.A.M. Design for Mass Cu
-stomisation in Higher Education: a Systems-Thinking
- []
-
-
-Overfull \hbox (1.75801pt too wide) in paragraph at lines 847--852
-\TU/LiberationSerif(1)/m/n/12 allocation in construction projects // Internatio
-nal Journal of Construction Management. - 2019. - Vol.22(2).
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[11]
-Overfull \hbox (56.06996pt too wide) in paragraph at lines 896--900
-\TU/LiberationSerif(1)/m/n/12 ния при Президенте РК по Алматинской области, Кон
-аев, Казахстан, e-mail: orynbassarjoldasbayev@gmail.com; 
- []
-
-
-Overfull \hbox (29.528pt too wide) in paragraph at lines 919--922
-[]\TU/LiberationSerif(1)/m/n/12 Gizatullina A. - Student, International IT Univ
-ersity, Almaty, Kazakhstan, e-mail: gizatullina.alyana@mail.ru; 
- []
-
-
-Overfull \hbox (51.88737pt too wide) in paragraph at lines 923--926
-[]\TU/LiberationSerif(1)/m/n/12 Zhanadilov M. - Student, International IT Unive
-rsity, Almaty, Kazakhstan, e-mail: madiyar20032009@gmail.com; 
- []
-
-
-Overfull \hbox (92.61978pt too wide) in paragraph at lines 927--931
-\TU/LiberationSerif(1)/m/n/12 president of the Republic of Kazakhstan in Almaty
- region, Konayev, Kazakhstan, e-mail: orynbassarjoldasbayev@gmail.com; 
- []
-
-
-Overfull \hbox (63.68228pt too wide) in paragraph at lines 932--935
-[]\TU/LiberationSerif(1)/m/n/12 Ormanbekova A. - PhD, Almaty Technological Univ
-ersity, Almaty, Kazakhstan, e-mail: a.ormanbekova@atu.edu.kz; 
+Overfull \hbox (1.98018pt too wide) in paragraph at lines 779--782
+[]\TU/LiberationSerif(1)/m/n/12 Nurynbetova G.Zh. - Master, Lecturer. M.Auezov 
+South Kazakhstan University, Shymkent, Kazakhstan,
  []
 
 )
-Overfull \hbox (47.25833pt too wide) in paragraph at lines 936--37
-[]\TU/LiberationSerif(1)/m/n/12 Mambetov S.- Master of Technical Sciences, , Tu
-ran University, Almaty, Kazakhstan, e-mail: s.mambetov@turan-
- []
+
+Package caption Warning: Unused \captionsetup[figure] on input line 237.
+See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[table] on input line 192.
+Package caption Warning: Unused \captionsetup[table] on input line 244.
 See the caption package documentation for explanation.
 
 
 
-[12] (/home/omega/projects/vestnik/29/build/main.aux)
+[9] (/home/omega/projects/vestnik/29/build/main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-06-09>
  ***********
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  AAA9107B06D585F1BBB4034B2D179235;1706.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: DE40336B8AD1366FE6195400E4EE0CE3;619.
  ) 
 Here is how much of TeX's memory you used:
- 30337 strings out of 468531
- 601285 string characters out of 5428489
- 1294713 words of memory out of 5000000
- 58206 multiletter control sequences out of 15000+600000
- 632072 words of font info for 126 fonts, out of 8000000 for 9000
+ 33162 strings out of 468531
+ 660952 string characters out of 5428489
+ 1454599 words of memory out of 5000000
+ 60980 multiletter control sequences out of 15000+600000
+ 640041 words of font info for 172 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,12n,107p,1001b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,110p,1001b,2238s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on /home/omega/projects/vestnik/29/build/main.pdf (12 pages).
+Output written on /home/omega/projects/vestnik/29/build/main.pdf (9 pages).
