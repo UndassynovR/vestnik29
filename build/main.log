@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/nixos.org) (preloaded format=xelatex 1980.1.1)  2 DEC 2025 16:56
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/nixos.org) (preloaded format=xelatex 1980.1.1)  3 DEC 2025 10:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2168,44 +2168,54 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [6]
-Overfull \hbox (8.54735pt too wide) in paragraph at lines 622--626
-[]\TU/LiberationSerif(1)/m/n/12 4. Kozhabayeva S.А., Sartanova N.T. POULTRY SUB
-COMPLEX OF KAZAKHSTAN: PRODUCTION
+Underfull \hbox (badness 10000) in paragraph at lines 588--596
+\TU/LiberationSerif(1)/m/n/12 здардың, күлдің, көмірсулардың салмақтық
  []
 
 
-Overfull \hbox (4.2834pt too wide) in paragraph at lines 639--643
-[]\TU/LiberationSerif(1)/m/n/12 7. Айтбаев Т.Е. Маш — перспективная культура дл
-я Казахстана / Agro-mart. URL: [][]$[][][][][] [] [] [] [][][][][][][][][][] []
-
- []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 
 
 [7]
-Overfull \hbox (8.54735pt too wide) in paragraph at lines 691--695
-[]\TU/LiberationSerif(1)/m/n/12 4. Kozhabayeva S.А., Sartanova N.T. POULTRY SUB
-COMPLEX OF KAZAKHSTAN: PRODUCTION
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [8]
-Overfull \hbox (3.84128pt too wide) in paragraph at lines 743--746
-[]\TU/LiberationSerif(1)/m/n/12 mashevoj muki kak potencial’ nogo syr’ ja dlja 
-hlebopekarnogo proizvodstva // Universum: tehnicheskie
+Underfull \hbox (badness 4156) in paragraph at lines 756--759
+[]\TU/LiberationSerif(1)/m/n/10 Конарбаева З.К. - PhD, М.Әуезов атындағы оңтүст
+ік Қазақстан университеті, Шымкент, Қазақстан, e-mail:
  []
 
 
-Overfull \hbox (1.98018pt too wide) in paragraph at lines 779--782
-[]\TU/LiberationSerif(1)/m/n/12 Nurynbetova G.Zh. - Master, Lecturer. M.Auezov 
-South Kazakhstan University, Shymkent, Kazakhstan,
+Underfull \hbox (badness 10000) in paragraph at lines 768--771
+[]\TU/LiberationSerif(1)/m/n/10 Мулдабекова Б.Ж.- т.ғ.к., профессор, алматы Тех
+нологиялық университеті, Алматы, Қазақстан, e-mail:
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 772--775
+[]\TU/LiberationSerif(1)/m/n/10 Әбді А.Қ. – магистрант, М.Әуезов атындағы оңтүс
+тік Қазақстан университеті, Шымкент, Қазақстан, e-mail:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--781
+[]\TU/LiberationSerif(1)/m/n/10 Konarbayeva Z.K. - PhD, M.Auezov South Kazakhst
+an University, Shymkent, Kazakhstan, e-mail:
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 786--789
+[]\TU/LiberationSerif(1)/m/n/10 Nurynbetova G.Zh. - Master, Lecturer. M.Auezov 
+South Kazakhstan University, Shymkent, Kazakhstan, e-mail:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 794--797
+[]\TU/LiberationSerif(1)/m/n/10 Abdi A.K. – Master’ s student, M. Auezov South 
+Kazakhstan University, Shymkent, Kazakhstan, e-mail:
  []
 
 )
@@ -2228,11 +2238,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: DE40336B8AD1366FE6195400E4EE0CE3;619.
  ) 
 Here is how much of TeX's memory you used:
- 33162 strings out of 468531
- 660952 string characters out of 5428489
+ 33163 strings out of 468531
+ 660913 string characters out of 5428489
  1454599 words of memory out of 5000000
- 60980 multiletter control sequences out of 15000+600000
- 640041 words of font info for 172 fonts, out of 8000000 for 9000
+ 60982 multiletter control sequences out of 15000+600000
+ 640033 words of font info for 171 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,12n,110p,1001b,2238s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
