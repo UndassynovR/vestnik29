@@ -251,7 +251,7 @@
 \newcommand{\tsp}[1]{\textsuperscript{#1}}
 \newcommand{\tsb}[1]{\textsubscript{#1}}
 
-\newcommand{\envelope}{\textsuperscript{\includegraphics[width=1em]{media/envelope}}}
+\newcommand{\envelope}{\textsuperscript{\includegraphics[width=0.8em]{media/envelope}}}
 \newcommand{\authorid}{\textsuperscript{\includegraphics[width=1em]{media/authorid}}}
 
 % Improved alink command with empty argument handling
@@ -429,19 +429,30 @@
 
 \usepackage{rotating}
 
-
-\usepackage{xparse} % for flexible command arguments
-
+\usepackage{xparse}
 \makeatletter
+
 \newif\ifinfigs
 \infigsfalse
 
-% figs environment for side-by-side images
-\newenvironment{figs}{%
+% figs environment with optional caption
+\NewDocumentEnvironment{figs}{ o }{%
   \infigstrue
-  \par\noindent\centering\ignorespaces
+  \begin{figure}[H]
+    \centering
+    \IfNoValueTF{#1}{%
+      \def\figscaption{}%
+    }{%
+      \def\figscaption{#1}%
+    }%
 }{%
-  \par\infigsfalse\ignorespacesafterend
+    \ifx\figscaption\empty
+      % no caption
+    \else
+      \caption*{\textbf{\figscaption}}%
+    \fi
+  \end{figure}
+  \infigsfalse
 }
 
 % Internal helper: image+caption in a fixed box
@@ -458,30 +469,63 @@
   \end{minipage}%
 }
 
+% Store height parameter
+\def\figheight{}
+
+% Command to set height: \figheight{2cm}
+\newcommand{\setheight}[1]{\gdef\figheight{#1}}
+
+% Command to clear height
+\newcommand{\clearheight}{\gdef\figheight{}}
+
 % Main command: \fig[width]{path}[caption]
-% [width] - optional, default 0.8\textwidth
-% {path} - required, image path (media/ prefix added automatically)
-% [caption] - optional, caption text
+% To use height, call \setheight{2cm} before \fig
 \NewDocumentCommand{\fig}{O{0.8\textwidth} m o}{%
   \ifinfigs
     \IfNoValueTF{#3}{%
-      \galleryimg{#1}{#2}{}%
+      \galleryimgwithopts{#1}{#2}{}%
     }{%
-      \galleryimg{#1}{#2}{#3}%
+      \galleryimgwithopts{#1}{#2}{#3}%
     }%
-    \hfill % adds flexible space between figures
   \else
     \begin{figure}[H]
       \centering
-      \includegraphics[width=#1]{media/#2}%
+      \makeimgwithopts{#1}{#2}%
       \IfNoValueTF{#3}{}{%
         \caption*{\textbf{#3}}%
       }%
     \end{figure}%
   \fi
+  \clearheight% reset after each use
 }
-\makeatother
 
+% Helper to make image with optional height
+\newcommand{\makeimgwithopts}[2]{%
+  \ifx\figheight\empty
+    \includegraphics[width=#1]{media/#2}%
+  \else
+    \includegraphics[width=#1,height=\figheight,keepaspectratio=false]{media/#2}%
+  \fi
+}
+
+% Helper for gallery images
+\newcommand{\galleryimgwithopts}[3]{%
+  \begin{minipage}[t]{#1}
+    \centering
+    \ifx\figheight\empty
+      \includegraphics[width=\textwidth]{media/#2}%
+    \else
+      \includegraphics[width=\textwidth,height=\figheight,keepaspectratio=false]{media/#2}%
+    \fi
+    \if\relax\detokenize{#3}\relax
+      % no caption
+    \else
+      \par\vspace{1ex}\small\textbf{#3}%
+    \fi
+  \end{minipage}\hfill
+}
+
+\makeatother
 % Usage examples:
 % 
 % Side-by-side with captions:

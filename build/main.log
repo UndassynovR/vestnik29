@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/nixos.org) (preloaded format=xelatex 1980.1.1)  3 DEC 2025 10:34
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/nixos.org) (preloaded format=xelatex 1980.1.1)  10 DEC 2025 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2019,7 +2019,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
-)) (./src/p/007.tex
+)) (./src/p/011.tex
 
 Package hyperref Warning: Suppressing empty link on input line 1.
 
@@ -2027,24 +2027,24 @@ Package hyperref Warning: Suppressing empty link on input line 1.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 4.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 7.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `XITSMath' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
-(Font)              scaled to size 11.00117pt on input line 7.
+(Font)              scaled to size 10.00107pt on input line 17.
 LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
-(Font)              scaled to size 7.70078pt on input line 7.
+(Font)              scaled to size 7.00075pt on input line 17.
 LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
-(Font)              scaled to size 5.50058pt on input line 7.
+(Font)              scaled to size 5.00053pt on input line 17.
 LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
-(Font)              scaled to size 10.99883pt on input line 7.
+(Font)              scaled to size 9.99893pt on input line 17.
 LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
-(Font)              scaled to size 7.69914pt on input line 7.
+(Font)              scaled to size 6.99925pt on input line 17.
 LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
-(Font)              scaled to size 5.4994pt on input line 7.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+(Font)              scaled to size 4.99947pt on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+
 
 (/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
 ex/amsfonts/umsa.fd
@@ -2054,7 +2054,8 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+
 
 (/nix/store/gwml513ls7c6nqr7s87x8njh2fh5pw7q-texlive-2025-env-texmfdist/tex/lat
 ex/amsfonts/umsb.fd
@@ -2070,20 +2071,31 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 File: media/envelope.png Graphic file (type bmp)
 <media/envelope.png>
+
+Overfull \hbox (0.54335pt too wide) in paragraph at lines 20--44
+\TU/LiberationSerif(1)/m/n/12 considered a promising functional agent due to it
+s high diffusion capacity and selective antioxidant activity,
+ []
+
+
+Overfull \hbox (1.59709pt too wide) in paragraph at lines 20--44
+\TU/LiberationSerif(1)/m/n/12 opens up new opportunities for extending shelf li
+fe and increasing microbiological safety, while integration
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 57.
 LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 16.
+(Font)              scaled to size 11.00117pt on input line 57.
 LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 16.
+(Font)              scaled to size 7.70078pt on input line 57.
 LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 16.
+(Font)              scaled to size 5.50058pt on input line 57.
 LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 16.
+(Font)              scaled to size 10.99883pt on input line 57.
 LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 16.
+(Font)              scaled to size 7.69914pt on input line 57.
 LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 16.
-File: media/envelope.png Graphic file (type bmp)
-<media/envelope.png>
+(Font)              scaled to size 5.4994pt on input line 57.
 File: media/envelope.png Graphic file (type bmp)
 <media/envelope.png>
 
@@ -2093,9 +2105,34 @@ File: media/envelope.png Graphic file (type bmp)
 ]
 File: media/envelope.png Graphic file (type bmp)
 <media/envelope.png>
+LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
+(Font)              scaled to size 12.00128pt on input line 154.
+LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
+(Font)              scaled to size 9.00096pt on input line 154.
+LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
+(Font)              scaled to size 7.20076pt on input line 154.
+LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 154.
+LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
+(Font)              scaled to size 8.99904pt on input line 154.
+LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
+(Font)              scaled to size 7.19922pt on input line 154.
 
-Overfull \hbox (0.18771pt too wide) in paragraph at lines 132--141
-\TU/LiberationSerif(1)/m/n/12 бағалау өте қиын. Ол тек ғана ақуыздар мен кало-
+Missing character: There is no ⁻ (U+207B) in font Liberation Serif/OT:script=cy
+rl;language=dflt;+lnum;mapping=tex-text;!
+
+Underfull \hbox (badness 5374) in paragraph at lines 147--165
+\TU/LiberationSerif(1)/m/n/12 and safety: accelerated oxidation of fats and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--165
+\TU/LiberationSerif(1)/m/n/12 proteins, growth of pathogenic microflora,
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 147--165
+\TU/LiberationSerif(1)/m/n/12 and prevent deterioration of the organoleptic
  []
 
 
@@ -2105,145 +2142,307 @@ Overfull \hbox (0.18771pt too wide) in paragraph at lines 132--141
 
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 188--192
-[]\TU/LiberationSerif(1)/m/n/12 Машты зерттеу бойынша жүргізілген
+
+
+
+
+
+File: media/p/image38.jpeg Graphic file (type bmp)
+<media/p/image38.jpeg>
+
+Overfull \hbox (5.58592pt too wide) in paragraph at lines 190--198
+[]\TU/LiberationSerif(1)/m/n/12 Another important area is the reduction of the 
+formation of biogenic amines and carcinogenic compounds.
  []
-
-
-Underfull \hbox (badness 7704) in paragraph at lines 188--192
-\TU/LiberationSerif(1)/m/n/12 ғылыми-зерттеу жұмыстарын қорытындылай
- []
-
-LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 220.
-LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 220.
-LaTeX Font Info:    Font shape `TU/XITSMath(2)/m/n' will be
-(Font)              scaled to size 7.20076pt on input line 220.
-LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 220.
-LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 220.
-LaTeX Font Info:    Font shape `TU/XITSMath(3)/m/n' will be
-(Font)              scaled to size 7.19922pt on input line 220.
-
-
-
 
 
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 273--275
-[]\TU/LiberationSerif(1)/m/n/12 Көмірсулардың салмақтық үлесі есептеу
+Overfull \hbox (6.87148pt too wide) in paragraph at lines 199--210
+\TU/LiberationSerif(1)/m/n/12 and applied research is being conducted on the im
+plementation of hydrogen technologies in food production,
+ []
+
+Missing character: There is no ⁻ (U+207B) in font Liberation Serif/OT:script=cy
+rl;language=dflt;+lnum;mapping=tex-text;!
+
+Overfull \hbox (6.19765pt too wide) in paragraph at lines 229--244
+[]\TU/LiberationSerif(1)/m/n/12 Antioxidant properties of molecular hydrogen (H
+₂) are now considered one of the key factors determining
  []
 
 
-Underfull \hbox (badness 7468) in paragraph at lines 311--315
-[]\TU/LiberationSerif(1)/m/n/12 Құрамында ақуыз мөлшері жоғары жаңа
+Overfull \hbox (28.7847pt too wide) in paragraph at lines 229--244
+\TU/LiberationSerif(1)/m/n/12 antioxidant activity. Unlike vitamins (ascorbic a
+cid, tocopherols) or synthetic antioxidants (butylhydroxyanisole,
  []
 
 
+Overfull \hbox (20.90038pt too wide) in paragraph at lines 259--269
+[]\TU/LiberationSerif(1)/m/n/12 The antioxidant properties of molecular hydroge
+n also have a pronounced sanitary and hygienic significance.
+ []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [4]
-
-
-
-
-
-
-Overfull \hbox (14.08046pt too wide) in paragraph at lines 366--368
-[]\TU/LiberationSerif(1)/m/n/12 Соңғы жылдары өндірілген маш өнімін пайдалану т
-енденциясы салауатты тамақтану принциптерін
+Overfull \hbox (13.31985pt too wide) in paragraph at lines 270--281
+\TU/LiberationSerif(1)/m/n/12 of carbon derivatives and increases resistance to
+ microbiological spoilage. In beverages, especially functional
  []
+
+
+Overfull \hbox (16.97404pt too wide) in paragraph at lines 294--310
+\TU/LiberationSerif(1)/m/n/12 background, molecular hydrogen (H₂) has emerged a
+s a promising agent capable of providing an antimicrobial
+ []
+
+
+Overfull \hbox (1.47795pt too wide) in paragraph at lines 311--325
+[]\TU/LiberationSerif(1)/m/n/12 The antimicrobial effect of hydrogen is not ass
+ociated with direct cell destruction, but with the regulation
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [5]
+Overfull \hbox (5.5279pt too wide) in paragraph at lines 340--348
+\TU/LiberationSerif(1)/m/n/12 recorded [9]. Thus, hydrogen not only inhibits th
+e growth of microorganisms, but also reduces the formation
+ []
+
+
+Overfull \hbox (10.16064pt too wide) in paragraph at lines 390--401
+[]\TU/LiberationSerif(1)/m/n/12 Of additional importance is the effect of H2 on
+ the microbiological stability of meat products. Experiments
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 588--596
-\TU/LiberationSerif(1)/m/n/12 здардың, күлдің, көмірсулардың салмақтық
+Overfull \hbox (3.60155pt too wide) in paragraph at lines 415--426
+\TU/LiberationSerif(1)/m/n/12 nitrogen provides an additional level of protecti
+on against oxidative processes and microbial contamination.
  []
 
 
+Overfull \hbox (19.27739pt too wide) in paragraph at lines 448--462
+\TU/LiberationSerif(1)/m/n/12 slows down, but does not stop completely, which l
+eads to a gradual deterioration in organoleptic characteristics.
+ []
 
 
-
-
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [7]
+Overfull \hbox (9.27638pt too wide) in paragraph at lines 495--505
+\TU/LiberationSerif(1)/m/n/12 biogenic amines, and allows for an extension of s
+helf life to 30 days without changing sensory characteristics.
+ []
+
+
+Overfull \hbox (8.5747pt too wide) in paragraph at lines 506--517
+[]\TU/LiberationSerif(1)/m/n/12 Particular attention is paid to the combined us
+e of H₂ with modern methods of active packaging. Hydrogen
+ []
+
+
+Overfull \hbox (24.692pt too wide) in paragraph at lines 506--517
+\TU/LiberationSerif(1)/m/n/12 multi-level protection: from oxidative processes,
+ microbial contamination and enzymatic changes. Experiments
+ []
+
+
+Overfull \hbox (19.56444pt too wide) in paragraph at lines 518--525
+[]\TU/LiberationSerif(1)/m/n/12 The body of evidence suggests that hydrogen cou
+ld become a key factor in storage and freezing technologies.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [8]
-Underfull \hbox (badness 4156) in paragraph at lines 756--759
-[]\TU/LiberationSerif(1)/m/n/10 Конарбаева З.К. - PhD, М.Әуезов атындағы оңтүст
-ік Қазақстан университеті, Шымкент, Қазақстан, e-mail:
+Overfull \hbox (8.93095pt too wide) in paragraph at lines 557--566
+\TU/LiberationSerif(1)/m/n/12 product stabilization due to antioxidant and anti
+microbial action. Biopolymer coatings with H₂ are especially
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 768--771
-[]\TU/LiberationSerif(1)/m/n/10 Мулдабекова Б.Ж.- т.ғ.к., профессор, алматы Тех
-нологиялық университеті, Алматы, Қазақстан, e-mail:
+Overfull \hbox (14.3501pt too wide) in paragraph at lines 557--566
+\TU/LiberationSerif(1)/m/n/12 reduction of the rate of oxidative processes are 
+required. This approach opens up opportunities for abandoning
  []
 
 
-Underfull \hbox (badness 3068) in paragraph at lines 772--775
-[]\TU/LiberationSerif(1)/m/n/10 Әбді А.Қ. – магистрант, М.Әуезов атындағы оңтүс
-тік Қазақстан университеті, Шымкент, Қазақстан, e-mail:
+Overfull \hbox (2.73079pt too wide) in paragraph at lines 578--586
+[]\TU/LiberationSerif(1)/m/n/12 Importantly, hydrogen packaging technologies co
+mbine efficiency and environmental friendliness. They
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 778--781
-[]\TU/LiberationSerif(1)/m/n/10 Konarbayeva Z.K. - PhD, M.Auezov South Kazakhst
-an University, Shymkent, Kazakhstan, e-mail:
+Overfull \hbox (17.0122pt too wide) in paragraph at lines 628--635
+[]\TU/LiberationSerif(1)/m/n/12 An equally important area is winemaking and the
+ production of fermented beverages. Hydrogen enrichment
  []
 
 
-Underfull \hbox (badness 5622) in paragraph at lines 786--789
-[]\TU/LiberationSerif(1)/m/n/10 Nurynbetova G.Zh. - Master, Lecturer. M.Auezov 
-South Kazakhstan University, Shymkent, Kazakhstan, e-mail:
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[9]
+Overfull \hbox (4.02382pt too wide) in paragraph at lines 678--683
+[]\TU/LiberationSerif(1)/m/n/12 Molecular hydrogen is thus an innovative and en
+vironmentally friendly tool that can change the approach
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 794--797
-[]\TU/LiberationSerif(1)/m/n/10 Abdi A.K. – Master’ s student, M. Auezov South 
-Kazakhstan University, Shymkent, Kazakhstan, e-mail:
+Overfull \hbox (38.85283pt too wide) in paragraph at lines 690--693
+\TU/LiberationSerif(1)/m/n/12 challenges // Frontiers in Food Science and Techn
+ology. - 2024. - Vol.4:1448148. DOI 10.3389/frfst.2024.1448148. 
+ []
+
+
+Overfull \hbox (20.15724pt too wide) in paragraph at lines 704--708
+\TU/LiberationSerif(1)/m/n/12 Agriculture - Food Science and Technology.- 2022.
+- Vol.10(7).-P.1205-1213. DOI 10.24925/turjaf.v10i7.1205-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[10]
+Overfull \hbox (34.05244pt too wide) in paragraph at lines 718--721
+[]\TU/LiberationSerif(1)/m/n/12 7. Akbar U. et al. Hydrogen assisted technologi
+es in food processing, preservation and safety: A comprehensive
+ []
+
+
+Overfull \hbox (14.2194pt too wide) in paragraph at lines 726--730
+[]\TU/LiberationSerif(1)/m/n/12 9. Hancock J.T., Russell G., Stratakos A.C. Mol
+ecular Hydrogen: The Postharvest Use in Fruits, Vegetables
+ []
+
+
+Overfull \hbox (0.23994pt too wide) in paragraph at lines 726--730
+\TU/LiberationSerif(1)/m/n/12 and the Floriculture Industry // Applied Sciences
+. - 2022. - Vol.12(20):10448. DOI [][]10.3390/app122010448[][] 
+ []
+
+
+Overfull \hbox (10.13593pt too wide) in paragraph at lines 740--743
+\TU/LiberationSerif(1)/m/n/12 Parkinson’s disease // Medical Gas Research. - 20
+19.-Vol.8(4).- P.152-158. DOI 10.4103/2045-9912.248264. 
+ []
+
+
+Overfull \hbox (5.13338pt too wide) in paragraph at lines 757--761
+[]\TU/LiberationSerif(1)/m/n/12 16. Ichihara M. et al. Beneficial biological ef
+fects and the underlying mechanisms of molecular hydrogen:
+ []
+
+
+Overfull \hbox (30.8409pt too wide) in paragraph at lines 762--765
+\TU/LiberationSerif(1)/m/n/12 challenges // Frontiers in Food Science and Techn
+ology.-2024.-Vol.4:1448148. DOI 10.3389/frfst.2024.1448148. 
+ []
+
+
+Overfull \hbox (4.77591pt too wide) in paragraph at lines 766--770
+[]\TU/LiberationSerif(1)/m/n/12 18. Lisboa H.M., Pasquali M.B., Dos Anjos A.I. 
+Innovative and sustainable food preservation techniques:
+ []
+
+
+Overfull \hbox (3.45729pt too wide) in paragraph at lines 766--770
+\TU/LiberationSerif(1)/m/n/12 enhancing food quality, safety, and environmental
+ sustainability // Sustainability. - 2024. – Vol.16(18):8223.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[11]
+Overfull \hbox (70.65256pt too wide) in paragraph at lines 785--789
+\TU/LiberationSerif(1)/m/n/12 biogenic amine safety, quality attributes, and sh
+elf-life // LWT. - 2024.- Vol.206: 116550. DOI 10.1016/j.lwt.2024.116550. 
+ []
+
+
+Overfull \hbox (21.92253pt too wide) in paragraph at lines 797--799
+[]\TU/LiberationSerif(1)/m/n/12 Melissova A. - PhD student, Shakarim University
+, Semey, Kazakhstan, e-mail: aknurmelissova@gmail.com; 
+ []
+
+
+Overfull \hbox (39.53278pt too wide) in paragraph at lines 800--802
+[]\TU/LiberationSerif(1)/m/n/12 Daiyrbekova A. - Master student, Shakarim Unive
+rsity, Semey, Kazakhstan, e-mail: a.dayirbekova_03@mail.ru: 
+ []
+
+
+Overfull \hbox (15.89423pt too wide) in paragraph at lines 803--806
+[]\TU/LiberationSerif(1)/m/n/12 Nurbekova M. - Master student, Shakarim Univers
+ity, Semey, Kazakhstan, e-mail: Zhanbekkyzy90@bk.ru; 
+ []
+
+
+Overfull \hbox (30.36102pt too wide) in paragraph at lines 818--820
+[]\TU/LiberationSerif(1)/m/n/12 Мелісова A.A.-докторант, Шәкәрім Университет, С
+емей, Казахстан, e-mail: aknurmelissova@gmail.com; 
+ []
+
+
+Overfull \hbox (55.57782pt too wide) in paragraph at lines 821--823
+[]\TU/LiberationSerif(1)/m/n/12 Дайырбекова A.Д. – магистрант, Шәкәрім Универси
+тет, Семей, Казахстан, e-mail: a.dayirbekova_03@mail.ru; 
+ []
+
+
+Overfull \hbox (27.15985pt too wide) in paragraph at lines 824--826
+[]\TU/LiberationSerif(1)/m/n/12 Нұрбекова М. Ж.- магистрант, Шәкәрім Университе
+т, Семей, Казахстан, e-mail: Zhanbekkyzy90@bk.ru; 
  []
 
 )
-
-Package caption Warning: Unused \captionsetup[figure] on input line 237.
-See the caption package documentation for explanation.
-
 
 Package caption Warning: Unused \captionsetup[table] on input line 244.
 See the caption package documentation for explanation.
 
 
 
-[9] (/home/omega/projects/vestnik/29/build/main.aux)
+[12] (/home/omega/projects/vestnik/29/build/main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-06-09>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DE40336B8AD1366FE6195400E4EE0CE3;619.
+(rerunfilecheck)             Checksum: 54CE065E7194BE78C8996C40BBABD85A;690.
  ) 
 Here is how much of TeX's memory you used:
- 33163 strings out of 468531
- 660913 string characters out of 5428489
- 1454599 words of memory out of 5000000
- 60982 multiletter control sequences out of 15000+600000
- 640033 words of font info for 171 fonts, out of 8000000 for 9000
+ 30813 strings out of 468531
+ 608417 string characters out of 5428489
+ 1361599 words of memory out of 5000000
+ 58631 multiletter control sequences out of 15000+600000
+ 636149 words of font info for 166 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,12n,110p,1001b,2238s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,110p,1001b,481s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on /home/omega/projects/vestnik/29/build/main.pdf (9 pages).
+Output written on /home/omega/projects/vestnik/29/build/main.pdf (12 pages).
