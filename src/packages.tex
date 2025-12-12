@@ -251,6 +251,9 @@
 \newcommand{\tsp}[1]{\textsuperscript{#1}}
 \newcommand{\tsb}[1]{\textsubscript{#1}}
 
+\newcommand{\n}[1]{\normalfont{#1}}
+\newcommand{\nemph}[1]{\normalfont{\emph{#1}}}
+
 \newcommand{\envelope}{\textsuperscript{\includegraphics[width=0.8em]{media/envelope}}}
 \newcommand{\authorid}{\textsuperscript{\includegraphics[width=1em]{media/authorid}}}
 
@@ -428,7 +431,6 @@
 % }
 
 \usepackage{rotating}
-
 \usepackage{xparse}
 \makeatletter
 
@@ -445,7 +447,10 @@
     }{%
       \def\figscaption{#1}%
     }%
+    \hfill% Start with hfill before figures
 }{%
+    \hfill% End with hfill after figures
+    \par
     \ifx\figscaption\empty
       % no caption
     \else
@@ -456,98 +461,115 @@
 }
 
 % Internal helper: image+caption in a fixed box
-% When in figs environment, #1 is the minipage width, image fills it
-\newcommand{\galleryimg}[3]{%
+\newcommand{\galleryimg}[4]{%
   \begin{minipage}[t]{#1}
     \centering
-    \includegraphics[width=\textwidth]{media/#2}%
-    \if\relax\detokenize{#3}\relax
+    \if\relax\detokenize{#2}\relax
+      % no height specified
+      \includegraphics[width=\textwidth]{media/#3}%
+    \else
+      % height specified
+      \includegraphics[width=\textwidth,height=#2,keepaspectratio=false]{media/#3}%
+    \fi
+    \if\relax\detokenize{#4}\relax
       % no caption
     \else
-      \par\vspace{1ex}\small\textbf{#3}%
+      \par\vspace{1ex}\small\textbf{#4}%
     \fi
   \end{minipage}%
 }
 
-% Store height parameter
-\def\figheight{}
-
-% Command to set height: \figheight{2cm}
-\newcommand{\setheight}[1]{\gdef\figheight{#1}}
-
-% Command to clear height
-\newcommand{\clearheight}{\gdef\figheight{}}
-
-% Main command: \fig[width]{path}[caption]
-% To use height, call \setheight{2cm} before \fig
-\NewDocumentCommand{\fig}{O{0.8\textwidth} m o}{%
+\NewDocumentCommand{\fig}{ O{0.8\textwidth} O{} m O{} }{%
   \ifinfigs
-    \IfNoValueTF{#3}{%
-      \galleryimgwithopts{#1}{#2}{}%
-    }{%
-      \galleryimgwithopts{#1}{#2}{#3}%
-    }%
+    \galleryimg{#1}{#2}{#3}{#4}%
+    \hfill
   \else
     \begin{figure}[H]
       \centering
-      \makeimgwithopts{#1}{#2}%
-      \IfNoValueTF{#3}{}{%
-        \caption*{\textbf{#3}}%
-      }%
+      \if\relax\detokenize{#2}\relax
+        \includegraphics[width=#1]{media/#3}%
+      \else
+        \includegraphics[width=#1,height=#2,keepaspectratio=false]{media/#3}%
+      \fi
+      \if\relax\detokenize{#4}\relax
+        % no caption
+      \else
+        \caption*{\textbf{#4}}%
+      \fi
     \end{figure}%
   \fi
-  \clearheight% reset after each use
-}
-
-% Helper to make image with optional height
-\newcommand{\makeimgwithopts}[2]{%
-  \ifx\figheight\empty
-    \includegraphics[width=#1]{media/#2}%
-  \else
-    \includegraphics[width=#1,height=\figheight,keepaspectratio=false]{media/#2}%
-  \fi
-}
-
-% Helper for gallery images
-\newcommand{\galleryimgwithopts}[3]{%
-  \begin{minipage}[t]{#1}
-    \centering
-    \ifx\figheight\empty
-      \includegraphics[width=\textwidth]{media/#2}%
-    \else
-      \includegraphics[width=\textwidth,height=\figheight,keepaspectratio=false]{media/#2}%
-    \fi
-    \if\relax\detokenize{#3}\relax
-      % no caption
-    \else
-      \par\vspace{1ex}\small\textbf{#3}%
-    \fi
-  \end{minipage}\hfill
 }
 
 \makeatother
 % Usage examples:
 % 
+% ==== BASIC USAGE ====
+% 
+% Single figure with caption:
+% \fig[0.6\textwidth]{path/to/image}[Caption text]
+% 
+% Single figure without caption (default width 0.8\textwidth):
+% \fig{path/to/image}
+% 
+% Single figure with custom width, no caption:
+% \fig[0.5\textwidth]{path/to/image}
+% 
+% Single figure with fixed height (will distort if aspect ratio doesn't match):
+% \fig[0.6\textwidth][8cm]{path/to/image}[Caption with fixed height]
+% 
+% 
+% ==== FIGS ENVIRONMENT (GALLERY MODE) ====
+% 
 % Side-by-side with captions:
 % \begin{figs}
-%   \fig[0.45\textwidth]{i/image2}[1-сурет. Caption text]
-%   \fig[0.45\textwidth]{i/image3}[2-сурет. Caption text]
+%   \fig[0.45\textwidth]{i/image2}[а) First caption]
+%   \fig[0.45\textwidth]{i/image3}[б) Second caption]
 % \end{figs}
-%
+% 
 % Side-by-side without captions:
 % \begin{figs}
 %   \fig[0.45\textwidth]{i/image2}
 %   \fig[0.45\textwidth]{i/image3}
 % \end{figs}
-%
-% Single figure with caption:
-% \fig[0.6\textwidth]{path/to/image}[Caption text]
-%
-% Single figure without caption (default width):
-% \fig{path/to/image}
-%
-% Mix and match:
+% 
+% Three figures in a row:
 % \begin{figs}
-%   \fig{i/image2}[Has caption]
-%   \fig{i/image3}
+%   \fig[0.3\textwidth]{i/image1}[а)]
+%   \fig[0.3\textwidth]{i/image2}[б)]
+%   \fig[0.3\textwidth]{i/image3}[в)]
+% \end{figs}
+% 
+% Auto-wrapping (if figures are too wide, they wrap to next line):
+% \begin{figs}
+%   \fig[0.45\textwidth]{i/image1}[а)]
+%   \fig[0.45\textwidth]{i/image2}[б)]
+%   \fig[0.45\textwidth]{i/image3}[в)]
+%   \fig[0.45\textwidth]{i/image4}[г)]
+% \end{figs}
+% 
+% Gallery with overall caption:
+% \begin{figs}[Figure 3. Multiple experimental results]
+%   \fig[0.3\textwidth]{i/result1}[а)]
+%   \fig[0.3\textwidth]{i/result2}[б)]
+%   \fig[0.3\textwidth]{i/result3}[в)]
+% \end{figs}
+% 
+% Mix figures with and without captions:
+% \begin{figs}
+%   \fig[0.3\textwidth]{i/image2}[Has caption]
+%   \fig[0.3\textwidth]{i/image3}
+%   \fig[0.3\textwidth]{i/image4}[Another caption]
+% \end{figs}
+% 
+% Gallery with fixed heights (useful for images with different aspect ratios):
+% \begin{figs}
+%   \fig[0.3\textwidth][5cm]{i/tall}[а)]
+%   \fig[0.3\textwidth][5cm]{i/wide}[б)]
+%   \fig[0.3\textwidth][5cm]{i/square}[в)]
+% \end{figs}
+% 
+% Using default width (0.8\textwidth) inside figs - figures will wrap:
+% \begin{figs}
+%   \fig{i/image1}[First]
+%   \fig{i/image2}[Second]
 % \end{figs}
