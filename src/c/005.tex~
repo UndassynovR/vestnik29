@@ -1,0 +1,641 @@
+\id{IRSTI 31.21.01}{}
+
+{\bfseries STUDY OF PHYSICOCHEMICAL PROPERTIES OF ADSORBENTS OBTAINED BASED
+ON TEXTILE CORD}
+
+{\bfseries \tsp{1}M.K.
+Kazankapova}\fig{c2/image1}{}{\bfseries \envelope ,
+\tsp{1}B.T.
+Yermagambet}\fig{c2/image1}{}{\bfseries ,
+\tsp{1,2}U.M.Kozhamuratova}\fig{c2/image1}{}{\bfseries ,
+\tsp{2}Zh.E.Jakupova}\fig{c2/image1}{}\envelope 
+
+\emph{\tsp{1}«Institute of Coal Chemistry and Technology»
+LLP, Astana, Kazakhstan,}
+
+\emph{\tsp{2}«L.N. Gumilyov Eurasian National University,
+Astana, Kazakhstan}
+
+\envelope Corresponding author:
+kozhamuratova.u@mail.ru,
+zhanereke@mail.ru
+
+This paper examines the physicochemical principles and principles of
+textile cord recycling to produce adsorbents. The accumulation of used
+automobile tires and their use as secondary products, coupled with the
+lack of suitable recycling processes and technologies, has prompted the
+search for effective ways to recycle worn tires and use them as a
+promising raw material to produce carbon-containing materials. Textile
+cord, a byproduct of organic rubber waste recycling, was selected as a
+substandard raw material to produce carbon-containing materials. The
+structure formation processes of composites modified with textile wire
+have been described inconsistently in terms of the mechanism of
+formation, volume, type, size, and differential porosity. Therefore,
+this paper presents a comprehensive study of the influence of additives
+on the properties and structure of composites with the goal of producing
+porous carbon adsorbents for water and gas purification from textile
+cord from waste automobile tires.
+
+{\bfseries Keywords:} automobile tire waste, activation, organic waste,
+porous adsorbents, nanomaterials, carbonization.
+
+{\bfseries ТОҚЫМА СЫМЫ НЕГІЗІНДЕ АЛЫНҒАН АДСОРБЕНТТЕРДІҢ ФИЗИКА-ХИМИЯЛЫҚ
+ҚАСИЕТТЕРІН ЗЕРТТЕУ}
+
+{\bfseries \tsp{1}М.Қ.Қазанқапова\envelope ,
+\tsp{1}Б.Т.Ермағамбет,
+\tsp{1,2}Ұ.М.Қожамұратова,
+\tsp{2}Ж.Е.Джакупова\envelope }
+
+\emph{\tsp{1}«Көмір химиясы және технология институты» ЖШС,
+Астана, Қазақстан,}
+
+\emph{\tsp{2}«Л.Н.Гумилев атындағы Еуразия ұлттық
+университеті» Астана, Қазақстан,}
+
+е-mail:
+kozhamuratova.u@mail.ru,
+zhanereke@mail.ru
+
+Жұмыста адсорбенттер алу үшін тоқыма сымдарын қайта өңдеудің
+физика-химиялық принциптері мен принциптері қарастырылады. Пайдаланылған
+автомобиль шиналарының жинақталуы және оларды қайталама өнім ретінде
+пайдалану, сәйкес қайта өңдеу процестері мен технологияларының жоқтығы
+тозған шиналарды қайта өңдеудің тиімді жолдарын іздеуге және оларды
+көміртегі бар материалдарды өндіру үшін перспективалық шикізат ретінде
+пайдалануға түрткі болды. Құрамында көміртегі бар материалдарды өндіру
+үшін сапасыз шикізат ретінде органикалық резеңке қалдықтарын қайта
+өңдеудің жанама өнімі болып табылатын тоқыма шнуры таңдалды. Тоқыма
+сымымен модификацияланған композиттердің құрылымды қалыптастыру
+процестері түзілу механизмі, көлемі, түрі, өлшемі және дифференциалды
+кеуектілігі тұрғысынан сәйкес келмейтін сипатталған. Сондықтан бұл
+жұмыста автомобиль шиналарының қалдықтарынан тоқыма шнурларынан су мен
+газды тазарту үшін кеуекті көміртекті адсорбенттерді алу мақсатымен
+композиттердің қасиеттері мен құрылымына қоспалардың әсерін кешенді
+зерттеу ұсынылады.
+
+{\bfseries Түйін сөздер:} автомобиль шиналарының қалдықтары, активация,
+органикалық қалдықтар, кеуекті адсорбенттер, наноматериалдар,
+карбонизация.
+
+{\bfseries ИЗУЧЕНИЕ ФИЗИКО-ХИМИЧЕСКИХ СВОЙСТВ АДСОРБЕНТОВ, ПОЛУЧЕННЫХ НА
+ОСНОВЕ ТЕКСТИЛЬНОГО КОРДА}
+
+{\bfseries \tsp{1}М.К. Казанкапова\envelope ,
+\tsp{1}Б.Т. Ермагамбет, \tsp{1,2}У.М.
+Кожамуратова, \tsp{2}Ж.Е.Джакупова\envelope }
+
+\emph{\tsp{1}ТОО «Институт химии угля и технологии», Астана,
+Казахстан,}
+
+\emph{\tsp{2} «Евразийский национальный университет имени
+Л.Н. Гумилева» Астана, Казахстан,}
+
+е-mail:
+kozhamuratova.u@mail.ru,
+zhanereke@mail.ru
+
+В работе рассмотрены физико-химические основы и закономерности способа
+переработки текстильного корда с целью получения адсорбентов. Проблема
+накопления использованных автомобильных шин и применение их в качестве
+вторичной продукции, отсутствие подходящих процессов и технологий
+переработки явилось основой поиска эффективных способов переработки
+изношенных шин, применение их в качестве перспективного сырья для
+производства углеродсодержащих материалов. В качестве некондиционного
+сырья для производства углеродсодержащих материалов выбран продукт
+переработки органических отходов резины -- текстильный корд. Процессы
+формирования структуры композитов, модифицированных текстильной
+проволокой неоднозначно описаны по механизму возникновения
+новообразований, объему, типу, размерам и дифференциальной пористости. В
+связи с этим, в работе проведены комплексные исследования влияния
+добавок на свойства и структуру композитов с целью получения пористых
+углеродных адсорбентов для очистки воды и газов из текстильного корда
+отходов автомобильных покрышек.
+
+{\bfseries Ключевые слова:} отходы автомобильных шин, активация,
+текстильный корд, пористые адсорбенты, наноматериалы, карбонизация.
+
+{\bfseries Introduction.} Today, one of the fastest-growing industries
+globally is tire manufacturing. The global tire market reached 2,268
+million units in 2021 and is projected to reach 2,665 million units by
+2027. According to the European Tire and Rubber Manufacturers
+Association, the number of end-of-life tires amounted to 3.56 million
+tons in 2019, which is approximately 1\% less than the previous year
+{[}1-3{]}. Overall, 65\% of rubber products are used in automotive
+applications, and the recycling and reuse of partially worn tires in the
+domestic market remain at a very low level {[}4,5{]}.
+
+Porous carbon-based materials are obtained through thermal treatment or
+activation using various oxidizing agents. These materials act as
+sorbents, enabling the efficient separation of gas and liquid mixtures,
+while their sorption properties enhance separation capabilities. Such
+carbon materials are widely used as sorbents, catalyst carriers,
+nanocomposite materials, and substrates in next-generation energy
+storage devices such as lithium-ion batteries, supercapacitors,
+ionistors, and fuel cells {[}6-9{]}.
+
+Currently, the development of carbon adsorbents derived from automotive
+tire waste is rapidly advancing. This direction helps address waste
+recycling challenges while producing efficient materials.
+
+For example, in studies on Turkic peoples, textile cord was processed
+using the pyrolysis method, followed by chemical activation with
+potassium hydroxide (KOH). It was found that these materials effectively
+remove organic pollutants, particularly methylene blue, from aqueous
+solutions. The best results were observed at a pH of 6.5, highlighting
+the importance of controlling acidity in adsorption processes {[}10{]}.
+Additionally, other researchers have investigated the role of pyrolysis
+temperature and duration. It was shown that increasing the temperature
+improves pore structure and increases the specific surface area, which
+is a crucial factor for gas storage or water purification applications
+{[}11{]}.
+
+Our activation method for textile cord stands out from other approaches,
+as it provides a high carbon content (86.53\%) along with enrichment in
+mineral elements (Si, Ca, Fe, V, P) that create additional active sites.
+Moreover, the liquid product is rich in aromatic compounds (toluene,
+ethylbenzene, etc.), giving it added value. Unlike many studies focused
+only on surface area, our approach combines high activation efficiency
+with the practical significance of both solid and liquid products.
+
+{\bfseries Materials and methods.} The following equipment was used to
+carry out this research: a laboratory quartz reactor, a BR-12NRT rotary
+tube furnace, a "Thermostep Eltra" thermogravimetric analyzer, a
+Kristallux-4000M gas chromatograph, an ES-20/60 shaker-incubator, a
+PD-303 spectrophotometer, a 150-MI pH meter, a C-2204 centrifuge, a
+"GRAD" ultrasonic bath, and a Quanta 3D 200i EDAX scanning electron
+microscope.
+
+To obtain carbon adsorbents, the activation process was carried out in a
+laboratory setting at a temperature of 800°C in an inert atmosphere
+(nitrogen gas). The physicochemical properties were analyzed using a
+thermogravimetric analyzer, while the adsorption properties were
+determined in the presence of methyl orange. The technological process
+was conducted in two stages: carbonization (at 700°C) to remove highly
+volatile components and achieve a uniformly distributed large-pore
+structure, followed by activation (at 900°C) to develop a microporous
+structure. The experiments were performed in a laboratory-scale
+steam-gas activation unit.
+
+The methods for determining the properties included moisture content,
+ash content, volatility, pH value of the aqueous extract, bulk density,
+adsorption activity with methyl orange, pore volume in water, elemental
+composition, and specific surface area (BET method).
+
+Textile cord consists of several primary materials, each influencing its
+mechanical properties and strength. The main component is polyester,
+accounting for 50--70\% of the composition, providing tensile strength.
+Polyamide (nylon) constitutes 10--20\%, enhancing mechanical properties
+and wear resistance. Steel wires make up 10--15\%, adding extra hardness
+and durability.
+
+{\bfseries Results and discussion.} The technological process was carried
+out in two stages: carbonization (to remove volatile components and
+produce a large-porous structure uniformly distributed throughout the
+volume) and activation (to produce a microporous structure). Experiments
+were conducted on a laboratory steam-gas activation unit (Fig.1).
+
+\fig{c2/image31}{}
+
+{\bfseries Fig.1 - Schematic diagram of a laboratory setup for steam-gas
+activation:}
+
+\emph{1 - gas cylinder (nitrogen), 2 - steam generator, 3 -- reactor, 4
+-- LATR, 5 - temperature sensor, 6 - direct condenser,}
+
+\emph{7 - flask for cleaning gas from resins, 8 - gas outlet}
+
+Carbonization was carried out in an inert argon atmosphere at
+temperatures ranging from 400 to 900°C for 60 minutes. Argon was
+supplied from a cylinder (1) to the reactor at a set flow rate of 20
+ml/min, which was adjusted using a flow meter. After leaving the
+reactor, the gas was directed to a condenser (6), from which a portion
+of the condensed gas flowed into a flask (7) to remove resinous
+substances. Unreacted gases were discharged to the ventilation system
+(8).
+
+The next step in adsorbent preparation was activation with water vapor
+(flow rate of 10 ml/min) at the maximum temperature for 60 minutes to
+improve its adsorption properties. Table 1 shows the temperature
+dependences of the components of the gas obtained as a result of
+carbonization and activation of nylon cord. The formation of combustible
+gas components (CO, H\tsb{2}, CH\tsb{4}) occurs
+according to the following main chemical reactions:
+
+2H\tsb{2}O → 2H\tsb{2} + O\tsb{2} --
+115700 kcal (1)
+
+C + H\tsb{2}O → CO + H\tsb{2} -- 28150 kcal (2)
+
+\begin{quote}
+C + CO\tsb{2} → 2CO -- 38400 kcal (3)
+\end{quote}
+
+C + 2H\tsb{2} → CH\tsb{4} + 18600 kcal (4)
+
+When heated above 200℃, textile cord begins to decompose, forming a
+flammable gas containing hydrogen, carbon monoxide, alkanes and alkenes.
+
+{\bfseries Table 1 -- Gas composition of carbonization and activation of
+textile cord}
+
+%% \begin{longtable}[]{@{}
+%%   >{\centering\arraybackslash}p{(\linewidth - 20\tabcolsep) * \real{0.1142}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 20\tabcolsep) * \real{0.0820}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 20\tabcolsep) * \real{0.0911}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 20\tabcolsep) * \real{0.0909}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 20\tabcolsep) * \real{0.0911}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 20\tabcolsep) * \real{0.0909}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 20\tabcolsep) * \real{0.0759}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 20\tabcolsep) * \real{0.0909}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 20\tabcolsep) * \real{0.0911}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 20\tabcolsep) * \real{0.0909}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 20\tabcolsep) * \real{0.0911}}@{}}
+%% \toprule\noalign{}
+%% \multirow{2}{=}{\centering\arraybackslash \begin{minipage}[b]{\linewidth}\centering
+%% Process
+%% \end{minipage}} &
+%% \multirow{2}{=}{\centering\arraybackslash \begin{minipage}[b]{\linewidth}\centering
+%% Т\tsb{1} С°
+%% \end{minipage}} &
+%% \multicolumn{9}{>{\centering\arraybackslash}p{(\linewidth - 20\tabcolsep) * \real{0.8039} + 16\tabcolsep}@{}}{%
+%% \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries Gas composition (volume, \%)}
+%% \end{minipage}} \\
+%% & & \begin{minipage}[b]{\linewidth}\centering
+%% О\tsb{2}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% H\tsb{2}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% CO\tsb{2}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% N\tsb{2}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% CH\tsb{4}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% CO
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% C\tsb{2}H\tsb{6}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% C\tsb{2}H\tsb{4}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% C\tsb{3}H\tsb{8} +
+%% C\tsb{3}H\tsb{6}
+%% \end{minipage} \\
+%% \midrule\noalign{}
+%% \endhead
+%% \bottomrule\noalign{}
+%% \endlastfoot
+%% \multirow{5}{=}{\centering\arraybackslash Carbonization} & 200 & 37.003
+%% & 0.046 & 0.126 & 32.911 & 0.166 & 0.040 & 0.005 & - & 0.589 \\
+%% & 300 & 37.874 & 0.259 & 1.139 & 68.089 & 0.083 & - & 0.009 & 0.335 &
+%% 0.020 \\
+%% & 400 & 43.355 & 0.237 & 2.219 & 66.944 & 0.045 & - & 0.036 & 0.680 &
+%% 0.054 \\
+%% & 500 & 34.788 & 3.380 & 1.874 & 58.749 & 1.082 & - & 1.095 & 0.705 &
+%% 1.012 \\
+%% & 600 & 34.526 & 3.091 & 1.671 & 61.023 & 2.570 & - & 0.918 & 0.565 &
+%% 1.012 \\
+%% \multirow{3}{=}{\centering\arraybackslash Activation} & 700 & 30.469 &
+%% 3.873 & 0.411 & 76.123 & 0.746 & - & 0.137 & 0.036 & 0.162 \\
+%% & 800 & 28.204 & 5.608 & 0.302 & 75.943 & 0.813 & 0.436 & 0.066 & 0.080
+%% & 0.082 \\
+%% & 900 & 27.532 & 3.304 & 0.157 & 79.477 & 0.841 & 0.511 & 0.038 & 0.058
+%% & 0.006 \\
+%% \end{longtable}
+
+The analysis of gaseous products shows that during carbonization an
+increase in temperature leads to higher hydrogen release (up to 3.091\%
+at 600 °C) and formation of light hydrocarbons (CH₄, C₂--C₃), while
+oxygen decreases. At the same time, nitrogen remains the dominant
+component of the mixture. During activation (700-900 °C), the gas phase
+is characterized by high nitrogen content (over 75\%) along with
+noticeable hydrogen formation (up to 5.608\% at 800 °C) and small
+amounts of CO and hydrocarbons. These results indicate that thermal
+treatment intensifies decomposition processes and promotes gas
+evolution, enriching the system with hydrogen and light hydrocarbons.
+
+As a model system, automotive tire waste was crushed and sieved to
+separate the rubber granules and textile cord. The obtained textile cord
+underwent carbonization and activation by being processed in a pyrolysis
+furnace at 900°C for 4 hours. The material balance was then calculated
+(Table 2).
+
+{\bfseries Table 2 - Material Balance of Textile Cord after activation}
+
+%% \begin{longtable}[]{@{}
+%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1487}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3515}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2318}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2679}}@{}}
+%% \toprule\noalign{}
+%% \begin{minipage}[b]{\linewidth}\centering
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries Name}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries Massa, g}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries Amount, \%}
+%% \end{minipage} \\
+%% \midrule\noalign{}
+%% \endhead
+%% \bottomrule\noalign{}
+%% \endlastfoot
+%% \multirow{3}{=}{\centering\arraybackslash Initial Material} & Textile
+%% cord & 200.00 & 66.67 \\
+%% & Water & 100.00 & 33.33 \\
+%% & Total & 300.00 & 100.00 \\
+%% \multirow{4}{=}{\centering\arraybackslash Product} & Solid Residue
+%% (adsorbent) & 68.40 & 22.80 \\
+%% & Gas & 201.66 & 67.22 \\
+%% & Liquid product (water+tar) & 29.94 & 9.98 \\
+%% & Total & 300.00 & 100.00 \\
+%% \end{longtable}
+
+The developed system boasts a simple and reliable design, as well as an
+environmentally friendly technology. The gas phase and solid residue are
+used as adsorbents for water and gas purification, and various
+commercial products can be obtained from the liquid fraction, which is a
+mixture of hydrocarbons. No wastewater is generated during operation.
+
+During the carbonization and activation of the textile cord, the
+vapor-gas mixture was diverted to a refrigerator, where the hydrocarbon
+vapors condensed, forming a resin. The liquid products obtained in this
+process at temperatures ranging from 400 to 900°C were distilled on a
+rotary evaporator (at temperatures of T = 55-61°C under vacuum), with
+the hydrocarbon fractions collected. Figure 2 shows the chromatograms of
+the liquid products obtained from the carbonization and activation of
+the textile cord.
+
+\fig{c2/image32}{}
+
+{\bfseries Fig.2 - Chromatogram of liquid products from carbonization and
+activation of nylon cord}
+
+According to the analysis results, the component composition of the
+liquid hydrocarbon fractions formed during the carbonization and
+activation of the textile cord is predominantly toluene with a retention
+time of 30.414 min and a concentration of 10.525\%, indicating its
+dominant content in the mixture. The second most abundant component is
+2-methyl-3-ethylpentane (3.329\%, retention time 32.108 min). Aromatic
+hydrocarbons were detected in smaller quantities: ethylbenzene (2.093\%,
+47.718 min) and 1-methyl-3-n-butylbenzene (1.018\%, 80.714 min), as well
+as other compounds in trace amounts. The obtained results indicate the
+predominance of aromatic compounds, among which toluene is the main
+representative, which can have a significant impact on the
+physicochemical properties of the studied sample.
+
+The elemental composition of the initial product and the adsorbent based
+on textile cord were studied using a portable X-ray fluorescence
+analyzer (Table 3).
+
+{\bfseries Table 3 - Elemental composition obtained using a portable X-ray
+fluorescence instrument}
+
+%% \begin{longtable}[]{@{}
+%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1830}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2149}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1995}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1994}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2033}}@{}}
+%% \toprule\noalign{}
+%% \multirow{2}{=}{\centering\arraybackslash \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries Elemental composition}
+%% \end{minipage}} &
+%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.4143} + 2\tabcolsep}}{%
+%% \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries Initial textile cord}
+%% \end{minipage}} &
+%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.4026} + 2\tabcolsep}@{}}{%
+%% \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries Activated textile cord}
+%% \end{minipage}} \\
+%% & \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries \%}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries ±2σ}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries \%}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% {\bfseries ±2σ}
+%% \end{minipage} \\
+%% \midrule\noalign{}
+%% \endhead
+%% \bottomrule\noalign{}
+%% \endlastfoot
+%% С & 77.89 & 0.57 & 86.53 & 0.36 \\
+%% Zn & 4.74 & 0.14 & - & - \\
+%% S & 5.30 & 0.15 & 6.01 & 0.15 \\
+%% Si & 0.636 & 0.040 & 1.95 & 0.07 \\
+%% Cl & 0.260 & 0.010 & 0.311 & 0.010 \\
+%% K & 0.310 & 0.20 & 0.476 & 0.020 \\
+%% Ca & 0.721 & 0.031 & 1.74 & 0.06 \\
+%% Fe & 0.603 & 0.028 & 3.06 & 0.08 \\
+%% Ti & 0.153 & 0.067 & 0.183 & 0.064 \\
+%% V & - & - & 0.054 & 0.033 \\
+%% P & - & - & 0.055 & 0.031 \\
+%% \end{longtable}
+
+The elemental composition analysis of the original and activated textile
+cord revealed significant changes after activation. The carbon content
+increased from 77.89\% to 86.53\%, indicating enrichment of the carbon
+matrix due to the removal of volatile compounds and inorganic
+impurities. Sulfur slightly increased (5.30\% to 6.01\%), while zinc,
+initially present at 4.74\%, completely disappeared, suggesting
+volatilization during thermal treatment. At the same time, mineral
+components became more concentrated: silicon rose from 0.636\% to
+1.95\%, calcium from 0.721\% to 1.74\%, and iron from 0.603\% to 3.06\%,
+with minor increases in chlorine, potassium, and titanium. Notably,
+vanadium (0.054\%) and phosphorus (0.055\%) appeared only in the
+activated material, likely due to redistribution of trace elements or
+impurities introduced during activation. Overall, the activation process
+not only enriched the carbon structure but also significantly
+transformed the mineral profile of the textile cord, which may strongly
+influence its adsorption and catalytic properties.
+
+Figures 3 and 4 present microscopic images of the initial textile cord
+and the activated adsorbent, respectively.
+
+%% \begin{longtable}[]{@{}
+%%   >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.4990}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5010}}@{}}
+%% \toprule\noalign{}
+%% \begin{minipage}[b]{\linewidth}\centering
+%% \fig{c2/image33}{}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% \fig{c2/image34}{}
+%% \end{minipage} \\
+%% \midrule\noalign{}
+%% \endhead
+%% \bottomrule\noalign{}
+%% \endlastfoot
+%% а & b \\
+%% \end{longtable}
+
+{\bfseries Fig.3 - SEM results of the Initial Textile Cord: а-х500;
+b-х5000}
+
+%% \begin{longtable}[]{@{}
+%%   >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.4964}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5036}}@{}}
+%% \toprule\noalign{}
+%% \begin{minipage}[b]{\linewidth}\centering
+%% \fig{c2/image35}{}
+%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+%% \fig{c2/image36}{}
+%% \end{minipage} \\
+%% \midrule\noalign{}
+%% \endhead
+%% \bottomrule\noalign{}
+%% \endlastfoot
+%% а & b \\
+%% \end{longtable}
+
+{\bfseries Fig.4 - SEM results of the Activated Textile Cord: а-х500;
+b-х5000}
+
+In Figure 3, fiber particles with a diameter of 10--25 µm are clearly
+visible, with structural elements forming fibrils in the form of
+thread-like formations.
+
+As shown in Figure 4, the analysis of micrographs reveals that after
+thermal treatment, the surface structure changes, particle sizes
+decrease (\textasciitilde145 nm), and fine-dispersed carbon
+nanoparticles with diameters ranging from approximately 70 to 600 nm are
+formed. This may be associated with the interaction of reactive radicals
+resulting from carbonization and activation, leading to the formation of
+new compounds. The most likely cause of nanoparticle formation on the
+surface is the synthesis process from the gas phase.
+
+During thermal treatment, the formation and growth of ordered carbon in
+the textile cord may occur through the self-organization of carbon
+nanoparticles without the involvement of a mesophase. However, further
+studies are needed to clarify this issue.
+
+Thus, the method of processing textile cords through carbonization and
+activation in the recycling of automobile tires not only ensures the
+disposal of worn-out tires but also enables the production of materials
+that can be used in various industries.
+
+{\bfseries Conclusion.} Traditional methods for purifying natural objects
+are not always effective and may harm the environment. While using
+organic waste for wastewater and air purification is economically and
+environmentally beneficial, such materials generally lack the required
+sorption capacity, necessitating carbonization and activation. As a
+result of this process, new sorbents are obtained, combining the
+beneficial properties of the original material with the characteristics
+of synthetic sorbents, and having a surface different from the initial
+mineral.
+
+Thus, the proposed method for processing textile cords derived from
+automobile tire recycling through carbonization and activation not only
+facilitates the disposal of worn-out tires but also enables the
+production of materials that can be used in various sectors of the
+economy.
+
+\emph{{\bfseries Acknowledgement.} This research has been funded by the
+Science Committee of the Ministry of Science and Higher Education of the
+Republic of Kazakhstan (Grant No. AP19577512 "Development of scientific
+and technical bases for obtaining microporous carbon nanomaterials for
+hydrogen separation and storage").}
+
+{\bfseries References}
+
+1. Aylón E., Murillo R., Navarro M.V., García T., Mastral A.M.
+Valorisation of waste tyre by pyrolysis in a moving bed reactor//Waste
+Management.-2010.-Vol.30.- P.1220 - 1224. DOI
+10.1016/j.wasman.2009.10.001.
+
+2. Williams P.T. Pyrolysis of waste tyres: A review//Waste
+Management.~-2013.-Vol.-33. -P.1714-1728. DOI
+10.1016/j.wasman.2013.05.003.
+
+3. Choi G., Oh S., Kim J. Clean pyrolysis oil from a continuous two-stage
+pyrolysis of scrap tires using in-situ and ex-situ
+desulfurization//~Energy.-2017.-Vol.141 (C).- P.2234 - 2241. DOI
+10.1016/j.energy.2017.12.015.
+
+4. Murugan S., Ramaswamy M.C., Nagarajan G. A comparative study on the
+performance, emission and combustion studies of a DI diesel engine using
+distilled tyre pyrolysis oil--diesel blends //Fuel. -2008. -Vol.87.- P.
+2111-2121. DOI 10.1016/j.fuel.2008.01.008.
+
+5. Jahirul M.I., Hossain F.M., Rasul M.G., Chowdhury A.A. A Review on the
+Thermochemical Recycling of Waste Tyres to Oil for Automobile Engine
+Application//Energies. -2021. -Vol.14(13): 3837. DOI
+10.3390/en14133837.
+
+6. Danon B., van der Gryp P., Schwarz C.E., Görgens J.F. A review of
+dipentene (DL-limonene) production from waste tire pyrolysis//~Journal
+of Analytical and Applied Pyrolysis.- 2015.-Vol.112.- P.1-13. DOI
+10.1016/j.jaap.2014.12.025.
+
+7. Yazdani E., Hashemabadi S.H., Taghizadeh A. Study of waste tire
+pyrolysis in a rotary kiln reactor in a wide range of pyrolysis
+temperature//~Waste Management. - 2019.- Vol.85.- P.195-201. DOI
+10.1016/j.wasman.2018.12.020.
+
+8. Mudhoo A., Sillanpää M. Magnetic nanoadsorbents for micropollutant
+removal in real water treatment: A review//Environmental Chemistry
+letters.-2021.-Vol.19(6). -P.1145-1168. DOI 10.1007/s10311-021-01289-6.
+
+9. Sadegh H., Ghoshekandi R.S., Masjedi A., Mahmoodi Z., Kazemi M. A
+review on Carbon nanotubes adsorbents for the removal of pollutants from
+aqueous solutions// International Journal of Nano Dimension.
+-2016.-Vol.7(2).- P.109-120. DOI 10.7508/ijnd.2016.02.002.
+
+10. Islam M. T. et al. Conversion of waste tire rubber into a
+high-capacity adsorbent for the removal of methylene blue, methyl
+orange, and tetracycline from water //Journal of Environmental Chemical
+Engineering.-2018.-Vol.6(2). - P.3070-3082.
+\href{https://doi.org/10.1016/j.jece.2018.04.058}{DOI
+10.1016/j.jece.2018.04.058}.
+
+11. \href{https://link.springer.com/article/10.1134/S1070427218100063\#auth-S_-Chouaya-Aff1}{Chouaya}
+S.,~\href{https://link.springer.com/article/10.1134/S1070427218100063\#auth-M__A_-Abbassi-Aff2}{Abbassi}
+M.
+A.,~\href{https://link.springer.com/article/10.1134/S1070427218100063\#auth-R__B_-Younes-Aff1}{Younes}
+R. B.,~
+\href{https://link.springer.com/article/10.1134/S1070427218100063\#auth-A_-Zoulalian-Aff3}{Zoulalian}
+A. Scrap tires pyrolysis: Product yields, properties and chemical
+compositions of pyrolytic oil //Russian Journal of Applied Chemistry. -
+2018. - Vol.91(10). - P.1603-1611. DOI 10.1134/S1070427218100063.
+
+\emph{{\bfseries Сведения об авторах}}
+
+Казанкапова М.К. - PhD, асс. профессор, чл.-корр. КазНАЕН, ведущий
+научный сотрудник, ТОО «Институт химии и технологии угля», Астана,
+Казахстан, e-mail:
+maira\_1986@mail.ru;
+
+Ермагамбет Б.Т.- доктор химических наук, профессор, академик КазНАЕН,
+ТОО «Институт химии и технологии угля», Астана, Казахстан, e-mail:
+bake.yer@mail.ru;
+
+Қожамұратова Ұ.М. - магистрант, Евразийский национальний университет им.
+Л.Н.Гумилева, Астана, Казахстан, e-mail:
+kozhamuratova.u@mail.ru;
+
+Джакупова Ж.Е. - кандидат химических наук, доцент, Евразийский
+национальний университет им. Л.Н. Гумилёва, Астана, Казахстан, e-mail:
+zhanereke@mail.ru.
+
+\emph{{\bfseries Information about the authors}}
+
+Kazankapova M.K.- PhD, Associate Professor, Corresponding Member of
+KazNAEN, LLP "Institute of Coal Chemistry and Technology", Astana,
+Kazakhstan, e-mail:
+maira\_1986@mail.ru;
+
+Yermagambet B.T. - Doctor of Chemical Sciences, Professor, Academician
+of KazNAEN, LLP "Institute of Coal Chemistry and Technology", Astana,
+Kazakhstan, e-mail:
+bake.yer@mail.ru;
+
+Kozhamuratova U.M. - master student, Eurasian National University of
+L.N. Gumilyov, Astana, Kazakhstan, e-mail:
+kozhamuratova.u@mail.ru;
+
+Jakupova Zh.E. - Candidate of Chemical Sciences, Associate Professor
+Eurasian National University of L.N. Gumilyov, Astana, Kazakhstan,
+e-mail: zhanereke@mail.ru.\
