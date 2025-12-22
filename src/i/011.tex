@@ -1,17 +1,17 @@
 \id{IRSTI 20.19.27}{}
 
-{\bfseries REVIEW OF REAL-WORLD APPLICATIONS OF NLP-BASED KEYWORD
-IDENTIFICATION}
+\begin{header}
+\swa{}{REVIEW OF REAL-WORLD APPLICATIONS OF NLP-BASED KEYWORD IDENTIFICATION}
 
-{\bfseries D.
-Ganiuly}{\bfseries \envelope ,
-D.
-Kaibassova}
+D. Ganiuly\envelope,
+D. Kaibassova
+\end{header}
 
-\emph{Astana IT University, Astana, Kazakhstan}
+\begin{affil}
+Astana IT University, Astana, Kazakhstan
 
-\envelope  Corresponding author:
-d.ganiuly@astanait.edu.kz
+\corrauthor{Corresponding author: d.ganiuly@astanait.edu.kz}
+\end{affil}
 
 Keyword extraction is an important task in natural language processing,
 supporting summarization, indexing, content analysis, and information
@@ -33,16 +33,20 @@ and practitioners choose appropriate keyword extraction methods for
 educational, multilingual, and domain-specific applications.
 
 {\bfseries Keywords:} keyword extraction, low-resource languages, terms,
-keywords, algorithms, techniques, identification.
+keywords, algorithms, techniques, id\-entification.
 
-{\bfseries NLP НЕГІЗІНДЕГІ КІЛТІ СӨЗДЕРДІ АНЫҚТАУ НЕГІЗГІ СӨЗДЕРДІ
-ҚОЛДАНУЛАРДЫ ШОЛУ}
+\begin{header}
+NLP НЕГІЗІНДЕГІ КІЛТІ СӨЗДЕРДІ АНЫҚТАУ НЕГІЗГІ СӨЗДЕРДІ ҚОЛДАНУЛАРДЫ ШОЛУ
 
-{\bfseries Д. Ғаниұлы\envelope , Д. Қайбасова}
+Д. Ғаниұлы\envelope,
+Д. Қайбасова
+\end{header}
 
-\emph{Astana IT University, Астана, Қазақстан,}
+\begin{affil}
+Astana IT University, Астана, Қазақстан,
 
 \envelope  e-mail: d.ganiuly@astanait.edu.kz
+\end{affil}
 
 Түйінді сөздерді шығару-бұл табиғи тілді өңдеудегі, қорытындылауды,
 индекстеуді, мазмұнды талдауды және ақпаратты іздеуді қолдаудағы маңызды
@@ -67,14 +71,18 @@ KPMiner, TextRank, TopicRank және MultipartiteRank сияқты кеңіне
 {\bfseries Түйін сөздер}: кілт сөздерді шығару, ресурсы аз тілдер,
 терминдер, түйінді сөздер, алгоритмдер, тәсілдер, сәйкестендіру.
 
-{\bfseries ОБЗОР РЕАЛЬНЫХ ПРИМЕНЕНИЙ ИДЕНТИФИКАЦИИ КЛЮЧЕВЫХ СЛОВ НА ОСНОВЕ
-NLP}
+\begin{header}
+ОБЗОР РЕАЛЬНЫХ ПРИМЕНЕНИЙ ИДЕНТИФИКАЦИИ КЛЮЧЕВЫХ СЛОВ НА ОСНОВЕ NLP
 
-{\bfseries Д. Ганиулы\envelope , Д. Кайбасова}
+Д. Ганиулы\envelope,
+Д. Кайбасова
+\end{header}
 
-\emph{Astana IT University, Астана, Казахстан,}
+\begin{affil}
+Astana IT University, Астана, Казахстан,
 
 \envelope  e-mail: d.ganiuly@astanait.edu.kz
+\end{affil}
 
 Извлечение ключевых слов является важной задачей в области обработки
 естественного языка, поскольку оно поддерживает процессы суммирования,
@@ -101,6 +109,7 @@ TextRank, TopicRank и MultipartiteRank, и рассматривает, как �
 {\bfseries Ключевые слова}: извлечение ключевых слов, языки с низкими
 ресурсами, термины, ключевые слова, алгоритмы, методы, идентификация.
 
+\begin{multicols}{2}
 {\bfseries Introduction.} Keyword extraction plays an important role in
 natural language processing and is widely used to summarise documents,
 support information retrieval, and organise large collections of
@@ -180,11 +189,11 @@ identified from the last half-decade, ensuring that the survey included
 only the most relevant and recent contributions to the field.
 
 The multi-stage filtering process was applied according to the Fig.1:
+\end{multicols}
 
-\fig{i2/image49}{}
+\fig[0.6\textwidth]{i2/image49}[Fig.1 - The order of article selection steps]
 
-{\bfseries Fig.1 - The order of article selection steps}
-
+\begin{multicols}{2}
 \emph{Statistical approach}. The statistical approach to keyword
 extraction relies on analyzing patterns like word frequency and
 co-occurrence within a text to identify terms that are statistically
@@ -197,15 +206,17 @@ overall distribution in a dataset. While TF-IDF is computationally
 inexpensive and effective for structured text, it lacks semantic
 awareness and struggles with multi-word phrases {[}1{]}. TF-IDF score is
 calculated as follows:
+\end{multicols}
 
 \[\text{TF-IDF}(t,d,D) = TF(t,d) \cdot IDF(t,D)\]
 
+\begin{multicols}{2}
 where,
 
-\emph{TF(t, d)}- how often term \emph{t} appears in document
+\emph{TF(t, d)} - how often term \emph{t} appears in document
 \emph{d}, typically normalized by the total number of terms in \emph{d};
 
-\emph{IDF(t, D)}- a measure of how rare term \emph{t} is across the
+\emph{IDF(t, D)} - a measure of how rare term \emph{t} is across the
 entire document set \emph{D}, reducing the weight of common terms.
 
 \emph{YAKE{\bfseries . }}Other statistical methods include YAKE (Yet
@@ -225,9 +236,11 @@ beginning or end are chosen by YAKE as candidate keywords. To further
 filter out tokens that shouldn' t be part of a keyword
 (such as non-alphanumeric character sequences, etc.). The following
 formula is used to compute word and phrase score:
+\end{multicols}
 
 \[\text{Score}(w) = \frac{TF(w)}{\wp(w) \cdot RS(w) \cdot C_{w}(w) \cdot D(w)}\]
-
+\vspace{0.1em}
+\begin{multicols}{2}
 where,
 
 \emph{TF(w)} - Term Frequency -- how often the word \emph{w} appears in
@@ -265,12 +278,14 @@ counteract the bias of TF-IDF towards single keywords. The top n
 keywords are returned after the last round of keyword refinement.
 
 The following formula is applied to compute the frequency score:
+\end{multicols}
 
 \[\text{Score}(p) = \frac{F_{p}}{\log_{2}\left( 1 + \text{first\_pos}_{p} \right)} \cdot \text{len}_{p}^{\alpha}\]
 
+\begin{multicols}{2}
 where,
 
-\(Fp\){\bfseries } = Frequency of phrase \emph{p} -- how many
+\(Fp\) = Frequency of phrase \emph{p} -- how many
 times the candidate phrase \emph{p} appears in the document.
 
 first\_pos = First occurrence position -- the position (word index) of
@@ -307,18 +322,20 @@ nodes in a graph, and their relationships (e.g., co-occurrence within a
 sentence or paragraph) form weighted edges. The algorithm iteratively
 assigns importance scores to nodes, ultimately ranking the most relevant
 keywords.
+\end{multicols}
 
 \[S\left( w_{i} \right) = (1 - d) + d \ast \sum_{w_{j} \in N\left( w_{i} \right)}^{}\frac{S\left( w_{j} \right)}{C\left( w_{j} \right)}\]
 
+\begin{multicols}{2}
 where,
 
-\(S\left( w_{i} \right) - \text{the score \textbackslash(importance\textbackslash) of word }w_{i};\)
+\(S\left( w_{i} \right)\) - the score importance of word \(w_{i}\);
 
-\(d\) - \(\text{The damping factor, typically set to 0.85};\)
+\(d\) - The damping factor, typically set to 0.85;
 
-\(N\left( w_{i} \right) - \text{The set of neighboring words for word }w_{i}\)
+\(N\left( w_{i} \right)\) - The set of neighboring words for word \(w_{i}\)
 ;
-\(C\left( w_{j} \right) - \text{The number of outgoing edges from word }w_{j.}\)
+\(C\left( w_{j} \right)\) - The number of outgoing edges from word \(w_{j.}\)
 
 \emph{TopicRank}. A graph-based KE technique called TopicRank
 extracts significant keywords from a manuscript by using its thematic
@@ -335,9 +352,11 @@ TopicRank is very helpful for locating significant subjects that
 individual keywords can miss {[}8{]}. After scoring with the following
 formula, TopicRank selects one representative phrase per topic (often
 the first occurrence or most frequent one).
+\end{multicols}
 
 \[\text{Score}\left( t_{i} \right) = \sum_{t_{j} \in N\left( t_{i} \right)}^{}w_{ij}\]
 
+\begin{multicols}{2}
 where,
 
 \(t_{i}\) - a topic node in the graph, representing a cluster of
@@ -366,9 +385,11 @@ therefore given preference.
 The following formulas are used to construct graphs. Let G = (V, E) be
 an undirected, complete graph with V as a set of vertices and E as a
 subset3 of V*V for the edges.
+\end{multicols}
 
 \[\text{Score}\left( c_{i} \right) = (1 - \lambda) + \lambda \cdot \sum_{c_{j} \in N\left( c_{i} \right)}^{}\frac{w_{ji} \cdot \text{Score}\left( c_{j} \right)}{\sum_{c_{k} \in N\left( c_{j} \right)}^{}w_{jk}}\]
 
+\begin{multicols}{2}
 where,
 
 \(c_{i}\) = candidate keyphrase node whose importance is being computed;
@@ -408,9 +429,11 @@ particularly useful for tasks requiring high precision in keyword
 extraction. However, these methods often require significant
 computational resources and large pre-trained models, which may limit
 their real-time applicability.
+\end{multicols}
 
 \[\text{Score}(p) = \cos\left( \overrightarrow{p},\overrightarrow{d} \right)\]
 
+\begin{multicols}{2}
 where, \(\overrightarrow{p}\) = embedding vector of the candidate phrase
 p, typically obtained using a BERT model (or similar transformer);
 
@@ -429,11 +452,12 @@ highlight the contrast between statistical, graph-based, and
 embedding-based approaches before moving to the discussion of
 transformer-based techniques. The comparison of keyword extraction
 approaches employed in this research is presented in Table 1.
+\end{multicols}
 
-{\bfseries Table 1 -- Overview of Keyword Extraction Approaches}
+\tcap{Table 1 - Overview of Keyword Extraction Approaches}
+\fig{i2/image50}
 
-\fig{i2/image50}{}
-
+\begin{multicols}{2}
 \emph{Experiments.} To evaluate the effectiveness of different keyword
 extraction algorithms for educational content generation, we conducted a
 series of experiments on a curated dataset comprising 255 course
@@ -490,7 +514,11 @@ preprocessing step to avoid keyword spotting of irrelevant data. This
 list will be complemented to decrease the probability of processing
 redundant words and phrases and leave space only for necessary
 information.
+\end{multicols}
 
+\fig[0.4\textwidth]{i2/image51}[Fig.2 - Classification of keyword extraction algorithms]
+
+\begin{multicols}{2}
 \emph{Applications and use cases}. Scientists used TF-IDF,
 TextRank, SingleRank, ExpandRank, RAKE, CO, Semantic Relationship-based
 methods, and Combination methods to extract keywords in the scope of
@@ -512,10 +540,6 @@ instruments such as TextRank, TopicRank, and MultipartiteRank were
 classified as graph-based. Embedding-based instrument: KeyBERT was also
 commonly used by previous studies.
 
-\fig{i2/image51}{}
-
-{\bfseries Fig.2 - Classification of keyword extraction algorithms}
-
 \emph{Comparative analysis}. According to Table 1, the
 applicability and behavior of the examined keyword extraction algorithms
 vary considerably depending on their underlying approach. Traditional
@@ -531,14 +555,12 @@ Embedding-based approaches such as KeyBERT deliver the most contextually
 accurate keywords by leveraging transformer-based semantic
 representations, making them particularly suitable for educational
 materials that contain concept-heavy terminology.
+\end{multicols}
 
+\tcap{Table 2 - Qualitative Performance of Methods on Educational Content}
+\fig[0.7\textwidth]{i2/image52}
 
-
-\fig{i2/image52}{}{\bfseries Table
-2 -- Qualitative Performance of Methods on Educational Content}
-
-
-
+\begin{multicols}{2}
 Since the algorithms differ in their ability to capture context,
 semantic meaning, and domain-specific terminology, their qualitative
 behavior shows noticeable variation across subjects. A summary of these
@@ -628,11 +650,12 @@ TextRank (38\%) showed high redundancy, often repeating variations of
 the same idea. These results reinforce the conclusion that semantic
 models provide more useful and diverse keywords for educational
 applications.
+\end{multicols}
 
-\fig{i2/image53}{}
+\fig[0.6\textwidth]{i2/image53}[Fig.3 - Keyword Redundancy Across Extraction Algorithms]
+\fig[0.6\textwidth]{i2/image54}[Fig.4 - Keyword Diversity Across Extraction Algorithms]
 
-{\bfseries Fig.3 - Keyword Redundancy Across Extraction Algorithms}
-
+\begin{multicols}{2}
 To complement the redundancy analysis, we also measured the diversity of
 extracted keywords, defined as the proportion of distinct terms within
 each algorithm's top-10 output. As shown in Fig.4, diversity levels
@@ -649,12 +672,6 @@ results reinforce the conclusion that semantic and topic-sensitive
 models provide richer keyword sets that better reflect the structure and
 thematic variety of university syllabuses.
 
-
-
-\fig{i2/image54}{}
-
-{\bfseries Fig.4 - Keyword Diversity Across Extraction Algorithms}
-
 {\bfseries Conclusion.} This study examined the performance of several
 keyword extraction algorithms on a collection of 255 course syllabuses
 and demonstrated clear differences in their ability to identify
@@ -667,7 +684,7 @@ where extracted keywords often serve as the basis for generating study
 materials, aligning learning outcomes, and supporting automated
 curriculum design.
 
-The findings also provide practical recommendations for selecting
+The findings also provide practical recommenda\-tions for selecting
 appropriate methods. KeyBERT is the most effective choice when the goal
 is to extract concept-level information and handle abstract terminology
 across various disciplines. KPMiner offers reliable precision for
@@ -681,14 +698,16 @@ purpose of their educational content.
 Future work may explore explore adaptive keyword extraction models that
 dynamically adjust to different syllabus structures and subject domains
 to enhance consistency across diverse educational materials.
+\end{multicols}
 
+\begin{center}
 {\bfseries References}
+\end{center}
 
+\begin{refs}
 1. Nadim M., Akopian D., Matamoros A. A Comparative Assessment of
 Unsupervised Keyword Extraction Tools//IEEE Access. -2023.
--Vol.11.-P.144778-144798.
-
-DOI 10.1109/ACCESS.2023.3344032.
+-Vol.11.-P.144778-144798. DOI 10.1109/ACCESS.2023.3344032.
 
 2. Khan M.Q., et al. Impact Analysis of Keyword Extraction Using
 Contextual Word Embedding//PeerJ Computer Science. -2022. - Vol.8:
@@ -696,22 +715,16 @@ e967. DOI 10.7717/peerj-cs.967.
 
 3. Zhang Y., Tuo M., Yin Q., Qi L., Wang X., Liu T. Keywords Extraction
 with Deep Neural Network Model // Neurocomputing. - 2020. -Vol.383 (C).
--P.113-121.
-
-\href{https://doi.org/10.1016/j.neucom.2019.11.083}{DOI
+-P.113-121. \href{https://doi.org/10.1016/j.neucom.2019.11.083}{DOI
 10.1016/j.neucom.2019.11.08}.
 
 4. Guo W., Wang Z., Han F. Multifeature Fusion Keyword Extraction
 Algorithm Based on TextRank// IEEE Access. -2022. -Vol.10. -P.
-71805-71813.
-
-DOI 10.1109/ACCESS.2022.3188861
+71805-71813. DOI 10.1109/ACCESS.2022.3188861
 
 5. Mao X., Huang S., Li R., Shen L. Automatic Keyword Extraction Based
 on Co-Occurrence and Semantic Relationships Between Words//IEEE Access.
--2020. -Vol.8.-P.117528-117538.
-
-DOI 10.1109/ACCESS.2020.3004628.
+-2020. -Vol.8.-P.117528-117538. DOI 10.1109/ACCESS.2020.3004628.
 
 6. Papagiannopoulou E.,Tsoumakas G. A Review of Keyphrase
 Extraction//Wiley Interdisciplinary Reviews: Data Mining and Knowledge
@@ -724,9 +737,7 @@ Corpus//Data \& Knowledge Engineering. -2024. -Vol.153: 102322. DOI
 
 8. Zhang L., Li Y., Li Q. A Graph-Based Keyword Extraction Method for
 Academic Literature Knowledge Graph Construction//Mathematics. -2024.
--Vol.12(9): 1349.
-
-DOI 10.3390/math12091349.
+-Vol.12(9): 1349. DOI 10.3390/math12091349.
 
 9. Song M., Feng Y., Jing L. A Survey on Recent Advances in Keyphrase
 Extraction From Pre-Trained Language Models // Findings of the
@@ -765,9 +776,8 @@ Interconstrained Keyphrase Extraction//Expert Systems with Applications.
 17. Bennani-Smires K., Musat C., Hossmann A., Baeriswyl M., Jaggi M.
 Simple Unsupervised Keyphrase Extraction Using Sentence Embeddings //
 Proceedings of the Workshop on Automated Knowledge Base Construction
-(AKBC). -2018. -Vol.
-\href{https://arxiv.org/abs/1801.04470}{\hfill\break
-arXiv:1801.04470}. DOI 10.48550/arXiv.1801.04470.
+(AKBC). -2018. -Vol. \href{https://arxiv.org/abs/1801.04470}{arXiv:1801.04470}. DOI
+10.48550/arXiv.1801.04470.
 
 18. Campos R., Mangaravite V., Pasquali A., Jorge A.M., Nunes C., Jatowt
 A. YAKE! Collection-Independent Automatic Keyword Extractor // European
@@ -783,23 +793,22 @@ Proc. Int. Conf. On Smart Information Systems and Technologies (Sist).
 Intelligent System Integrating the Creation of Educational Programs and
 Professional Standards // Wseas Transactions On Computer Research.
 -2024. -Vol.12. -P.443 - 449. DOI 10.37394/232018.2024.12.43.
+\end{refs}
 
-\emph{{\bfseries Information about the authors}}
+\begin{info}
+\hspace{1em}\emph{{\bfseries Information about the authors}}
 
-Ganiuly D. -Master of Technical Sciences, Astana IT University, Astana,
-Kazakhstan, e-mail:
-d.ganiuly@astanait.edu.kz;
+Ganiuly D. - Master of Technical Sciences, Astana IT University,
+Astana, Kazakhstan, e-mail: d.ganiuly@astanait.edu.kz;
 
-Kaibassova D. -PhD., Ass. Professor, Astana IT University, Astana,
-Kazakhstan, e-mail:
-d.kaibasova@astanait.edu.kz.
+Kaibassova D. - PhD., Ass. Professor, Astana IT University, Astana,
+Kazakhstan, e-mail: d.kaibasova@astanait.edu.kz.
 
-\emph{{\bfseries Информация об авторах}}
+\hspace{1em}\emph{{\bfseries Информация об авторах}}
 
-Ганиулы Д.- магистр технических наук, Astana IT University, Астана,
-Казахстан, e-mail:
-d.ganiuly@astanait.edu.kz;
+Ганиулы Д. - магистр технических наук, Astana IT University, Астана,
+Казахстан, e-mail: d.ganiuly@astanait.edu.kz;
 
-Кайбасова Д.- доктор PhD, Асс. профессор, Astana IT University, Астана,
-Казахстан, e-mail:
-d.kaibasova@astanait.edu.kz.\
+Кайбасова Д. - доктор PhD, Асс. профессор, Astana IT University,
+Астана, Казахстан, e-mail: d.kaibasova@astanait.edu.kz.
+\end{info}

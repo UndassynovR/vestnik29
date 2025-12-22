@@ -1,21 +1,19 @@
 \id{IRSTI 28.23.19}{}
 
-{\bfseries USER AUTHENTICATION IN MOBILE LEARNING: BEHAVIORAL ANALYSIS WITH
-GYROSCOPE AND ACCELEROMETER DATA}
+\begin{header}
+\swa{}{USER AUTHENTICATION IN MOBILE LEARNING: BEHAVIORAL ANALYSIS WITH GYROSCOPE AND ACCELEROMETER DATA}
 
-{\bfseries B.B.
-Serbin}{\bfseries ,
-A.M.
-Kassenkhan}{\bfseries \envelope 
-, R.K.
-Uskenbayeva}{\bfseries ,
-Zh.B.
-Kalpeyeva}
+B.B. Serbin,
+A.M. Kassenkhan\envelope,
+R.K. Uskenbayeva,
+Zh.B. Kalpeyeva
+\end{header}
 
-\emph{Satbayev university, Almaty, Kazakhstan}
+\begin{affil}
+Satbayev university, Almaty, Kazakhstan
 
-\envelope  Corresponding author:
-a.kassenkhan@satbayev.university
+\corrauthor{Corresponding author: a.kassenkhan@satbayev.university}
+\end{affil}
 
 With rising popularity of mobile devices and increasingly voluminous
 learning data, securing individual information has become a matter of
@@ -32,19 +30,23 @@ mobile environments. Experiment results prove the model to be viable in
 upkeeping data integrity as well as securing user access to school
 systems.
 
-Keywords: smartphone, mobile application, behavioral model,
-authentication, gyroscope, accelerometer, security, education.
+{\bfseries Keywords:} smartphone, mobile application, behavioral model,
+authentication, gyroscope, accelero\-meter, security, education.
 
-{\bfseries МОБИЛЬДІ ОҚЫТУДАҒЫ ПАЙДАЛАНУШЫЛАРДЫ АУТЕНТИФИКАЦИЯЛАУ: ГИРОСКОП
-ПЕН АКСЕЛЕРОМЕТР ДЕРЕКТЕРІН ПАЙДАЛАНА ОТЫРЫП, МІНЕЗ-ҚҰЛЫҚТЫ ТАЛДАУ}
+\begin{header}
+МОБИЛЬДІ ОҚЫТУДАҒЫ ПАЙДАЛАНУШЫЛАРДЫ АУТЕНТИФИКАЦИЯЛАУ: ГИРОСКОП ПЕН АКСЕЛЕРОМЕТР ДЕРЕКТЕРІН ПАЙДАЛАНА ОТЫРЫП, МІНЕЗ-ҚҰЛЫҚТЫ ТАЛДАУ
 
-{\bfseries В.В. Сербин, А.М. Қасенхан\envelope , Ж.Б. Кальпеева,
-Р.К.Ускенбаева}
+В.В. Сербин,
+А.М. Қасенхан\envelope,
+Ж.Б. Кальпеева,
+Р.К. Ускенбаева
+\end{header}
 
-\emph{Satbayev University, Алматы, Қазақстан,}
+\begin{affil}
+Satbayev University, Алматы, Қазақстан,
 
-\envelope e-mail:
-a.kassenkhan@satbayev.university
+\envelope e-mail: a.kassenkhan@satbayev.university
+\end{affil}
 
 Мобильді құрылғыларды кеңінен қолдану және білім беру деректерінің
 көлемінің артуына байланысты жеке ақпаратты қорғауды өзекті мәселеге
@@ -63,19 +65,20 @@ a.kassenkhan@satbayev.university
 {\bfseries Түйін сөздер:} смартфон, мобильді қосымша, мінез-құлық моделі,
 аутентификация, гироскоп, акселерометр, қауіпсіздік, білім.
 
-{\bfseries АУТЕНТИФИКАЦИЯ В МОБИЛЬНОМ}
+\begin{header}
+АУТЕНТИФИКАЦИЯ В МОБИЛЬНОМ ОБУЧЕНИИ: ПОВЕДЕНЧЕСКИЙ АНАЛИЗ С ИСПОЛЬЗОВАНИЕМ ДАННЫХ ГИРОСКОПА И АКСЕЛЕРОМЕТРА
 
-{\bfseries ОБУЧЕНИИ: ПОВЕДЕНЧЕСКИЙ АНАЛИЗ С ИСПОЛЬЗОВАНИЕМ ДАННЫХ ГИРОСКОПА
-И АКСЕЛЕРОМЕТРА}
-
-\texorpdfstring{В.В. Сербин, А.М. Қасенхан\envelope ,
+В.В. Сербин,
+А.М. Қасенхан\envelope,
 Ж.Б. Кальпеева,
-Р.К.Ускенбаева}{В.В. Сербин, А.М. Қасенхан\envelope , Ж.Б. Кальпеева, Р.К.Ускенбаева}
+Р.К. Ускенбаева
+\end{header}
 
-\emph{Satbayev University, Алматы, Казахстан}
+\begin{affil}
+Satbayev University, Алматы, Казахстан
 
-\envelope  e-mail:
-a.kassenkhan@satbayev.university
+\envelope  e-mail: a.kassenkhan@satbayev.university
+\end{affil}
 
 Популярность мобильных устройств и растущий объём учебных данных
 превратили защиту персональных данных в актуальную проблему. В данном
@@ -94,6 +97,7 @@ a.kassenkhan@satbayev.university
 модель, аутентификация, гироскоп, акселерометр, безопасность,
 образование.
 
+\begin{multicols}{2}
 {\bfseries Introduction.} This widespread adoption of smartphones and
 mobile technologies has been no less influential in contemporary
 teaching and learning, changing how students learn, interact, and
@@ -165,14 +169,12 @@ had been indexed but this number may reach 2,700 or higher by year-end.
 This exponential growth betrays growing interest in security systems
 driven by behavior as technological potential and confidentiality
 requirements expand.
+\end{multicols}
 
-\fig{i2/image55}{}
+\fig{i2/image55}[Fig 1 - Annual number of publications on "behavioral
+authentication" and "mobile learning" (2002--2025)]
 
-{\bfseries Fig№ 1 - Annual number of publications on "behavioral
-authentication" and "mobile learning"}
-
-{\bfseries (2002--2025)}
-
+\begin{multicols}{2}
 Increased interest in behavioral authentication is being spurred on by a
 number of converging trends. These range from an accelerating adoption
 of sensor-enabled mobile devices to a worldwide online-education binge
@@ -418,15 +420,15 @@ accelerometer data. The aggregate correlation coefficient (labeled k) is
 an expression of combined sensor effect and is computed through Equation
 (1):
 
-\(k = \frac{1}{2}(k_{g} + k_{a})\)
-\fig{i2/image56}{}
-(1)
+\begin{equation}
+k = \frac{1}{2}(k_{g} + k_{a})
+\end{equation}
 
-k - general correspondence coefficient;
+\(k\) - general correspondence coefficient;
 
-k\tsb{g} - gyroscope correlation coefficient;
+\(k_{g}\) - gyroscope correlation coefficient;
 
-k\tsb{a} - accelerometer correlation coefficient.
+\(k_{a}\) - accelerometer correlation coefficient.
 
 At the initial step, we will find an individual correlation of
 accessible indicators -accelerometer and gyroscope. As it is equal to
@@ -434,35 +436,38 @@ three parameters of the gyroscope (X, Y, and Z axes) of the overall
 gyroscope, its preliminary weight of a correlation will be defined by
 Equation (2).
 
-\fig{i2/image57}{}
-\(k_{g} = \frac{1}{3}(k_{x} + k_{y} + k_{z})\) (2)
+\begin{equation}
+k_{g} = \frac{1}{3}(k_{x} + k_{y} + k_{z})
+\end{equation}
 
 where,
 
-k\tsb{x} - correlation coefficient of the
+\(k_{x}\) - correlation coefficient of the
 gyroscope' s X-axis;
 
-k\tsb{y} - correlation coefficient of the
+\(k_{y}\) - correlation coefficient of the
 gyroscope' s Y-axis;
 
-k\tsb{z} - correlation coefficient of the
+\(k_{z}\) - correlation coefficient of the
 gyroscope' s Z-axis.
 
 Calculated from Equation (3) is the correlation of each parameter:
 
-\(k_{x} = \frac{x_{avg} \ast x}{\sigma_{x_{2}}\sigma_{x_{1}}}\) (3)
+\begin{equation}
+k_{x} = \frac{x_{avg} \ast x}{\sigma_{x_{2}}\sigma_{x_{1}}}
+\end{equation}
 
 This is an example of a calculation of a correlation of a X-axis as
 follows:
 
-x\tsb{avg} - the average value of all X-axis readings in a
+\(x_{avg}\) - the average value of all X-axis readings in a
 single test;
 
-x - the initial X-axis value during testing;
+\(x\) - the initial X-axis value during testing;
 
-σx\tsb{1} - the standard deviation of the first test value;
+\(\sigma x_{1}\) - the standard deviation of the first test value;
 
-σx\tsb{2} - the standard deviation of the second test value.
+\(\sigma x_{2}\) - the standard deviation of the second test value.
 
 \emph{{\bfseries 3. Population Standard Deviation.}}
 
@@ -478,17 +483,17 @@ squares of all difference of each number from the mean of a dataset. For
 example, the mathematical expression of population standard deviation is
 as follows: in Equation (4) below.
 
-\fig{i2/image58}{}
-\(\sigma = \frac{\sqrt{\sum_{i - 1}^{n}{(x_{i} - x_{avg})}^{2}}}{n - 1}\)
-(4)
+\begin{equation}
+\sigma = \frac{\sqrt{\sum_{i - 1}^{n}{(x_{i} - x_{avg})}^{2}}}{n - 1}
+\end{equation}
 
 where,
 
-n -- number of experimental values;
+\(n\) - number of experimental values;
 
-x\tsb{i} - experimental value;
+\(x_i\) - experimental value;
 
-\(\sum_{i = 1}^{n}x_{i}\)-- sum of experimental values.
+\(\sum_{i = 1}^{n}x_{i}\) - sum of experimental values.
 
 2. To compute mean deviation of two compared parameters of a given
 parameter (first and second) from their calculated average, each is
@@ -496,12 +501,12 @@ subtracted from the mean. Obtained differences thus give an estimate of
 mean deviation of the first indicator. This is expressed formally in
 Equation (5) below.
 
-\(x_{i} - x_{avg}\) (5)
+\begin{equation}
+x_{i} - x_{avg}
+\end{equation}
 
 These steps present the format of procedure to compute the population
 standard deviation of each parameter:
-
-\def\labelenumi{\arabic{enumi})}
 
 1. The previously calculated deviation values (as provided in Equation 5)
 are squared.
@@ -540,22 +545,6 @@ correlated parameters that are being compared. This threshold serves as
 a basis of user authentication thresholds. Interpretations of Pearson
 correlation values employed in this system are tabulated in Table 1.
 
-{\bfseries Table 1-Decision making}
-
-%% \begin{longtable}[]{@{}
-%%   >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5001}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.4999}}@{}}
-%% \toprule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% {\bfseries Correlation coefficient range} & {\bfseries Decision} \\
-%% If (k \textgreater{} 0.5) & User identified \\
-%% If (k <{} 0.5) and (k \textgreater{} 0) & User identity is
-%% questionable \\
-%% If (k <{} 0) & User not identified \\
-%% \end{longtable}
-
 \emph{{\bfseries Experimental work}}
 
 To test the given hypothesis, a number of large experiments have been
@@ -579,119 +568,115 @@ Table 4.
 
 - User moving at a speed of 4--5 km/h: The measurements of dynamometer
 are tabulated in Table 6.
+\end{multicols}
 
-{\bfseries Table 2-Condition 1. When the phone is on the surface}
+\tcap{Table 1 - Decision making}
+\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  cells = {c},
+  cells = {font = \small},
+  hlines,
+  vlines,
+}
+\textbf{Correlation coefficient range} & \textbf{Decision}             \\
+If (k  0.5)                            & User identified               \\
+If (k  0.5) and (k  0)                 & User identity is questionable \\
+If (k  0)                              & User not identified           
+\end{longtblr}
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2099}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2100}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2100}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2099}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1603}}@{}}
-%% \toprule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% {\bfseries Group} & {\bfseries X\tsb{avr}} &
-%% {\bfseries Y\tsb{avr}} & {\bfseries Z\tsb{avr}} &
-%% {\bfseries A\tsb{avr}} \\
-%% 1 & +0.01 & 0.00 & 0.00 & 0.01 \\
-%% 2 & 0.00 & +0.015 & 0.00 & 0.00 \\
-%% 3 & -0.01 & 0.00 & 0.00 & 0.00 \\
-%% 4 & 0.00 & 0.00 & 0.01 & 0.00 \\
-%% 5 & 0.00 & -0.01 & +0.01 & 0.00 \\
-%% \end{longtable}
+\tcap{Table 2 - Condition 1. When the phone is on the surface}
+\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  cells = {c},
+  cells = {font = \small},
+  hlines,
+  vlines,
+}
+\textbf{Group} & \textbf{X\tsb{avr}} & \textbf{Y\tsb{avr}} & \textbf{Z\tsb{avr}} & \textbf{A\tsb{avr}} \\
+1              & +0.01         & 0.00          & 0.00          & 0.01          \\
+2              & 0.00          & +0.015        & 0.00          & 0.00          \\
+3              & -0.01         & 0.00          & 0.00          & 0.00          \\
+4              & 0.00          & 0.00          & 0.01          & 0.00          \\
+5              & 0.00          & -0.01         & +0.01         & 0.00          
+\end{longtblr}
 
-{\bfseries Table 3-State 2. When a person holds the phone stationary (0
-km/h)}
+\tcap{Table 3 - State 2. When a person holds the phone stationary (0 km/h)}
+\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  cells = {c},
+  cells = {font = \small},
+  hlines,
+  vlines,
+}
+\textbf{Group} & \textbf{X\tsb{avr}} & \textbf{Y\tsb{avr}} & \textbf{Z\tsb{avr}} & \textbf{A\tsb{avr}} \\
+1              & +0.03         & +0.02         & +0.01         & 1.32          \\
+2              & -0.5          & -0.06         & +0.02         & 2.6           \\
+3              & -0.04         & +0.08         & -0.04         & 1.87          \\
+4              & +0.06         & -0.03         & +0.03         & 2.63          \\
+5              & +0.09         & +0.02         & -0.05         & 1.1           
+\end{longtblr}
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1999}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}@{}}
-%% \toprule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% {\bfseries Group} & {\bfseries X\tsb{avr}} &
-%% {\bfseries Y\tsb{avr}} & {\bfseries Z\tsb{avr}} &
-%% {\bfseries A\tsb{avr}} \\
-%% 1 & +0.03 & +0.02 & +0.01 & 1.32 \\
-%% 2 & -0.5 & -0.06 & +0.02 & 2.6 \\
-%% 3 & -0.04 & +0.08 & -0.04 & 1.87 \\
-%% 4 & +0.06 & -0.03 & +0.03 & 2.63 \\
-%% 5 & +0.09 & +0.02 & -0.05 & 1.1 \\
-%% \end{longtable}
+\tcap{Table 4 - State 3. When a person is sitting}
+\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  cells = {c},
+  cells = {font = \small},
+  hlines,
+  vlines,
+}
+\textbf{Group} & \textbf{X\tsb{avr}} & \textbf{Y\tsb{avr}} & \textbf{Z\tsb{avr}} & \textbf{A\tsb{avr}} \\
+1              & +0.01         & -0.05         & +0.04         & 0.37          \\
+2              & +0.03         & -0.06         & +0.05         & 0.78          \\
+3              & +0.02         & -0.08         & +0.04         & 0.63          \\
+4              & -0.01         & -0.07         & +0.05         & 1.02          \\
+5              & +0.02         & -0.06         & +0.05         & 0.86          
+\end{longtblr}
 
-{\bfseries Table 4 - State 3. When a person is sitting}
+\tcap{Table 5 - Condition 4. When a person lies}
+\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  cells = {c},
+  cells = {font = \small},
+  hlines,
+  vlines,
+}
+\textbf{Group} & \textbf{X\tsb{avr}} & \textbf{Y\tsb{avr}} & \textbf{Z\tsb{avr}} & \textbf{A\tsb{avr}} \\
+1              & +0.01         & -0.15         & +0.06         & 1.10          \\
+2              & -0.08         & -0.11         & -0.01         & 1.35          \\
+3              & -0.07         & -0.13         & +0.05         & 1.32          \\
+4              & -0.10         & -0.16         & +0.04         & 1.56          \\
+5              & -0.11         & -0.25         & +0.03         & 1.24          
+\end{longtblr}
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1999}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}@{}}
-%% \toprule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% {\bfseries Group} & {\bfseries X\tsb{avr}} &
-%% {\bfseries Y\tsb{avr}} & {\bfseries Z\tsb{avr}} &
-%% {\bfseries A\tsb{avr}} \\
-%% 1 & +0.01 & -0.05 & +0.04 & 0.37 \\
-%% 2 & +0.03 & -0.06 & +0.05 & 0.78 \\
-%% 3 & +0.02 & -0.08 & +0.04 & 0.63 \\
-%% 4 & -0.01 & -0.07 & +0.05 & 1.02 \\
-%% 5 & +0.02 & -0.06 & +0.05 & 0.86 \\
-%% \end{longtable}
+\tcap{Table 6 - Condition 5. When a person walks at an average speed of 4-5 km/h.}
+\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  cells = {c},
+  cells = {font = \small},
+  hlines,
+  vlines,
+}
+\textbf{Group} & \textbf{X\tsb{avr}} & \textbf{Y\tsb{avr}} & \textbf{Z\tsb{avr}} & \textbf{A\tsb{avr}} \\
+1              & -0.16         & -0.35         & +3.05         & 2.93          \\
+2              & +1.23         & +2.28         & +1.76         & 3.05          \\
+3              & +0.18         & +1.86         & +0.97         & 2.35          \\
+4              & -1.36         & +2.32         & -2.17         & 2.12          \\
+5              & +0.29         & +0.96         & +0.56         & 1.98          
+\end{longtblr}
 
-{\bfseries Table 5 - Condition 4. When a person lies}
-
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1988}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2004}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2006}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1995}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2007}}@{}}
-%% \toprule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% {\bfseries Group} & {\bfseries X\tsb{avr}} &
-%% {\bfseries Y\tsb{avr}} & {\bfseries Z\tsb{avr}} &
-%% {\bfseries A\tsb{avr}} \\
-%% 1 & +0.01 & -0.15 & +0.06 & 1.10 \\
-%% 2 & -0.08 & -0.11 & -0.01 & 1.35 \\
-%% 3 & -0.07 & -0.13 & +0.05 & 1.32 \\
-%% 4 & -0.10 & -0.16 & +0.04 & 1.56 \\
-%% 5 & -0.11 & -0.25 & +0.03 & 1.24 \\
-%% \end{longtable}
-
-{\bfseries Table 6 - Condition 5. When a person walks at an average speed
-of 4-5 km/h.}
-
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1997}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2003}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2001}}@{}}
-%% \toprule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% {\bfseries Group} & {\bfseries X\tsb{avr}} &
-%% {\bfseries Y\tsb{avr}} & {\bfseries Z\tsb{avr}} &
-%% {\bfseries A\tsb{avr}} \\
-%% 1 & -0.16 & -0.35 & +3.05 & 2.93 \\
-%% 2 & +1.23 & +2.28 & +1.76 & 3.05 \\
-%% 3 & +0.18 & +1.86 & +0.97 & 2.35 \\
-%% 4 & -1.36 & +2.32 & -2.17 & 2.12 \\
-%% 5 & +0.29 & +0.96 & +0.56 & 1.98 \\
-%% \end{longtable}
-
+\begin{multicols}{2}
 Experimental results revealed that Condition 2---if users keep their
 phones in their hands---is the most appropriate situation to effectively
 estimate the correlation coefficient. When this condition is set,
@@ -713,20 +698,17 @@ two login attempts of a same user.
 
 Step 2: It is calculated by the formulas below:
 
-1) The mean deviation is:
-\fig{i2/image60}{}\fig{i2/image60}{}=
--5,264 -- 3,44 = 1,06;
+1) The mean deviation is: \(x_{avg} = -5,264 - 3,44 = 1,06\);
 
-2) Variance =
-\fig{i2/image61}{}\fig{i2/image61}{}
-= 1.06\^{}2=1.13;
+2) Variance \(= x_2 = 1.06^{2} = 1.13\);
 
-3) Square of the two mean deviations of the test values: = 1,13 *
-1,111069206 = 1,1215880186.
+3) Square of the two mean deviations of the test values: \(= 1,13 *
+1,111069206 = 1,1215880186\).
+\end{multicols}
 
 Calculating the X-axis correlation of the same person.
 
-\fig{i2/image62}{}\(k_{x} = \frac{x_{avg} \ast x}{\sigma_{x_{2}} \ast \sigma_{x_{1}}} = 0,757535214\)
+\[k_{x} = \frac{x_{avg} \ast x}{\sigma_{x_{2}} \ast \sigma_{x_{1}}} = 0,757535214\]
 
 Calculating the Y-axis correlation
 
@@ -742,7 +724,7 @@ Calculation of correlation along the Z axis:
 
 Calculation of correlation A:
 
-\fig{i2/image63}{}\fig{i2/image63}{}\(k_{a} = \left( \frac{A_{avg} \ast A}{\sigma_{A_{2}} \ast \sigma_{A_{1}}} \right) = 0,524778876\)
+\[k_{a} = \left( \frac{A_{avg} \ast A}{\sigma_{A_{2}} \ast \sigma_{A_{1}}} \right) = 0,524778876\]
 
 General ratio of one person:
 
@@ -774,11 +756,10 @@ General ratio of two people:
 
 \[k = \frac{1}{2}\left( k_{g} + k_{a} \right) = \frac{1}{2}\left( 0,403318663 + ( - 0,497473449) \right) = - 0,047077393\]
 
+\begin{multicols}{2}
 The hypothesis was tested through a series of large-scale experiments
 involving five groups of 20 participants each. Sensor data were
 collected under five controlled conditions:
-
-\def\labelenumi{\arabic{enumi})}
 
 1. when the phone was placed on a flat surface,
 
@@ -885,9 +866,13 @@ adaptive learning platforms online.
 \emph{{\bfseries Funding}. This research has been/was/is funded by the
 Committee of Science of the Ministry of Science and Higher Education of
 the Republic of Kazakhstan (Grant No. BR24993072).}
+\end{multicols}
 
+\begin{center}
 {\bfseries References}
+\end{center}
 
+\begin{refs}
 1. Schewina K. I., Clausen S., Basyurt A. S., Stieglitz S. Information
 privacy and user satisfaction in mobile applications: A cross-national
 analysis// International Conference on Information Systems (ICIS), AIS
@@ -1027,17 +1012,17 @@ Transactions on Biometrics, Behavior, and Identity Science. -2024.
 28. Li X., Li R. A trustworthiness evaluation mechanism based on
 principles-assumptions model// IEEE Internet of Things Journal. -2024.
 -Vol.11(10). -P.17510-17524. DOI 10.1109/JIOT.2024.3357705.
+\end{refs}
 
-\begin{quote}
-\emph{{\bfseries Сведения об авторах}}
+\begin{info}
+\hspace{1em}\emph{{\bfseries Сведения об авторах}}
 
-Сербин В.В. -кандидат технических наук, Ассоциированный профессор
+Сербин В.В. - кандидат технических наук, Ассоциированный профессор
 Satbayev University, Алматы, Казахстан,
 e-mail:v.serbin@satbayev.university;
 
 Қасенхан А.М. - доктор Ph.D, Satbayev University, Алматы, Казахстан,
 e-mail: a.kassenkhan@satbayev.university;
-\end{quote}
 
 Кальпеева Ж.Б. - доктор Ph.D, Satbayev University, Алматы, Казахстан,
 e-mail: z.kalpeyeva@satbayev.university;
@@ -1046,21 +1031,19 @@ e-mail: z.kalpeyeva@satbayev.university;
 University, Алматы, Казахстан, e-mail:
 r.k.uskenbayeva@satbayev.university.
 
-\emph{{\bfseries Information about the authors}}
+\hspace{1em}\emph{{\bfseries Information about the authors}}
 
 Serbin V.V. - Candidate of Technical Sciences, Associate Professor,
 Satbayev University, Almaty, Kazakhstan, e-mail:
 v.serbin@satbayev.university;
 
 Kassenkhan A.M. - PhD, Satbayev University, Almaty, Kazakhstan,
-e-mail:
-a.kassenkhan@satbayev.university;
+e-mail: a.kassenkhan@satbayev.university;
 
-\begin{quote}
 Kalpeyeva Zh.B. - доктор PhD, Satbayev University, Almaty, Kazakhstan,
 e-mail: z.kalpeyeva@satbayev.university;
 
 Uskenbayeva R.K. - Doctor of technical sciences, Professor, Satbayev
 University, Almaty, Kazakhstan, e-mail:
 r.k.uskenbayeva@satbayev.university.
-\end{quote}\
+\end{info}
