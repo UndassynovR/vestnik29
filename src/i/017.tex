@@ -1,0 +1,896 @@
+\id{МРНТИ 28.23.29}{}
+
+\begin{header}
+\swa{}{A COMPREHENSIVE REVIEW OF INFORMATION SYSTEMS FOR SCIENTIFIC PROJECT ASSESSMENT}
+
+\tsp{1}G.M. Mutanov,
+\tsp{2}S.T. Amanzholova,
+\tsp{1}О.А. Ussatova,
+\tsp{2}L.S. Aldasheva,
+\tsp{2}A.S. Amirova\envelope 
+\end{header}
+
+\begin{affil}
+\tsp{1}Institute of Information and Computational Technologies, Almaty, Kazakhstan,
+
+\tsp{2}Astana IT University, Astana, Kazakhstan
+
+\corrauthor{Corresponding author: akzhibek.amirova@astanait.edu.kz}
+\end{affil}
+
+Evaluation of scientific and scientific-technical projects is a
+multifaceted task that requires a balanced approach to the analysis of
+innovativeness, feasibility and potential impact of research
+initiatives. Tradi\-tional methods of expert evaluation are based on
+subjective conclusions of specialists, which create risks of
+inconsistency and limited reproducibility of solutions. In this regard,
+the importance of intelligent information systems that can improve the
+quality, transparency and efficiency of evaluation procedures is
+increasing. The article presents a comprehensive review of architectural
+solutions, network models and technologies used in information systems
+designed to support expert evaluation of scientific projects. Both
+classical knowledge-based approaches and modern solutions using
+artificial intelligence methods are considered: machine learning,
+natural language processing (NLP), fuzzy logic, and genetic algorithms.
+Particular attention is paid to the use of blockchain technologies to
+ensure the reliability, security and auditability of expert procedures.
+Key decision support methods are analyzed, including multi-criteria
+analysis methods, optimization algorithms, and automated distribution of
+applications between experts. Examples of successful implementation of
+cloud and distributed architectures in the scientific expertise system
+are presented.
+
+{\bfseries Keywords:} intelligent systems, expert assessment, scientific
+projects, information systems, systems architecture, machine learning
+(ML), fuzzy logic, blockchain, multi-criteria analysis, natural language
+processing (NLP).
+
+\begin{header}
+ҒЫЛЫМИ ЖОБАНЫ БАҒАЛАУ ҮШІН АҚПАРАТТЫҚ ЖҮЙЕЛЕРДІ КЕШЕНДІ ШОЛУ
+
+\tsp{1}Г.М. Мутанов,
+\tsp{2}С.Т. Аманжолова,
+\tsp{1}О.А. Усатова,
+\tsp{2}Л.С. Алдашева,
+\tsp{2}А.С. Амирова\envelope
+\end{header}
+
+\begin{affil}
+\tsp{1}Ақпараттық және есептеу технологиялары институты, Алматы, Қазақстан,
+
+\tsp{2}Astana IT University, Астана, Қазақстан,
+
+e-mail: akzhibek.amirova@astanait.edu.kz
+\end{affil}
+
+Ғылыми және ғылыми-техникалық жобаларды бағалау зерттеу бастамаларының
+жаңашылдығын, орындылығын және әлеуетті әсерін талдауға теңгерімді
+көзқарасты талап ететін көп қырлы міндет болып табылады. Сараптамалық
+бағалаудың дәстүрлі әдістері шешімдердің сәйкессіздік және шектеулі
+қайталану қаупін тудыратын мамандардың субъективті қорытындыларына
+негізделген. Осыған байланысты бағалау рәсімдерінің сапасын, ашықтығын
+және тиімділігін арттыра алатын интеллектуалды ақпараттық жүйелердің
+маңыздылығы артып келеді. Мақалада ғылыми жобалардың сараптамалық
+бағалауын қолдауға арналған ақпараттық жүйелерде қолданылатын
+архитектуралық шешімдер, желілік модельдер мен технологиялардың
+жан-жақты шолуы берілген. Классикалық білімге негізделген тәсілдер де,
+жасанды интеллект әдістерін пайдаланатын заманауи шешімдер де
+қарастырылады: машиналық оқыту, табиғи тілді өңдеу (NLP), анық емес
+логика және генетикалық алгоритмдер. Сараптамалық процедуралардың
+сенімділігін, қауіпсіздігін және аудиттілігін қамтамасыз ету үшін
+блокчейн технологияларын пайдалануға ерекше назар аударылады. Шешім
+қабылдауды қолдаудың негізгі әдістері талданады, соның ішінде көп
+критериалды талдау әдістері, оңтайландыру алгоритмдері және сарапшылар
+арасында қосымшаларды автоматтандырылған тарату. Ғылыми сараптама
+жүйесінде бұлтты және бөлінген архитектураларды сәтті енгізу мысалдары
+келтірілген.
+
+{\bfseries Түйін сөздер:} интеллектуалды жүйелер, сараптамалық бағалау,
+ғылыми жобалар, ақпараттық жүйелер, жүйелер архитектурасы, машиналық
+оқыту (ML), анық емес логика, блокчейн, көп критериалды талдау, табиғи
+тілді өңдеу (NLP).
+
+\begin{header}
+КОМПЛЕКСНЫЙ ОБЗОР ИНФОРМАЦИОННЫХ СИСТЕМ ДЛЯ ОЦЕНКИ НАУЧНЫХ ПРОЕКТОВ
+
+\tsp{1}Г.М. Мутанов,
+\tsp{2}С.Т. Аманжолова,
+\tsp{1}О.А. Усатова,
+\tsp{2}Л.С. Алдашева,
+\tsp{2}А.С. Амирова\envelope
+\end{header}
+
+\begin{affil}
+\tsp{1}Институт информационных и вычислительных технологий, Алматы, Казахстан,
+
+\tsp{2}Astana IT University, Астана, Казахстан,
+
+e-mail: akzhibek.amirova@astanait.edu.kz
+\end{affil}
+
+Оценка научных и научно-технических проектов -- многогранная задача,
+требующая сбалансированного подхода к анализу инновационности,
+реализуемости и потенциального воздействия исследовательских инициатив.
+Традиционные методы экспертной оценки основаны на субъективных выводах
+специалистов, что создает риски противоречивости и ограниченной
+воспроизводимости решений. В этой связи возрастает значение
+интеллектуальных информационных систем, способных повысить качество,
+прозрачность и эффективность процедур оценки. В статье представлен
+комплексный обзор архитектурных решений, сетевых моделей и технологий,
+используемых в информационных системах, предназначенных для поддержки
+экспертизы научных проектов. Рассматриваются как классические подходы,
+основанные на знаниях, так и современные решения, использующие методы
+искусственного интеллекта: машинное обучение, обработка естественного
+языка, нечеткая логика и генетические алгоритмы. Особое внимание уделено
+использованию блокчейн-технологий для обеспечения надежности,
+безопасности и проверяемости экспертных процедур. Проанализированы
+основные методы поддержки принятия решений, включая методы
+многокритериального анализа, алгоритмы оптимизации и автоматизированное
+распределение заявок между экспертами. Приведены примеры успешного
+внедрения облачных и распределенных архитектур в систему научной
+экспертизы.
+
+{\bfseries Ключевые слова:} интеллектуальные системы, экспертная оценка,
+научные проекты, информационные системы, архитектура систем, машинное
+обучение (МО), нечеткая логика, блокчейн, многокритериальный анализ,
+обработка естественного языка (NLP).
+
+\begin{multicols}{2}
+{\bfseries Introduction.} The development of scientific research activities
+and increasing competition for funding pose the challenge for the
+scientific community to modernize the procedures for assessing and
+reviewing projects. The existing practice of expert evaluation is
+usually manual, fragmented and subjective. This reduces the efficiency
+of research program management, increases the risks of unreliable
+decisions, and complicates the scalability of the process with an
+increase in the volume of submitted applications. In the context of
+digitalization and growing data volumes, it becomes necessary to move
+from the traditional expert model to intelligent information systems
+capable of providing a more accurate, objective and reproducible
+assessment of projects {[}1{]}.
+
+The object of the study is information systems designed to assess
+scientific and scientific-technical projects.
+
+The purpose of this work is to form a holistic view of the architecture,
+technologies and algorithms underlying intelligent expert evaluation
+systems, as well as to identify areas for their further development and
+application in the practice of scientific administration.
+
+The relevance of the topic is due to the growing interest in digital
+platforms for decision support in science, the emergence of new
+technological solutions, as well as state policy in the field of digital
+transformation of science. Despite the availability of private
+solutions, a systematic review combining architectural, algorithmic and
+applied aspects of designing such systems is still insufficient in
+scientific literature. This creates a methodological gap between IS
+developers and specialists in the field of scientific expertise.
+
+The scientific novelty of the study lies in the integrated approach to
+systematizing existing solutions: from classical expert systems and
+multi-criteria models to modern methods of machine learning, automated
+annotation, application distribution, blockchain registries and cloud
+architecture. The work offers a comparative analysis of the approaches
+used in the literature over the past ten years, with an emphasis on
+their applicability in scientific practice.
+
+The hypothesis of the study is that the use of modular architectures and
+hybrid AI models in information systems can significantly improve the
+quality, transparency and adaptability of expert assessment processes.
+
+{\bfseries Materials and Methods.}The methodological basis of this study is
+a systematic review aimed at identifying, classifying and analyzing
+architectural solutions, technologies and algorithms used in intelligent
+information systems designed to evaluate scientific and
+scientific-technical projects.
+
+The study was conducted in several stages:
+
+1. Formulating criteria for selecting publications.
+
+The review included scientific articles published between 2015 and 2025,
+primarily in English-language peer-reviewed journals indexed in the
+Scopus, IEEE Xplore, SpringerLink, ACM DL databases, as well as in
+authoritative Kazakh and Russian sources. The main selection criteria
+were:
+
+- focus on expert evaluation information systems;
+
+- availability of a description of the architecture, models or
+algorithms used;
+
+- practical focus of solutions.
+
+Articles devoted exclusively to administrative, sociological or
+political aspects of scientific expertise without a technical component
+were excluded.
+
+2. Search and selection of sources.
+
+To ensure complete coverage, the following keywords were used: expert
+evaluation systems, project assessment, decision support systems, AI in
+research evaluation, scientific project management, fuzzy logic,
+blockchain for science, multi-criteria decision making (MCDM). At the
+first stage, more than 40 publications were identified, of which 25 most
+relevant sources were selected after reference analysis.
+
+3. Classification and systematization of data.
+
+The publications were analyzed according to the following parameters:
+
+- type of architecture;
+
+- type of technologies used;
+
+- decision-making methods used;
+
+- scope and maturity stage.
+
+4. Analysis of methods and algorithms.
+
+Particular attention is paid to the analysis of algorithmic solutions:
+
+- decision support systems based on multi-criteria models;
+
+- machine learning methods for analyzing application texts and
+predicting;
+
+- optimization algorithms;
+
+- transparency technologies.
+
+Each method was described in the context of its applicability to the
+task of scientific expertise, and its advantages and limitations were
+considered.
+
+\emph{Architecture of intelligent assessment systems}
+
+Developing an intelligent project evaluation system requires a
+well-defined architecture that integrates data, expert knowledge, and
+analytical models. Early approaches often took the form of
+knowledge-based expert systems, where domain rules and criteria guided
+project evaluations. For example, Mutanov et al. {[}2{]} developed a
+decision support methodology using mathematical models to evaluate
+innovative projects along two key dimensions, ``innovativeness'' (I) and
+``competitiveness'' (K), visualizing each project as a point on a K=f(I)
+matrix for expert panels. This architecture formalized how scientific
+and business metrics intersect in project value and allowed experts to
+compare projects using a graphical decision map. Such rule-based or
+model-driven architectures lay the foundation by defining the criteria,
+metrics, and workflow for evaluation. Modern intelligent system
+architectures increasingly use cloud and network technologies to improve
+collaboration and scalability.
+
+A prominent example is the remote peer review system developed by Yu et
+al. for urban planning projects {[}3{]}. The system architecture uses a
+cloud service platform to pool information resources and remote experts,
+enabling online project reviews even in resource-constrained regions.
+Key features include shared data repositories, GIS tools for spatial
+analysis, and secure access for geographically distributed evaluators.
+By virtualizing resources using cloud computing, this architecture
+achieves the integration of various data sources and supports a seamless
+workflow between multiple users, thereby improving the efficiency and
+``scientific nature'' of the review process. This illustrates how
+distributed architecture can modernize the peer review process for
+scientific projects.
+
+Another important architectural trend is the incorporation of blockchain
+networks into the system design. Blockchain technology, originally known
+as cryptocurrency, is now seen as a ``software connector'' that can link
+system components in a decentralized, tamper-proof manner. Xu et al.
+described blockchain as a new connector in software architecture that
+can ensure data integrity and trust between distributed modules {[}4{]}.
+In project evaluation systems, this implies that project proposals,
+reviews, and decisions can be recorded on a blockchain ledger to prevent
+unauthorized changes and improve transparency. Zyskind et al.
+demonstrated how blockchain can be used to protect personal data by
+decentralizing access control {[}5{]}. By applying this, an evaluation
+system can protect sensitive information about proposals while allowing
+authorized experts to access the data through cryptographic keys.
+
+In general, the architecture of an intelligent project evaluation system
+is often modular, combining a data layer, an intelligence layer, and an
+interface layer. Indeed, national science management strategies are
+moving towards unified digital ecosystems: for example, the concept of
+science development in Kazakhstan for 2023--2029 envisages the creation
+of a unified information system ``Science of Kazakhstan'', which
+digitalizes all scientific processes using data science, big data, and
+other digital tools {[}1{]}.
+
+\emph{Network Models and AI Methods in Project Evaluation}
+
+Intelligent systems use advanced AI models or ``network models'' to
+analyze and interpret the complex data used in project evaluation. By
+``network models'' in this context, we mean neural networks and deep
+learning models that have revolutionized the processing of unstructured
+data. In a review, Jordan and Mitchell identified machine learning as a
+transformative technology and predicted that learning algorithms will
+increasingly work collaboratively and process multiple data sources
+{[}6{]}. Indeed, modern intelligent evaluation systems use a combination
+of AI models:
+
+- Natural language processing (NLP) and text mining: Project proposals
+and research papers contain a lot of text. Deep learning models can
+analyze documents to extract key information. Recent research has led to
+the creation of large-scale datasets and models for summarizing multiple
+documents. For example, the Multi-News dataset presented by Fabbri et
+al. contains thousands of clusters of news articles with summaries,
+allowing neural models to learn to generate consistent summaries from
+multiple sources {[}7{]}. Building on this, Lu et al. created
+Multi-XScience, a dataset for summarizing multiple scientific articles
+related to a given topic {[}8{]}. Akhmetov et al. proposed an extractive
+summarization method for scientific articles based on greedy
+optimization, demonstrating how AI can automatically highlight the most
+important sentences in a paper {[}9{]}. Integrating such summarization
+tools into an expert system allows a reviewer to instantly obtain a
+summary of the literature on a sentence or previous results, saving time
+and improving understanding.
+
+- Knowledge graphs and semantic networks: Intelligent systems can
+represent domain knowledge as concept graphs, for example by linking
+projects to related scientific fields, experts, or previous works. This
+helps recommend suitable expert reviewers or identify collaboration
+opportunities {[}10-12{]}.
+
+- Plagiarism and integrity checking: Ensuring the originality of
+submissions is an important part of project review. Machine learning
+techniques have improved plagiarism detection by learning patterns of
+textual similarity. Kamath and Ghosh proposed a machine learning
+approach to plagiarism detection that can be used to compare a new
+submission with a database of existing documents to detect potential
+copying {[}13{]}.
+
+- Question and answering and information retrieval: Domain-specific
+question and answer systems can help experts find facts quickly. Sabieva
+et al. developed a legal question answering system that uses machine
+learning to extract accurate answers from legal texts {[}14{]}.
+Similarly, a quality assurance module in a project appraisal system
+could allow an expert to ask questions such as ``What was the success
+rate of projects in area X last year?'' or ``What projects similar to
+this one have been funded before?'' and receive an immediate answer from
+a knowledge base.
+
+- Deep learning for forecasting: Neural network models are also used to
+predict project outcomes or estimates. Given enough historical data, a
+model can be trained to predict the probability of success. LeCun et al.
+noted that deep learning enables multi-layered representation learning,
+achieving remarkable results in pattern recognition and forecasting
+tasks {[}15{]}. Sikimić and Radovanović attempted to use machine
+learning to predict project performance in high-energy physics proposals
+but found that accurately predicting project success based on proposal
+data alone is non-trivial {[}16{]}. This highlights that while neural
+models are powerful, their predictions must complement human expert
+judgment.
+
+\emph{Decision Support Methods and Algorithms}
+
+In addition to the architecture and artificial intelligence components,
+intelligent project evaluation systems rely on a large literature on
+decision support methodologies. Project selection is inherently a
+multi-criteria decision problem, where there are several evaluation
+criteria that need to be considered simultaneously {[}17{]}. Many
+quantitative methods have been developed and applied over the past
+decades:
+
+- Multi-criteria decision making (MCDM) methods: classical methods such
+as Analytic Hierarchy Process (AHP), Analytic Network Process (ANP),
+TOPSIS, DEMATEL. For example, AHP allows pairwise comparison of projects
+for each criterion to obtain priority scores, while ANP extends this by
+considering interdependencies between criteria. Integrated approaches
+are also common: researchers combine to exploit their complementary
+strengths. Also, an expert system can use a knowledge base of rules to
+determine the appropriate MCDM method in each context, then perform
+calculations and present a ranked list of projects to decision makers
+{[}18-20{]}.
+
+- Fuzzy logic and uncertainty handling: Evaluation of scientific
+projects often involves uncertainty - data may be incomplete, expert
+judgments may be subjective. Fuzzy logic provides the ability to model
+uncertain or imprecise information. Many of the above-mentioned MCDM
+methods have fuzzy extensions to account for ambiguity in expert
+assessments. The integration of fuzzy sets allows an intelligent system
+to reason in linguistic terms (``high risk'', ``moderate
+innovativeness'') and still perform quantitative analysis. This leads to
+more robust decision support that can reflect confidence levels or
+variations in expert opinions {[}21-24{]}.
+
+- Optimization algorithms: project selection may require portfolio
+optimization under constraints. Evolutionary algorithms and other
+optimizers play a role here. Genetic algorithms (GAs), described by
+Goldberg, mimic natural selection to find optimal solutions and have
+been applied to project selection problems {[}25{]}. Esengalieva
+investigated GA in the context of evaluating research projects that are
+likely to optimize the combination of projects that maximize the overall
+benefit under given constraints {[}26{]}. Similarly, researchers have
+used data envelopment analysis (DEA) to measure project performance by
+treating projects as decision units transforming inputs into outputs.
+For example, Namazi et al. used a fuzzy DEA approach to evaluate the
+performance of R\&D projects under uncertainty {[}27{]}. These
+optimization and performance analysis techniques can be embedded in
+intelligent systems to suggest an optimal set of projects or identify
+inefficient projects.
+
+- Automated reviewer assignment: Intelligent decision support can help
+here by modeling the expertise and workload of reviewers. Liu et al.
+presented an approach to intelligent assignment of reviewers for
+research project selection, implemented as an assignment decision
+support system {[}28{]}. Their system analyzes project topics and
+reviewer profiles to recommend optimal reviewer-project matches. This
+type of subsystem is often part of the overall architecture of modern
+grant management platforms.
+
+To provide a structured overview of the technological components used in
+intelligent project evaluation systems, Table 1 summarizes the key
+methods, their core purposes, and supporting literature. The table
+consolidates architectural solutions, artificial intelligence
+techniques, and decision support tools that collectively enhance the
+objectivity, efficiency, and transparency of evaluation processes.
+\end{multicols}
+
+\tcap{Table 1 - Key Components and Methods in Intelligent Project Evaluation Systems}
+\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[338]Q[496]Q[104]},
+  cells = {c},
+  cells = {font = \small},
+  hlines,
+  vlines,
+}
+\textbf{Component / Method}                       & \textbf{Purpose}                                                             & \textbf{References} \\
+Mathematical Models                               & Graphical evaluation model of projects by innovativeness and competitiveness & {[}2]               \\
+Cloud Architectures                               & Remote access, collaboration, scalability                                    & {[}3]               \\
+Blockchain in Evaluation Systems                  & Data immutability, transparency, and access control                          & {[}4], [5]          \\
+Neural Network Models (NLP, DL)                   & Text analysis, prediction, information extraction                            & {[}6]               \\
+Summarization Tools                               & Extracting key ideas from proposals and research papers                      & {[}7]; [8]; [9]     \\
+Knowledge Graphs / Semantic Networks              & Structuring domain knowledge and linking to experts                          & {[}10-12]           \\
+Plagiarism Detection (ML)                         & Detecting textual similarities and copying                                   & {[}13]              \\
+Question Answering Systems (QA)                   & Fact retrieval and statistics from knowledge bases                           & {[}14]              \\
+Forecasting (DL, NN)                              & Predicting probability of project success                                    & {[}15]; [16]        \\
+Multi-Criteria Decision Making (AHP, ANP, TOPSIS) & Ranking based on multiple criteria                                           & {[}17]; [18-20]     \\
+Fuzzy Logic                                       & Modeling uncertainty in expert opinions                                      & {[}21-24]           \\
+Genetic Algorithms (GA)                           & Portfolio optimization under constraints                                     & {[}25]; [26]        \\
+DEA (Data Envelopment Analysis)                   & Efficiency assessment using inputs and outputs                               & {[}27]              \\
+Reviewer Assignment Systems                       & Matching reviewers by topic and workload                                     & {[}28]              
+\end{longtblr}
+
+\begin{multicols}{2}
+{\bfseries Results and Discussion.} This study allowed us to systematize
+and analyze modern architectural and algorithmic solutions used in
+information systems designed for expert evaluation of scientific and
+technical projects. The review covers publications over the past ten
+years, primarily from the Scopus and IEEE databases, as well as several
+significant domestic sources, which ensures a broad coverage of both the
+international and local context.
+
+\emph{Architectural solutions and structural approaches}
+
+The analysis showed that three main types of architecture are most
+widely represented: centralized, modular, and distributed. Centralized
+solutions are typical for internal systems of universities and
+foundations, where all processes - from applying to forming a rating -
+are closed within a single platform. Such systems are relatively easy to
+implement, but they are poorly scalable and vulnerable to the human
+factor.
+
+Modular architecture, on the contrary, demonstrates a high potential for
+adaptability. They assume the presence of separate components: data
+storage, analytics, interfaces for interaction with experts, as well as
+subsystems for analyzing scientific information. Such solutions are
+easier to scale and integrate with external services, including
+international databases of scientific publications. Platforms that
+support API integration with ORCID, Scopus, and Web of Science
+demonstrate higher flexibility and relevance of data.
+
+Distributed and cloud solutions deserve special attention. Some
+publications propose conceptual models based on blockchain technologies
+that ensure transparency, immutability, and decentralization of
+examination processes. However, such approaches have not yet been widely
+used in existing systems and require additional research in terms of
+their legal and organizational support.
+
+\emph{Evaluation algorithms and intelligent methods}
+
+Among algorithmic solutions, the most widely used are multi-criteria
+analysis methods: AHP, TOPSIS, ANP and their modifications with elements
+of fuzzy logic (Fuzzy AHP). They are used both to form project ratings
+and to rank the evaluation criteria themselves - such as scientific
+novelty, compliance with priorities, expected return,
+applicant' s reputation, etc.
+
+In recent years, there has been a noticeable increase in interest in the
+use of machine learning methods. The areas of automatic classification
+of projects, predicting their success, as well as automated
+summarization of the substantive part of applications using natural
+language processing (NLP) models are developing especially actively.
+This allows them to partially relieve experts and speed up the primary
+sorting process.
+
+Optimization methods, in particular genetic algorithms, are also used in
+the tasks of distributing applications among experts considering their
+specialization, conflicts of interest and workload. Such approaches
+ensure a fairer and more balanced distribution and minimize the
+influence of the subjective factor.
+
+\emph{Practical aspects of integration and application}
+
+In practice, the greatest difficulty is integration with external
+systems and platforms, especially with international scientific
+databases. It was found that only a limited number of solutions provide
+full API support for verifying data on publications, patents, and other
+results of scientific activity.
+
+In addition, compatibility issues between various assessment systems,
+including within one state, were identified, which complicates the
+implementation of uniform standards and unified approaches. Several
+studies note the need to create a reference architecture - a universal
+template based on which it is possible to design flexible and adaptive
+expert platforms.
+
+\emph{Critical comments and limitations of existing solutions}
+
+Despite the high degree of elaboration of individual components, most
+systems are still at the prototype or pilot implementation stage. Common
+limitations are fragmentary architectures, weak automation of processes,
+low reproducibility of expert assessments, as well as the lack of tools
+for interpreting results based on the principles of Explainable AI.
+
+Many proposed solutions are not accompanied by sufficient empirical
+validation. This complicates an objective assessment of their
+effectiveness and applicability in real conditions, especially in public
+scientific management systems.
+
+\emph{Current trends and promising areas}
+
+Based on the analysis, several key trends can be identified:
+
+- Active implementation of hybrid systems that combine expert
+assessments with AI algorithms;
+
+- Growing interest in Explainable AI in decision-making tasks in the
+scientific field;
+
+- The emergence of distributed models based on blockchain to ensure
+transparency and traceability of procedures;
+
+- Development of digital platforms with the ability to customize to the
+specifics of various grant competitions and scientific programs.
+
+{\bfseries Conclusion.} The evaluation of scientific projects is evolving
+from traditional expert-based approaches towards more intelligent,
+automated, and transparent systems. This review has outlined a wide
+range of architectural solutions, AI-driven methods, and
+decision-support algorithms applied to the expert assessment process.
+Modular and distributed architectures, often enhanced with cloud and
+blockchain technologies, allow for better scalability, traceability, and
+collaboration among stakeholders. Methods such as fuzzy logic,
+multi-criteria analysis, and genetic algorithms address the complexity
+and uncertainty inherent in research evaluation, while natural language
+processing and machine learning streamline the analysis of unstructured
+data.
+
+Despite promising developments, most current systems remain in
+experimental or pilot stages, facing challenges related to
+standardization, integration, and explainability. Future research should
+focus on building interoperable, customizable platforms that combine
+expert knowledge with transparent AI algorithms and provide measurable
+improvements in the efficiency and fairness of the evaluation process.
+The emergence of explainable AI and integration with international data
+infrastructures will play a key role in the next generation of
+intelligent evaluation systems for scientific and technical projects.
+
+\emph{{\bfseries Acknowledgements.} This research has been funded by the
+Committee of Science of the Ministry of Science and Higher Education of
+the Republic of Kazakhstan (Grant No.BR28713385 ``Development of an
+intelligent system of expertise and evaluation of scientific, scientific
+and technical~projects'').}
+\end{multicols}
+
+\begin{center}
+{\bfseries Литература}
+\end{center}
+
+\begin{refs}
+1. Концепции развития высшего образования и науки в Республике Казахстан
+на 2023 -- 2029 годы. -2023. URL:
+\url{https://adilet.zan.kz/rus/docs/P2300000248}. -Дата обращения:
+20.06.2025.
+
+2. Мутанов Г.М., Есенгалиева Ж.С.
+\href{https://s.fundamental-research.ru/pdf/2012/3-3/43.pdf}{Метод
+оценки инновационности и конкурентоспособности инновационных проектов}
+//Фундаментальные исследования. -2012. -№ 3. - C.712-717 ISSN
+1812-7339.
+
+3. Yu Z., Cheng W., Lin L. Design of remote expert evaluation system in
+remote mountainous area based on cloud service platform//Smart
+Cities.-2019.-Vol.2(3).-P.359-370. DOI~10.3390/smartcities2030022.
+
+4. Xu X., et al. The blockchain as a software connector // 2016 13th
+Working IEEE/IFIP Conference on Software Architecture (WICSA). -2016.
+-P.182-191. DOI~10.1109/WICSA.2016.21.
+
+5. Zyskind G., et al. Decentralizing privacy: Using blockchain to protect
+personal data //2015 IEEE security and privacy workshops. -2015. -P.
+180-184. DOI 10.1109/SPW.2015.27.
+
+6. Jordan M. I. Mitchell T. M. Machine learning: Trends, perspectives,
+and prospects //Science. -2015. -Vol.349(8245). -P.255-260. DOI
+10.1126/science.aaa8415.
+
+7. Fabbri A.R., et al. A large-scale multi-document summarization dataset
+and abstractive hierarchical model //arXiv preprint arXiv:1906.01749.
+-2019. DOI 10.48550/arXiv.1906.01749.
+
+8. Lu Y., Dong Y., Charlin L. Multi-XScience: A large-scale dataset for
+extreme multi-document summarization of scientific
+articles//Association for Computational Linguistics. -2020.
+-P.8068-8074.
+DOI:~\href{https://doi.org/10.18653/v1/2020.emnlp-main.648}{10.18653/v1/2020.emnlp-main.648}.
+
+9. Akhmetov I., Gelbukh A., Mussabayev R. Greedy optimization method for
+extractive summarization of scientific articles //IEEE Access. -2021.
+-Vol.9. -P.168141-168153. DOI~10.1109/ACCESS.2021.3136302.
+
+10. Zhao K., Wang Q. A review expert recommendation model based on
+knowledge graph embedding //5th International Conference on Computer
+Information Science and Application Technology (CISAT 2022). - 2022.
+-Vol.12451. -P.452-457.
+DOI~\href{https://doi.org/10.1117/12.2656551}{10.1117/12.2656551}.
+
+11. Verma S., et al. Scholarly knowledge graphs through structuring
+scholarly communication: a review //Complex \& intelligent systems.
+-2023. -Vol.9(1). -P.1059-1095. DOI~10.1007/s40747-022-00806-6.
+
+12. Rahdari B., Brusilovsky P. Building a Knowledge Graph for Recommending
+Experts // Conference: 1st International Workshop on Challenges and
+Experiences from Data Integration to Knowledge Graphs. -2019. -Vol
+2512:3.
+
+13. Kamat O., et al. Plagiarism Detection Using Machine Learning //arXiv
+preprint. -2024: arXiv:2412.06241. DOI
+\href{https://doi.org/10.48550/arXiv.2412.06241}{10.48550/arXiv.2412.06241}.
+
+14. Sabieva A., et al. Survey on the legal question answering problem
+//Записки научных семинаров ПОМИ. -2024. -T.5(1). -P.194-213. DOI
+10.48550/arXiv.2110.07333.
+
+15. LeCun Y., Bengio Y., Hinton G. Deep learning //Nature. -2015. -Vol.
+521 (7553). -P.436-444. DOI 10.1038/nature14539.
+
+16. Shikimic V., Radovanović S. Machine learning in scientific grant
+review: algorithmically predicting project efficiency in high energy
+physics //European Journal for Philosophy of Science. -2022. -Vol.12:
+50. DOI 10.1007/s13194-022-00478-6.
+
+17. de Souza D. G. B., et al. MCDM-based R\&D project selection: A
+systematic literature review //Sustainability. -2021. -Vol.13(21). -
+P.11626. DOI 10.3390/su132111626.
+
+18. Deng H., Wibowo S. Intelligent Decision Support for Evaluating and
+Selecting Information Systems Projects //Engineering Letters. -2008.
+-Vol.16(3). \href{https://doi.org/10.1063/1.3078128}{DOI
+10.1063/1.3078128}.
+
+19. Toloo M., Mirbolouki M. A new project selection method using data
+envelopment analysis //Computers \& industrial engineering. -2019.
+-Vol.138:106119. DOI~10.1016/j.cie.2019.106119.
+
+20. Liao H., Ren Z., Fang R. A Deng-entropy-based evidential reasoning
+approach for multi-expert multi-criterion decision-making with
+uncertainty //International Journal of Computational Intelligence
+Systems. -2020. -Vol.13(1). -P.1281-1294. DOI
+10.2991/ijcis.d.200814.001.
+
+21. Charisis V., Hadjidimitriou S., Hadjileontiadis L.J. Fiseval. A novel
+project evaluation approach using fuzzy logic: The paradigm of the
+i-Treasures project //Expert Systems with Applications. -2022. -Vol.
+202: 117260. DOI 10.1016/j.eswa.2022.117260.
+
+22. Doskéocil R. Fuzzy logic: An instrument for the evaluation of project
+status //Revista de Metodos Cuantitativos para la Economia y la
+Empresa. -2015. -Vol.19. -P.5-23. ISSN 1886-516X.
+
+23. Wen J., Zeng P. Research on the construction of a sustainable
+scientific research capability evaluation model for university
+teachers based on the TS fuzzy neural network //PloS one. -2025. -Vol.
+20(2): e0313608. DOI 10.1371/journal.pone.0313608.
+
+24. Granja-Correia J. et al. A Fuzzy Approach to Project Success:
+Measuring What Matters //arXiv preprint arXiv:2507.12653. -2025. DOI
+10.48550/arXiv.2507.12653.
+
+25. Goldberg D. E. Genetic and evolutionary algorithms come of age
+//Communications of the ACM. -1994. -Vol.37(3). -P.113-120.
+
+26. Есенгалиева Ж.С.~Разработка генетического алгоритма в контексте оценки
+научно-инновационных проектов//ВЕСТНИК КазНУ. -2013. -T.3(78). -
+C.40-47.
+
+27. Namazi M., et al. A new strategic approach for R\&D project portfolio
+selection using efficiency-uncertainty maps //Benchmarking: An
+International Journal. -2023. -Vol.30(10). -P.4193-4220. DOI
+10.1108/BIJ-02-2022-0129.
+
+28. Liu O., et al. An intelligent decision support approach for reviewer
+assignment in R\&D project selection //Computers in Industry. -2016.
+-Vol.76. -P.1-10. DOI 10.1016/j.compind.2015.11.001.
+\end{refs}
+
+\begin{center}
+{\bfseries References}
+\end{center}
+
+\begin{refs}
+1. Koncepciya razvitiya vysshego obrazovaniya i nauki v Respublike
+Kazahstan na 2023 - 2029 gody. -2023. URL:
+\url{https://adilet.zan.kz/rus/docs/P2300000248}. -Date of access:
+20.06.2025. {[}in Russian{]}
+
+2. Mutanov G.M. Esengalieva ZH.S. Metod ocenki innovacionnosti i
+konkurentosposobnosti innovacionnyh
+proektov//Fundamental' nye issledovaniya. -2012. -№3.
+-S.712-717. ISSN 1812-7339. {[}in Russian{]}
+
+3. Yu Z., Cheng W., Lin L. Design of remote expert evaluation system in
+remote mountainous area based on cloud service platform//Smart Cities.
+-2019. -Vol.2(3). -P.359-370. DOI~10.3390/smartcities2030022.
+
+4. Xu X., et al. The blockchain as a software connector // 2016 13th
+Working IEEE/IFIP Conference on Software Architecture (WICSA). -2016.
+-P.182-191. DOI~10.1109/WICSA.2016.21.
+
+5. Zyskind G., et al. Decentralizing privacy: Using blockchain to protect
+personal data //2015 IEEE security and privacy workshops. -2015. -P.
+180-184. DOI 10.1109/SPW.2015.27.
+
+6. Jordan M. I. Mitchell T. M. Machine learning: Trends, perspectives,
+and prospects //Science. -2015. -Vol.349(8245). -P.255-260. DOI
+10.1126/science.aaa8415.
+
+7. Fabbri A.R., et al. A large-scale multi-document summarization dataset
+and abstractive hierarchical model //arXiv preprint arXiv:1906.01749.
+-2019. DOI 10.48550/arXiv.1906.01749.
+
+8. Lu Y., Dong Y., Charlin L. Multi-XScience: A large-scale dataset for
+extreme multi-document summarization of scientific
+articles//Association for Computational Linguistics. -2020.
+-P.8068-8074.
+DOI:~\href{https://doi.org/10.18653/v1/2020.emnlp-main.648}{10.18653/v1/2020.emnlp-main.648}.
+
+9. Akhmetov I., Gelbukh A., Mussabayev R. Greedy optimization method for
+extractive summarization of scientific articles //IEEE Access. -2021.
+-Vol.9. -P.168141-168153. DOI~10.1109/ACCESS.2021.3136302.
+
+10. Zhao K., Wang Q. A review expert recommendation model based on
+knowledge graph embedding //5th International Conference on Computer
+Information Science and Application Technology (CISAT 2022). - 2022.
+-Vol.12451. -P.452-457.
+DOI~\href{https://doi.org/10.1117/12.2656551}{10.1117/12.2656551}.
+
+11. Verma S., et al. Scholarly knowledge graphs through structuring
+scholarly communication: a review //Complex \& intelligent systems.
+-2023. -Vol.9(1). -P.1059-1095. DOI~10.1007/s40747-022-00806-6.
+
+12. Rahdari B., Brusilovsky P. Building a Knowledge Graph for Recommending
+Experts // Conference: 1st International Workshop on Challenges and
+Experiences from Data Integration to Knowledge Graphs. -2019. -Vol
+2512:3.
+
+13. Kamat O., et al. Plagiarism Detection Using Machine Learning //arXiv
+preprint. -2024: arXiv:2412.06241. DOI
+\href{https://doi.org/10.48550/arXiv.2412.06241}{10.48550/arXiv.2412.06241}
+
+14. Sabieva A., et al. Survey on the legal question answering problem
+//Записки научных семинаров ПОМИ. -2024. -T.5(1). -P.194-213. DOI
+10.48550/arXiv.2110.07333.
+
+15. LeCun Y., Bengio Y., Hinton G. Deep learning //Nature. -2015. -Vol.
+521 (7553). -P.436-444. DOI 10.1038/nature14539.
+
+16. Shikimic V., Radovanović S. Machine learning in scientific grant
+review: algorithmically predicting project efficiency in high energy
+physics //European Journal for Philosophy of Science. -2022. -Vol.12:
+50. DOI 10.1007/s13194-022-00478-6.
+
+17. de Souza D. G. B., et al. MCDM-based R\&D project selection: A
+systematic literature review //Sustainability. -2021. -Vol.13(21).
+-P.11626. DOI 10.3390/su132111626.
+
+18. Deng H., Wibowo S. Intelligent Decision Support for Evaluating and
+Selecting Information Systems Projects //Engineering Letters. -2008.
+-Vol.16(3). \href{https://doi.org/10.1063/1.3078128}{DOI
+10.1063/1.3078128}.
+
+19. Toloo M., Mirbolouki M. A new project selection method using data
+envelopment analysis //Computers \& industrial engineering. -2019.
+-Vol.138:106119. DOI~10.1016/j.cie.2019.106119.
+
+20. Liao H., Ren Z., Fang R. A Deng-entropy-based evidential reasoning
+approach for multi-expert multi-criterion decision-making with
+uncertainty //International Journal of Computational Intelligence
+Systems. -2020. -Vol.13(1). -P.1281-1294. DOI
+10.2991/ijcis.d.200814.001.
+
+21. Charisis V., Hadjidimitriou S., Hadjileontiadis L.J. Fiseval. A novel
+project evaluation approach using fuzzy logic: The paradigm of the
+i-Treasures project //Expert Systems with Applications. -2022. -Vol.
+202: 117260. DOI 10.1016/j.eswa.2022.117260.
+
+22. Doskéocil R. Fuzzy logic: An instrument for the evaluation of project
+status //Revista de Metodos Cuantitativos para la Economia y la
+Empresa. -2015. -Vol.19. -P.5-23. ISSN 1886-516X.
+
+23. Wen J., Zeng P. Research on the construction of a sustainable
+scientific research capability evaluation model for university
+teachers based on the TS fuzzy neural network //PloS one. -2025. -Vol.
+20(2): e0313608. DOI 10.1371/journal.pone.0313608.
+
+24. Granja-Correia J. et al. A Fuzzy Approach to Project Success:
+Measuring What Matters //arXiv preprint arXiv:2507.12653. -2025. DOI
+10.48550/arXiv.2507.12653.
+
+25. Goldberg D. E. Genetic and evolutionary algorithms come of age
+//Communications of the ACM. -1994. -Vol.37(3). -P.113-120.
+
+26. Esengalieva Zh.S. Razrabotka geneticheskogo algoritma v kontekste
+ocenki nauchno-innovacionnyh proektov//Vestnik KazNU. -2013. -T.3(78).
+-C.40--47. ISSN 15630285 {[}in Russian{]}
+
+27. Namazi M., et al. A new strategic approach for R\&D project portfolio
+selection using efficiency-uncertainty maps //Benchmarking: An
+International Journal. -2023. -Vol.30(10). -P.4193-4220. DOI
+10.1108/BIJ-02-2022-0129.
+
+28. Liu O., et al. An intelligent decision support approach for reviewer
+assignment in R\&D project selection //Computers in Industry. -2016.
+-Vol.76. -P.1-10. DOI 10.1016/j.compind.2015.11.001.
+\end{refs}
+
+\begin{info}
+\hspace{1em}\emph{{\bfseries Information about the authors}}
+
+Mutanov G.M. - Doctor of Technical Sciences, Professor, National
+Academy of Science of the Republic of Kazakhstan, Institute of
+Information and Computational Technologies, Almaty, Kazakhstan,
+e-mail: galimkairmutanov@gmail.com;
+
+Amanzholova S.T. - Candidate of Technical Sciences, Associate
+Professor, Astana IT University, Astana, Kazakhstan, e-mail:
+s.Amanzholova@astanait.edu.kz;
+
+Ussatova О.А. - PhD, Associate Professor, Institute of Information and
+Computational Technologies, Almaty, Kazakhstan, e-mail:
+olgaussatova@gmail.com;
+
+Aldasheva L.S. - Candidate of Technical Sciences, Assistant Professor,
+Astana IT University, Astana, Kazakhstan, e-mail:
+Laura.Aldasheva@astanait.edu.kz;
+
+Amirova A.S. - PhD, assistant professor, Astana IT University, Astana,
+Kazakhstan, e-mail: akzhibek.amirova@astanait.edu.kz.
+
+\hspace{1em}\emph{{\bfseries Сведения об авторах}}
+
+Мутанов Г.М. - доктор технических наук, профессор, Национальная
+академия наук Республики Казахстан, Институт информационных и
+вычислительных технологий, Алматы, Казахстан, e-mail:
+galimkairmutanov@gmail.com;
+
+Аманжолова С.Т. - кандидат технических наук, ассоц. профессор, Astana
+IT University, Астана, Казахстан, e-mail:
+S.Amanzholova@astanait.edu.kz;
+
+Усатова О.А. - PhD, ассоц. профессор, Институт информационных и
+вычислительных технологий, Алматы, Казахстан, e-mail:
+olgaussatova@gmail.com;
+
+Алдашева Л.С. - кандидат технических наук, ассистент профессор, Astana
+IT University, Астана, Казахстан, e-mail:
+Laura.Aldasheva@astanait.edu.kz;
+
+Амирова А.С.- PhD, ассистент профессор, Astana IT University, Астана,
+Казахстан, e-mail: akzhibek.amirova@astanait.edu.kz.
+\end{info}

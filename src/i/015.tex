@@ -1,0 +1,688 @@
+\id{МРНТИ 55.30.31}{}
+
+\begin{header}
+\swa{}{УСТОЙЧИВОСТЬ ДИНАМИКИ БЕСПИЛОТНОГО НАДВОДНОГО СУДНА}
+
+\tsp{1}И.С. Тажибай,
+\tsp{1,2}Т.Ж. Мазаков,
+\tsp{2}Ш.А. Джомартова,
+\tsp{2}Ә.Т. Мазакова,
+\tsp{3}А.Д. Майлыбаева,
+\tsp{1}М.С.~Алиаскар\envelope,
+\tsp{4}Б.М. Мазакова
+\end{header}
+
+\begin{affil}
+\tsp{1}Международный инженерно-технологический университет, Алматы, Казахстан,
+
+\tsp{2}Казахский национальный университет имени аль-Фараби, Алматы, Казахстан,
+
+\tsp{3}Атырауский университет им. Х. Досмухамедова, Атырау, Казахстан,
+
+\tsp{4}Международный университет, Астана, Казахстан
+
+\corrauthor{Корреспондент-автор: m.alyasqar@gmail.ru}
+\end{affil}
+
+Современное развитие автономных морских робототехнических систем
+обусловлено глобальными задачами в области экологии, охраны акваторий,
+морской безопасности, навигации и ресурсного мониторинга. БНС активно
+внедряются в такие сферы, как картографирование, мониторинг загрязнений,
+контроль территориальных вод, научные исследования, обслуживание морской
+инфраструктуры и поиск-спасение.
+
+При проектировании автономных судов критически важным является наличие
+адекватной математической модели, обеспечивающей предсказуемость
+поведения платформы. Без такой модели невозможно гарантировать
+безопасную эксплуатацию, корректную стабилизацию курса и эффективную
+адаптацию к морским возмущениям.
+
+Таким образом, развитие методов моделирования динамики БНС представляет
+собой актуальную научно-техническую задачу.
+
+В работе рассматривается устойчивость динамики беспилотного надводного
+судна. Показана как на основе линеаризации возможен вывод моделей Номота
+первого и второго порядка.
+
+Для линеаризованной системы сформулирован критерий интервальной
+устойчивости, который учитывает неточность задания параметров
+беспилотного надводного аппарата.
+
+{\bfseries Ключевые слова:} беспилотное надводное судно (БНС), кинематика,
+линеаризация, математическая модель, модель Номото, управление,
+устойчивость.
+
+\begin{header}
+ПІСІРІМСІЗ БЕТКІ КЕМЕНІҢ ДИНАМИКАСЫНЫҢ ТҰРАҚТЫЛЫҒЫ
+
+\tsp{1}И.С. Тәжібай,
+\tsp{1,2}Т.Ж. Мазаков,
+\tsp{2}Ш.А. Джомартова,
+\tsp{2}Ә.Т. Мазақова,
+\tsp{3}А.Д. Майлыбаева,
+\tsp{1}М.С.~Әлиасқар\envelope,
+\tsp{4}Б.М. Мазакова
+\end{header}
+
+\begin{affil}
+\tsp{1}Халықаралық инженерлік-технологиялық университет, Алматы, Қазақстан,
+
+\tsp{2}Әл-Фараби атындағы Қазақ Ұлттық Университеті, Алматы, Қазақстан,
+
+\tsp{3}Kh. Досмұхамедов атындағы Атырау университеті, Атырау, Қазақстан,
+
+\tsp{3}Астана халықаралық университеті, Астана, Қазақстан,
+
+e-mail: m.alyasqar@gmail.ru
+\end{affil}
+
+Автономды теңіз роботтық жүйелерінің қазіргі дамуы экология, суды
+қорғау, теңіз қауіпсіздігі, навигация және ресурстарды бақылау
+саласындағы жаһандық қиындықтармен байланысты. Ұш\-қышсыз ұшу аппараттары
+картаға түсіру, ластануды бақылау, аумақтық суды бақылау, ғылыми
+зерттеулер, теңіз инфрақұрылымын күтіп ұстау және іздеу-құтқару сияқты
+салаларда белсенді түрде енгізілуде.
+
+Автономды кемелерді жобалау кезінде платформаның мінез-құлқының
+болжамдылығын қамтамасыз ететін тиісті математикалық модельдің болуы өте
+маңызды. Мұндай модельсіз қауіпсіз жұмысты, бағытты дұрыс тұрақтандыруды
+және теңіздегі толқуларға тиімді бейімделуді қамтамасыз ету мүмкін емес.
+
+Сондықтан, Ұшқышсыз ұшу аппараттарының динамикасын модельдеу әдістерін
+әзірлеу өзекті ғылыми және техникалық міндет болып табылады.
+
+Бұл мақалада ұшқышсыз жер үсті кемесінің динамикалық тұрақтылығы
+қарастырылады. Онда бірінші және екінші ретті Nomota модельдерін
+сызықтықтандыруды қолдану арқылы қалай алуға болатыны көрсетілген.
+
+Сызықтық жүйе үшін ұшқышсыз жер үсті көлігінің параметрлеріндегі
+белгісіздікті ескеретін аралық тұрақтылық критерийі тұжырымдалған.
+
+{\bfseries Түйін сөздер:} ұшқышсыз су үсті кемесі (ҰСК), кинематика,
+сызықтық өңдеу, математикалық модель, Номото моделі, басқару,
+тұрақтылық.
+
+\begin{header}
+STABILITY OF THE DYNAMICS OF AN UNMANNED SURFACE VESSEL
+
+\tsp{1}I. Tazhibay,
+\tsp{1,2}T. Mazakov,
+\tsp{2}Sh. Dzhomartova,
+\tsp{2}A. Mazakova,
+\tsp{3}A. Mailybaeva,
+\tsp{1}M. Aliaskar\envelope,
+\tsp{4}B.~Mazakova
+\end{header}
+
+\begin{affil}
+\tsp{1}International Engineering Technological University, Almaty, Kazakhstan,
+
+\tsp{2}al-Farabi Kazakh National University, Almaty, Kazakhstan,
+
+\tsp{3}Kh. Dosmukhamedov Atyrau University, Atyrau, Kazakhstan,
+
+\tsp{4}Astana International University, Astana, Kazakhstan,
+
+e-mail: m.alyasqar@gmail.ru
+\end{affil}
+
+The current development of autonomous marine robotic systems is driven
+by global challenges in ecology, water protection, maritime security,
+navigation, and resource monitoring. UAVs are actively being implemented
+in areas such as mapping, pollution monitoring, territorial water
+control, scientific research, marine infrastructure maintenance, and
+search and rescue.
+
+When designing autonomous vessels, the availability of an adequate
+mathematical model that ensures the predictability of the
+platform' s behavior is critical. Without such a model,
+it is impossible to guarantee safe operation, correct course
+stabilization, and effective adaptation to sea disturbances.
+
+Therefore, the development of methods for modeling UAV dynamics is a
+pressing scientific and technical challenge.
+
+This paper examines the dynamic stability of an unmanned surface vessel.
+It demonstrates how first- and second-order Nomota models can be derived
+using linearization.
+
+For a linearized system, an interval stability criterion is formulated
+that takes into account the uncertainty in the parameters of the
+unmanned surface vehicle.
+
+{\bfseries Keywords:} unmanned surface vessel (USV), kinematics,
+linearization, mathematical model, Nomoto model, control, stability.
+
+\begin{multicols}{2}
+{\bfseries Введение.} Математическое моделирование движения судов является
+классической задачей морской гидродинамики, однако переход к беспилотным
+платформам предъявляет новые требования. Автономные системы требуют
+алгоритмов реального времени, что делает необходимым использование
+упрощённых, но достаточно точных моделей {[}1{]}.
+
+Полная нелинейная модель движения судна в координатах является точной,
+но сложной для непосредственного применения в системах управления.
+Поэтому в инженерной практике широко применяют упрощенные линейные
+модели, Модель Номото позволяет эффективно проектировать регуляторы
+курса. Одной из центральных научно-технических проблем при
+проектировании подобных систем остаётся разработка адекватной
+математической модели динамики движения, обеспечивающей
+корректный синтез алгоритмов управления, оценку устойчивости курса,
+оптимизацию траекторий и адаптацию к внешним возмущениям (ветер, волны,
+течение). Без строгого динамического описания невозможно обеспечить
+высокую точность позиционирования, надёжность автономной навигации и
+безопасность работы в сложных условиях акватории {[}2-3{]}.
+
+Целью данной статьи является разработка, анализ и упрощение
+математической модели динамики беспилотного надводного судна, а также
+вывод линейной курсовой модели, пригодной для задач стабилизации и
+автономной навигации.
+
+{\bfseries Материалы и методы.} В статье рассматривается математическая
+модель динамики беспилотного надводного судна, которая описывается
+системой обыкновенных дифференциальных уравнений.
+
+Введем следующие обозначения:
+\end{multicols}
+
+\begin{equation}
+x = \begin{pmatrix} x_{c} \\ y_{c} \\ \psi \\ u \\ \upsilon \\ r \end{pmatrix}, \quad u_{c} = \begin{pmatrix} X \\ Y \\ N \end{pmatrix}, \quad \eta = \begin{pmatrix} x_{c} \\ y_{c} \\ \psi \end{pmatrix}, \quad \nu = \begin{pmatrix} u \\ \upsilon \\ r \end{pmatrix},
+\end{equation}
+
+\begin{multicols}{2}
+где
+
+\(x_{c},y_{c}\). - координаты центра судна в инерциальной системе,
+
+\(\psi\)- курсовое направление,
+
+\(u,\upsilon\)- продольная и поперечная скорость судна,
+
+\(r\)- угловая скорость рыскания,
+
+\(X\) - суммарная продольная управляющая сила (тяга винтов, водомётов и
+т.п.),
+
+\(Y\) - суммарная поперечная управляющая сила (при наличии боковых
+движителей),
+
+\(N\) - управляющий момент по курсу {[}4, 5{]}.
+
+Кинематическая связь между введенными выше параметрами удовлетворяет
+следующей системе обыкновенных дифференциальных уравнений
+
+\begin{equation}
+\frac{d\eta}{\text{dt}} = J(\psi)\eta,
+\end{equation}
+
+где
+
+\[J(\psi) = \begin{bmatrix}
+\text{cos}(\psi) & - \text{sin}(\psi) & 0 \\
+\text{sin}(\psi) & \text{cos}(\psi) & 0 \\
+0 & 0 & 1
+\end{bmatrix}\]
+
+Динамическая связь удовлетворяет следующей системе обыкновенных
+дифференциальных уравнений
+
+\[M\frac{d\nu}{\text{dt}} + C(\nu)\nu + D(\nu)\nu = u_{c}\]
+
+или
+
+\begin{equation}
+\frac{d\nu}{\text{dt}} = M^{- 1}\left( u_{c} - C(\nu)\nu - D(\nu)\nu \right),
+\end{equation}
+
+где \(М\) - 3*3- матрица, учитывающая массовые характеристики судна,
+
+\(C(\nu)\)- 3*3- матрица, учитывающая влияние кориолисовых и
+центробежных сил,
+
+\(D(\nu)\)- 3*3- матрица, учитывающая влияние демпфирующих сил.
+
+Перепишем систему уравнений (2)-(3) в виде следующей системы нелинейных
+дифференциальных уравнений
+
+\begin{equation}
+\frac{\text{dx}}{\text{dt}} = f(x,u_{c})
+\end{equation}
+
+{\bfseries Обсуждение и результаты. \emph{Критерий интервальной
+устойчивости}.} Для решения поставленной задачи введем следующие
+обозначения:
+\end{multicols}
+
+\begin{equation}
+n = 6, \quad m = 3, \quad x = (x_{1},\ldots,x_{n}), \quad x_{0} = (x_{1}(0),\ldots,x_{n}(0)), \quad c = \begin{pmatrix} 1 & 0 & 0 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 & 0 & 0 \end{pmatrix}
+\end{equation}
+
+Здесь \(x,\text{.}x_{0}\) - n-мерные векторы, c - 2*n-матрица.
+
+\begin{multicols}{2}
+Тогда добавим к системе уравнений (4) начальные условия
+
+\begin{equation}
+x(0) = x_{0}
+\end{equation}
+
+и конечные условия в момент времени Т
+
+\begin{equation}
+с^{}x(T) = z
+\end{equation}
+
+Линеаризуем правую часть системы уравнений (5) при следующих допущениях:
+1) судно идёт прямолинейно с постоянной продольной скоростью
+\(U_{0} > 0\), 2) малые отклонения курса и руля {[}6{]}.
+
+Теперь исходная система (5) описывается линейными дифференциальными
+уравнениями
+
+\begin{equation}
+\frac{\text{dx}}{\text{dt}} = \text{Ax} + \text{Bu}_{c}
+\end{equation}
+
+где \(А\) - n*n-матрица, B n*m-матрица.
+
+Рассмотрим далее частные случаи системы (8).
+
+{\bfseries \emph{1. Модель Номото 1-го порядка}}
+
+Обозначим через
+
+\[x = \begin{pmatrix} \psi \\ r \end{pmatrix}, u_{c} = \delta\]
+
+\(T>0\) - эффективную постояннуя времени курсовой динамики,
+\(K_{\delta}\) - усиление по рулю, \(\delta\)-управляющий
+сигнал (угол поворота руля).
+
+Тогда из линейной связи «руль \(\delta \) → угловая скорость по курсу \(r\)»:
+
+\(T\frac{\text{dr}}{\text{dt}} + r = K_{\delta}\delta\) и соотношения
+\(\frac{d\psi}{\text{dt}} = r\), получим модель Номота первого порядка в
+виде (8):
+
+\begin{equation}
+\frac{\text{dx}}{\text{dt}} = \begin{pmatrix}
+\frac{d\psi}{\text{dt}} \\
+\frac{\text{dr}}{\text{dt}}
+\end{pmatrix} = \begin{bmatrix}
+0 & 1 \\
+0 & - \frac{1}{T}
+\end{bmatrix}\begin{bmatrix}
+\psi \\
+r
+\end{bmatrix} + \begin{bmatrix}
+0 \\
+\frac{K_{\delta}}{T}
+\end{bmatrix}\delta
+\end{equation}
+
+2. \emph{{\bfseries Модель Номото 2-го порядка}}
+
+Для учета влияния поперечного движения и сложной гидродинамики часто
+используют модель Номота 2-го порядка, которая выводится из следующих
+уравнений:
+
+\begin{equation}
+T_{1}T_{2}\frac{d^{2}r}{\text{dr}^{2}} + (T_{1} + T_{2})\frac{\text{dr}}{\text{dt}} + r = K_{\delta}\delta, \frac{d\psi}{\text{dt}} = r
+\end{equation}
+
+где \(T_{1},T_{2} > 0\) - постоянные времени быстрого и медленного
+режимов.
+
+Обозначим через
+
+\[x = \begin{pmatrix} \psi \\ r \\ p \end{pmatrix}, p = \frac{\text{dr}}{\text{dt}}u_{c} = \delta\]
+
+Тогда из (10) получим модель Номота второго порядка:
+\end{multicols}
+
+\begin{equation}
+\frac{\text{dx}}{\text{dt}} = \begin{pmatrix}
+d\psi \\
+\text{dr} \\
+\text{dp}
+\end{pmatrix} = \begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+0 & - \frac{1}{T_{1}T} & - \frac{T_{1} + T}{T_{1}T}
+\end{bmatrix}\begin{bmatrix}
+\psi \\
+r
+\end{bmatrix} + \begin{bmatrix}
+0 \\
+\frac{K_{\delta}}{T_{1}T}
+\end{bmatrix}\delta
+\end{equation}
+
+\begin{multicols}{2}
+\emph{Примечание.} В моделях Номота (9) и (11) параметры
+\(T,T_{1},T_{2},K_{\delta}\) выражаются через коэффициенты матриц M, C,
+D системы уравнений (3).
+
+Далее исследуется проблема устойчивости линеаризованной модели вида /8/:
+
+\begin{equation}
+\dot{x} = Ax
+\end{equation}
+
+где через коэффициенты матрицы \(А\) заданы параметры,
+характеризующие механические параметры (такие как вес, метрические
+характеристики, инерционность и т.п.). При этом предполагается, что
+матрица \(А\) является интервальной, т.е. элементы ее
+представляют собой интервальные числа.
+
+Для системы (12) в случае, когда элементы матрицы \(А\)
+являются «точечными» числами разработаны критерии устойчивости,
+выражающиеся через элементы матрицы \(А\) -- критерий
+Рауса-Гурвица и др. {[}7{]}. Однако, при этом не учитываются то
+обстоятельство, что указанные физические параметры измеряются с
+некоторой погрешностью. Исследователи часто, делая вывод об устойчивости
+системы (12), забывают, что коэффициенты и корни характеристического
+полинома могут быть очень чувствительны к малым погрешностям матричных
+элементов.
+
+Интервальный анализ дает возможность автоматически учитывать погрешности
+в задании исходных данных и погрешности, вызываемые машинным
+округлением.
+
+Использование интервального анализа при решении задачи устойчивости
+динамики механических систем позволяет получить критерий гарантированной
+устойчивости.
+
+Для определения устойчивости интервальной матрицы строится
+характеристический полином с интервальными коэффициентами:
+\end{multicols}
+\vspace{-1em}
+\begin{equation}
+\phi_{A}(\lambda) = \text{det}(\lambda E - A) = p_{n}\lambda^{n} + p_{n - 1}\lambda^{n - 1} + \ldots + p_{0}
+\end{equation}
+
+\begin{multicols}{2}
+где \(p_{i},i = \overline{0,n}\) - интервальные числа.
+
+\emph{{\bfseries Определение.}} Интервальный характеристический полином
+(13) называется устойчивым, если интервал, составленный из вещественных
+частей интервальных собственных значений, не содержит 0 и находится
+полностью в отрицательной области.
+
+\emph{{\bfseries Необходимое условие устойчивости:}} все коэффициенты
+характеристического полинома (13) должны находиться в положительной
+области и не содержать 0: т.е. для
+
+\[p_{i} = \lbrack\overline{p_{i}} - \varepsilon_{i}^{p},\overline{p_{i}} - \varepsilon_{i}^{p}\rbrack,i = \overline{0,n}\]
+
+должно выполняться
+
+\(0 \notin p_{i},\overline{p_{i}} - \varepsilon_{i}^{p} > 0,i = \overline{0,n}\)
+{[}8{]}.
+
+Составим матрицу Гурвица
+
+\[M = \begin{bmatrix}
+p_{1} & p_{0} & 0 & 0 & \text{.}\text{.}\text{.} & 0 \\
+p_{3} & p_{2} & p_{1} & p_{0} & \text{.}\text{.}\text{.} & 0 \\
+\text{.}\text{.}\text{.} & \text{.}\text{.}\text{.} & \text{.}\text{.}\text{.} & \text{.}\text{.}\text{.} & \text{.}\text{.}\text{.} & \text{.}\text{.}\text{.} \\
+p_{2n - 1} & p_{2n - 2} & p_{2n - 3} & p_{2n - 4} & \text{.}\text{.}\text{.} & p_{n}
+\end{bmatrix}\]
+
+где принято \(p_{j} = 0\) при \(j < 0\) и \(j > n\).
+
+Обозначим через \(\Delta_{1},\Delta_{2},\text{...},\Delta_{n}\)главные
+диагональные миноры матрицы \(M\):
+
+\[\begin{array}{r}
+\Delta_{1} = p_{1}, \\
+\Delta_{2} = \left| \begin{matrix}
+p_{1} & p_{0} \\
+p_{3} & p_{2}
+\end{matrix} \right|, \\
+\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.} \\
+\Delta_{n} = |M| = p_{n}\Delta_{n - 1},
+\end{array}\]
+
+которые в свою очередь являются интервальными числами.
+
+\emph{{\bfseries Критерий интервальной устойчивости Гурвица:}} для того
+чтобы \(\text{Re}\lambda_{j}(A) < 0,j = \overline{1,n}\) необходимо и
+достаточно, чтобы главные диагональные миноры
+\(\Delta_{1},\Delta_{2},\text{...},\Delta_{n}\) матрицы \(M\) находились
+в правой полуплоскости, т.е.
+\(\Delta_{j} \in (0,\infty),j = \overline{1,n}\).
+
+\emph{{\bfseries Критерий интервальной устойчивости Льенара-Шипара:}} Если
+все интервальные коэффициенты \(p_{0},p_{1},\text{...},p_{n}\)
+характеристического полинома (13) находятся в положительной области,
+т.е.
+\(0 \notin p_{i},\overline{p_{i}} - \varepsilon_{i}^{p} > 0,i = \overline{0,n}\)тогда
+для того чтобы
+\(\text{Re}\lambda_{j}(A) < 0,j = \overline{1,n}\)необходимо и
+достаточно, чтобы для главных диагональных миноров
+\(\Delta_{1},\Delta_{2},\text{...},\Delta_{n}\) матрицы \(M\)
+выполнялись условия
+
+\(\Delta_{3} \in (0,\infty),\Delta_{5} \in (0,\infty),\Delta_{7} \in (0,\infty),\text{...}\).
+
+или
+
+\(\Delta_{2} \in (0,\infty),\Delta_{4} \in (0,\infty),\Delta_{6} \in (0,\infty),\text{...}\)..
+
+Для характеристического уравнения
+
+\[a_{0}\lambda^{n} + a_{1}\lambda^{n - 1} + \text{...} + a_{n} = 0\]
+
+составим таблицу Рауса (матрица размерности (\emph{n}+1)*\emph{m}, где
+\emph{m}={[}\emph{n}/2{]}+2)
+
+\[C = \begin{bmatrix}
+c_{\text{11}} = a_{0} & c_{\text{12}} = a_{2} & \text{.}\text{.}\text{.} \\
+c_{\text{21} +} = a_{1} & c_{\text{22}} = a_{3} & \text{.}\text{.}\text{.} \\
+c_{\text{31}} & c_{\text{32}} & \text{.}\text{.}\text{.} \\
+c_{\text{41}} & c_{\text{42}} & \text{.}\text{.}\text{.} \\
+\text{.}\text{.}\text{.} & \text{.}\text{.}\text{.} & \text{.}\text{.}\text{.}
+\end{bmatrix}\]
+
+в первую строку записываются коэффициенты исходного характеристического
+уравнения с четными индексами, во вторую -- с нечетными. Элементы
+остальных строк рекуррентно вычисляются по формуле
+
+\[\begin{array}{r}
+c_{1k} = \left\{ \begin{matrix}
+a_{2(k - 1)} & \text{если} & 2(k - 1) \leq n \\
+0 & \text{если} & 2(k - 1) > n
+\end{matrix} \right.\ ; \\
+c_{2k} = \left\{ \begin{matrix}
+a_{2k - 1} & \text{если} & 2k - 1 \leq n \\
+0 & \text{если} & 2k - 1 > n
+\end{matrix} \right.\ ; \\
+c_{\text{ik}} = c_{i - 2,k + 1} - d_{i}c_{i - 1,k + 1}; \\
+d_{i} = c\frac{}{c_{i - 1,1}};i = \overline{3,n + 1};k = \overline{1,m}\text{.}
+\end{array}\]
+
+\emph{{\bfseries Критерий интервальной устойчивости Рауса:}} для
+устойчивости системы необходимо и достаточно, чтобы коэффициенты первого
+столбца матрицы С находились в правой полуплоскости, т.е.
+
+\[c_{1j} \in (0,\infty),j = \overline{1,n + 1}\]
+
+Для автоматизированного построения интервального характеристического
+полинома реализованы алгоритмы Крылова, Леверье, Леверье-Данилевского,
+основанные как на классической, так и введенной интервальной математике.
+
+Вышеперечисленные критерии интервальной устойчивости также реализованы в
+разработанном пакете интервальных вычислений {[}9{]}.
+
+{\bfseries Выводы.} В работе рассмотрены теоретические основы
+математического моделирования динамики беспилотного надводного судна и
+выполнен вывод упрощённой курсовой модели, основанной на предположении о
+постоянной продольной скорости. Представление модели в линейной форме
+позволяет применять современные методы анализа устойчивости, оптимизации
+траекторий и синтеза алгоритмов управления.
+
+Упрощённая модель Номото 1-го и 2-го порядка является эффективным
+инструментом для проектирования систем курсовой стабилизации, а также
+служит основой для разработки более сложных регуляторов.
+
+Для линейной системы общего вида получен критерий интервальной
+устойчивости, допускающий небольшие погрешности измерений параметров
+беспилотного надводного аппарата.
+
+Полученный критерий устойчивости может быть использован в системах
+автоматического управления БНС, моделировании морских сценарием,
+кооперативном движении флотилий и разработке цифровых двойников
+беспилотных платформ.
+
+Полученные результаты создают основу для последующей инженерной
+реализации автономных надводных платформ и их применения в задачах
+мониторинга, навигации, патрулирования и экологического контроля.
+\end{multicols}
+
+\begin{center}
+{\bfseries Литература}
+\end{center}
+
+\begin{refs}
+1. Маслюк Е.В., Меркулов А.А. Беспилотные морские дроны. - Калининград:
+КГТУ, 2018. - 200 с. ISBN 978-5-94826-501-8.
+
+2. Донцов С.В. Основы теории судна. - Одесса: Феникс, 2007. -142 с.
+ISBN: 966-8631-93-5.
+
+3. Жинкин В.Б. Теория и устройство корабля. - СПб.: Судостроение, 2002.
+-336 с. ISBN 5 -7355-0629-3.
+
+4. Лебедева М.П., Лебедев А.О. Управляемость и моделирования движения
+водоизмещающего судна. - Москва, Вологда: Инфра-Инженерия, 2023. - 200
+с. ISBN: 978-5-9729-1478-4.
+
+5. Liu R., Dou X., Wang X., Li Q., Mazakov T. Marine moving target
+detection algorithm based on improved YOLOv8 //Proc. SPIE 13780, Second
+International Conference on Image Processing and Artificial Intelligence
+(ICIPAI 2025), 137801M (11 August 2025). DOI
+\href{https://doi.org/10.1117/12.3072475}{10.1117/12.3072475}.
+
+6. Mazakova A.,Jomartova Sh.,Wójcik W., Mazakov T., Ziyatbekova G.
+Automated Linearization of a System of Nonlinear Ordinary Differential
+Equations // International Journal of Electronics and
+Telecommunications. - 2023.-Vol.69(4).-P.655-660. DOI
+\href{https://doi.org/10.24425/ijet.2023.147684}{10.24425/ijet.2023.147684}
+
+7. Mazakov T.Zh., Wójcik W., Jomartova Sh., Karymsakova N., Ziyatbekova
+G., Tursynbai A. The Stability Interval of the Set of Linear System //
+International Journal of Electronics and Telecommunications. -2021. -
+Vol.67(2).- P.155-161. Manuscript received August 17, 2020; revised
+April, 2021, DOI 10.24425/ijet.2021.13595.
+
+8. Мазакова А.Т., Джомартова Ш.А., Мазаков Т.Ж., Зиятбекова Г.З.,
+Досаналиева А.Т. Автоматизация процесса линеаризации нелинейной модели,
+описываемой обыкновенными дифференциальными уравнениями // Вестник
+КазУТБ.-2023. -№1(18).- C.7-23.
+DOI 10.58805/kazutb.v.1.18-69.
+
+9. А.с. №7576, 2020, 17 января. Мазаков Т.Ж., Зиятбекова Г.З., Мазакова
+А.Т., Джомартова ША Карымсакова НТ, Амирханов Б.С Жолмагамбетова БР.
+Библиотека интервальных функций. Программа для ЭВМ.
+\end{refs}
+
+\begin{center}
+{\bfseries References}
+\end{center}
+
+\begin{refs}
+1. Masljuk E.V., Merkulov A.A. Bespilotnye morskie drony. -
+Kaliningrad: KGTU, 2018. - 200 s. ISBN 978-5-94826-501-8.{[}in
+Russian{]}
+
+2. Doncov S.V. Osnovy teorii sudna. - Odessa: Feniks, 2007. -142 s.
+ISBN: 966-8631-93-5. {[}in Russian{]}
+
+3. Zhinkin V.B. Teorija i ustrojstvo korablja. - SPb.: Sudostroenie,
+2002. -336 s. ISBN 5 -7355-0629-3. {[}in Russian{]}
+
+4. Lebedeva M.P., Lebedev A.O. Upravljaemost'{} i
+modelirovanija dvizhenija vodoizmeshhajushhego sudna. - Moskva, Vologda:
+Infra-Inzhenerija, 2023. - 200 s. ISBN: 978-5-9729-1478-4. {[}in
+Russian{]}
+
+5. Liu R., Dou X., Wang X., Li Q., Mazakov T. Marine moving target
+detection algorithm based on improved YOLOv8 //Proc. SPIE 13780, Second
+International Conference on Image Processing and Artificial Intelligence
+(ICIPAI 2025), 137801M (11 August 2025). DOI
+\href{https://doi.org/10.1117/12.3072475}{10.1117/12.3072475}.
+
+6. Mazakova A.,Jomartova Sh.,Wójcik W., Mazakov T., Ziyatbekova G.
+Automated Linearization of a System of Nonlinear Ordinary Differential
+Equations // International Journal of Electronics and
+Telecommunications. - 2023.-Vol.69(4).-P.655-660. DOI
+\href{https://doi.org/10.24425/ijet.2023.147684}{10.24425/ijet.2023.147684}
+
+7. Mazakov T.Zh., Wójcik W., Jomartova Sh., Karymsakova N., Ziyatbekova
+G., Tursynbai A. The Stability Interval of the Set of Linear System //
+International Journal of Electronics and Telecommunications. -2021. -
+Vol.67(2).- P.155-161. Manuscript received August 17, 2020; revised
+April, 2021, DOI 10.24425/ijet.2021.13595.
+
+8. Mazakova A.T., Dzhomartova Sh.A., Mazakov T.Zh., Zijatbekova G.Z.,
+Dosanalieva A.T. Avtomatizacija processa linearizacii nelinejnoj modeli,
+opisyvaemoj obyknovennymi differencial' nymi uravnenijami
+// Vestnik KazUTB.-2023. -№1(18).- C.7-23.
+DOI 10.58805/kazutb.v.1.18-69. {[}in Russian{]}
+
+9. A.s. №7576, 2020, 17 janvarja. Mazakov T.Zh., Zijatbekova G.Z.,
+Mazakova A.T., Dzhomartova ShA Karymsakova NT, Amirhanov B.S
+Zholmagambetova BR. Biblioteka interval' nyh funkcij.
+Programma dlja JeVM. {[}in Russian{]}
+\end{refs}
+
+\begin{info}
+\hspace{1em}\emph{{\bfseries Сведения об авторах}}
+
+Тажибай И.С. - докторант МИТУ, Алматы, Казахстан, e-mail:
+\href{mailto:Talgat.duzbaev@mail.ru}{isataitazhibay@mail.ru};
+
+Мазаков Т.Ж. - д.ф.-м.н., профессор МИТУ, Алматы, Казахстан, e-mail:
+tmazakov@mail.ru;
+
+Джомартова Ш.А. - д.т.н., профессор КазНУ им. аль-Фараби, Алматы,
+Казахстан, e-mail: jomartova@mail.ru;
+
+Мазакова А.Т. - PhD, старший преподаватель КазНУ им. аль-Фараби,
+Алматы, Казахстан, e-mail: aigerym97@mail.ru;
+
+Майлыбаева А.Д. - к.ф.-м.н., ассоциированный профессор, Атырауского
+университета им. Х. Досмухамедова, Атырау, Казахстан, e-mail:
+a.maylibayeva@asu.edu.kz;
+
+Алиаскар М.С. - лектор МИТУ, Алматы, Казахстан, e-mail:
+m.alyasqar@gmail.ru;
+
+Мазакова Б.М. - старший преподаватель, Международный университет
+Астана, e-mail: bayan7080@mail.ru.
+
+\hspace{1em}\emph{{\bfseries Information about the authors}}
+
+Tazhibay I. - Doctoral student at IETU, Almaty, Kazakhstan, e-mail:
+isataitazhibay@mail.ru,
+
+Mazakov T. - Doctor of Physical and Mathematical Sciences, Professor
+at IETU, Almaty, Kazakhstan, e-mail: tmazakov@mail.ru;
+
+Jomartova Sh.- Doctor of Technical Sciences, Professor, Al-Farabi
+Kazakh National University, Almaty, Kazakhstan, e-mail:
+jomartova@mail.ru;
+
+Mazakova A. - PhD, senior lecturer at KazNU al-Farabi, Almaty,
+Kazakhstan, e-mail: aigerym97@mail.ru;
+
+Mailybayeva A. - Candidate of Physical and Mathematical Sciences,
+Associate Professor, Kh. Dosmukhamedov Atyrau University, Atyrau,
+Kazakhstan, e-mail: a.maylibayeva@asu.edu.kz;
+
+Aliaskar M. - Lecturer at IETU, Almaty, Kazakhstan, e-mail:
+m.alyasqar@gmail.ru;
+
+Mazakova B. - senior lecturer, Astana International University, Astana
+Kazakhstan, e-mail: bayan7080@mail.ru.
+\end{info}
